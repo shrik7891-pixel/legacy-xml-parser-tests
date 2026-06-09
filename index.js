@@ -26,7 +26,7 @@ async function getYTConfig() {
   return { apiKey, clientVersion };
 }
 
-async function fetchSearch(config, query, filterParam = null, maxPages = 4) {
+async function fetchSearch(config, query, filterParam = null, maxPages = 2) {
   const allResults = [];
   let continuationToken = null;
 
@@ -152,80 +152,89 @@ async function run() {
     let topicMaxVPH = 0;
     let topicScore = 0;
     
-    for (const kw of keywords) {
-      console.log(`Validating schema node: ${kw.substring(0, 15)}...`);
-      const payload = [];
+    let rateLimitHit = false;
+    const CHUNK_SIZE = 5;
+    
+    for (let i = 0; i < keywords.length; i += CHUNK_SIZE) {
+      if (rateLimitHit) break;
+      const chunk = keywords.slice(i, i + CHUNK_SIZE);
       
-      const WEEK_FILTER = 'EgIIAw==';
-      let wResults = [];
-      let dResults = [];
-      try {
-        wResults = await fetchSearch(config, kw, WEEK_FILTER);
-        await new Promise(r => setTimeout(r, 1000));
-        dResults = await fetchSearch(config, kw);
-      } catch (e) {
-        if (e.message === 'RATE_LIMIT') {
-          console.log("⚠️ Rate limit exceeded. Halting safely.");
-          break;
-        }
-      }
-      
-      const merged = [...wResults, ...dResults];
-      const seen = new Set();
-      const uniqueResults = [];
-      for (const v of merged) {
-        if (!seen.has(v.videoId)) {
-          seen.add(v.videoId);
-          uniqueResults.push(v);
-        }
-      }
-
-      console.log(`Extracted ${uniqueResults.length} valid permutations`);
-      
-      for (const v of uniqueResults.slice(0, CRAWL_CONFIG.maxVideosPerKeyword)) {
-        let currentViews = parseInt(v.viewsText.replace(/[^0-9]/g, ''), 10) || 1;
-        let ageHours = parseAgeTextToHours(v.publishedText);
-        let vph = ageHours > 0 ? Math.round(currentViews / ageHours) : 0;
+      await Promise.all(chunk.map(async (kw) => {
+        if (rateLimitHit) return;
+        console.log(`Validating schema node: ${kw.substring(0, 15)}...`);
+        const payload = [];
         
-        // Calculate Delta Velocity (change_30m)
-        let change_30m = 0;
-        const cached = videoCache.get(v.videoId);
-        let created_at = new Date().toISOString();
-
-        if (cached) {
-            created_at = cached.created_at || created_at;
-            const timeDiffSecs = (new Date() - new Date(cached.last_seen)) / 1000;
-            if (timeDiffSecs > 60) {
-                const viewDelta = Math.max(0, currentViews - cached.views);
-                change_30m = Math.round((viewDelta / timeDiffSecs) * 1800);
-            }
+        const WEEK_FILTER = 'EgIIAw==';
+        let wResults = [];
+        let dResults = [];
+        try {
+          wResults = await fetchSearch(config, kw, WEEK_FILTER);
+          await new Promise(r => setTimeout(r, 1000));
+          dResults = await fetchSearch(config, kw);
+        } catch (e) {
+          if (e.message === 'RATE_LIMIT') {
+            console.log("⚠️ Rate limit exceeded. Halting safely.");
+            rateLimitHit = true;
+            return;
+          }
+        }
+        
+        const merged = [...wResults, ...dResults];
+        const seen = new Set();
+        const uniqueResults = [];
+        for (const v of merged) {
+          if (!seen.has(v.videoId)) {
+            seen.add(v.videoId);
+            uniqueResults.push(v);
+          }
         }
 
-        let pulse_score = computePulseScore(vph, v.publishedText, topic.id);
-        if (change_30m > vph) {
-            pulse_score = Math.round(pulse_score * 1.5); // 50% Momentum Boost
+        console.log(`Extracted ${uniqueResults.length} valid permutations`);
+        
+        for (const v of uniqueResults.slice(0, CRAWL_CONFIG.maxVideosPerKeyword)) {
+          let currentViews = parseInt(v.viewsText.replace(/[^0-9]/g, ''), 10) || 1;
+          let ageHours = parseAgeTextToHours(v.publishedText);
+          let vph = ageHours > 0 ? Math.round(currentViews / ageHours) : 0;
+          
+          let change_30m = 0;
+          const cached = videoCache.get(v.videoId);
+          let created_at = new Date().toISOString();
+
+          if (cached) {
+              created_at = cached.created_at || created_at;
+              const timeDiffSecs = (new Date() - new Date(cached.last_seen)) / 1000;
+              if (timeDiffSecs > 60) {
+                  const viewDelta = Math.max(0, currentViews - cached.views);
+                  change_30m = Math.round((viewDelta / timeDiffSecs) * 1800);
+              }
+          }
+
+          let pulse_score = computePulseScore(vph, v.publishedText, topic.id);
+          if (change_30m > vph) {
+              pulse_score = Math.round(pulse_score * 1.5);
+          }
+
+          topicMaxVPH = Math.max(topicMaxVPH, vph);
+          topicScore += pulse_score;
+
+          newCurrentVideos.push({
+            id: v.videoId,
+            topic_id: topic.id,
+            keyword: kw,
+            title: v.title,
+            channel_title: v.channelName,
+            published_time: v.publishedText,
+            duration: v.duration,
+            thumbnail: v.thumbnail,
+            views: currentViews,
+            vph: vph,
+            change_30m: change_30m,
+            performance: pulse_score,
+            created_at: created_at,
+            last_seen: new Date().toISOString()
+          });
         }
-
-        topicMaxVPH = Math.max(topicMaxVPH, vph);
-        topicScore += pulse_score;
-
-        newCurrentVideos.push({
-          id: v.videoId,
-          topic_id: topic.id,
-          keyword: kw,
-          title: v.title,
-          channel_title: v.channelName,
-          published_time: v.publishedText,
-          duration: v.duration,
-          thumbnail: v.thumbnail,
-          views: currentViews,
-          vph: vph,
-          change_30m: change_30m,
-          performance: pulse_score,
-          created_at: created_at,
-          last_seen: new Date().toISOString()
-        });
-      }
+      }));
       await new Promise(r => setTimeout(r, 500));
     }
 
