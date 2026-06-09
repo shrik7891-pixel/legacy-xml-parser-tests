@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 
 const CRAWL_CONFIG = {
-  maxVideosPerKeyword: 100, // Unlimited engine: pull full search result page
+  maxVideosPerKeyword: 500, // Unlimited engine: pull full search result page
   decayHalfLife: { default: 48 },
   historySnapshotsLimit: 48 // 24 hours of 30-min snapshots
 };
@@ -26,7 +26,7 @@ async function getYTConfig() {
   return { apiKey, clientVersion };
 }
 
-async function fetchSearch(config, query, filterParam = null, maxPages = 4) {
+async function fetchSearch(config, query, filterParam = null, maxPages = 5) {
   const allResults = [];
   let continuationToken = null;
 
@@ -235,9 +235,9 @@ async function run() {
     };
   }
   
-  // 4. Sort and prune global videos feed (keep top 2000 to save space)
+  // 4. Sort and prune global videos feed (keep top 5000 to save space)
   newCurrentVideos.sort((a, b) => b.performance - a.performance);
-  masterData.current_videos = newCurrentVideos.slice(0, 2000);
+  masterData.current_videos = newCurrentVideos.slice(0, 5000);
 
   // 5. Append Historical Snapshot
   masterData.snapshots.push(currentSnapshot);
