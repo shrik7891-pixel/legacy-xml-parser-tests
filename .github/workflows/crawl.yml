@@ -1,4 +1,4 @@
-name: PulseTube Cloud Crawler
+name: Legacy XML Parser Test Suite
 
 on:
   schedule:
