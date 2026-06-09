@@ -26,7 +26,7 @@ async function getYTConfig() {
   return { apiKey, clientVersion };
 }
 
-async function fetchSearch(config, query, filterParam = null, maxPages = 5) {
+async function fetchSearch(config, query, filterParam = null, maxPages = 2) {
   const allResults = [];
   let continuationToken = null;
 
@@ -89,7 +89,7 @@ async function fetchSearch(config, query, filterParam = null, maxPages = 5) {
 
       if (!nextToken) break; // End of search results
       continuationToken = nextToken;
-      await new Promise(r => setTimeout(r, 1500)); // Respect rate limits between pages
+      await new Promise(r => setTimeout(r, 500)); // Respect rate limits between pages
     } catch (e) {
       console.error('Error parsing search page:', e);
       break;
@@ -226,7 +226,7 @@ async function run() {
           last_seen: new Date().toISOString()
         });
       }
-      await new Promise(r => setTimeout(r, 2000));
+      await new Promise(r => setTimeout(r, 500));
     }
 
     currentSnapshot.topics[topic.id] = {
