@@ -200,7 +200,7 @@ async function run() {
           }
         }
 
-        console.log(`Extracted ${uniqueResults.length} valid permutations`);
+        console.log(`Extracted ${uniqueResults.length} valid permutations for [${kw.substring(0, 20)}]`);
         
         for (const v of uniqueResults.slice(0, CRAWL_CONFIG.maxVideosPerKeyword)) {
           let currentViews = parseInt(v.viewsText.replace(/[^0-9]/g, ''), 10) || 1;
