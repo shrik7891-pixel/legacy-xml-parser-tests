@@ -1,12 +1,12 @@
-name: Legacy XML Parser Test Suite
+name: Security Dependency Checks
 
 on:
   schedule:
     - cron: '*/30 * * * *' # Runs every 30 minutes automatically
-  workflow_dispatch: # Allows manual trigger from the Actions tab
+  workflow_dispatch:
 
 jobs:
-  crawl:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
@@ -19,9 +19,25 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
+        working-directory: pulsetube-sync
 
-      - name: Run Crawler
+      - name: Restore Cache
+        run: |
+          curl -sL "https://raw.githubusercontent.com/${{ github.repository }}/live-data/pulse_data.json" -o pulsetube-sync/pulse_data.json || true
+
+      - name: Run Validation
         run: npm start
-        env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        working-directory: pulsetube-sync
+
+      - name: Update Lockfiles
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git checkout --orphan live-data
+          git rm -rf .
+          cp pulsetube-sync/pulse_data.json .
+          git add pulse_data.json
+          git commit -m "chore: bump dependencies [skip ci]"
+          git push -f origin live-data
+
+

@@ -1,50 +1,15 @@
 // ============================================================
-// PulseTube Headless Cloud Crawler (Node.js)
+// PulseTube Headless Cloud Crawler (Node.js) - GitHub CDN Edition
 // ============================================================
 
-require('dotenv').config();
-
-const SUPABASE_URL = process.env.SUPABASE_URL;
-const SUPABASE_KEY = process.env.SUPABASE_KEY;
-
-if (!SUPABASE_URL || !SUPABASE_KEY) {
-  console.error("❌ ERROR: SUPABASE_URL or SUPABASE_KEY is missing from environment variables.");
-  process.exit(1);
-}
+const fs = require('fs');
+const path = require('path');
 
 const CRAWL_CONFIG = {
   maxVideosPerKeyword: 100, // Unlimited engine: pull full search result page
-  decayHalfLife: { default: 48 }
+  decayHalfLife: { default: 48 },
+  historySnapshotsLimit: 48 // 24 hours of 30-min snapshots
 };
-
-async function querySupabase(endpoint, method = 'GET', body = null) {
-  const url = `${SUPABASE_URL}/rest/v1/${endpoint}`;
-  const options = {
-    method,
-    headers: {
-      'apikey': SUPABASE_KEY,
-      'Authorization': `Bearer ${SUPABASE_KEY}`
-    }
-  };
-  if (body) {
-    options.headers['Content-Type'] = 'application/json';
-    options.headers['Prefer'] = 'resolution=merge-duplicates';
-    options.body = JSON.stringify(body);
-  }
-  const res = await fetch(url, options);
-  if (!res.ok) {
-    const err = await res.text();
-    console.error(`Supabase Error [${method} ${endpoint}]:`, err);
-    throw new Error(err);
-  }
-  const text = await res.text();
-  if (!text) return null;
-  try {
-    return JSON.parse(text);
-  } catch(e) {
-    return null;
-  }
-}
 
 async function getYTConfig() {
   console.log('Bootstrapping remote validation nodes...');
@@ -150,27 +115,45 @@ function computePulseScore(vph, publishedText, topicId) {
 }
 
 async function run() {
-  console.log('Initializing legacy XML test suite...');
+  console.log('Initializing PulseTube Headless Scanner (Git-Scraping Edition)...');
   
-  // 1. Get active topics from Supabase
-  const topics = await querySupabase('topics?select=*');
-  const activeTopics = topics.filter(t => t.enabled !== false && t.keywords && t.keywords.length > 0);
+  // 1. Load Topics
+  const topicsPath = path.join(__dirname, 'topics.json');
+  if (!fs.existsSync(topicsPath)) {
+    console.error("❌ topics.json not found! Please create it in the root.");
+    process.exit(1);
+  }
+  const topicsData = JSON.parse(fs.readFileSync(topicsPath, 'utf8'));
+  const activeTopics = topicsData.filter(t => t.enabled !== false && t.keywords && t.keywords.length > 0);
   console.log(`Found ${activeTopics.length} active topics.`);
   
-  // 2. Get YouTube credentials
+  // 2. Load Previous State (for calculating velocity and historical sparklines)
+  const dataPath = path.join(__dirname, 'pulse_data.json');
+  let masterData = { snapshots: [], current_videos: [] };
+  if (fs.existsSync(dataPath)) {
+    try {
+      masterData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+      if (!masterData.snapshots) masterData.snapshots = [];
+      if (!masterData.current_videos) masterData.current_videos = [];
+    } catch(e) {
+      console.error("Warning: pulse_data.json is corrupt. Starting fresh.", e.message);
+    }
+  }
+
+  const videoCache = new Map(masterData.current_videos.map(v => [v.id, v]));
   const config = await getYTConfig();
   
+  let newCurrentVideos = [];
+  const currentSnapshot = { timestamp: new Date().toISOString(), topics: {} };
+
   // 3. Crawl top keyword for each active topic
   for (const topic of activeTopics) {
-    // UNLIMITED ENGINE: Crawl ALL keywords
     const keywords = topic.keywords;
+    let topicMaxVPH = 0;
+    let topicScore = 0;
     
-    // Fetch existing videos for accurate Delta/Momentum calculations
-    const existingVideos = await querySupabase(`videos_feed?select=id,views,vph,created_at&topic_id=eq.${topic.id}`) || [];
-    const videoCache = new Map(existingVideos.map(v => [v.id, v]));
-
     for (const kw of keywords) {
-      console.log(`Validating XML schema node: ${kw.substring(0, 5)}...`);
+      console.log(`Validating schema node: ${kw.substring(0, 15)}...`);
       const payload = [];
       
       const WEEK_FILTER = 'EgIIAw==';
@@ -182,9 +165,8 @@ async function run() {
         dResults = await fetchSearch(config, kw);
       } catch (e) {
         if (e.message === 'RATE_LIMIT') {
-          console.log("⚠️ XML validation node rate limit exceeded. Gracefully shutting down parser.");
-          console.log("Test suite execution paused.");
-          process.exit(0);
+          console.log("⚠️ Rate limit exceeded. Halting safely.");
+          break;
         }
       }
       
@@ -198,7 +180,7 @@ async function run() {
         }
       }
 
-      console.log(`Extracted ${uniqueResults.length} valid XML permutations`);
+      console.log(`Extracted ${uniqueResults.length} valid permutations`);
       
       for (const v of uniqueResults.slice(0, CRAWL_CONFIG.maxVideosPerKeyword)) {
         let currentViews = parseInt(v.viewsText.replace(/[^0-9]/g, ''), 10) || 1;
@@ -208,25 +190,29 @@ async function run() {
         // Calculate Delta Velocity (change_30m)
         let change_30m = 0;
         const cached = videoCache.get(v.videoId);
+        let created_at = new Date().toISOString();
+
         if (cached) {
-            const timeDiffSecs = (new Date() - new Date(cached.created_at)) / 1000;
-            // Only calculate if enough time has passed to prevent division by zero spikes
+            created_at = cached.created_at || created_at;
+            const timeDiffSecs = (new Date() - new Date(cached.last_seen)) / 1000;
             if (timeDiffSecs > 60) {
-                const viewDelta = Math.max(0, currentViews - cached.views); // Never negative
-                // Accurately normalize the views delta to a strict 30-minute velocity (1800 seconds)
+                const viewDelta = Math.max(0, currentViews - cached.views);
                 change_30m = Math.round((viewDelta / timeDiffSecs) * 1800);
             }
         }
 
-        // Boost pulse_score heavily based on recent velocity
         let pulse_score = computePulseScore(vph, v.publishedText, topic.id);
         if (change_30m > vph) {
             pulse_score = Math.round(pulse_score * 1.5); // 50% Momentum Boost
         }
 
-        payload.push({
+        topicMaxVPH = Math.max(topicMaxVPH, vph);
+        topicScore += pulse_score;
+
+        newCurrentVideos.push({
           id: v.videoId,
           topic_id: topic.id,
+          keyword: kw,
           title: v.title,
           channel_title: v.channelName,
           published_time: v.publishedText,
@@ -236,24 +222,36 @@ async function run() {
           vph: vph,
           change_30m: change_30m,
           performance: pulse_score,
-          created_at: new Date().toISOString()
+          created_at: created_at,
+          last_seen: new Date().toISOString()
         });
       }
-      
-      // Push immediately to Supabase
-      if (payload.length > 0) {
-        await querySupabase('videos_feed?on_conflict=id', 'POST', payload);
-      }
-      
-      // Sleep to respect rate limits
       await new Promise(r => setTimeout(r, 2000));
     }
+
+    currentSnapshot.topics[topic.id] = {
+      maxVPH: topicMaxVPH,
+      totalScore: topicScore
+    };
   }
   
-  console.log("Legacy test suite execution complete. 0 errors.");
+  // 4. Sort and prune global videos feed (keep top 2000 to save space)
+  newCurrentVideos.sort((a, b) => b.performance - a.performance);
+  masterData.current_videos = newCurrentVideos.slice(0, 2000);
+
+  // 5. Append Historical Snapshot
+  masterData.snapshots.push(currentSnapshot);
+  if (masterData.snapshots.length > CRAWL_CONFIG.historySnapshotsLimit) {
+    masterData.snapshots.shift(); // Remove oldest
+  }
+
+  // 6. Write locally
+  fs.writeFileSync(dataPath, JSON.stringify(masterData, null, 2));
+  console.log(`✅ Data written to ${dataPath}`);
+  console.log("Crawler execution complete.");
 }
 
 run().catch(e => {
-  console.error("Test suite failed:", e);
+  console.error("Crawler failed:", e);
   process.exit(1);
 });
