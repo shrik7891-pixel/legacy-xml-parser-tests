@@ -153,6 +153,9 @@ async function run() {
   
   let newCurrentVideos = [];
   const currentSnapshot = { timestamp: new Date().toISOString(), topics: {} };
+  
+  const totalKeywords = activeTopics.reduce((acc, t) => acc + (t.keywords ? t.keywords.length : 0), 0);
+  let processedKeywords = 0;
 
   // 3. Crawl top keyword for each active topic
   for (const topic of activeTopics) {
@@ -243,6 +246,11 @@ async function run() {
           });
         }
       }));
+      
+      processedKeywords += chunk.length;
+      const pct = ((processedKeywords / totalKeywords) * 100).toFixed(1);
+      console.log(`\n⏳ Progress: ${pct}% (${processedKeywords}/${totalKeywords})`);
+      
       await new Promise(r => setTimeout(r, 100));
     }
 
