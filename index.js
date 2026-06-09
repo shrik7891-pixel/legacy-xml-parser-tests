@@ -13,7 +13,7 @@ if (!SUPABASE_URL || !SUPABASE_KEY) {
 }
 
 const CRAWL_CONFIG = {
-  maxVideosPerKeyword: 30,
+  maxVideosPerKeyword: 100, // Unlimited engine: pull full search result page
   decayHalfLife: { default: 48 }
 };
 
@@ -61,62 +61,76 @@ async function getYTConfig() {
   return { apiKey, clientVersion };
 }
 
-async function fetchSearch(config, query, filterParam = null) {
-  const body = {
-    context: { client: { clientName: 'WEB', clientVersion: config.clientVersion, hl: 'en', gl: 'US' } },
-    query: query
-  };
-  if (filterParam) body.params = filterParam;
+async function fetchSearch(config, query, filterParam = null, maxPages = 4) {
+  const allResults = [];
+  let continuationToken = null;
 
-  const resp = await fetch(`https://www.youtube.com/youtubei/v1/search?key=${config.apiKey}&prettyPrint=false`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'X-YouTube-Client-Name': '1',
-      'X-YouTube-Client-Version': config.clientVersion
-    },
-    body: JSON.stringify(body)
-  });
-  
-  if (resp.status === 429) {
-    throw new Error('RATE_LIMIT');
-  }
-  
-  const data = await resp.json();
-  const results = [];
-  try {
-    const contents = data.contents.twoColumnSearchResultsRenderer.primaryContents.sectionListRenderer.contents;
-    let videoItems = [];
+  for (let page = 0; page < maxPages; page++) {
+    const body = {
+      context: { client: { clientName: 'WEB', clientVersion: config.clientVersion, hl: 'en', gl: 'US' } },
+    };
     
-    // Find itemSectionRenderer
-    for (const c of contents) {
-      if (c.itemSectionRenderer && c.itemSectionRenderer.contents) {
-        videoItems = c.itemSectionRenderer.contents;
-        break;
-      }
+    if (continuationToken) {
+      body.continuation = continuationToken;
+    } else {
+      body.query = query;
+      if (filterParam) body.params = filterParam;
     }
 
-    for (const item of videoItems) {
-      if (item.videoRenderer) {
-        const vr = item.videoRenderer;
-        const videoId = vr.videoId;
-        if (!videoId) continue;
-        results.push({
-          videoId,
-          title: vr.title?.runs?.[0]?.text || '',
-          channelId: vr.ownerText?.runs?.[0]?.navigationEndpoint?.browseEndpoint?.browseId || '',
-          channelName: vr.ownerText?.runs?.[0]?.text || '',
-          viewsText: vr.viewCountText?.simpleText || '0 views',
-          publishedText: vr.publishedTimeText?.simpleText || '',
-          duration: vr.lengthText?.simpleText || '',
-          thumbnail: vr.thumbnail?.thumbnails?.[0]?.url || `https://i.ytimg.com/vi/${videoId}/mqdefault.jpg`
-        });
+    const resp = await fetch(`https://www.youtube.com/youtubei/v1/search?key=${config.apiKey}&prettyPrint=false`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-YouTube-Client-Name': '1',
+        'X-YouTube-Client-Version': config.clientVersion
+      },
+      body: JSON.stringify(body)
+    });
+    
+    if (resp.status === 429) throw new Error('RATE_LIMIT');
+    const data = await resp.json();
+    
+    try {
+      const contents = data.contents?.twoColumnSearchResultsRenderer?.primaryContents?.sectionListRenderer?.contents || 
+                       data.onResponseReceivedCommands?.[0]?.appendContinuationItemsAction?.continuationItems || [];
+      
+      let videoItems = [];
+      let nextToken = null;
+      
+      for (const c of contents) {
+        if (c.itemSectionRenderer && c.itemSectionRenderer.contents) {
+          videoItems.push(...c.itemSectionRenderer.contents);
+        } else if (c.continuationItemRenderer?.continuationEndpoint?.continuationCommand?.token) {
+          nextToken = c.continuationItemRenderer.continuationEndpoint.continuationCommand.token;
+        }
       }
+
+      for (const item of videoItems) {
+        if (item.videoRenderer) {
+          const vr = item.videoRenderer;
+          if (!vr.videoId) continue;
+          allResults.push({
+            videoId: vr.videoId,
+            title: vr.title?.runs?.[0]?.text || '',
+            channelId: vr.ownerText?.runs?.[0]?.navigationEndpoint?.browseEndpoint?.browseId || '',
+            channelName: vr.ownerText?.runs?.[0]?.text || '',
+            viewsText: vr.viewCountText?.simpleText || '0 views',
+            publishedText: vr.publishedTimeText?.simpleText || '',
+            duration: vr.lengthText?.simpleText || '',
+            thumbnail: vr.thumbnail?.thumbnails?.[0]?.url || `https://i.ytimg.com/vi/${vr.videoId}/mqdefault.jpg`
+          });
+        }
+      }
+
+      if (!nextToken) break; // End of search results
+      continuationToken = nextToken;
+      await new Promise(r => setTimeout(r, 1500)); // Respect rate limits between pages
+    } catch (e) {
+      console.error('Error parsing search page:', e);
+      break;
     }
-  } catch (e) {
-    console.error("Parse error:", e.message);
   }
-  return results;
+  return allResults;
 }
 
 function parseAgeTextToHours(text) {
@@ -148,9 +162,13 @@ async function run() {
   
   // 3. Crawl top keyword for each active topic
   for (const topic of activeTopics) {
-    // Crawl up to 5 keywords per topic to balance volume and rate limits
-    const keywords = topic.keywords.slice(0, 5);
+    // UNLIMITED ENGINE: Crawl ALL keywords
+    const keywords = topic.keywords;
     
+    // Fetch existing videos for accurate Delta/Momentum calculations
+    const existingVideos = await querySupabase(`videos_feed?select=id,views,vph,updated_at&topic_id=eq.${topic.id}`) || [];
+    const videoCache = new Map(existingVideos.map(v => [v.id, v]));
+
     for (const kw of keywords) {
       console.log(`Crawling: ${topic.name} -> "${kw}"`);
       const payload = [];
@@ -186,8 +204,26 @@ async function run() {
         let currentViews = parseInt(v.viewsText.replace(/[^0-9]/g, ''), 10) || 1;
         let ageHours = parseAgeTextToHours(v.publishedText);
         let vph = ageHours > 0 ? Math.round(currentViews / ageHours) : 0;
-        let pulse_score = computePulseScore(vph, v.publishedText, topic.id);
         
+        // Calculate Delta Velocity (change_30m)
+        let change_30m = 0;
+        const cached = videoCache.get(v.videoId);
+        if (cached) {
+            // Assume the cron runs every 15-30 mins
+            const timeDiffSecs = (new Date() - new Date(cached.updated_at)) / 1000;
+            const hoursPassed = timeDiffSecs / 3600;
+            if (hoursPassed > 0) {
+                const viewDelta = currentViews - cached.views;
+                change_30m = Math.round(viewDelta / hoursPassed);
+            }
+        }
+
+        // Boost pulse_score heavily based on recent velocity
+        let pulse_score = computePulseScore(vph, v.publishedText, topic.id);
+        if (change_30m > vph) {
+            pulse_score = Math.round(pulse_score * 1.5); // 50% Momentum Boost
+        }
+
         payload.push({
           id: v.videoId,
           topic_id: topic.id,
@@ -198,8 +234,9 @@ async function run() {
           thumbnail: v.thumbnail,
           views: currentViews,
           vph: vph,
-          change_30m: 0,
-          performance: pulse_score
+          change_30m: change_30m,
+          performance: pulse_score,
+          updated_at: new Date().toISOString()
         });
       }
       

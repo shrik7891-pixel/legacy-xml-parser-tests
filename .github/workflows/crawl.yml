@@ -2,7 +2,7 @@ name: PulseTube Cloud Crawler
 
 on:
   schedule:
-    - cron: '0 * * * *' # Runs every hour automatically
+    - cron: '*/30 * * * *' # Runs every 30 minutes automatically
   workflow_dispatch: # Allows manual trigger from the Actions tab
 
 jobs:
