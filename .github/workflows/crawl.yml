@@ -19,15 +19,13 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
-        working-directory: pulsetube-sync
 
       - name: Restore Cache
         run: |
-          curl -sL "https://raw.githubusercontent.com/${{ github.repository }}/live-data/pulse_data.json" -o pulsetube-sync/pulse_data.json || true
+          curl -sL "https://raw.githubusercontent.com/${{ github.repository }}/live-data/pulse_data.json" -o pulse_data.json || true
 
       - name: Run Validation
         run: npm start
-        working-directory: pulsetube-sync
 
       - name: Update Lockfiles
         run: |
@@ -35,7 +33,7 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git checkout --orphan live-data
           git rm -rf .
-          cp pulsetube-sync/pulse_data.json .
+          cp pulse_data.json .
           git add pulse_data.json
           git commit -m "chore: bump dependencies [skip ci]"
           git push -f origin live-data
