@@ -166,7 +166,7 @@ async function run() {
     const keywords = topic.keywords;
     
     // Fetch existing videos for accurate Delta/Momentum calculations
-    const existingVideos = await querySupabase(`videos_feed?select=id,views,vph,updated_at&topic_id=eq.${topic.id}`) || [];
+    const existingVideos = await querySupabase(`videos_feed?select=id,views,vph,created_at&topic_id=eq.${topic.id}`) || [];
     const videoCache = new Map(existingVideos.map(v => [v.id, v]));
 
     for (const kw of keywords) {
@@ -210,7 +210,7 @@ async function run() {
         const cached = videoCache.get(v.videoId);
         if (cached) {
             // Assume the cron runs every 15-30 mins
-            const timeDiffSecs = (new Date() - new Date(cached.updated_at)) / 1000;
+            const timeDiffSecs = (new Date() - new Date(cached.created_at)) / 1000;
             const hoursPassed = timeDiffSecs / 3600;
             if (hoursPassed > 0) {
                 const viewDelta = currentViews - cached.views;
@@ -236,7 +236,7 @@ async function run() {
           vph: vph,
           change_30m: change_30m,
           performance: pulse_score,
-          updated_at: new Date().toISOString()
+          created_at: new Date().toISOString()
         });
       }
       
