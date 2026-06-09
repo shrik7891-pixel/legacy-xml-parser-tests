@@ -282,6 +282,21 @@ async function run() {
   // 6. Write locally
   fs.writeFileSync(dataPath, JSON.stringify(masterData, null, 2));
   console.log(`✅ Data written to ${dataPath}`);
+
+  // 7. Generate lightweight TV feed
+  const tvFeed = {};
+  for (const v of dedupedVideos) {
+      if (!tvFeed[v.topic_id]) {
+          tvFeed[v.topic_id] = [];
+      }
+      if (tvFeed[v.topic_id].length < 20) { // Keep top 20 per topic for TV UI
+          tvFeed[v.topic_id].push(v);
+      }
+  }
+  const tvFeedPath = path.join(__dirname, 'tv_feed.json');
+  fs.writeFileSync(tvFeedPath, JSON.stringify(tvFeed));
+  console.log(`✅ TV Feed written to ${tvFeedPath}`);
+  
   console.log("Crawler execution complete.");
 }
 
