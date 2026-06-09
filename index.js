@@ -26,7 +26,7 @@ async function getYTConfig() {
   return { apiKey, clientVersion };
 }
 
-async function fetchSearch(config, query, filterParam = null, maxPages = 2) {
+async function fetchSearch(config, query, filterParam = null, maxPages = 4) {
   const allResults = [];
   let continuationToken = null;
 
