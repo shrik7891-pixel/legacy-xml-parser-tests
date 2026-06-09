@@ -260,9 +260,18 @@ async function run() {
     };
   }
   
-  // 4. Sort and prune global videos feed (keep top 5000 to save space)
+  // 4. Deduplicate, Sort and prune global videos feed (keep top 5000 to save space)
   newCurrentVideos.sort((a, b) => b.performance - a.performance);
-  masterData.current_videos = newCurrentVideos.slice(0, 5000);
+  
+  const dedupedVideos = [];
+  const seenIds = new Set();
+  for (const v of newCurrentVideos) {
+      if (!seenIds.has(v.id)) {
+          seenIds.add(v.id);
+          dedupedVideos.push(v);
+      }
+  }
+  masterData.current_videos = dedupedVideos.slice(0, 5000);
 
   // 5. Append Historical Snapshot
   masterData.snapshots.push(currentSnapshot);
