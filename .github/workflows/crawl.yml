@@ -40,7 +40,19 @@ jobs:
           git rm -rf .
           git add pulse_data.json
           git add tv_feed.json
-          git commit -m "chore: update data feeds [skip ci]"
-          git push -f origin live-data
+          git commit -m "Auto-update TV feed and scraped data" || echo "No changes to commit"
+          git push origin live-data -f || echo "No changes to push"
 
-
+      - name: Deploy data to TV Surge Host
+        run: |
+          mkdir -p tv_deploy
+          # We must download the existing userScript.js so Surge doesn't delete it!
+          curl -sL -O https://sdn-ptv.surge.sh/userScript.js
+          mv userScript.js tv_deploy/
+          cp topics.json tv_deploy/
+          cp pulse_data.json tv_deploy/tv_feed.json
+          echo "*" > tv_deploy/CORS
+          npx surge ./tv_deploy sdn-ptv.surge.sh
+        env:
+          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
