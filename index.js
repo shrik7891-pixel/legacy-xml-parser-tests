@@ -289,7 +289,7 @@ async function run() {
       if (!tvFeed[v.topic_id]) {
           tvFeed[v.topic_id] = [];
       }
-      if (tvFeed[v.topic_id].length < 20) { // Keep top 20 per topic for TV UI
+      if (tvFeed[v.topic_id].length < 150) { // Keep top 150 per topic for TV UI
           tvFeed[v.topic_id].push(v);
       }
   }
