@@ -209,12 +209,12 @@ async function run() {
         let change_30m = 0;
         const cached = videoCache.get(v.videoId);
         if (cached) {
-            // Assume the cron runs every 15-30 mins
             const timeDiffSecs = (new Date() - new Date(cached.created_at)) / 1000;
-            const hoursPassed = timeDiffSecs / 3600;
-            if (hoursPassed > 0) {
-                const viewDelta = currentViews - cached.views;
-                change_30m = Math.round(viewDelta / hoursPassed);
+            // Only calculate if enough time has passed to prevent division by zero spikes
+            if (timeDiffSecs > 60) {
+                const viewDelta = Math.max(0, currentViews - cached.views); // Never negative
+                // Accurately normalize the views delta to a strict 30-minute velocity (1800 seconds)
+                change_30m = Math.round((viewDelta / timeDiffSecs) * 1800);
             }
         }
 
