@@ -117,6 +117,14 @@ function computePulseScore(vph, publishedText, topicId) {
 async function run() {
   console.log('Initializing PulseTube Headless Scanner (Git-Scraping Edition)...');
   
+  try {
+    const ipRes = await fetch('https://api.ipify.org?format=json');
+    const ipData = await ipRes.json();
+    console.log(`\n🌐 Current GitHub Runner IP: ${ipData.ip} (Fresh IP!)`);
+  } catch (e) {
+    console.log(`\n🌐 Current GitHub Runner IP: (Failed to fetch)`);
+  }
+
   // 1. Load Topics
   const topicsPath = path.join(__dirname, 'topics.json');
   if (!fs.existsSync(topicsPath)) {
@@ -153,7 +161,7 @@ async function run() {
     let topicScore = 0;
     
     let rateLimitHit = false;
-    const CHUNK_SIZE = 5;
+    const CHUNK_SIZE = 15;
     
     for (let i = 0; i < keywords.length; i += CHUNK_SIZE) {
       if (rateLimitHit) break;
@@ -169,7 +177,7 @@ async function run() {
         let dResults = [];
         try {
           wResults = await fetchSearch(config, kw, WEEK_FILTER);
-          await new Promise(r => setTimeout(r, 1000));
+          await new Promise(r => setTimeout(r, 200));
           dResults = await fetchSearch(config, kw);
         } catch (e) {
           if (e.message === 'RATE_LIMIT') {
@@ -235,7 +243,7 @@ async function run() {
           });
         }
       }));
-      await new Promise(r => setTimeout(r, 500));
+      await new Promise(r => setTimeout(r, 100));
     }
 
     currentSnapshot.topics[topic.id] = {
