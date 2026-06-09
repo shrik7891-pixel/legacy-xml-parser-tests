@@ -1,0 +1,12 @@
+{
+  "name": "pulsetube-sync",
+  "version": "1.0.0",
+  "description": "Headless YouTube Crawler for PulseTube via Supabase",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}

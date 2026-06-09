@@ -1,0 +1,222 @@
+// ============================================================
+// PulseTube Headless Cloud Crawler (Node.js)
+// ============================================================
+
+require('dotenv').config();
+
+const SUPABASE_URL = process.env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.SUPABASE_KEY;
+
+if (!SUPABASE_URL || !SUPABASE_KEY) {
+  console.error("❌ ERROR: SUPABASE_URL or SUPABASE_KEY is missing from environment variables.");
+  process.exit(1);
+}
+
+const CRAWL_CONFIG = {
+  maxVideosPerKeyword: 30,
+  decayHalfLife: { default: 48 }
+};
+
+async function querySupabase(endpoint, method = 'GET', body = null) {
+  const url = `${SUPABASE_URL}/rest/v1/${endpoint}`;
+  const options = {
+    method,
+    headers: {
+      'apikey': SUPABASE_KEY,
+      'Authorization': `Bearer ${SUPABASE_KEY}`
+    }
+  };
+  if (body) {
+    options.headers['Content-Type'] = 'application/json';
+    options.headers['Prefer'] = 'resolution=merge-duplicates';
+    options.body = JSON.stringify(body);
+  }
+  const res = await fetch(url, options);
+  if (!res.ok) {
+    const err = await res.text();
+    console.error(`Supabase Error [${method} ${endpoint}]:`, err);
+    throw new Error(err);
+  }
+  const text = await res.text();
+  if (!text) return null;
+  try {
+    return JSON.parse(text);
+  } catch(e) {
+    return null;
+  }
+}
+
+async function getYTConfig() {
+  console.log('Fetching anonymous YouTube token...');
+  const res = await fetch('https://www.youtube.com/', {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    }
+  });
+  const html = await res.text();
+  const apiKey = html.match(/"INNERTUBE_API_KEY"\s*:\s*"([^"]+)"/)?.[1];
+  const clientVersion = html.match(/"INNERTUBE_CLIENT_VERSION"\s*:\s*"([^"]+)"/)?.[1];
+  
+  if (!apiKey || !clientVersion) throw new Error("Failed to extract InnerTube config");
+  return { apiKey, clientVersion };
+}
+
+async function fetchSearch(config, query, filterParam = null) {
+  const body = {
+    context: { client: { clientName: 'WEB', clientVersion: config.clientVersion, hl: 'en', gl: 'US' } },
+    query: query
+  };
+  if (filterParam) body.params = filterParam;
+
+  const resp = await fetch(`https://www.youtube.com/youtubei/v1/search?key=${config.apiKey}&prettyPrint=false`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'X-YouTube-Client-Name': '1',
+      'X-YouTube-Client-Version': config.clientVersion
+    },
+    body: JSON.stringify(body)
+  });
+  
+  if (resp.status === 429) {
+    throw new Error('RATE_LIMIT');
+  }
+  
+  const data = await resp.json();
+  const results = [];
+  try {
+    const contents = data.contents.twoColumnSearchResultsRenderer.primaryContents.sectionListRenderer.contents;
+    let videoItems = [];
+    
+    // Find itemSectionRenderer
+    for (const c of contents) {
+      if (c.itemSectionRenderer && c.itemSectionRenderer.contents) {
+        videoItems = c.itemSectionRenderer.contents;
+        break;
+      }
+    }
+
+    for (const item of videoItems) {
+      if (item.videoRenderer) {
+        const vr = item.videoRenderer;
+        const videoId = vr.videoId;
+        if (!videoId) continue;
+        results.push({
+          videoId,
+          title: vr.title?.runs?.[0]?.text || '',
+          channelId: vr.ownerText?.runs?.[0]?.navigationEndpoint?.browseEndpoint?.browseId || '',
+          channelName: vr.ownerText?.runs?.[0]?.text || '',
+          viewsText: vr.viewCountText?.simpleText || '0 views',
+          publishedText: vr.publishedTimeText?.simpleText || '',
+          duration: vr.lengthText?.simpleText || '',
+          thumbnail: vr.thumbnail?.thumbnails?.[0]?.url || `https://i.ytimg.com/vi/${videoId}/mqdefault.jpg`
+        });
+      }
+    }
+  } catch (e) {
+    console.error("Parse error:", e.message);
+  }
+  return results;
+}
+
+function parseAgeTextToHours(text) {
+  if (!text) return null;
+  const match = text.replace(/^Streamed\s+/i, '').match(/(\d+)\s*(second|minute|hour|day|week|month|year)/i);
+  if (!match) return null;
+  const n = parseInt(match[1], 10);
+  const m = { second: 1/3600, minute: 1/60, hour: 1, day: 24, week: 168, month: 720, year: 8760 };
+  return n * (m[match[2].toLowerCase()] || 0);
+}
+
+function computePulseScore(vph, publishedText, topicId) {
+  const ageHours = parseAgeTextToHours(publishedText) || 720;
+  const recencyBonus = Math.max(0, 100 * Math.exp(-ageHours / 48));
+  const vphScore = Math.log10(Math.max(1, vph)) * 30;
+  return Math.round(vphScore + recencyBonus);
+}
+
+async function run() {
+  console.log("Starting PulseTube Cloud Sync...");
+  
+  // 1. Get active topics from Supabase
+  const topics = await querySupabase('topics?select=*');
+  const activeTopics = topics.filter(t => t.enabled !== false && t.keywords && t.keywords.length > 0);
+  console.log(`Found ${activeTopics.length} active topics.`);
+  
+  // 2. Get YouTube credentials
+  const config = await getYTConfig();
+  
+  // 3. Crawl top keyword for each active topic
+  for (const topic of activeTopics) {
+    // Crawl up to 5 keywords per topic to balance volume and rate limits
+    const keywords = topic.keywords.slice(0, 5);
+    
+    for (const kw of keywords) {
+      console.log(`Crawling: ${topic.name} -> "${kw}"`);
+      const payload = [];
+      
+      const WEEK_FILTER = 'EgIIAw==';
+      let wResults = [];
+      let dResults = [];
+      try {
+        wResults = await fetchSearch(config, kw, WEEK_FILTER);
+        await new Promise(r => setTimeout(r, 1000));
+        dResults = await fetchSearch(config, kw);
+      } catch (e) {
+        if (e.message === 'RATE_LIMIT') {
+          console.log("⚠️ YouTube Rate Limit (429) hit! Stopping early to prevent ban.");
+          console.log("Cloud sync gracefully interrupted.");
+          process.exit(0);
+        }
+      }
+      
+      const merged = [...wResults, ...dResults];
+      const seen = new Set();
+      const uniqueResults = [];
+      for (const v of merged) {
+        if (!seen.has(v.videoId)) {
+          seen.add(v.videoId);
+          uniqueResults.push(v);
+        }
+      }
+
+      console.log(`Found ${uniqueResults.length} videos`);
+      
+      for (const v of uniqueResults.slice(0, CRAWL_CONFIG.maxVideosPerKeyword)) {
+        let currentViews = parseInt(v.viewsText.replace(/[^0-9]/g, ''), 10) || 1;
+        let ageHours = parseAgeTextToHours(v.publishedText);
+        let vph = ageHours > 0 ? Math.round(currentViews / ageHours) : 0;
+        let pulse_score = computePulseScore(vph, v.publishedText, topic.id);
+        
+        payload.push({
+          id: v.videoId,
+          topic_id: topic.id,
+          title: v.title,
+          channel_title: v.channelName,
+          published_time: v.publishedText,
+          duration: v.duration,
+          thumbnail: v.thumbnail,
+          views: currentViews,
+          vph: vph,
+          change_30m: 0,
+          performance: pulse_score
+        });
+      }
+      
+      // Push immediately to Supabase
+      if (payload.length > 0) {
+        await querySupabase('videos_feed?on_conflict=id', 'POST', payload);
+      }
+      
+      // Sleep to respect rate limits
+      await new Promise(r => setTimeout(r, 2000));
+    }
+  }
+  
+  console.log("Cloud sync complete!");
+}
+
+run().catch(e => {
+  console.error("Crawler Failed:", e);
+  process.exit(1);
+});
