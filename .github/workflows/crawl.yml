@@ -33,7 +33,6 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git checkout --orphan live-data
           git rm -rf .
-          cp pulse_data.json .
           git add pulse_data.json
           git commit -m "chore: bump dependencies [skip ci]"
           git push -f origin live-data
