@@ -39,7 +39,8 @@ jobs:
           git checkout --orphan live-data
           git rm -rf .
           git add pulse_data.json
-          git commit -m "chore: bump dependencies [skip ci]"
+          git add tv_feed.json
+          git commit -m "chore: update data feeds [skip ci]"
           git push -f origin live-data
 
 
