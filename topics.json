@@ -1112,13 +1112,14 @@
     "position": 32
   },
   {
-    "id": "grp_mq89k0knrcmrkva6bxr",
+    "enabled": true,
     "icon": "📌",
-    "name": "bali",
+    "id": "grp_mq89k0knrcmrkva6bxr",
     "keywords": [
-      "bali"
+      "bali",
+      "ubud"
     ],
-    "position": 33,
-    "enabled": true
+    "name": "bali",
+    "position": 33
   }
 ]
