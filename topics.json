@@ -1122,5 +1122,18 @@
     ],
     "name": "Trip3",
     "position": 33
+  },
+  {
+    "id": "grp_mq8d29rt4xk34vsmz6j",
+    "icon": "📌",
+    "name": "bhandardara",
+    "keywords": [
+      "bhandardara",
+      "sahyadri",
+      "tamini ghat",
+      "taminighat"
+    ],
+    "position": 34,
+    "enabled": true
   }
 ]
