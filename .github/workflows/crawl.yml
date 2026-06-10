@@ -2,7 +2,8 @@ name: Security Dependency Checks
 
 on:
   schedule:
-    - cron: '23 * * * *' # Offset to minute 23 to avoid GitHub's heavy top-of-the-hour delays
+    # Run at minute 15 and 45 past every hour to avoid GitHub's top-of-the-hour delays
+    - cron: '15,45 * * * *'
   workflow_dispatch:
 
 jobs:
