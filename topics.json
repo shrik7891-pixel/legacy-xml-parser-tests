@@ -1106,7 +1106,9 @@
       "hasyajatra marathi",
       "kapil sharma show",
       "comedy shubhya",
-      "atharva sudame"
+      "atharva sudame",
+      "priyadarshini",
+      "प्रियदर्शिनी"
     ],
     "name": "Comedy2",
     "position": 32
@@ -1137,9 +1139,9 @@
     "position": 34
   },
   {
-    "id": "grp_mq8gyrgdpkxh3pv53ss",
+    "enabled": true,
     "icon": "📌",
-    "name": "ai",
+    "id": "grp_mq8gyrgdpkxh3pv53ss",
     "keywords": [
       "ai thumbnail",
       "free ai",
@@ -1147,7 +1149,7 @@
       "free ai agents",
       "google antigravity"
     ],
-    "position": 35,
-    "enabled": true
+    "name": "ai",
+    "position": 35
   }
 ]
