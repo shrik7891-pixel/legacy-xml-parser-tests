@@ -1098,15 +1098,17 @@
     "position": 31
   },
   {
-    "id": "grp_mq80bunia1w7macla7e",
+    "enabled": true,
     "icon": "📌",
-    "name": "Comedy2",
+    "id": "grp_mq80bunia1w7macla7e",
     "keywords": [
       "Hasyajatra",
       "hasyajatra marathi",
-      "kapil sharma show"
+      "kapil sharma show",
+      "comedy shubhya",
+      "atharva sudame"
     ],
-    "position": 32,
-    "enabled": true
+    "name": "Comedy2",
+    "position": 32
   }
 ]
