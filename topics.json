@@ -1110,5 +1110,15 @@
     ],
     "name": "Comedy2",
     "position": 32
+  },
+  {
+    "id": "grp_mq89k0knrcmrkva6bxr",
+    "icon": "📌",
+    "name": "bali",
+    "keywords": [
+      "bali"
+    ],
+    "position": 33,
+    "enabled": true
   }
 ]
