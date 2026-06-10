@@ -1124,16 +1124,30 @@
     "position": 33
   },
   {
-    "id": "grp_mq8d29rt4xk34vsmz6j",
+    "enabled": true,
     "icon": "📌",
-    "name": "bhandardara",
+    "id": "grp_mq8d29rt4xk34vsmz6j",
     "keywords": [
       "bhandardara",
       "sahyadri",
       "tamini ghat",
       "taminighat"
     ],
-    "position": 34,
+    "name": "bhandardara",
+    "position": 34
+  },
+  {
+    "id": "grp_mq8gyrgdpkxh3pv53ss",
+    "icon": "📌",
+    "name": "ai",
+    "keywords": [
+      "ai thumbnail",
+      "free ai",
+      "ai agents",
+      "free ai agents",
+      "google antigravity"
+    ],
+    "position": 35,
     "enabled": true
   }
 ]
