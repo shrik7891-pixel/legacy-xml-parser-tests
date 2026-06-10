@@ -266,8 +266,9 @@ async function run() {
   const dedupedVideos = [];
   const seenIds = new Set();
   for (const v of newCurrentVideos) {
-      if (!seenIds.has(v.id)) {
-          seenIds.add(v.id);
+      const uniqueKey = v.id + '_' + v.topic_id;
+      if (!seenIds.has(uniqueKey)) {
+          seenIds.add(uniqueKey);
           dedupedVideos.push(v);
       }
   }
