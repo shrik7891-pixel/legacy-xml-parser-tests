@@ -2324,5 +2324,365 @@
       "lightning strike slow motion",
       "hurricane drone footage"
     ]
+  },
+  {
+    "id": "language_learning",
+    "name": "Language Learning & Polyglots",
+    "icon": "\ud83d\udde3\ufe0f",
+    "enabled": true,
+    "keywords": [
+      "learn english speaking",
+      "polyglot speaking languages",
+      "japanese language lesson",
+      "language learning tips"
+    ]
+  },
+  {
+    "id": "heavy_machinery",
+    "name": "Heavy Machinery & Mega Projects",
+    "icon": "\ud83d\ude9c",
+    "enabled": true,
+    "keywords": [
+      "mega construction projects",
+      "heavy machinery operating",
+      "mining excavator in action",
+      "bridge construction timelapse"
+    ]
+  },
+  {
+    "id": "container_homes",
+    "name": "Tiny Houses & Container Homes",
+    "icon": "\ud83d\uded6",
+    "enabled": true,
+    "keywords": [
+      "shipping container home build",
+      "tiny house tour 2026",
+      "off grid cabin build",
+      "van life interior tour"
+    ]
+  },
+  {
+    "id": "watches_edc",
+    "name": "Watches, Horology & EDC",
+    "icon": "\u231a",
+    "enabled": true,
+    "keywords": [
+      "luxury watch collection",
+      "rolex review",
+      "everyday carry gear 2026",
+      "watch restoration asmr"
+    ]
+  },
+  {
+    "id": "skill_toys",
+    "name": "Skill Toys & Pen Spinning",
+    "icon": "\ud83e\ude80",
+    "enabled": true,
+    "keywords": [
+      "pen spinning tutorial",
+      "yoyo tricks advanced",
+      "balisong flipping",
+      "rubiks cube world record"
+    ]
+  },
+  {
+    "id": "competitive_eating",
+    "name": "Competitive Eating & Challenges",
+    "icon": "\ud83c\udf54",
+    "enabled": true,
+    "keywords": [
+      "man vs food challenge",
+      "spicy noodle challenge",
+      "competitive eating contest",
+      "giant food challenge"
+    ]
+  },
+  {
+    "id": "vtubers",
+    "name": "VTubers & Virtual Creators",
+    "icon": "\ud83d\udc7e",
+    "enabled": true,
+    "keywords": [
+      "vtuber funny moments",
+      "hololive english clips",
+      "vtuber debut",
+      "virtual youtuber highlights"
+    ]
+  },
+  {
+    "id": "base_building_games",
+    "name": "Survival & Base Building Games",
+    "icon": "\u26cf\ufe0f",
+    "enabled": true,
+    "keywords": [
+      "minecraft hardcore survival",
+      "rust base building",
+      "palworld gameplay",
+      "survival game base defense"
+    ]
+  },
+  {
+    "id": "ocean_exploration",
+    "name": "Deep Sea & Ocean Exploration",
+    "icon": "\ud83c\udf0a",
+    "enabled": true,
+    "keywords": [
+      "mariana trench exploration",
+      "deep sea creatures footage",
+      "submarine tour",
+      "shipwreck diving footage"
+    ]
+  },
+  {
+    "id": "kpop_culture",
+    "name": "K-Pop & Idol Culture",
+    "icon": "\ud83c\udfa4",
+    "enabled": true,
+    "keywords": [
+      "kpop dance practice",
+      "bts behind the scenes",
+      "blackpink live performance",
+      "kpop music video reaction"
+    ]
+  },
+  {
+    "id": "classical_music",
+    "name": "Classical Music & Orchestras",
+    "icon": "\ud83c\udfbb",
+    "enabled": true,
+    "keywords": [
+      "symphony orchestra live",
+      "piano concerto performance",
+      "hans zimmer live",
+      "classical music for studying"
+    ]
+  },
+  {
+    "id": "theater_broadway",
+    "name": "Theater, Musicals & Broadway",
+    "icon": "\ud83c\udfad",
+    "enabled": true,
+    "keywords": [
+      "broadway musical performance",
+      "hamilton live",
+      "phantom of the opera highlights",
+      "stage play behind the scenes"
+    ]
+  },
+  {
+    "id": "spoken_word",
+    "name": "Poetry & Spoken Word",
+    "icon": "\ud83d\udcdc",
+    "enabled": true,
+    "keywords": [
+      "spoken word poetry slam",
+      "def poetry jam",
+      "emotional poetry reading",
+      "slam poetry competition"
+    ]
+  },
+  {
+    "id": "skate_bmx",
+    "name": "Skateboarding & Extreme BMX",
+    "icon": "\ud83d\udef9",
+    "enabled": true,
+    "keywords": [
+      "skateboarding street highlights",
+      "bmx dirt jump tricks",
+      "skatepark compilation",
+      "tony hawk pro skater real life"
+    ]
+  },
+  {
+    "id": "parkour_freerunning",
+    "name": "Parkour & Freerunning",
+    "icon": "\ud83c\udfc3",
+    "enabled": true,
+    "keywords": [
+      "parkour pov rooftop",
+      "red bull freerunning",
+      "urban parkour stunts",
+      "parkour fails and wins"
+    ]
+  },
+  {
+    "id": "lockpicking",
+    "name": "Lockpicking & Security",
+    "icon": "\ud83d\udd13",
+    "enabled": true,
+    "keywords": [
+      "lockpicking tutorial",
+      "lockpickinglawyer best",
+      "physical security penetration testing",
+      "safe cracking techniques"
+    ]
+  },
+  {
+    "id": "blacksmithing",
+    "name": "Blacksmithing & Forging",
+    "icon": "\u2692\ufe0f",
+    "enabled": true,
+    "keywords": [
+      "forging a sword from rusty metal",
+      "blacksmithing for beginners",
+      "damascus steel knife making",
+      "anvil restoration"
+    ]
+  },
+  {
+    "id": "glassblowing_pottery",
+    "name": "Glassblowing & Ceramics",
+    "icon": "\ud83c\udffa",
+    "enabled": true,
+    "keywords": [
+      "glassblowing vase tutorial",
+      "pottery wheel throwing",
+      "ceramic glazing techniques",
+      "making neon signs"
+    ]
+  },
+  {
+    "id": "tattoo_art",
+    "name": "Tattoo Art & Piercings",
+    "icon": "\ud83d\udd8b\ufe0f",
+    "enabled": true,
+    "keywords": [
+      "tattoo time lapse cover up",
+      "traditional japanese tattoo",
+      "first tattoo experience",
+      "tattoo artist interview"
+    ]
+  },
+  {
+    "id": "miniature_painting",
+    "name": "Miniature Painting & Dioramas",
+    "icon": "\ud83d\udd8c\ufe0f",
+    "enabled": true,
+    "keywords": [
+      "painting warhammer miniatures",
+      "resin diorama ocean",
+      "model train scenery building",
+      "gundam gunpla custom build"
+    ]
+  },
+  {
+    "id": "speedrunning",
+    "name": "Speedrunning & Glitches",
+    "icon": "\u23f1\ufe0f",
+    "enabled": true,
+    "keywords": [
+      "super mario 64 speedrun",
+      "elden ring speedrun world record",
+      "video game glitches explained",
+      "games done quick highlights"
+    ]
+  },
+  {
+    "id": "retro_commercials",
+    "name": "Retro Advertising & Media",
+    "icon": "\ud83d\udcfa",
+    "enabled": true,
+    "keywords": [
+      "90s commercials compilation",
+      "vintage advertising history",
+      "80s tv bumpers",
+      "retro infomercials"
+    ]
+  },
+  {
+    "id": "crime_interrogations",
+    "name": "True Crime Interrogations",
+    "icon": "\ud83d\udd75\ufe0f",
+    "enabled": true,
+    "keywords": [
+      "police interrogation analysis",
+      "bodycam footage breakdown",
+      "detective psychology",
+      "courtroom cross examination"
+    ]
+  },
+  {
+    "id": "aquascaping",
+    "name": "Aquarium Aquascaping",
+    "icon": "\ud83d\udc20",
+    "enabled": true,
+    "keywords": [
+      "planted aquarium setup",
+      "nano reef tank build",
+      "aquascape competition layout",
+      "betta fish tank makeover"
+    ]
+  },
+  {
+    "id": "terrariums_ants",
+    "name": "Terrariums & Ant Farms",
+    "icon": "\ud83d\udc1c",
+    "enabled": true,
+    "keywords": [
+      "bioactive terrarium build",
+      "ant farm colony feeding",
+      "closed terrarium ecosystem",
+      "tarantula enclosure setup"
+    ]
+  },
+  {
+    "id": "off_roading",
+    "name": "Off-Roading & Mudding",
+    "icon": "\ud83d\ude99",
+    "enabled": true,
+    "keywords": [
+      "4x4 off road extreme",
+      "jeep rock crawling",
+      "mud bogging trucks",
+      "overland vehicle walkaround"
+    ]
+  },
+  {
+    "id": "van_life",
+    "name": "Van Life & RV Tours",
+    "icon": "\ud83d\ude90",
+    "enabled": true,
+    "keywords": [
+      "sprinter van conversion tour",
+      "full time rv living",
+      "van life winter camping",
+      "skoolie bus conversion"
+    ]
+  },
+  {
+    "id": "indian_festivals",
+    "name": "Local Indian Festivals",
+    "icon": "\ud83e\ude94",
+    "enabled": true,
+    "keywords": [
+      "ganesh chaturthi visarjan pune",
+      "dahi handi mumbai 4k",
+      "navratri garba gujarat",
+      "holi celebrations vrindavan"
+    ]
+  },
+  {
+    "id": "agriculture_machinery",
+    "name": "Tractors & Farming Tech",
+    "icon": "\ud83d\ude9c",
+    "enabled": true,
+    "keywords": [
+      "tractor stuck in mud recovery",
+      "combine harvester in action",
+      "modern farming technology india",
+      "agriculture drone spraying"
+    ]
+  },
+  {
+    "id": "regional_indian_music",
+    "name": "Regional Indian Music & Folk",
+    "icon": "\ud83e\ude98",
+    "enabled": true,
+    "keywords": [
+      "punjabi bhangra performance",
+      "rajasthani folk song live",
+      "bhojpuri new song 2026",
+      "gujarati dayro live"
+    ]
   }
 ]
