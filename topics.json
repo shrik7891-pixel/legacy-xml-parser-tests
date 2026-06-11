@@ -2034,5 +2034,155 @@
       "sustainable living off grid",
       "homesteading skills"
     ]
+  },
+  {
+    "id": "anime_animation",
+    "name": "Anime & Animation",
+    "icon": "\ud83d\udc7a",
+    "enabled": true,
+    "keywords": [
+      "anime recap",
+      "jujutsu kaisen explained",
+      "3d animation short film",
+      "manga review",
+      "studio ghibli aesthetic",
+      "attack on titan highlights",
+      "naruto fight scene hd"
+    ]
+  },
+  {
+    "id": "trading_crypto",
+    "name": "Trading & Crypto",
+    "icon": "\ud83d\udcc8",
+    "enabled": true,
+    "keywords": [
+      "day trading live",
+      "crypto news today",
+      "options trading banknifty",
+      "forex trading strategy",
+      "bitcoin analysis 2026",
+      "stock market intraday",
+      "price action trading"
+    ]
+  },
+  {
+    "id": "internet_mysteries",
+    "name": "Digital Horror & Internet Lore",
+    "icon": "\ud83d\udc7b",
+    "enabled": true,
+    "keywords": [
+      "internet mysteries",
+      "lost media documentary",
+      "creepypasta story",
+      "reddit scary stories",
+      "unexplained phenomena",
+      "backrooms explained",
+      "scp foundation lore"
+    ]
+  },
+  {
+    "id": "books_literature",
+    "name": "Books, Literature & Comics",
+    "icon": "\ud83d\udcda",
+    "enabled": true,
+    "keywords": [
+      "audiobooks full length",
+      "booktube recommendations",
+      "comic book lore",
+      "manga reading",
+      "fantasy books review",
+      "classic literature explained",
+      "marvel comics history"
+    ]
+  },
+  {
+    "id": "pets_cute_animals",
+    "name": "Pets & Cute Animals",
+    "icon": "\ud83d\udc36",
+    "enabled": true,
+    "keywords": [
+      "funny cats compilation",
+      "dog training tips",
+      "golden retriever puppy",
+      "aquarium setup planted",
+      "cute animal videos 2026",
+      "exotic pets tour",
+      "parrot talking funny"
+    ]
+  },
+  {
+    "id": "magic_illusion",
+    "name": "Magic & Illusion",
+    "icon": "\ud83c\udfa9",
+    "enabled": true,
+    "keywords": [
+      "street magic david blaine",
+      "card trick tutorial",
+      "america's got talent magic",
+      "penn and teller fool us",
+      "mind reading mentalism",
+      "sleight of hand tutorial",
+      "magic trick revealed"
+    ]
+  },
+  {
+    "id": "martial_arts_combat",
+    "name": "Martial Arts & Combat Sports",
+    "icon": "\ud83e\udd4a",
+    "enabled": true,
+    "keywords": [
+      "ufc highlights hd",
+      "boxing training drills",
+      "muay thai knockouts",
+      "bjj techniques",
+      "martial arts movie fight",
+      "self defense techniques",
+      "kickboxing match"
+    ]
+  },
+  {
+    "id": "beauty_makeup",
+    "name": "Beauty, Skincare & Makeup",
+    "icon": "\ud83d\udc84",
+    "enabled": true,
+    "keywords": [
+      "makeup tutorial 2026",
+      "skincare routine for glowing skin",
+      "korean beauty secrets",
+      "nail art compilation",
+      "hair styling tutorial",
+      "budget makeup haul",
+      "dermatologist skincare tips"
+    ]
+  },
+  {
+    "id": "auto_repair_modding",
+    "name": "Automotive Repair & Modding",
+    "icon": "\ud83d\udd27",
+    "enabled": true,
+    "keywords": [
+      "engine rebuild timelapse",
+      "car painting tutorial",
+      "exhaust swap sound",
+      "jdm car build",
+      "mechanic tips and tricks",
+      "car detailing deep clean",
+      "motorcycle restoration"
+    ]
+  },
+  {
+    "id": "cybersecurity_coding",
+    "name": "Cybersecurity & Coding",
+    "icon": "\ud83d\udcbb",
+    "enabled": true,
+    "keywords": [
+      "ethical hacking tutorial",
+      "python coding project",
+      "cybersecurity documentary",
+      "software engineering vlog",
+      "linux desktop setup",
+      "defcon hacking conference",
+      "web development tutorial"
+    ]
   }
 ]
