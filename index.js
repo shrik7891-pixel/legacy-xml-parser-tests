@@ -281,8 +281,8 @@ async function run() {
   for (const topicId in videosByTopic) {
       // Sort within each topic by performance
       videosByTopic[topicId].sort((a, b) => b.performance - a.performance);
-      // Keep top 150 per topic
-      finalVideos = finalVideos.concat(videosByTopic[topicId].slice(0, 150));
+      // Keep top 1000 per topic
+      finalVideos = finalVideos.concat(videosByTopic[topicId].slice(0, 1000));
   }
 
   // Final global sort just for consistency
@@ -305,7 +305,7 @@ async function run() {
       if (!tvFeed[v.topic_id]) {
           tvFeed[v.topic_id] = [];
       }
-      if (tvFeed[v.topic_id].length < 150) { // Keep top 150 per topic for TV UI
+      if (tvFeed[v.topic_id].length < 500) { // Keep top 500 per topic for TV UI
           tvFeed[v.topic_id].push(v);
       }
   }
