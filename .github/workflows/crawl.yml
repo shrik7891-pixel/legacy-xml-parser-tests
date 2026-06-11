@@ -37,8 +37,10 @@ jobs:
         run: |
           mkdir -p tv_deploy
           # We must download the existing userScript.js so Surge doesn't delete it!
-          curl -sL -O https://sdn-ptv.surge.sh/userScript.js
-          mv userScript.js tv_deploy/
+          curl -sL -f -O https://sdn-ptv.surge.sh/userScript.js || echo "Failed to download userScript.js"
+          if [ -f userScript.js ]; then
+            mv userScript.js tv_deploy/
+          fi
           cp topics.json tv_deploy/
           cp tv_feed.json tv_deploy/tv_feed.json
           echo "*" > tv_deploy/CORS
@@ -55,7 +57,10 @@ jobs:
           git push origin live-data -f || echo "No changes to push"
 
       - name: Deploy data to TV Surge Host
-        run: npx surge ./tv_deploy sdn-ptv.surge.sh
+        run: |
+          for i in 1 2 3; do
+            npx surge ./tv_deploy sdn-ptv.surge.sh && break || sleep 5
+          done
         env:
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
