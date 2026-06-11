@@ -207,7 +207,7 @@ async function run() {
           let ageHours = parseAgeTextToHours(v.publishedText);
           let vph = ageHours > 0 ? Math.round(currentViews / ageHours) : 0;
           
-          let change_30m = 0;
+          let current_vph = 0;
           const cached = videoCache.get(v.videoId);
           let created_at = new Date().toISOString();
 
@@ -216,12 +216,13 @@ async function run() {
               const timeDiffSecs = (new Date() - new Date(cached.last_seen)) / 1000;
               if (timeDiffSecs > 60) {
                   const viewDelta = Math.max(0, currentViews - cached.views);
-                  change_30m = Math.round((viewDelta / timeDiffSecs) * 1800);
+                  // Calculate strictly as views per hour (VPH) instead of per 30m
+                  current_vph = Math.round((viewDelta / timeDiffSecs) * 3600);
               }
           }
 
           let pulse_score = computePulseScore(vph, v.publishedText, topic.id);
-          if (change_30m > vph) {
+          if (current_vph > vph) {
               pulse_score = Math.round(pulse_score * 1.5);
           }
 
@@ -239,7 +240,7 @@ async function run() {
             thumbnail: v.thumbnail,
             views: currentViews,
             vph: vph,
-            change_30m: change_30m,
+            current_vph: current_vph,
             performance: pulse_score,
             created_at: created_at,
             last_seen: new Date().toISOString()
@@ -292,10 +293,8 @@ async function run() {
 
   let finalVideos = [];
   for (const topicId in videosByTopic) {
-      // Sort within each topic by performance
       videosByTopic[topicId].sort((a, b) => b.performance - a.performance);
-      // Keep top 1000 per topic
-      finalVideos = finalVideos.concat(videosByTopic[topicId].slice(0, 1000));
+      finalVideos = finalVideos.concat(videosByTopic[topicId]); // Keep ALL videos!
   }
 
   // Final global sort just for consistency
