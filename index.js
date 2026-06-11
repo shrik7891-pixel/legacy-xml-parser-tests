@@ -207,8 +207,8 @@ async function run() {
           let ageHours = parseAgeTextToHours(v.publishedText);
           let vph = ageHours > 0 ? Math.round(currentViews / ageHours) : 0;
           
-          let current_vph = 0;
           const cached = videoCache.get(v.videoId);
+          let current_vph = cached ? (cached.current_vph || cached.change_30m || 0) : 0;
           let created_at = new Date().toISOString();
 
           if (cached) {
@@ -280,6 +280,9 @@ async function run() {
           const hoursSinceSeen = (new Date() - new Date(oldV.last_seen)) / (1000 * 60 * 60);
           if (hoursSinceSeen < 48) { // Keep history for 48 hours
               seenIds.add(uniqueKey);
+              if (oldV.current_vph === undefined) {
+                  oldV.current_vph = oldV.change_30m || 0;
+              }
               dedupedVideos.push(oldV);
           }
       }
