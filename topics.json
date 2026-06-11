@@ -2184,5 +2184,145 @@
       "software engineering vlog",
       "web development tutorial"
     ]
+  },
+  {
+    "id": "study_body_doubling",
+    "name": "Silent Focus & Study Ambience",
+    "icon": "\u2615",
+    "enabled": true,
+    "keywords": [
+      "study with me pomodoro",
+      "silent vlog aesthetic",
+      "clean with me no talking",
+      "cafe ambiance study",
+      "rainy window reading",
+      "library sounds for studying"
+    ]
+  },
+  {
+    "id": "oddly_satisfying_process",
+    "name": "Oddly Satisfying & Process",
+    "icon": "\ud83e\uddfc",
+    "enabled": true,
+    "keywords": [
+      "power washing satisfying",
+      "carpet cleaning asmr",
+      "rusty restoration timelapse",
+      "kinetic sand cutting",
+      "paint mixing satisfying",
+      "factory process satisfying"
+    ]
+  },
+  {
+    "id": "primitive_technology",
+    "name": "Ancient Crafts & Primitive Tech",
+    "icon": "\ud83e\ude93",
+    "enabled": true,
+    "keywords": [
+      "primitive technology building",
+      "making a knife from scratch",
+      "bushcraft shelter build",
+      "ancient pottery techniques",
+      "survival building pool",
+      "primitive skills fire"
+    ]
+  },
+  {
+    "id": "micro_history_lost",
+    "name": "Micro-History & Urbex",
+    "icon": "\ud83c\udfda\ufe0f",
+    "enabled": true,
+    "keywords": [
+      "abandoned hospital exploration",
+      "forgotten historical events",
+      "defunct theme park history",
+      "ghost town exploration",
+      "urban exploration europe",
+      "abandoned mansion tour"
+    ]
+  },
+  {
+    "id": "nostalgia_tech",
+    "name": "Nostalgia Tech & Repair",
+    "icon": "\ud83d\udd79\ufe0f",
+    "enabled": true,
+    "keywords": [
+      "restoring 90s console",
+      "retro pc build",
+      "unboxing 2000s tech",
+      "vintage electronics repair",
+      "gameboy restoration",
+      "ipod modding"
+    ]
+  },
+  {
+    "id": "tabletop_boardgames",
+    "name": "Tabletop, D&D & Board Games",
+    "icon": "\ud83c\udfb2",
+    "enabled": true,
+    "keywords": [
+      "dungeons and dragons live play",
+      "warhammer 40k painting",
+      "board game playthrough",
+      "chess grandmaster analysis",
+      "magic the gathering gameplay",
+      "miniature diorama build"
+    ]
+  },
+  {
+    "id": "thrifting_flipping",
+    "name": "Thrifting & Flea Market Flips",
+    "icon": "\ud83c\udff7\ufe0f",
+    "enabled": true,
+    "keywords": [
+      "storage wars finds",
+      "flea market flips",
+      "thrift store score",
+      "dumpster diving jackpot",
+      "antique roadshow highlights",
+      "pawn stars best negotiations"
+    ]
+  },
+  {
+    "id": "baking_desserts",
+    "name": "Baking, Desserts & Pastry",
+    "icon": "\ud83e\uddc1",
+    "enabled": true,
+    "keywords": [
+      "cake decorating timelapse",
+      "chocolate sculpture amaury guichon",
+      "baking macarons asmr",
+      "korean street bakery",
+      "pastry chef techniques",
+      "sugar art pulling"
+    ]
+  },
+  {
+    "id": "theme_parks_coasters",
+    "name": "Theme Parks & Rollercoasters",
+    "icon": "\ud83c\udfa2",
+    "enabled": true,
+    "keywords": [
+      "rollercoaster pov 4k",
+      "disneyland walkthrough 4k",
+      "universal studios secrets",
+      "theme park history",
+      "animatronics behind the scenes",
+      "disney world food tour"
+    ]
+  },
+  {
+    "id": "extreme_weather",
+    "name": "Extreme Weather & Nature",
+    "icon": "\ud83c\udf2a\ufe0f",
+    "enabled": true,
+    "keywords": [
+      "tornado chasing 4k",
+      "volcano eruption close up",
+      "massive wave surfing",
+      "flash flood caught on camera",
+      "lightning strike slow motion",
+      "hurricane drone footage"
+    ]
   }
 ]
