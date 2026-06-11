@@ -260,9 +260,7 @@ async function run() {
     };
   }
   
-  // 4. Deduplicate, Sort and prune global videos feed (keep top 5000 to save space)
-  newCurrentVideos.sort((a, b) => b.performance - a.performance);
-  
+  // 4. Deduplicate, Sort and prune to guarantee top 150 videos PER TOPIC
   const dedupedVideos = [];
   const seenIds = new Set();
   for (const v of newCurrentVideos) {
@@ -272,7 +270,24 @@ async function run() {
           dedupedVideos.push(v);
       }
   }
-  masterData.current_videos = dedupedVideos.slice(0, 5000);
+
+  const videosByTopic = {};
+  for (const v of dedupedVideos) {
+      if (!videosByTopic[v.topic_id]) videosByTopic[v.topic_id] = [];
+      videosByTopic[v.topic_id].push(v);
+  }
+
+  let finalVideos = [];
+  for (const topicId in videosByTopic) {
+      // Sort within each topic by performance
+      videosByTopic[topicId].sort((a, b) => b.performance - a.performance);
+      // Keep top 150 per topic
+      finalVideos = finalVideos.concat(videosByTopic[topicId].slice(0, 150));
+  }
+
+  // Final global sort just for consistency
+  finalVideos.sort((a, b) => b.performance - a.performance);
+  masterData.current_videos = finalVideos;
 
   // 5. Append Historical Snapshot
   masterData.snapshots.push(currentSnapshot);
@@ -286,7 +301,7 @@ async function run() {
 
   // 7. Generate lightweight TV feed
   const tvFeed = {};
-  for (const v of dedupedVideos) {
+  for (const v of masterData.current_videos) {
       if (!tvFeed[v.topic_id]) {
           tvFeed[v.topic_id] = [];
       }
