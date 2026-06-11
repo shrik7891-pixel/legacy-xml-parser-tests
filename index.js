@@ -260,14 +260,27 @@ async function run() {
     };
   }
   
-  // 4. Deduplicate, Sort and prune to guarantee top 150 videos PER TOPIC
   const dedupedVideos = [];
   const seenIds = new Set();
+  
+  // First, add all newly found videos
   for (const v of newCurrentVideos) {
       const uniqueKey = v.id + '_' + v.topic_id;
       if (!seenIds.has(uniqueKey)) {
           seenIds.add(uniqueKey);
           dedupedVideos.push(v);
+      }
+  }
+
+  // Second, merge historical videos from cache so we don't lose them if they temporarily vanish from YouTube search!
+  for (const oldV of videoCache.values()) {
+      const uniqueKey = oldV.id + '_' + oldV.topic_id;
+      if (!seenIds.has(uniqueKey)) {
+          const hoursSinceSeen = (new Date() - new Date(oldV.last_seen)) / (1000 * 60 * 60);
+          if (hoursSinceSeen < 48) { // Keep history for 48 hours
+              seenIds.add(uniqueKey);
+              dedupedVideos.push(oldV);
+          }
       }
   }
 
