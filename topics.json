@@ -2,7 +2,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🎵",
+    "icon": "\ud83c\udfb5",
     "id": "music_songs",
     "keywords": [
       "4k video song",
@@ -52,7 +52,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🎬",
+    "icon": "\ud83c\udfac",
     "id": "bollywood_cinema",
     "keywords": [
       "B4U Movies hindi",
@@ -99,7 +99,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "⭐",
+    "icon": "\u2b50",
     "id": "celeb_entertainment",
     "keywords": [
       "Akshay Kumar new movie",
@@ -149,7 +149,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🎭",
+    "icon": "\ud83c\udfad",
     "id": "marathi_entertainment",
     "keywords": [
       "Bhau Kadam comedy",
@@ -192,7 +192,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🤣",
+    "icon": "\ud83e\udd23",
     "id": "favorite_comedy_shows",
     "keywords": [
       "Atharva Sudame comedy",
@@ -227,7 +227,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🎤",
+    "icon": "\ud83c\udfa4",
     "id": "standup_comedy",
     "keywords": [
       "Abhishek Upmanyu comedy",
@@ -274,7 +274,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🍔",
+    "icon": "\ud83c\udf54",
     "id": "food_street",
     "keywords": [
       "best restaurant review",
@@ -326,7 +326,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🍳",
+    "icon": "\ud83c\udf73",
     "id": "drinks_recipes",
     "keywords": [
       "Gordon Ramsay recipe",
@@ -371,7 +371,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🗺️",
+    "icon": "\ud83d\uddfa\ufe0f",
     "id": "india_travel_mh_gj",
     "keywords": [
       "Bhedaghat Marble Rocks",
@@ -437,7 +437,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🚘",
+    "icon": "\ud83d\ude98",
     "id": "road_trips_india",
     "keywords": [
       "Atal Tunnel Rohtang drive",
@@ -487,10 +487,10 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🚂",
+    "icon": "\ud83d\ude82",
     "id": "railway_trips",
     "keywords": [
-      " वंदे भारत express tour",
+      " \u0935\u0902\u0926\u0947 \u092d\u093e\u0930\u0924 express tour",
       "Chenab Bridge train Kashmir",
       "Darjeeling toy train",
       "Deccan Queen train journey",
@@ -521,7 +521,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "✈️",
+    "icon": "\u2708\ufe0f",
     "id": "global_travel",
     "keywords": [
       "Dubai travel vlog",
@@ -583,7 +583,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "📌",
+    "icon": "\ud83d\udccc",
     "id": "india_attractions",
     "keywords": [
       "Adiyogi Shiva Statue Coimbatore",
@@ -655,7 +655,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "👩",
+    "icon": "\ud83d\udc69",
     "id": "vloggers_lifestyle",
     "keywords": [
       "Amaazia Waterpark Surat",
@@ -750,7 +750,7 @@
       "village family vlog india",
       "vlogging daily life aesthetic",
       "weekend vlog aesthetic",
-      "प्रियदर्शिनी"
+      "\u092a\u094d\u0930\u093f\u092f\u0926\u0930\u094d\u0936\u093f\u0928\u0940"
     ],
     "last_crawled": 1781179003419,
     "name": "Vloggers & Family Vloggers",
@@ -759,7 +759,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "📱",
+    "icon": "\ud83d\udcf1",
     "id": "android_hacks",
     "keywords": [
       "Chrome tips and tricks",
@@ -807,7 +807,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "📱",
+    "icon": "\ud83d\udcf1",
     "id": "tech_gadgets",
     "keywords": [
       "GPU review 2026",
@@ -862,7 +862,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🤖",
+    "icon": "\ud83e\udd16",
     "id": "ai_future",
     "keywords": [
       "AGI artificial general intelligence",
@@ -912,7 +912,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🚗",
+    "icon": "\ud83d\ude97",
     "id": "cars_bikes",
     "keywords": [
       "auto detailing",
@@ -964,7 +964,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "💪",
+    "icon": "\ud83d\udcaa",
     "id": "health_fitness",
     "keywords": [
       "ayurveda tips hindi",
@@ -1009,7 +1009,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "💰",
+    "icon": "\ud83d\udcb0",
     "id": "finance_money",
     "keywords": [
       "SIP investment guide",
@@ -1054,7 +1054,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🔬",
+    "icon": "\ud83d\udd2c",
     "id": "space_science",
     "keywords": [
       "CRISPR gene editing",
@@ -1095,7 +1095,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🐾",
+    "icon": "\ud83d\udc3e",
     "id": "animals_wildlife",
     "keywords": [
       "BBC earth documentary",
@@ -1153,7 +1153,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🕵️",
+    "icon": "\ud83d\udd75\ufe0f",
     "id": "true_crime",
     "keywords": [
       "cold case solved 2026",
@@ -1188,7 +1188,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🛠️",
+    "icon": "\ud83d\udee0\ufe0f",
     "id": "diy_maker",
     "keywords": [
       "3d printing project",
@@ -1235,7 +1235,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🌿",
+    "icon": "\ud83c\udf3f",
     "id": "nature_4k",
     "keywords": [
       "12k nature video",
@@ -1275,7 +1275,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🌏",
+    "icon": "\ud83c\udf0f",
     "id": "city_walk",
     "keywords": [
       "amsterdam walk 4k",
@@ -1319,7 +1319,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🎮",
+    "icon": "\ud83c\udfae",
     "id": "gaming",
     "keywords": [
       "GTA 6 gameplay",
@@ -1356,7 +1356,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🏏",
+    "icon": "\ud83c\udfcf",
     "id": "cricket_sports",
     "keywords": [
       "F1 race highlights 2026",
@@ -1395,7 +1395,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🏠",
+    "icon": "\ud83c\udfe0",
     "id": "home_interior",
     "keywords": [
       "affordable interior design india",
@@ -1428,7 +1428,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🏖️",
+    "icon": "\ud83c\udfd6\ufe0f",
     "id": "beach_ocean",
     "keywords": [
       "Marari Beach Kerala",
@@ -1465,7 +1465,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "💸",
+    "icon": "\ud83d\udcb8",
     "id": "deals_budget",
     "keywords": [
       "aliexpress best products india",
@@ -1501,7 +1501,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🌍",
+    "icon": "\ud83c\udf0d",
     "id": "world_news",
     "keywords": [
       "Al Jazeera documentary",
@@ -1536,7 +1536,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "📚",
+    "icon": "\ud83d\udcda",
     "id": "education_facts",
     "keywords": [
       "Dhruv Rathee",
@@ -1579,7 +1579,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "✨",
+    "icon": "\u2728",
     "id": "spirituality_motivation",
     "keywords": [
       "BK shivani",
@@ -1625,7 +1625,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🔥",
+    "icon": "\ud83d\udd25",
     "id": "epic_fails_wins",
     "keywords": [
       "best moments caught on camera",
@@ -1664,7 +1664,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🎧",
+    "icon": "\ud83c\udfa7",
     "id": "asmr_relaxation",
     "keywords": [
       "asmr cooking sounds",
@@ -1696,7 +1696,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "👗",
+    "icon": "\ud83d\udc57",
     "id": "fashion_lifestyle",
     "keywords": [
       "aesthetic vlog india",
@@ -1733,7 +1733,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🔍",
+    "icon": "\ud83d\udd0d",
     "id": "treasure_hunting",
     "keywords": [
       "abandoned mansion exploration",
@@ -1762,7 +1762,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🧭",
+    "icon": "\ud83e\udded",
     "id": "adventure_outdoors",
     "keywords": [
       "adventure motorcycle trip",
@@ -1808,7 +1808,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🎞️",
+    "icon": "\ud83c\udf9e\ufe0f",
     "id": "documentaries",
     "keywords": [
       "BBC documentary hindi",
@@ -1844,7 +1844,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🧠",
+    "icon": "\ud83e\udde0",
     "id": "psychology_growth",
     "keywords": [
       "atomic habits summary",
@@ -1878,7 +1878,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🧑🍳",
+    "icon": "\ud83e\uddd1\ud83c\udf73",
     "id": "food_science",
     "keywords": [
       "Gordon Ramsay cooking tips",
@@ -1907,7 +1907,7 @@
   },
   {
     "enabled": true,
-    "icon": "📌",
+    "icon": "\ud83d\udccc",
     "id": "grp_mq9j3ffw1hh6mp86j06",
     "keywords": [
       "amazon prime new release",
@@ -1928,7 +1928,7 @@
   {
     "id": "hollywood_cinema",
     "name": "Hollywood & International Cinema",
-    "icon": "🎬",
+    "icon": "\ud83c\udfac",
     "enabled": true,
     "keywords": [
       "hollywood movie trailers 2026",
@@ -1943,6 +1943,96 @@
       "sci fi movies hollywood",
       "action movies hollywood hd",
       "hollywood red carpet"
+    ]
+  },
+  {
+    "id": "podcasts_interviews",
+    "name": "Podcasts & Deep Interviews",
+    "icon": "\ud83c\udf99\ufe0f",
+    "enabled": true,
+    "keywords": [
+      "joe rogan experience",
+      "ranveer allahbadia podcast",
+      "lex fridman podcast",
+      "deep dive interview",
+      "podcast highlights",
+      "huberman lab",
+      "founder interview"
+    ]
+  },
+  {
+    "id": "history_mythology",
+    "name": "Indian History & Mythology",
+    "icon": "\ud83d\udcdc",
+    "enabled": true,
+    "keywords": [
+      "indian history documentary",
+      "mahabharata explained",
+      "ancient india secrets",
+      "world history documentary",
+      "chhatrapati shivaji maharaj history",
+      "ancient civilizations",
+      "egyptian mythology"
+    ]
+  },
+  {
+    "id": "real_estate_luxury",
+    "name": "Real Estate & Luxury Homes",
+    "icon": "\ud83c\udff0",
+    "enabled": true,
+    "keywords": [
+      "luxury mansion tour",
+      "tiny house build",
+      "real estate investing india",
+      "enes yilmazer home tour",
+      "interior design tour",
+      "architectural digest home tour",
+      "budget home makeover"
+    ]
+  },
+  {
+    "id": "aviation_flying",
+    "name": "Aviation & Flying",
+    "icon": "\u2708\ufe0f",
+    "enabled": true,
+    "keywords": [
+      "cockpit view landing",
+      "flight simulator 2026",
+      "airport planespotting",
+      "first class flight review",
+      "aviation documentary",
+      "fighter jet takeoff",
+      "air traffic control audio"
+    ]
+  },
+  {
+    "id": "photography_filmmaking",
+    "name": "Photography & Filmmaking",
+    "icon": "\ud83d\udcf7",
+    "enabled": true,
+    "keywords": [
+      "camera review 2026",
+      "drone flying cinematic",
+      "video editing tutorial",
+      "street photography pov",
+      "color grading tutorial",
+      "cinematography breakdown",
+      "gopro hero extreme"
+    ]
+  },
+  {
+    "id": "agriculture_rural",
+    "name": "Agriculture & Rural Life",
+    "icon": "\ud83c\udf3e",
+    "enabled": true,
+    "keywords": [
+      "organic farming india",
+      "rural village life vlog",
+      "tractor review india",
+      "modern agriculture machinery",
+      "dairy farming setup",
+      "sustainable living off grid",
+      "homesteading skills"
     ]
   }
 ]
