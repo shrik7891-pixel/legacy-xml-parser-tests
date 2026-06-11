@@ -1472,5 +1472,15 @@
     "last_crawled": 1781179003419,
     "name": "Cooking Skills & Food Science",
     "position": 41
+  },
+  {
+    "id": "grp_mq9j3ffw1hh6mp86j06",
+    "icon": "📌",
+    "name": "Webseries",
+    "keywords": [
+      "filtercopy"
+    ],
+    "position": 42,
+    "enabled": true
   }
 ]
