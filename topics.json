@@ -2771,5 +2771,18 @@
       "gujarati dayro live"
     ],
     "name": "Regional Indian Music & Folk"
+  },
+  {
+    "id": "grp_mqbbtu057rgtqrc64f2",
+    "icon": "📌",
+    "name": "Audio Production",
+    "keywords": [
+      "music plugins",
+      "vocal plugin",
+      "music production",
+      "audio plugin"
+    ],
+    "position": 102,
+    "enabled": true
   }
 ]
