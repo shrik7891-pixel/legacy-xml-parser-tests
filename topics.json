@@ -2,7 +2,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83c\udfb5",
+    "icon": "🎵",
     "id": "music_songs",
     "keywords": [
       "4k video song",
@@ -52,7 +52,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83c\udfac",
+    "icon": "🎬",
     "id": "bollywood_cinema",
     "keywords": [
       "B4U Movies hindi",
@@ -99,11 +99,11 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\u2b50",
+    "icon": "⭐",
     "id": "celeb_entertainment",
     "keywords": [
-      "Akshay Kumar new movie",
-      "Alia Bhatt latest",
+      "Akshay Kumar",
+      "Alia Bhatt",
       "Anushka Sharma",
       "Deepika Padukone",
       "Disha Patani",
@@ -149,7 +149,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83c\udfad",
+    "icon": "🎭",
     "id": "marathi_entertainment",
     "keywords": [
       "Bhau Kadam comedy",
@@ -192,7 +192,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83e\udd23",
+    "icon": "🤣",
     "id": "favorite_comedy_shows",
     "keywords": [
       "Atharva Sudame comedy",
@@ -220,7 +220,7 @@
       "priyadarshini",
       "priyadarshini indalkar dance",
       "sameer chaughule mimicry",
-      "\u092a\u094d\u0930\u093f\u092f\u0926\u0930\u094d\u0936\u093f\u0928\u0940"
+      "प्रियदर्शिनी"
     ],
     "last_crawled": 1781179003419,
     "name": "Hasyajatra & Kapil Sharma",
@@ -229,7 +229,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83c\udfa4",
+    "icon": "🎤",
     "id": "standup_comedy",
     "keywords": [
       "Abhishek Upmanyu comedy",
@@ -276,7 +276,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83c\udf54",
+    "icon": "🍔",
     "id": "food_street",
     "keywords": [
       "best restaurant review",
@@ -332,7 +332,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83c\udf73",
+    "icon": "🍳",
     "id": "drinks_recipes",
     "keywords": [
       "Gordon Ramsay recipe",
@@ -377,7 +377,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83d\uddfa\ufe0f",
+    "icon": "🗺️",
     "id": "india_travel_mh_gj",
     "keywords": [
       "Bhedaghat Marble Rocks",
@@ -445,7 +445,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83d\ude98",
+    "icon": "🚘",
     "id": "road_trips_india",
     "keywords": [
       "Atal Tunnel Rohtang drive",
@@ -495,10 +495,10 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83d\ude82",
+    "icon": "🚂",
     "id": "railway_trips",
     "keywords": [
-      " \u0935\u0902\u0926\u0947 \u092d\u093e\u0930\u0924 express tour",
+      " वंदे भारत express tour",
       "Chenab Bridge train Kashmir",
       "Darjeeling toy train",
       "Deccan Queen train journey",
@@ -529,7 +529,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\u2708\ufe0f",
+    "icon": "✈️",
     "id": "global_travel",
     "keywords": [
       "Dubai travel vlog",
@@ -592,7 +592,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83d\udccc",
+    "icon": "📌",
     "id": "india_attractions",
     "keywords": [
       "Adiyogi Shiva Statue Coimbatore",
@@ -695,22 +695,65 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83d\udc69",
+    "icon": "👩",
     "id": "vloggers_lifestyle",
     "keywords": [
+      "Amaazia Waterpark Surat",
+      "Atal Tunnel Rohtang",
       "Be YouNick",
+      "Black Thunder Water Theme Park Mettupalayam",
+      "Chenab Bridge Kashmir",
+      "Crescent Water Park Indore",
+      "Dal Lake Shikara Ride Srinagar",
+      "Dawki River Boat Ride Meghalaya",
+      "ECR East Coast Road Chennai Drive",
+      "Egyptian mythology",
+      "F1 race highlights",
+      "Gangtok Ropeway Sikkim",
+      "Greek mythology",
+      "Hasyajatra",
+      "Heritage Transport Museum Gurgaon",
+      "INS Kursura Submarine Museum Vizag",
+      "Imagicaa Water Park",
+      "Jatayu Earths Center Kollam",
       "Komal Pandey vlog",
+      "Loktak Lake Floating National Park Manipur",
+      "Magic Planet Trivandrum",
+      "Malampuzha Dam Ropeway Kerala",
+      "Manasa Water Park Mangalore",
+      "Mandovi River Cruise Goa",
+      "Marvel Water Park Udaipur",
       "Mumbiker Nikhil",
+      "Murudeshwar Temple Elevator",
+      "Nicco Park Kolkata",
       "Prajakta Koli MostlySane",
+      "Pushpa Gujral Science City Kapurthala",
+      "Road to Heaven Dholavira",
+      "Saputara Ropeway Gujarat",
+      "Science City Kolkata",
+      "Sea World Water Park Jabalpur",
+      "Shanku's Water Park Mehsana",
+      "Smritivan Museum Bhuj",
+      "VGP Marine Kingdom Chennai",
+      "VGP Universal Kingdom",
+      "Wonderla Kochi",
       "aesthetic vlog",
+      "anime funny moments",
+      "antarctica expedition",
+      "bathroom renovation",
       "beauty and travel vlogger india",
+      "best of reddit stories",
+      "biggest food ever",
+      "budget travel tips",
       "couple vlog travel 2026",
       "couple vlogger india",
+      "cruise ship tour",
       "daily routine vlog",
       "day in the life india vlog",
       "day in the life vlog",
       "family vlog Japan",
       "family vlog india hindi",
+      "fireplace crackling",
       "funny family vlog hindi",
       "get ready with me",
       "girl food vlogger india",
@@ -718,21 +761,36 @@
       "girl travel vlogger india",
       "girl vlogger Japan daily life",
       "girl vlogger india 2026",
+      "google antigravity",
+      "india travel vlog",
       "india village life vlog",
       "indian family vlogger 2026",
+      "investigation journalism",
+      "kargil",
       "luxury lifestyle vlog",
+      "machine learning tutorial",
       "marathi girl vlogger",
+      "minimalist desk setup",
       "minimalist lifestyle",
       "mom vlogger india",
       "morning routine productive",
+      "motivation hindi",
+      "nagpur food",
+      "nashik food vlog",
+      "nashik restaurant review",
+      "off grid living",
       "real life vlog india daily",
+      "room makeover aesthetic",
+      "samsung galaxy review",
       "sister vlogger india",
       "solo girl traveler india",
       "solo travel india vlog",
       "study with me",
+      "trekking himalayas",
       "village family vlog india",
       "vlogging daily life aesthetic",
-      "weekend vlog aesthetic"
+      "weekend vlog aesthetic",
+      "प्रियदर्शिनी"
     ],
     "last_crawled": 1781179003419,
     "name": "Vloggers & Family Vloggers",
@@ -741,7 +799,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83d\udcf1",
+    "icon": "📱",
     "id": "android_hacks",
     "keywords": [
       "Chrome tips and tricks",
@@ -789,7 +847,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83d\udcf1",
+    "icon": "📱",
     "id": "tech_gadgets",
     "keywords": [
       "GPU review 2026",
@@ -846,7 +904,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83e\udd16",
+    "icon": "🤖",
     "id": "ai_future",
     "keywords": [
       "AGI artificial general intelligence",
@@ -896,7 +954,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83d\ude97",
+    "icon": "🚗",
     "id": "cars_bikes",
     "keywords": [
       "auto detailing",
@@ -948,7 +1006,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83d\udcaa",
+    "icon": "💪",
     "id": "health_fitness",
     "keywords": [
       "ayurveda tips hindi",
@@ -993,7 +1051,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83d\udcb0",
+    "icon": "💰",
     "id": "finance_money",
     "keywords": [
       "SIP investment guide",
@@ -1038,7 +1096,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83d\udd2c",
+    "icon": "🔬",
     "id": "space_science",
     "keywords": [
       "CRISPR gene editing",
@@ -1079,7 +1137,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83d\udc3e",
+    "icon": "🐾",
     "id": "animals_wildlife",
     "keywords": [
       "BBC earth documentary",
@@ -1137,7 +1195,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83d\udd75\ufe0f",
+    "icon": "🕵️",
     "id": "true_crime",
     "keywords": [
       "cold case solved 2026",
@@ -1172,7 +1230,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83d\udee0\ufe0f",
+    "icon": "🛠️",
     "id": "diy_maker",
     "keywords": [
       "3d printing project",
@@ -1219,7 +1277,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83c\udf3f",
+    "icon": "🌿",
     "id": "nature_4k",
     "keywords": [
       "12k nature video",
@@ -1259,7 +1317,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83c\udf0f",
+    "icon": "🌏",
     "id": "city_walk",
     "keywords": [
       "amsterdam walk 4k",
@@ -1303,7 +1361,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83c\udfae",
+    "icon": "🎮",
     "id": "gaming",
     "keywords": [
       "GTA 6 gameplay",
@@ -1340,7 +1398,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83c\udfcf",
+    "icon": "🏏",
     "id": "cricket_sports",
     "keywords": [
       "F1 race highlights",
@@ -1380,7 +1438,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83c\udfe0",
+    "icon": "🏠",
     "id": "home_interior",
     "keywords": [
       "affordable interior design india",
@@ -1416,7 +1474,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83c\udfd6\ufe0f",
+    "icon": "🏖️",
     "id": "beach_ocean",
     "keywords": [
       "Marari Beach Kerala",
@@ -1453,7 +1511,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83d\udcb8",
+    "icon": "💸",
     "id": "deals_budget",
     "keywords": [
       "aliexpress best products india",
@@ -1489,7 +1547,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83c\udf0d",
+    "icon": "🌍",
     "id": "world_news",
     "keywords": [
       "Al Jazeera documentary",
@@ -1524,7 +1582,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83d\udcda",
+    "icon": "📚",
     "id": "education_facts",
     "keywords": [
       "Dhruv Rathee",
@@ -1567,7 +1625,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\u2728",
+    "icon": "✨",
     "id": "spirituality_motivation",
     "keywords": [
       "BK shivani",
@@ -1614,7 +1672,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83d\udd25",
+    "icon": "🔥",
     "id": "epic_fails_wins",
     "keywords": [
       "best moments caught on camera",
@@ -1653,7 +1711,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83c\udfa7",
+    "icon": "🎧",
     "id": "asmr_relaxation",
     "keywords": [
       "asmr cooking sounds",
@@ -1686,7 +1744,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83d\udc57",
+    "icon": "👗",
     "id": "fashion_lifestyle",
     "keywords": [
       "aesthetic vlog india",
@@ -1723,7 +1781,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83d\udd0d",
+    "icon": "🔍",
     "id": "treasure_hunting",
     "keywords": [
       "abandoned mansion exploration",
@@ -1752,7 +1810,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83e\udded",
+    "icon": "🧭",
     "id": "adventure_outdoors",
     "keywords": [
       "adventure motorcycle trip",
@@ -1802,7 +1860,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83c\udf9e\ufe0f",
+    "icon": "🎞️",
     "id": "documentaries",
     "keywords": [
       "BBC documentary hindi",
@@ -1838,7 +1896,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83e\udde0",
+    "icon": "🧠",
     "id": "psychology_growth",
     "keywords": [
       "atomic habits summary",
@@ -1872,7 +1930,7 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "\ud83e\uddd1\ud83c\udf73",
+    "icon": "🧑🍳",
     "id": "food_science",
     "keywords": [
       "Gordon Ramsay cooking tips",
@@ -1901,7 +1959,7 @@
   },
   {
     "enabled": true,
-    "icon": "\ud83d\udccc",
+    "icon": "📌",
     "id": "grp_mq9j3ffw1hh6mp86j06",
     "keywords": [
       "amazon prime new release",
@@ -1920,10 +1978,9 @@
     "position": 42
   },
   {
-    "id": "hollywood_cinema",
-    "name": "Hollywood & International Cinema",
-    "icon": "\ud83c\udfac",
     "enabled": true,
+    "icon": "🎬",
+    "id": "hollywood_cinema",
     "keywords": [
       "action movies hollywood hd",
       "behind the scenes hollywood",
@@ -1937,13 +1994,13 @@
       "marvel cinematic universe",
       "oscars highlights",
       "sci fi movies hollywood"
-    ]
+    ],
+    "name": "Hollywood & International Cinema"
   },
   {
-    "id": "podcasts_interviews",
-    "name": "Podcasts & Deep Interviews",
-    "icon": "\ud83c\udf99\ufe0f",
     "enabled": true,
+    "icon": "🎙️",
+    "id": "podcasts_interviews",
     "keywords": [
       "deep dive interview",
       "founder interview",
@@ -1952,13 +2009,13 @@
       "lex fridman podcast",
       "podcast highlights",
       "ranveer allahbadia podcast"
-    ]
+    ],
+    "name": "Podcasts & Deep Interviews"
   },
   {
-    "id": "history_mythology",
-    "name": "Indian History & Mythology",
-    "icon": "\ud83d\udcdc",
     "enabled": true,
+    "icon": "📜",
+    "id": "history_mythology",
     "keywords": [
       "Egyptian mythology",
       "Greek mythology",
@@ -1969,13 +2026,13 @@
       "indian history documentary",
       "mahabharata explained",
       "world history documentary"
-    ]
+    ],
+    "name": "Indian History & Mythology"
   },
   {
-    "id": "real_estate_luxury",
-    "name": "Real Estate & Luxury Homes",
-    "icon": "\ud83c\udff0",
     "enabled": true,
+    "icon": "🏰",
+    "id": "real_estate_luxury",
     "keywords": [
       "architectural digest home tour",
       "budget home makeover",
@@ -1984,13 +2041,13 @@
       "luxury mansion tour",
       "real estate investing india",
       "tiny house build"
-    ]
+    ],
+    "name": "Real Estate & Luxury Homes"
   },
   {
-    "id": "aviation_flying",
-    "name": "Aviation & Flying",
-    "icon": "\u2708\ufe0f",
     "enabled": true,
+    "icon": "✈️",
+    "id": "aviation_flying",
     "keywords": [
       "air traffic control audio",
       "airport planespotting",
@@ -1999,13 +2056,13 @@
       "fighter jet takeoff",
       "first class flight review",
       "flight simulator 2026"
-    ]
+    ],
+    "name": "Aviation & Flying"
   },
   {
-    "id": "photography_filmmaking",
-    "name": "Photography & Filmmaking",
-    "icon": "\ud83d\udcf7",
     "enabled": true,
+    "icon": "📷",
+    "id": "photography_filmmaking",
     "keywords": [
       "camera review 2026",
       "cinematography breakdown",
@@ -2014,13 +2071,13 @@
       "gopro hero extreme",
       "street photography pov",
       "video editing tutorial"
-    ]
+    ],
+    "name": "Photography & Filmmaking"
   },
   {
-    "id": "agriculture_rural",
-    "name": "Agriculture & Rural Life",
-    "icon": "\ud83c\udf3e",
     "enabled": true,
+    "icon": "🌾",
+    "id": "agriculture_rural",
     "keywords": [
       "dairy farming setup",
       "homesteading skills",
@@ -2029,13 +2086,13 @@
       "rural village life vlog",
       "sustainable living off grid",
       "tractor review india"
-    ]
+    ],
+    "name": "Agriculture & Rural Life"
   },
   {
-    "id": "anime_animation",
-    "name": "Anime & Animation",
-    "icon": "\ud83d\udc7a",
     "enabled": true,
+    "icon": "👺",
+    "id": "anime_animation",
     "keywords": [
       "3d animation short film",
       "anime funny moments",
@@ -2045,13 +2102,13 @@
       "manga review",
       "naruto fight scene hd",
       "studio ghibli aesthetic"
-    ]
+    ],
+    "name": "Anime & Animation"
   },
   {
-    "id": "trading_crypto",
-    "name": "Trading & Crypto",
-    "icon": "\ud83d\udcc8",
     "enabled": true,
+    "icon": "📈",
+    "id": "trading_crypto",
     "keywords": [
       "bitcoin analysis 2026",
       "crypto news today",
@@ -2060,13 +2117,13 @@
       "options trading banknifty",
       "price action trading",
       "stock market intraday"
-    ]
+    ],
+    "name": "Trading & Crypto"
   },
   {
-    "id": "internet_mysteries",
-    "name": "Digital Horror & Internet Lore",
-    "icon": "\ud83d\udc7b",
     "enabled": true,
+    "icon": "👻",
+    "id": "internet_mysteries",
     "keywords": [
       "backrooms explained",
       "best of reddit stories",
@@ -2077,13 +2134,13 @@
       "reddit scary stories",
       "scp foundation lore",
       "unexplained phenomena"
-    ]
+    ],
+    "name": "Digital Horror & Internet Lore"
   },
   {
-    "id": "books_literature",
-    "name": "Books, Literature & Comics",
-    "icon": "\ud83d\udcda",
     "enabled": true,
+    "icon": "📚",
+    "id": "books_literature",
     "keywords": [
       "audiobooks full length",
       "booktube recommendations",
@@ -2092,13 +2149,13 @@
       "fantasy books review",
       "manga reading",
       "marvel comics history"
-    ]
+    ],
+    "name": "Books, Literature & Comics"
   },
   {
-    "id": "pets_cute_animals",
-    "name": "Pets & Cute Animals",
-    "icon": "\ud83d\udc36",
     "enabled": true,
+    "icon": "🐶",
+    "id": "pets_cute_animals",
     "keywords": [
       "aquarium setup planted",
       "cute animal videos 2026",
@@ -2107,13 +2164,13 @@
       "funny cats compilation",
       "golden retriever puppy",
       "parrot talking funny"
-    ]
+    ],
+    "name": "Pets & Cute Animals"
   },
   {
-    "id": "magic_illusion",
-    "name": "Magic & Illusion",
-    "icon": "\ud83c\udfa9",
     "enabled": true,
+    "icon": "🎩",
+    "id": "magic_illusion",
     "keywords": [
       "america's got talent magic",
       "card trick tutorial",
@@ -2122,13 +2179,13 @@
       "penn and teller fool us",
       "sleight of hand tutorial",
       "street magic david blaine"
-    ]
+    ],
+    "name": "Magic & Illusion"
   },
   {
-    "id": "martial_arts_combat",
-    "name": "Martial Arts & Combat Sports",
-    "icon": "\ud83e\udd4a",
     "enabled": true,
+    "icon": "🥊",
+    "id": "martial_arts_combat",
     "keywords": [
       "bjj techniques",
       "boxing training drills",
@@ -2137,13 +2194,13 @@
       "muay thai knockouts",
       "self defense techniques",
       "ufc highlights hd"
-    ]
+    ],
+    "name": "Martial Arts & Combat Sports"
   },
   {
-    "id": "beauty_makeup",
-    "name": "Beauty, Skincare & Makeup",
-    "icon": "\ud83d\udc84",
     "enabled": true,
+    "icon": "💄",
+    "id": "beauty_makeup",
     "keywords": [
       "budget makeup haul",
       "dermatologist skincare tips",
@@ -2152,13 +2209,13 @@
       "makeup tutorial 2026",
       "nail art compilation",
       "skincare routine for glowing skin"
-    ]
+    ],
+    "name": "Beauty, Skincare & Makeup"
   },
   {
-    "id": "auto_repair_modding",
-    "name": "Automotive Repair & Modding",
-    "icon": "\ud83d\udd27",
     "enabled": true,
+    "icon": "🔧",
+    "id": "auto_repair_modding",
     "keywords": [
       "car detailing deep clean",
       "car painting tutorial",
@@ -2167,13 +2224,13 @@
       "jdm car build",
       "mechanic tips and tricks",
       "motorcycle restoration"
-    ]
+    ],
+    "name": "Automotive Repair & Modding"
   },
   {
-    "id": "cybersecurity_coding",
-    "name": "Cybersecurity & Coding",
-    "icon": "\ud83d\udcbb",
     "enabled": true,
+    "icon": "💻",
+    "id": "cybersecurity_coding",
     "keywords": [
       "cybersecurity documentary",
       "defcon hacking conference",
@@ -2183,13 +2240,13 @@
       "python coding project",
       "software engineering vlog",
       "web development tutorial"
-    ]
+    ],
+    "name": "Cybersecurity & Coding"
   },
   {
-    "id": "study_body_doubling",
-    "name": "Silent Focus & Study Ambience",
-    "icon": "\u2615",
     "enabled": true,
+    "icon": "☕",
+    "id": "study_body_doubling",
     "keywords": [
       "study with me pomodoro",
       "silent vlog aesthetic",
@@ -2197,13 +2254,13 @@
       "cafe ambiance study",
       "rainy window reading",
       "library sounds for studying"
-    ]
+    ],
+    "name": "Silent Focus & Study Ambience"
   },
   {
-    "id": "oddly_satisfying_process",
-    "name": "Oddly Satisfying & Process",
-    "icon": "\ud83e\uddfc",
     "enabled": true,
+    "icon": "🧼",
+    "id": "oddly_satisfying_process",
     "keywords": [
       "power washing satisfying",
       "carpet cleaning asmr",
@@ -2211,13 +2268,13 @@
       "kinetic sand cutting",
       "paint mixing satisfying",
       "factory process satisfying"
-    ]
+    ],
+    "name": "Oddly Satisfying & Process"
   },
   {
-    "id": "primitive_technology",
-    "name": "Ancient Crafts & Primitive Tech",
-    "icon": "\ud83e\ude93",
     "enabled": true,
+    "icon": "🪓",
+    "id": "primitive_technology",
     "keywords": [
       "primitive technology building",
       "making a knife from scratch",
@@ -2225,13 +2282,13 @@
       "ancient pottery techniques",
       "survival building pool",
       "primitive skills fire"
-    ]
+    ],
+    "name": "Ancient Crafts & Primitive Tech"
   },
   {
-    "id": "micro_history_lost",
-    "name": "Micro-History & Urbex",
-    "icon": "\ud83c\udfda\ufe0f",
     "enabled": true,
+    "icon": "🏚️",
+    "id": "micro_history_lost",
     "keywords": [
       "abandoned hospital exploration",
       "forgotten historical events",
@@ -2239,13 +2296,13 @@
       "ghost town exploration",
       "urban exploration europe",
       "abandoned mansion tour"
-    ]
+    ],
+    "name": "Micro-History & Urbex"
   },
   {
-    "id": "nostalgia_tech",
-    "name": "Nostalgia Tech & Repair",
-    "icon": "\ud83d\udd79\ufe0f",
     "enabled": true,
+    "icon": "🕹️",
+    "id": "nostalgia_tech",
     "keywords": [
       "restoring 90s console",
       "retro pc build",
@@ -2253,13 +2310,13 @@
       "vintage electronics repair",
       "gameboy restoration",
       "ipod modding"
-    ]
+    ],
+    "name": "Nostalgia Tech & Repair"
   },
   {
-    "id": "tabletop_boardgames",
-    "name": "Tabletop, D&D & Board Games",
-    "icon": "\ud83c\udfb2",
     "enabled": true,
+    "icon": "🎲",
+    "id": "tabletop_boardgames",
     "keywords": [
       "dungeons and dragons live play",
       "warhammer 40k painting",
@@ -2267,13 +2324,13 @@
       "chess grandmaster analysis",
       "magic the gathering gameplay",
       "miniature diorama build"
-    ]
+    ],
+    "name": "Tabletop, D&D & Board Games"
   },
   {
-    "id": "thrifting_flipping",
-    "name": "Thrifting & Flea Market Flips",
-    "icon": "\ud83c\udff7\ufe0f",
     "enabled": true,
+    "icon": "🏷️",
+    "id": "thrifting_flipping",
     "keywords": [
       "storage wars finds",
       "flea market flips",
@@ -2281,13 +2338,13 @@
       "dumpster diving jackpot",
       "antique roadshow highlights",
       "pawn stars best negotiations"
-    ]
+    ],
+    "name": "Thrifting & Flea Market Flips"
   },
   {
-    "id": "baking_desserts",
-    "name": "Baking, Desserts & Pastry",
-    "icon": "\ud83e\uddc1",
     "enabled": true,
+    "icon": "🧁",
+    "id": "baking_desserts",
     "keywords": [
       "cake decorating timelapse",
       "chocolate sculpture amaury guichon",
@@ -2295,13 +2352,13 @@
       "korean street bakery",
       "pastry chef techniques",
       "sugar art pulling"
-    ]
+    ],
+    "name": "Baking, Desserts & Pastry"
   },
   {
-    "id": "theme_parks_coasters",
-    "name": "Theme Parks & Rollercoasters",
-    "icon": "\ud83c\udfa2",
     "enabled": true,
+    "icon": "🎢",
+    "id": "theme_parks_coasters",
     "keywords": [
       "rollercoaster pov 4k",
       "disneyland walkthrough 4k",
@@ -2309,13 +2366,13 @@
       "theme park history",
       "animatronics behind the scenes",
       "disney world food tour"
-    ]
+    ],
+    "name": "Theme Parks & Rollercoasters"
   },
   {
-    "id": "extreme_weather",
-    "name": "Extreme Weather & Nature",
-    "icon": "\ud83c\udf2a\ufe0f",
     "enabled": true,
+    "icon": "🌪️",
+    "id": "extreme_weather",
     "keywords": [
       "tornado chasing 4k",
       "volcano eruption close up",
@@ -2323,337 +2380,337 @@
       "flash flood caught on camera",
       "lightning strike slow motion",
       "hurricane drone footage"
-    ]
+    ],
+    "name": "Extreme Weather & Nature"
   },
   {
-    "id": "language_learning",
-    "name": "Language Learning & Polyglots",
-    "icon": "\ud83d\udde3\ufe0f",
     "enabled": true,
+    "icon": "🗣️",
+    "id": "language_learning",
     "keywords": [
       "learn english speaking",
       "polyglot speaking languages",
       "japanese language lesson",
       "language learning tips"
-    ]
+    ],
+    "name": "Language Learning & Polyglots"
   },
   {
-    "id": "heavy_machinery",
-    "name": "Heavy Machinery & Mega Projects",
-    "icon": "\ud83d\ude9c",
     "enabled": true,
+    "icon": "🚜",
+    "id": "heavy_machinery",
     "keywords": [
       "mega construction projects",
       "heavy machinery operating",
       "mining excavator in action",
       "bridge construction timelapse"
-    ]
+    ],
+    "name": "Heavy Machinery & Mega Projects"
   },
   {
-    "id": "container_homes",
-    "name": "Tiny Houses & Container Homes",
-    "icon": "\ud83d\uded6",
     "enabled": true,
+    "icon": "🛖",
+    "id": "container_homes",
     "keywords": [
       "shipping container home build",
       "tiny house tour 2026",
       "off grid cabin build",
       "van life interior tour"
-    ]
+    ],
+    "name": "Tiny Houses & Container Homes"
   },
   {
-    "id": "watches_edc",
-    "name": "Watches, Horology & EDC",
-    "icon": "\u231a",
     "enabled": true,
+    "icon": "⌚",
+    "id": "watches_edc",
     "keywords": [
       "luxury watch collection",
       "rolex review",
       "everyday carry gear 2026",
       "watch restoration asmr"
-    ]
+    ],
+    "name": "Watches, Horology & EDC"
   },
   {
-    "id": "skill_toys",
-    "name": "Skill Toys & Pen Spinning",
-    "icon": "\ud83e\ude80",
     "enabled": true,
+    "icon": "🪀",
+    "id": "skill_toys",
     "keywords": [
       "pen spinning tutorial",
       "yoyo tricks advanced",
       "balisong flipping",
       "rubiks cube world record"
-    ]
+    ],
+    "name": "Skill Toys & Pen Spinning"
   },
   {
-    "id": "competitive_eating",
-    "name": "Competitive Eating & Challenges",
-    "icon": "\ud83c\udf54",
     "enabled": true,
+    "icon": "🍔",
+    "id": "competitive_eating",
     "keywords": [
       "man vs food challenge",
       "spicy noodle challenge",
       "competitive eating contest",
       "giant food challenge"
-    ]
+    ],
+    "name": "Competitive Eating & Challenges"
   },
   {
-    "id": "vtubers",
-    "name": "VTubers & Virtual Creators",
-    "icon": "\ud83d\udc7e",
     "enabled": true,
+    "icon": "👾",
+    "id": "vtubers",
     "keywords": [
       "vtuber funny moments",
       "hololive english clips",
       "vtuber debut",
       "virtual youtuber highlights"
-    ]
+    ],
+    "name": "VTubers & Virtual Creators"
   },
   {
-    "id": "base_building_games",
-    "name": "Survival & Base Building Games",
-    "icon": "\u26cf\ufe0f",
     "enabled": true,
+    "icon": "⛏️",
+    "id": "base_building_games",
     "keywords": [
       "minecraft hardcore survival",
       "rust base building",
       "palworld gameplay",
       "survival game base defense"
-    ]
+    ],
+    "name": "Survival & Base Building Games"
   },
   {
-    "id": "ocean_exploration",
-    "name": "Deep Sea & Ocean Exploration",
-    "icon": "\ud83c\udf0a",
     "enabled": true,
+    "icon": "🌊",
+    "id": "ocean_exploration",
     "keywords": [
       "mariana trench exploration",
       "deep sea creatures footage",
       "submarine tour",
       "shipwreck diving footage"
-    ]
+    ],
+    "name": "Deep Sea & Ocean Exploration"
   },
   {
-    "id": "kpop_culture",
-    "name": "K-Pop & Idol Culture",
-    "icon": "\ud83c\udfa4",
     "enabled": true,
+    "icon": "🎤",
+    "id": "kpop_culture",
     "keywords": [
       "kpop dance practice",
       "bts behind the scenes",
       "blackpink live performance",
       "kpop music video reaction"
-    ]
+    ],
+    "name": "K-Pop & Idol Culture"
   },
   {
-    "id": "classical_music",
-    "name": "Classical Music & Orchestras",
-    "icon": "\ud83c\udfbb",
     "enabled": true,
+    "icon": "🎻",
+    "id": "classical_music",
     "keywords": [
       "symphony orchestra live",
       "piano concerto performance",
       "hans zimmer live",
       "classical music for studying"
-    ]
+    ],
+    "name": "Classical Music & Orchestras"
   },
   {
-    "id": "theater_broadway",
-    "name": "Theater, Musicals & Broadway",
-    "icon": "\ud83c\udfad",
     "enabled": true,
+    "icon": "🎭",
+    "id": "theater_broadway",
     "keywords": [
       "broadway musical performance",
       "hamilton live",
       "phantom of the opera highlights",
       "stage play behind the scenes"
-    ]
+    ],
+    "name": "Theater, Musicals & Broadway"
   },
   {
-    "id": "spoken_word",
-    "name": "Poetry & Spoken Word",
-    "icon": "\ud83d\udcdc",
     "enabled": true,
+    "icon": "📜",
+    "id": "spoken_word",
     "keywords": [
       "spoken word poetry slam",
       "def poetry jam",
       "emotional poetry reading",
       "slam poetry competition"
-    ]
+    ],
+    "name": "Poetry & Spoken Word"
   },
   {
-    "id": "skate_bmx",
-    "name": "Skateboarding & Extreme BMX",
-    "icon": "\ud83d\udef9",
     "enabled": true,
+    "icon": "🛹",
+    "id": "skate_bmx",
     "keywords": [
       "skateboarding street highlights",
       "bmx dirt jump tricks",
       "skatepark compilation",
       "tony hawk pro skater real life"
-    ]
+    ],
+    "name": "Skateboarding & Extreme BMX"
   },
   {
-    "id": "parkour_freerunning",
-    "name": "Parkour & Freerunning",
-    "icon": "\ud83c\udfc3",
     "enabled": true,
+    "icon": "🏃",
+    "id": "parkour_freerunning",
     "keywords": [
       "parkour pov rooftop",
       "red bull freerunning",
       "urban parkour stunts",
       "parkour fails and wins"
-    ]
+    ],
+    "name": "Parkour & Freerunning"
   },
   {
-    "id": "lockpicking",
-    "name": "Lockpicking & Security",
-    "icon": "\ud83d\udd13",
     "enabled": true,
+    "icon": "🔓",
+    "id": "lockpicking",
     "keywords": [
       "lockpicking tutorial",
       "lockpickinglawyer best",
       "physical security penetration testing",
       "safe cracking techniques"
-    ]
+    ],
+    "name": "Lockpicking & Security"
   },
   {
-    "id": "blacksmithing",
-    "name": "Blacksmithing & Forging",
-    "icon": "\u2692\ufe0f",
     "enabled": true,
+    "icon": "⚒️",
+    "id": "blacksmithing",
     "keywords": [
       "forging a sword from rusty metal",
       "blacksmithing for beginners",
       "damascus steel knife making",
       "anvil restoration"
-    ]
+    ],
+    "name": "Blacksmithing & Forging"
   },
   {
-    "id": "glassblowing_pottery",
-    "name": "Glassblowing & Ceramics",
-    "icon": "\ud83c\udffa",
     "enabled": true,
+    "icon": "🏺",
+    "id": "glassblowing_pottery",
     "keywords": [
       "glassblowing vase tutorial",
       "pottery wheel throwing",
       "ceramic glazing techniques",
       "making neon signs"
-    ]
+    ],
+    "name": "Glassblowing & Ceramics"
   },
   {
-    "id": "tattoo_art",
-    "name": "Tattoo Art & Piercings",
-    "icon": "\ud83d\udd8b\ufe0f",
     "enabled": true,
+    "icon": "🖋️",
+    "id": "tattoo_art",
     "keywords": [
       "tattoo time lapse cover up",
       "traditional japanese tattoo",
       "first tattoo experience",
       "tattoo artist interview"
-    ]
+    ],
+    "name": "Tattoo Art & Piercings"
   },
   {
-    "id": "miniature_painting",
-    "name": "Miniature Painting & Dioramas",
-    "icon": "\ud83d\udd8c\ufe0f",
     "enabled": true,
+    "icon": "🖌️",
+    "id": "miniature_painting",
     "keywords": [
       "painting warhammer miniatures",
       "resin diorama ocean",
       "model train scenery building",
       "gundam gunpla custom build"
-    ]
+    ],
+    "name": "Miniature Painting & Dioramas"
   },
   {
-    "id": "speedrunning",
-    "name": "Speedrunning & Glitches",
-    "icon": "\u23f1\ufe0f",
     "enabled": true,
+    "icon": "⏱️",
+    "id": "speedrunning",
     "keywords": [
       "super mario 64 speedrun",
       "elden ring speedrun world record",
       "video game glitches explained",
       "games done quick highlights"
-    ]
+    ],
+    "name": "Speedrunning & Glitches"
   },
   {
-    "id": "retro_commercials",
-    "name": "Retro Advertising & Media",
-    "icon": "\ud83d\udcfa",
     "enabled": true,
+    "icon": "📺",
+    "id": "retro_commercials",
     "keywords": [
       "90s commercials compilation",
       "vintage advertising history",
       "80s tv bumpers",
       "retro infomercials"
-    ]
+    ],
+    "name": "Retro Advertising & Media"
   },
   {
-    "id": "crime_interrogations",
-    "name": "True Crime Interrogations",
-    "icon": "\ud83d\udd75\ufe0f",
     "enabled": true,
+    "icon": "🕵️",
+    "id": "crime_interrogations",
     "keywords": [
       "police interrogation analysis",
       "bodycam footage breakdown",
       "detective psychology",
       "courtroom cross examination"
-    ]
+    ],
+    "name": "True Crime Interrogations"
   },
   {
-    "id": "aquascaping",
-    "name": "Aquarium Aquascaping",
-    "icon": "\ud83d\udc20",
     "enabled": true,
+    "icon": "🐠",
+    "id": "aquascaping",
     "keywords": [
       "planted aquarium setup",
       "nano reef tank build",
       "aquascape competition layout",
       "betta fish tank makeover"
-    ]
+    ],
+    "name": "Aquarium Aquascaping"
   },
   {
-    "id": "terrariums_ants",
-    "name": "Terrariums & Ant Farms",
-    "icon": "\ud83d\udc1c",
     "enabled": true,
+    "icon": "🐜",
+    "id": "terrariums_ants",
     "keywords": [
       "bioactive terrarium build",
       "ant farm colony feeding",
       "closed terrarium ecosystem",
       "tarantula enclosure setup"
-    ]
+    ],
+    "name": "Terrariums & Ant Farms"
   },
   {
-    "id": "off_roading",
-    "name": "Off-Roading & Mudding",
-    "icon": "\ud83d\ude99",
     "enabled": true,
+    "icon": "🚙",
+    "id": "off_roading",
     "keywords": [
       "4x4 off road extreme",
       "jeep rock crawling",
       "mud bogging trucks",
       "overland vehicle walkaround"
-    ]
+    ],
+    "name": "Off-Roading & Mudding"
   },
   {
-    "id": "van_life",
-    "name": "Van Life & RV Tours",
-    "icon": "\ud83d\ude90",
     "enabled": true,
+    "icon": "🚐",
+    "id": "van_life",
     "keywords": [
       "sprinter van conversion tour",
       "full time rv living",
       "van life winter camping",
       "skoolie bus conversion"
-    ]
+    ],
+    "name": "Van Life & RV Tours"
   },
   {
-    "id": "weather_rain_snow",
-    "name": "Weather: Rain & Snow",
-    "icon": "🌧️",
     "enabled": true,
+    "icon": "🌧️",
+    "id": "weather_rain_snow",
     "keywords": [
       "rain",
       "rainy season",
@@ -2664,54 +2721,55 @@
       "rainfall",
       "rain at night",
       "rain at day"
-    ]
+    ],
+    "name": "Weather: Rain & Snow"
   },
   {
-    "id": "funny_fails",
-    "name": "Funny Fails & Comedy",
-    "icon": "😂",
     "enabled": true,
+    "icon": "😂",
+    "id": "funny_fails",
     "keywords": [
       "funny fails",
       "fails",
       "failarmy",
       "work fails"
-    ]
+    ],
+    "name": "Funny Fails & Comedy"
   },
   {
-    "id": "agriculture_machinery",
-    "name": "Tractors & Farming Tech",
-    "icon": "\ud83d\ude9c",
     "enabled": true,
+    "icon": "🚜",
+    "id": "agriculture_machinery",
     "keywords": [
       "tractor stuck in mud recovery",
       "combine harvester in action",
       "modern farming technology india",
       "agriculture drone spraying"
-    ]
+    ],
+    "name": "Tractors & Farming Tech"
   },
   {
-    "id": "full_movies",
-    "name": "Full Movies & Cinema",
-    "icon": "🍿",
     "enabled": true,
+    "icon": "🍿",
+    "id": "full_movies",
     "keywords": [
       "full movie hd",
       "hindi movie full 2026",
       "south dubbed movie full",
       "hollywood movie in hindi full"
-    ]
+    ],
+    "name": "Full Movies & Cinema"
   },
   {
-    "id": "regional_indian_music",
-    "name": "Regional Indian Music & Folk",
-    "icon": "\ud83e\ude98",
     "enabled": true,
+    "icon": "🪘",
+    "id": "regional_indian_music",
     "keywords": [
       "punjabi bhangra performance",
       "rajasthani folk song live",
       "bhojpuri new song 2026",
       "gujarati dayro live"
-    ]
+    ],
+    "name": "Regional Indian Music & Folk"
   }
 ]
