@@ -207,7 +207,7 @@ async function run() {
         for (const v of uniqueResults.slice(0, CRAWL_CONFIG.maxVideosPerKeyword)) {
           let currentViews = parseInt(v.viewsText.replace(/[^0-9]/g, ''), 10) || 1;
           let ageHours = parseAgeTextToHours(v.publishedText);
-          let vph = ageHours > 0 ? Math.round(currentViews / ageHours) : 0;
+          let vph = ageHours > 0 ? Number((currentViews / ageHours).toFixed(1)) : 0;
           
           const cached = historyCache.get(v.videoId);
           let current_vph = cached ? (cached.current_vph || cached.change_30m || 0) : 0;
@@ -219,7 +219,7 @@ async function run() {
               if (timeDiffSecs > 60) {
                   const viewDelta = Math.max(0, currentViews - cached.views);
                   // Calculate strictly as views per hour (VPH) instead of per 30m
-                  current_vph = Math.round((viewDelta / timeDiffSecs) * 3600);
+                  current_vph = Number(((viewDelta / timeDiffSecs) * 3600).toFixed(1));
               }
           }
 
@@ -331,7 +331,17 @@ async function run() {
           tvFeed[v.topic_id] = [];
       }
       if (tvFeed[v.topic_id].length < 500) { // Keep top 500 per topic for TV UI
-          tvFeed[v.topic_id].push(v);
+          tvFeed[v.topic_id].push([
+              v.id,
+              v.title,
+              v.channel_title,
+              v.views,
+              v.published_time,
+              v.duration,
+              Number((v.vph || 0).toFixed(1)),
+              Number((v.performance || 0).toFixed(2)),
+              Number((v.growth || 0).toFixed(2))
+          ]);
       }
   }
   const tvFeedPath = path.join(__dirname, 'tv_feed.json');
