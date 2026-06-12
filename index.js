@@ -148,7 +148,8 @@ async function run() {
     }
   }
 
-  const videoCache = new Map(masterData.current_videos.map(v => [v.id, v]));
+  const videoCache = new Map(masterData.current_videos.map(v => [v.id + '_' + v.topic_id, v]));
+  const historyCache = new Map(masterData.current_videos.map(v => [v.id, v]));
   const config = await getYTConfig();
   
   let newCurrentVideos = [];
@@ -156,22 +157,23 @@ async function run() {
   
   const totalKeywords = activeTopics.reduce((acc, t) => acc + (t.keywords ? t.keywords.length : 0), 0);
   let processedKeywords = 0;
+  let globalRateLimitHit = false;
 
   // 3. Crawl top keyword for each active topic
   for (const topic of activeTopics) {
+    if (globalRateLimitHit) break;
     const keywords = topic.keywords;
     let topicMaxVPH = 0;
     let topicScore = 0;
     
-    let rateLimitHit = false;
     const CHUNK_SIZE = 15;
     
     for (let i = 0; i < keywords.length; i += CHUNK_SIZE) {
-      if (rateLimitHit) break;
+      if (globalRateLimitHit) break;
       const chunk = keywords.slice(i, i + CHUNK_SIZE);
       
       await Promise.all(chunk.map(async (kw) => {
-        if (rateLimitHit) return;
+        if (globalRateLimitHit) return;
         console.log(`Validating schema node: ${kw.substring(0, 15)}...`);
         const payload = [];
         
@@ -185,7 +187,7 @@ async function run() {
         } catch (e) {
           if (e.message === 'RATE_LIMIT') {
             console.log("⚠️ Rate limit exceeded. Halting safely.");
-            rateLimitHit = true;
+            globalRateLimitHit = true;
             return;
           }
         }
@@ -207,7 +209,7 @@ async function run() {
           let ageHours = parseAgeTextToHours(v.publishedText);
           let vph = ageHours > 0 ? Math.round(currentViews / ageHours) : 0;
           
-          const cached = videoCache.get(v.videoId);
+          const cached = historyCache.get(v.videoId);
           let current_vph = cached ? (cached.current_vph || cached.change_30m || 0) : 0;
           let created_at = new Date().toISOString();
 
@@ -229,9 +231,17 @@ async function run() {
           topicMaxVPH = Math.max(topicMaxVPH, vph);
           topicScore += pulse_score;
 
+          let targetTopicId = topic.id;
+          const isMovieKeyword = kw.toLowerCase().includes('movie') || kw.toLowerCase().includes('film');
+          const isMovieGroup = ['bollywood_cinema', 'hollywood_cinema'].includes(topic.id) || isMovieKeyword;
+          
+          if (isMovieGroup && v.duration && v.duration.split(':').length === 3) {
+            targetTopicId = 'full_movies';
+          }
+
           newCurrentVideos.push({
             id: v.videoId,
-            topic_id: topic.id,
+            topic_id: targetTopicId,
             keyword: kw,
             title: v.title,
             channel_title: v.channelName,

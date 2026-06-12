@@ -2650,15 +2650,32 @@
     ]
   },
   {
-    "id": "indian_festivals",
-    "name": "Local Indian Festivals",
-    "icon": "\ud83e\ude94",
+    "id": "weather_rain_snow",
+    "name": "Weather: Rain & Snow",
+    "icon": "🌧️",
     "enabled": true,
     "keywords": [
-      "ganesh chaturthi visarjan pune",
-      "dahi handi mumbai 4k",
-      "navratri garba gujarat",
-      "holi celebrations vrindavan"
+      "rain",
+      "rainy season",
+      "rain walk",
+      "rain in different countries",
+      "snow",
+      "snow season",
+      "rainfall",
+      "rain at night",
+      "rain at day"
+    ]
+  },
+  {
+    "id": "funny_fails",
+    "name": "Funny Fails & Comedy",
+    "icon": "😂",
+    "enabled": true,
+    "keywords": [
+      "funny fails",
+      "fails",
+      "failarmy",
+      "work fails"
     ]
   },
   {
@@ -2671,6 +2688,18 @@
       "combine harvester in action",
       "modern farming technology india",
       "agriculture drone spraying"
+    ]
+  },
+  {
+    "id": "full_movies",
+    "name": "Full Movies & Cinema",
+    "icon": "🍿",
+    "enabled": true,
+    "keywords": [
+      "full movie hd",
+      "hindi movie full 2026",
+      "south dubbed movie full",
+      "hollywood movie in hindi full"
     ]
   },
   {
