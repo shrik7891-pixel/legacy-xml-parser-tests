@@ -42,7 +42,14 @@ for (const topic_id in groupedVideos) {
     const byPerf = [...topicVids].sort((a, b) => (b.performance || 0) - (a.performance || 0));
     for (let i = 0; selectedVids.size < 500 && i < byPerf.length; i++) selectedVids.add(byPerf[i]);
     
-    tvFeed[topic_id] = Array.from(selectedVids).map(v => {
+    // Pre-sort in the cloud so the TV receives a perfectly ordered payload
+    const finalSorted = Array.from(selectedVids).sort((a, b) => {
+        const aVal = (a.current_vph || 0) > 0 ? a.current_vph : (a.vph || 0);
+        const bVal = (b.current_vph || 0) > 0 ? b.current_vph : (b.vph || 0);
+        return bVal - aVal;
+    });
+    
+    tvFeed[topic_id] = finalSorted.map(v => {
         const ageHours = parseAgeTextToHours(v.published_time);
         const realVph = Number((v.views / ageHours).toFixed(1));
         return [
