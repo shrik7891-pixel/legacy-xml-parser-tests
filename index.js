@@ -330,7 +330,7 @@ async function run() {
       if (!tvFeed[v.topic_id]) {
           tvFeed[v.topic_id] = [];
       }
-      if (tvFeed[v.topic_id].length < 500) { // Keep top 500 per topic for TV UI
+      if (tvFeed[v.topic_id].length < 75) { // Keep top 75 per topic for TV UI (prevents Out of Memory crash on large topic sets)
           tvFeed[v.topic_id].push(v);
       }
   }
