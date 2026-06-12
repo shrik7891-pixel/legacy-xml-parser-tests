@@ -326,24 +326,42 @@ async function run() {
 
   // 7. Generate lightweight TV feed
   const tvFeed = {};
+  
+  // Group videos by topic
+  const groupedVideos = {};
   for (const v of masterData.current_videos) {
-      if (!tvFeed[v.topic_id]) {
-          tvFeed[v.topic_id] = [];
-      }
-      if (tvFeed[v.topic_id].length < 500) { // Keep top 500 per topic for TV UI
-          tvFeed[v.topic_id].push([
-              v.id,
-              v.title,
-              v.channel_title,
-              v.views,
-              v.published_time,
-              v.duration,
-              Number((v.vph || 0).toFixed(1)),
-              Number((v.performance || 0).toFixed(2)),
-              Number((v.growth || 0).toFixed(2)),
-              Number((v.current_vph || 0).toFixed(1))
-          ]);
-      }
+      if (!groupedVideos[v.topic_id]) groupedVideos[v.topic_id] = [];
+      groupedVideos[v.topic_id].push(v);
+  }
+
+  for (const topic_id in groupedVideos) {
+      const topicVids = groupedVideos[topic_id];
+      const selectedVids = new Set();
+      
+      // Top 200 by current_vph
+      const byCurrentVph = [...topicVids].sort((a, b) => (b.current_vph || 0) - (a.current_vph || 0));
+      for (let i = 0; i < Math.min(200, byCurrentVph.length); i++) selectedVids.add(byCurrentVph[i]);
+      
+      // Top 200 by vph
+      const byVph = [...topicVids].sort((a, b) => (b.vph || 0) - (a.vph || 0));
+      for (let i = 0; i < Math.min(200, byVph.length); i++) selectedVids.add(byVph[i]);
+
+      // Fill the rest up to 500 with top by performance
+      const byPerf = [...topicVids].sort((a, b) => (b.performance || 0) - (a.performance || 0));
+      for (let i = 0; selectedVids.size < 500 && i < byPerf.length; i++) selectedVids.add(byPerf[i]);
+      
+      tvFeed[topic_id] = Array.from(selectedVids).map(v => [
+          v.id,
+          v.title,
+          v.channel_title,
+          v.views,
+          v.published_time,
+          v.duration,
+          Number((v.vph || 0).toFixed(1)),
+          Number((v.performance || 0).toFixed(2)),
+          Number((v.growth || 0).toFixed(2)),
+          Number((v.current_vph || 0).toFixed(1))
+      ]);
   }
   const tvFeedPath = path.join(__dirname, 'tv_feed.json');
   fs.writeFileSync(tvFeedPath, JSON.stringify(tvFeed));
