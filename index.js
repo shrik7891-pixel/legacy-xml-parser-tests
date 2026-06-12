@@ -307,7 +307,7 @@ async function run() {
   let finalVideos = [];
   for (const topicId in videosByTopic) {
       videosByTopic[topicId].sort((a, b) => b.performance - a.performance);
-      finalVideos = finalVideos.concat(videosByTopic[topicId]); // Keep ALL videos!
+      finalVideos = finalVideos.concat(videosByTopic[topicId].slice(0, 300)); // Cap to top 300 per topic to prevent 100MB GitHub limit error
   }
 
   // Final global sort just for consistency
