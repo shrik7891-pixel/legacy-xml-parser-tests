@@ -340,7 +340,8 @@ async function run() {
               v.duration,
               Number((v.vph || 0).toFixed(1)),
               Number((v.performance || 0).toFixed(2)),
-              Number((v.growth || 0).toFixed(2))
+              Number((v.growth || 0).toFixed(2)),
+              Number((v.current_vph || 0).toFixed(1))
           ]);
       }
   }

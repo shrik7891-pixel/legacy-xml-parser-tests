@@ -33,7 +33,8 @@ for (const v of masterData.current_videos) {
             v.duration,
             realVph,
             Number((v.performance || 0).toFixed(2)),
-            Number((v.growth || 0).toFixed(2))
+            Number((v.growth || 0).toFixed(2)),
+            Number((v.current_vph || 0).toFixed(1))
         ]);
     }
 }
