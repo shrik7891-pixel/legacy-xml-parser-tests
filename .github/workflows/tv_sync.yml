@@ -1,0 +1,39 @@
+name: Fast TV Deployment
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Fetch Latest Data
+        run: |
+          mkdir -p tv_deploy
+          # Download latest topics.json from main branch
+          cp topics.json tv_deploy/
+          
+          # Download the latest compiled tv_feed.json from the live-data branch
+          curl -sL -f "https://raw.githubusercontent.com/${{ github.repository }}/live-data/tv_feed.json" -o tv_deploy/tv_feed.json || echo "Failed to fetch tv_feed.json"
+          
+          # We must download the existing userScript.js so Surge doesn't delete it!
+          curl -sL -f -O https://sdn-ptv.surge.sh/userScript.js || echo "Failed to download userScript.js"
+          if [ -f userScript.js ]; then
+            mv userScript.js tv_deploy/
+          fi
+          
+          echo "*" > tv_deploy/CORS
+
+      - name: Deploy to TV Surge Host
+        run: |
+          for i in 1 2 3; do
+            npx surge ./tv_deploy sdn-ptv.surge.sh && break || sleep 5
+          done
+        env:
+          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
