@@ -3014,15 +3014,26 @@
     "position": 105
   },
   {
-    "id": "grp_mqe5b7zo7ch5caw4ybj",
+    "enabled": true,
     "icon": "📌",
-    "name": "Car",
+    "id": "grp_mqe5b7zo7ch5caw4ybj",
     "keywords": [
       "triber",
       "triber service",
       "renault triber"
     ],
-    "position": 106,
+    "name": "Car",
+    "position": 106
+  },
+  {
+    "id": "grp_mqe5c6b9emlxox9bmn6",
+    "icon": "📌",
+    "name": "Dance",
+    "keywords": [
+      "dance",
+      "choreography"
+    ],
+    "position": 107,
     "enabled": true
   }
 ]
