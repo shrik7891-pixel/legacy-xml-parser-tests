@@ -3038,5 +3038,15 @@
     ],
     "name": "Dance",
     "position": 107
+  },
+  {
+    "id": "grp_mqeam18l7rhiexmi6i",
+    "icon": "📌",
+    "name": "Cover Songs",
+    "keywords": [
+      "cover songs hindi"
+    ],
+    "position": 108,
+    "enabled": true
   }
 ]
