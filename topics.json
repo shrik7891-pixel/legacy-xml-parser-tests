@@ -3040,13 +3040,14 @@
     "position": 107
   },
   {
-    "id": "grp_mqeam18l7rhiexmi6i",
+    "enabled": true,
     "icon": "📌",
-    "name": "Cover Songs",
+    "id": "grp_mqeam18l7rhiexmi6i",
     "keywords": [
-      "cover songs hindi"
+      "cover song hindi",
+      "hindi cover song"
     ],
-    "position": 108,
-    "enabled": true
+    "name": "Cover Songs",
+    "position": 108
   }
 ]
