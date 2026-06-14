@@ -3062,7 +3062,9 @@
       "neck tension",
       "upper back pain",
       "stomach gas",
-      "lower stomach"
+      "lower stomach",
+      "Lower abdominal gas",
+      "abdominal gas"
     ],
     "name": "Medical",
     "position": 109
