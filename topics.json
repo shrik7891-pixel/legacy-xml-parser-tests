@@ -3053,16 +3053,18 @@
     "position": 108
   },
   {
-    "id": "grp_mqefudmf887b7i91i0w",
+    "enabled": true,
     "icon": "📌",
-    "name": "Medical",
+    "id": "grp_mqefudmf887b7i91i0w",
     "keywords": [
       "back pain",
       "neck pain",
       "neck tension",
-      "upper back pain"
+      "upper back pain",
+      "stomach gas",
+      "lower stomach"
     ],
-    "position": 109,
-    "enabled": true
+    "name": "Medical",
+    "position": 109
   }
 ]
