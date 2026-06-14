@@ -2920,9 +2920,9 @@
     "position": 104
   },
   {
-    "id": "grp_mqcb1b1krpqqxv8jti",
+    "enabled": true,
     "icon": "📌",
-    "name": "Travel Plan June 2026",
+    "id": "grp_mqcb1b1krpqqxv8jti",
     "keywords": [
       "Saputara Lake",
       "Surat Textile Market",
@@ -3010,7 +3010,19 @@
       "Malegaon Bypass",
       "Nashik Maharashtra"
     ],
-    "position": 105,
+    "name": "Travel Plan June 2026",
+    "position": 105
+  },
+  {
+    "id": "grp_mqe5b7zo7ch5caw4ybj",
+    "icon": "📌",
+    "name": "Car",
+    "keywords": [
+      "triber",
+      "triber service",
+      "renault triber"
+    ],
+    "position": 106,
     "enabled": true
   }
 ]
