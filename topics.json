@@ -3020,20 +3020,22 @@
     "keywords": [
       "triber",
       "triber service",
-      "renault triber"
+      "renault triber",
+      "triber accesories",
+      "car accesories"
     ],
     "name": "Car",
     "position": 106
   },
   {
-    "id": "grp_mqe5c6b9emlxox9bmn6",
+    "enabled": true,
     "icon": "📌",
-    "name": "Dance",
+    "id": "grp_mqe5c6b9emlxox9bmn6",
     "keywords": [
       "dance",
       "choreography"
     ],
-    "position": 107,
-    "enabled": true
+    "name": "Dance",
+    "position": 107
   }
 ]
