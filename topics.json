@@ -3051,5 +3051,18 @@
     ],
     "name": "Cover Songs",
     "position": 108
+  },
+  {
+    "id": "grp_mqefudmf887b7i91i0w",
+    "icon": "📌",
+    "name": "Medical",
+    "keywords": [
+      "back pain",
+      "neck pain",
+      "neck tension",
+      "upper back pain"
+    ],
+    "position": 109,
+    "enabled": true
   }
 ]
