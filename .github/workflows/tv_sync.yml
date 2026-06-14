@@ -21,10 +21,9 @@ jobs:
           # Download the latest compiled tv_feed.json from the live-data branch
           curl -sL -f "https://raw.githubusercontent.com/${{ github.repository }}/live-data/tv_feed.json" -o tv_deploy/tv_feed.json || echo "Failed to fetch tv_feed.json"
           
-          # We must download the existing userScript.js so Surge doesn't delete it!
-          curl -sL -f -O https://sdn-ptv.surge.sh/userScript.js || echo "Failed to download userScript.js"
+          # Use the userScript.js from the repository to prevent accidental deletion on Surge
           if [ -f userScript.js ]; then
-            mv userScript.js tv_deploy/
+            cp userScript.js tv_deploy/
           fi
           
           echo "*" > tv_deploy/CORS
