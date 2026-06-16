@@ -3075,5 +3075,15 @@
     ],
     "name": "Medical",
     "position": 109
+  },
+  {
+    "id": "grp_mqgzn3w0ublcyb2f0iq",
+    "icon": "📌",
+    "name": "TV Episode",
+    "keywords": [
+      "Episode"
+    ],
+    "position": 110,
+    "enabled": true
   }
 ]
