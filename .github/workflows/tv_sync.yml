@@ -28,11 +28,18 @@ jobs:
           
           echo "*" > tv_deploy/CORS
 
-      - name: Deploy to TV Surge Host
+      - name: Deploy to GitHub CDN (ptv)
         run: |
-          for i in 1 2 3; do
-            npx surge ./tv_deploy sdn-ptv.surge.sh && break || sleep 5
-          done
-        env:
-          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
-          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
+          # Clone the ptv repository
+          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/shrik7891-pixel/ptv.git
+          
+          # Copy updated files
+          cp tv_deploy/* ptv/ || true
+          
+          # Commit and push
+          cd ptv
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Auto-sync tv_feed and topics [skip ci]" || echo "No changes to commit"
+          git push
