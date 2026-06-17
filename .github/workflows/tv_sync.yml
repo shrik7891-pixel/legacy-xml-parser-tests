@@ -31,7 +31,7 @@ jobs:
       - name: Deploy to GitHub CDN (ptv)
         run: |
           # Clone the ptv repository
-          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/shrik7891-pixel/ptv.git
+          git clone https://x-access-token:${{ secrets.PTV_SYNC_TOKEN }}@github.com/shrik7891-pixel/ptv.git
           
           # Copy updated files
           cp tv_deploy/* ptv/ || true
