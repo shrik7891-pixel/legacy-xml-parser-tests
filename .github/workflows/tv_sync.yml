@@ -36,8 +36,12 @@ jobs:
           # Copy updated files
           cp tv_deploy/* ptv/ || true
           
-          # Commit and push
+          # Create latest aliases for foolproof jsDelivr cache busting
           cd ptv
+          cp topics.json topics_latest.json || true
+          cp tv_feed.json tv_feed_latest.json || true
+          
+          # Commit and push
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
@@ -46,5 +50,7 @@ jobs:
           
           # Purge jsDelivr cache since bot commits don't trigger push webhooks
           curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@main/topics.json" || true
+          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@main/topics_latest.json" || true
           curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@main/tv_feed.json" || true
+          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@main/tv_feed_latest.json" || true
           curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@main/userScript.js" || true
