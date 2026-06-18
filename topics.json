@@ -335,111 +335,6 @@
   },
   {
     "enabled": true,
-    "icon": "☕",
-    "id": "study_body_doubling",
-    "keywords": [
-      "study with me pomodoro",
-      "silent vlog aesthetic",
-      "clean with me no talking",
-      "cafe ambiance study",
-      "rainy window reading",
-      "library sounds for studying"
-    ],
-    "name": "Silent Focus & Study Ambience",
-    "position": 18
-  },
-  {
-    "enabled": true,
-    "icon": "🧼",
-    "id": "oddly_satisfying_process",
-    "keywords": [
-      "power washing satisfying",
-      "carpet cleaning asmr",
-      "rusty restoration timelapse",
-      "kinetic sand cutting",
-      "paint mixing satisfying",
-      "factory process satisfying"
-    ],
-    "name": "Oddly Satisfying & Process",
-    "position": 19
-  },
-  {
-    "enabled": true,
-    "icon": "🪓",
-    "id": "primitive_technology",
-    "keywords": [
-      "primitive technology building",
-      "making a knife from scratch",
-      "bushcraft shelter build",
-      "ancient pottery techniques",
-      "survival building pool",
-      "primitive skills fire"
-    ],
-    "name": "Ancient Crafts & Primitive Tech",
-    "position": 20
-  },
-  {
-    "enabled": true,
-    "icon": "🏚️",
-    "id": "micro_history_lost",
-    "keywords": [
-      "abandoned hospital exploration",
-      "forgotten historical events",
-      "defunct theme park history",
-      "ghost town exploration",
-      "urban exploration europe",
-      "abandoned mansion tour"
-    ],
-    "name": "Micro-History & Urbex",
-    "position": 21
-  },
-  {
-    "enabled": true,
-    "icon": "🕹️",
-    "id": "nostalgia_tech",
-    "keywords": [
-      "restoring 90s console",
-      "retro pc build",
-      "unboxing 2000s tech",
-      "vintage electronics repair",
-      "gameboy restoration",
-      "ipod modding"
-    ],
-    "name": "Nostalgia Tech & Repair",
-    "position": 22
-  },
-  {
-    "enabled": true,
-    "icon": "🎲",
-    "id": "tabletop_boardgames",
-    "keywords": [
-      "dungeons and dragons live play",
-      "warhammer 40k painting",
-      "board game playthrough",
-      "chess grandmaster analysis",
-      "magic the gathering gameplay",
-      "miniature diorama build"
-    ],
-    "name": "Tabletop, D&D & Board Games",
-    "position": 23
-  },
-  {
-    "enabled": true,
-    "icon": "🏷️",
-    "id": "thrifting_flipping",
-    "keywords": [
-      "storage wars finds",
-      "flea market flips",
-      "thrift store score",
-      "dumpster diving jackpot",
-      "antique roadshow highlights",
-      "pawn stars best negotiations"
-    ],
-    "name": "Thrifting & Flea Market Flips",
-    "position": 24
-  },
-  {
-    "enabled": true,
     "icon": "📌",
     "id": "grp_mqcb1b1krpqqxv8jti",
     "keywords": [
@@ -491,6 +386,111 @@
       "Kamla Nehru Zoo mp"
     ],
     "name": "Travel Plan June 2026",
+    "position": 18
+  },
+  {
+    "enabled": true,
+    "icon": "☕",
+    "id": "study_body_doubling",
+    "keywords": [
+      "study with me pomodoro",
+      "silent vlog aesthetic",
+      "clean with me no talking",
+      "cafe ambiance study",
+      "rainy window reading",
+      "library sounds for studying"
+    ],
+    "name": "Silent Focus & Study Ambience",
+    "position": 19
+  },
+  {
+    "enabled": true,
+    "icon": "🧼",
+    "id": "oddly_satisfying_process",
+    "keywords": [
+      "power washing satisfying",
+      "carpet cleaning asmr",
+      "rusty restoration timelapse",
+      "kinetic sand cutting",
+      "paint mixing satisfying",
+      "factory process satisfying"
+    ],
+    "name": "Oddly Satisfying & Process",
+    "position": 20
+  },
+  {
+    "enabled": true,
+    "icon": "🪓",
+    "id": "primitive_technology",
+    "keywords": [
+      "primitive technology building",
+      "making a knife from scratch",
+      "bushcraft shelter build",
+      "ancient pottery techniques",
+      "survival building pool",
+      "primitive skills fire"
+    ],
+    "name": "Ancient Crafts & Primitive Tech",
+    "position": 21
+  },
+  {
+    "enabled": true,
+    "icon": "🏚️",
+    "id": "micro_history_lost",
+    "keywords": [
+      "abandoned hospital exploration",
+      "forgotten historical events",
+      "defunct theme park history",
+      "ghost town exploration",
+      "urban exploration europe",
+      "abandoned mansion tour"
+    ],
+    "name": "Micro-History & Urbex",
+    "position": 22
+  },
+  {
+    "enabled": true,
+    "icon": "🕹️",
+    "id": "nostalgia_tech",
+    "keywords": [
+      "restoring 90s console",
+      "retro pc build",
+      "unboxing 2000s tech",
+      "vintage electronics repair",
+      "gameboy restoration",
+      "ipod modding"
+    ],
+    "name": "Nostalgia Tech & Repair",
+    "position": 23
+  },
+  {
+    "enabled": true,
+    "icon": "🎲",
+    "id": "tabletop_boardgames",
+    "keywords": [
+      "dungeons and dragons live play",
+      "warhammer 40k painting",
+      "board game playthrough",
+      "chess grandmaster analysis",
+      "magic the gathering gameplay",
+      "miniature diorama build"
+    ],
+    "name": "Tabletop, D&D & Board Games",
+    "position": 24
+  },
+  {
+    "enabled": true,
+    "icon": "🏷️",
+    "id": "thrifting_flipping",
+    "keywords": [
+      "storage wars finds",
+      "flea market flips",
+      "thrift store score",
+      "dumpster diving jackpot",
+      "antique roadshow highlights",
+      "pawn stars best negotiations"
+    ],
+    "name": "Thrifting & Flea Market Flips",
     "position": 25
   },
   {
