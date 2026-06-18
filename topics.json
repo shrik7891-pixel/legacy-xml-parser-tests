@@ -440,103 +440,6 @@
   },
   {
     "enabled": true,
-    "icon": "🧁",
-    "id": "baking_desserts",
-    "keywords": [
-      "cake decorating timelapse",
-      "chocolate sculpture amaury guichon",
-      "baking macarons asmr",
-      "korean street bakery",
-      "pastry chef techniques",
-      "sugar art pulling"
-    ],
-    "name": "Baking, Desserts & Pastry",
-    "position": 25
-  },
-  {
-    "enabled": true,
-    "icon": "🎢",
-    "id": "theme_parks_coasters",
-    "keywords": [
-      "rollercoaster pov 4k",
-      "disneyland walkthrough 4k",
-      "universal studios secrets",
-      "theme park history",
-      "animatronics behind the scenes",
-      "disney world food tour"
-    ],
-    "name": "Theme Parks & Rollercoasters",
-    "position": 26
-  },
-  {
-    "enabled": true,
-    "icon": "🌪️",
-    "id": "extreme_weather",
-    "keywords": [
-      "tornado chasing 4k",
-      "volcano eruption close up",
-      "massive wave surfing",
-      "flash flood caught on camera",
-      "lightning strike slow motion",
-      "hurricane drone footage"
-    ],
-    "name": "Extreme Weather & Nature",
-    "position": 27
-  },
-  {
-    "enabled": true,
-    "icon": "🗣️",
-    "id": "language_learning",
-    "keywords": [
-      "learn english speaking",
-      "polyglot speaking languages",
-      "japanese language lesson",
-      "language learning tips"
-    ],
-    "name": "Language Learning & Polyglots",
-    "position": 28
-  },
-  {
-    "enabled": true,
-    "icon": "🚜",
-    "id": "heavy_machinery",
-    "keywords": [
-      "mega construction projects",
-      "heavy machinery operating",
-      "mining excavator in action",
-      "bridge construction timelapse"
-    ],
-    "name": "Heavy Machinery & Mega Projects",
-    "position": 29
-  },
-  {
-    "enabled": true,
-    "icon": "🛖",
-    "id": "container_homes",
-    "keywords": [
-      "shipping container home build",
-      "tiny house tour 2026",
-      "off grid cabin build",
-      "van life interior tour"
-    ],
-    "name": "Tiny Houses & Container Homes",
-    "position": 30
-  },
-  {
-    "enabled": true,
-    "icon": "⌚",
-    "id": "watches_edc",
-    "keywords": [
-      "luxury watch collection",
-      "rolex review",
-      "everyday carry gear 2026",
-      "watch restoration asmr"
-    ],
-    "name": "Watches, Horology & EDC",
-    "position": 31
-  },
-  {
-    "enabled": true,
     "icon": "📌",
     "id": "grp_mqcb1b1krpqqxv8jti",
     "keywords": [
@@ -588,6 +491,103 @@
       "Kamla Nehru Zoo mp"
     ],
     "name": "Travel Plan June 2026",
+    "position": 25
+  },
+  {
+    "enabled": true,
+    "icon": "🧁",
+    "id": "baking_desserts",
+    "keywords": [
+      "cake decorating timelapse",
+      "chocolate sculpture amaury guichon",
+      "baking macarons asmr",
+      "korean street bakery",
+      "pastry chef techniques",
+      "sugar art pulling"
+    ],
+    "name": "Baking, Desserts & Pastry",
+    "position": 26
+  },
+  {
+    "enabled": true,
+    "icon": "🎢",
+    "id": "theme_parks_coasters",
+    "keywords": [
+      "rollercoaster pov 4k",
+      "disneyland walkthrough 4k",
+      "universal studios secrets",
+      "theme park history",
+      "animatronics behind the scenes",
+      "disney world food tour"
+    ],
+    "name": "Theme Parks & Rollercoasters",
+    "position": 27
+  },
+  {
+    "enabled": true,
+    "icon": "🌪️",
+    "id": "extreme_weather",
+    "keywords": [
+      "tornado chasing 4k",
+      "volcano eruption close up",
+      "massive wave surfing",
+      "flash flood caught on camera",
+      "lightning strike slow motion",
+      "hurricane drone footage"
+    ],
+    "name": "Extreme Weather & Nature",
+    "position": 28
+  },
+  {
+    "enabled": true,
+    "icon": "🗣️",
+    "id": "language_learning",
+    "keywords": [
+      "learn english speaking",
+      "polyglot speaking languages",
+      "japanese language lesson",
+      "language learning tips"
+    ],
+    "name": "Language Learning & Polyglots",
+    "position": 29
+  },
+  {
+    "enabled": true,
+    "icon": "🚜",
+    "id": "heavy_machinery",
+    "keywords": [
+      "mega construction projects",
+      "heavy machinery operating",
+      "mining excavator in action",
+      "bridge construction timelapse"
+    ],
+    "name": "Heavy Machinery & Mega Projects",
+    "position": 30
+  },
+  {
+    "enabled": true,
+    "icon": "🛖",
+    "id": "container_homes",
+    "keywords": [
+      "shipping container home build",
+      "tiny house tour 2026",
+      "off grid cabin build",
+      "van life interior tour"
+    ],
+    "name": "Tiny Houses & Container Homes",
+    "position": 31
+  },
+  {
+    "enabled": true,
+    "icon": "⌚",
+    "id": "watches_edc",
+    "keywords": [
+      "luxury watch collection",
+      "rolex review",
+      "everyday carry gear 2026",
+      "watch restoration asmr"
+    ],
+    "name": "Watches, Horology & EDC",
     "position": 32
   },
   {
