@@ -2785,36 +2785,6 @@
     "position": 99
   },
   {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🧑🍳",
-    "id": "food_science",
-    "keywords": [
-      "Gordon Ramsay cooking tips",
-      "Indian spice guide",
-      "cheese making at home",
-      "chefs technique explained",
-      "culinary school tips",
-      "fermentation at home",
-      "fermentation process time lapse",
-      "food myths busted science",
-      "food preservation techniques",
-      "food science explained",
-      "how butter is made",
-      "how to cook perfect rice",
-      "knife sharpening whetstone",
-      "knife skills chef",
-      "molecular gastronomy",
-      "perfect steak reverse sear",
-      "pro chef reacts street food",
-      "sourdough bread making",
-      "why food tastes good science"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "Cooking Skills & Food Science",
-    "position": 100
-  },
-  {
     "enabled": true,
     "icon": "📌",
     "id": "grp_mqcb1b1krpqqxv8jti",
@@ -2867,6 +2837,36 @@
       "Kamla Nehru Zoo mp"
     ],
     "name": "Travel Plan June 2026",
+    "position": 100
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🧑🍳",
+    "id": "food_science",
+    "keywords": [
+      "Gordon Ramsay cooking tips",
+      "Indian spice guide",
+      "cheese making at home",
+      "chefs technique explained",
+      "culinary school tips",
+      "fermentation at home",
+      "fermentation process time lapse",
+      "food myths busted science",
+      "food preservation techniques",
+      "food science explained",
+      "how butter is made",
+      "how to cook perfect rice",
+      "knife sharpening whetstone",
+      "knife skills chef",
+      "molecular gastronomy",
+      "perfect steak reverse sear",
+      "pro chef reacts street food",
+      "sourdough bread making",
+      "why food tastes good science"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "Cooking Skills & Food Science",
     "position": 101
   },
   {
