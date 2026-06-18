@@ -1,175 +1,5 @@
 [
   {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🎵",
-    "id": "music_songs",
-    "keywords": [
-      "4k video song",
-      "AP Dhillon",
-      "Colors show performance",
-      "Diljit Dosanjh new song",
-      "J-pop music video",
-      "K-pop music video",
-      "NPR tiny desk concert",
-      "acoustic session",
-      "afrobeats music video",
-      "arabic pop song",
-      "arijit singh new song",
-      "bhojpuri new song",
-      "bollywood songs 2026",
-      "classical fusion indian",
-      "coke studio new",
-      "hindi 4k songs",
-      "hindi 8k songs",
-      "hindi 8k upscaled",
-      "hindi mashup 2026",
-      "indie folk music",
-      "kannada new song",
-      "latin music video",
-      "live concert 4k",
-      "live loop station",
-      "lofi hindi mix",
-      "lofi music study",
-      "marathi songs new",
-      "marathi songs new 2026",
-      "music producer making beat",
-      "new hindi song 2026",
-      "old hindi songs",
-      "one take music video",
-      "punjabi song 2026",
-      "tamil songs new",
-      "telugu songs new",
-      "turkish pop song",
-      "unplugged acoustic covers",
-      "unplugged hindi cover",
-      "vocal coach reaction"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "Music & Songs",
-    "position": 0
-  },
-  {
-    "enabled": true,
-    "icon": "🎬",
-    "id": "hollywood_cinema",
-    "keywords": [
-      "action movies hollywood hd",
-      "behind the scenes hollywood",
-      "christopher nolan movies",
-      "dc comics movies",
-      "hollywood actors interview",
-      "hollywood blockbusters",
-      "hollywood movie review",
-      "hollywood movie trailers 2026",
-      "hollywood red carpet",
-      "marvel cinematic universe",
-      "oscars highlights",
-      "sci fi movies hollywood"
-    ],
-    "name": "Hollywood & International Cinema",
-    "position": 1
-  },
-  {
-    "enabled": true,
-    "icon": "🎙️",
-    "id": "podcasts_interviews",
-    "keywords": [
-      "deep dive interview",
-      "founder interview",
-      "huberman lab",
-      "joe rogan experience",
-      "lex fridman podcast",
-      "podcast highlights",
-      "ranveer allahbadia podcast"
-    ],
-    "name": "Podcasts & Deep Interviews",
-    "position": 2
-  },
-  {
-    "enabled": true,
-    "icon": "📜",
-    "id": "history_mythology",
-    "keywords": [
-      "Egyptian mythology",
-      "Greek mythology",
-      "ancient civilizations",
-      "ancient india secrets",
-      "chhatrapati shivaji maharaj history",
-      "egyptian mythology",
-      "indian history documentary",
-      "mahabharata explained",
-      "world history documentary"
-    ],
-    "name": "Indian History & Mythology",
-    "position": 3
-  },
-  {
-    "enabled": true,
-    "icon": "🏰",
-    "id": "real_estate_luxury",
-    "keywords": [
-      "luxury home tour",
-      "real estate india",
-      "low budget house design",
-      "billionaires lifestyle",
-      "expensive cars",
-      "luxury watches",
-      "private jet tour",
-      "mega mansion tour"
-    ],
-    "name": "Real Estate & Luxury Homes",
-    "position": 4
-  },
-  {
-    "enabled": true,
-    "icon": "✈️",
-    "id": "aviation_flying",
-    "keywords": [
-      "air traffic control audio",
-      "airport planespotting",
-      "aviation documentary",
-      "cockpit view landing",
-      "fighter jet takeoff",
-      "first class flight review",
-      "flight simulator 2026"
-    ],
-    "name": "Aviation & Flying",
-    "position": 5
-  },
-  {
-    "enabled": true,
-    "icon": "📷",
-    "id": "photography_filmmaking",
-    "keywords": [
-      "camera review 2026",
-      "cinematography breakdown",
-      "color grading tutorial",
-      "drone flying cinematic",
-      "gopro hero extreme",
-      "street photography pov",
-      "video editing tutorial"
-    ],
-    "name": "Photography & Filmmaking",
-    "position": 6
-  },
-  {
-    "enabled": true,
-    "icon": "🌾",
-    "id": "agriculture_rural",
-    "keywords": [
-      "dairy farming setup",
-      "homesteading skills",
-      "modern agriculture machinery",
-      "organic farming india",
-      "rural village life vlog",
-      "sustainable living off grid",
-      "tractor review india"
-    ],
-    "name": "Agriculture & Rural Life",
-    "position": 7
-  },
-  {
     "enabled": true,
     "icon": "📌",
     "id": "grp_mqcb1b1krpqqxv8jti",
@@ -222,6 +52,176 @@
       "Kamla Nehru Zoo mp"
     ],
     "name": "Travel Plan June 2026",
+    "position": 0
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🎵",
+    "id": "music_songs",
+    "keywords": [
+      "4k video song",
+      "AP Dhillon",
+      "Colors show performance",
+      "Diljit Dosanjh new song",
+      "J-pop music video",
+      "K-pop music video",
+      "NPR tiny desk concert",
+      "acoustic session",
+      "afrobeats music video",
+      "arabic pop song",
+      "arijit singh new song",
+      "bhojpuri new song",
+      "bollywood songs 2026",
+      "classical fusion indian",
+      "coke studio new",
+      "hindi 4k songs",
+      "hindi 8k songs",
+      "hindi 8k upscaled",
+      "hindi mashup 2026",
+      "indie folk music",
+      "kannada new song",
+      "latin music video",
+      "live concert 4k",
+      "live loop station",
+      "lofi hindi mix",
+      "lofi music study",
+      "marathi songs new",
+      "marathi songs new 2026",
+      "music producer making beat",
+      "new hindi song 2026",
+      "old hindi songs",
+      "one take music video",
+      "punjabi song 2026",
+      "tamil songs new",
+      "telugu songs new",
+      "turkish pop song",
+      "unplugged acoustic covers",
+      "unplugged hindi cover",
+      "vocal coach reaction"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "Music & Songs",
+    "position": 1
+  },
+  {
+    "enabled": true,
+    "icon": "🎬",
+    "id": "hollywood_cinema",
+    "keywords": [
+      "action movies hollywood hd",
+      "behind the scenes hollywood",
+      "christopher nolan movies",
+      "dc comics movies",
+      "hollywood actors interview",
+      "hollywood blockbusters",
+      "hollywood movie review",
+      "hollywood movie trailers 2026",
+      "hollywood red carpet",
+      "marvel cinematic universe",
+      "oscars highlights",
+      "sci fi movies hollywood"
+    ],
+    "name": "Hollywood & International Cinema",
+    "position": 2
+  },
+  {
+    "enabled": true,
+    "icon": "🎙️",
+    "id": "podcasts_interviews",
+    "keywords": [
+      "deep dive interview",
+      "founder interview",
+      "huberman lab",
+      "joe rogan experience",
+      "lex fridman podcast",
+      "podcast highlights",
+      "ranveer allahbadia podcast"
+    ],
+    "name": "Podcasts & Deep Interviews",
+    "position": 3
+  },
+  {
+    "enabled": true,
+    "icon": "📜",
+    "id": "history_mythology",
+    "keywords": [
+      "Egyptian mythology",
+      "Greek mythology",
+      "ancient civilizations",
+      "ancient india secrets",
+      "chhatrapati shivaji maharaj history",
+      "egyptian mythology",
+      "indian history documentary",
+      "mahabharata explained",
+      "world history documentary"
+    ],
+    "name": "Indian History & Mythology",
+    "position": 4
+  },
+  {
+    "enabled": true,
+    "icon": "🏰",
+    "id": "real_estate_luxury",
+    "keywords": [
+      "luxury home tour",
+      "real estate india",
+      "low budget house design",
+      "billionaires lifestyle",
+      "expensive cars",
+      "luxury watches",
+      "private jet tour",
+      "mega mansion tour"
+    ],
+    "name": "Real Estate & Luxury Homes",
+    "position": 5
+  },
+  {
+    "enabled": true,
+    "icon": "✈️",
+    "id": "aviation_flying",
+    "keywords": [
+      "air traffic control audio",
+      "airport planespotting",
+      "aviation documentary",
+      "cockpit view landing",
+      "fighter jet takeoff",
+      "first class flight review",
+      "flight simulator 2026"
+    ],
+    "name": "Aviation & Flying",
+    "position": 6
+  },
+  {
+    "enabled": true,
+    "icon": "📷",
+    "id": "photography_filmmaking",
+    "keywords": [
+      "camera review 2026",
+      "cinematography breakdown",
+      "color grading tutorial",
+      "drone flying cinematic",
+      "gopro hero extreme",
+      "street photography pov",
+      "video editing tutorial"
+    ],
+    "name": "Photography & Filmmaking",
+    "position": 7
+  },
+  {
+    "enabled": true,
+    "icon": "🌾",
+    "id": "agriculture_rural",
+    "keywords": [
+      "dairy farming setup",
+      "homesteading skills",
+      "modern agriculture machinery",
+      "organic farming india",
+      "rural village life vlog",
+      "sustainable living off grid",
+      "tractor review india"
+    ],
+    "name": "Agriculture & Rural Life",
     "position": 8
   },
   {
