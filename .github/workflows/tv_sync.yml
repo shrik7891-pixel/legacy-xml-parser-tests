@@ -43,3 +43,8 @@ jobs:
           git add .
           git commit -m "Auto-sync tv_feed and topics" || echo "No changes to commit"
           git push
+          
+          # Purge jsDelivr cache since bot commits don't trigger push webhooks
+          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@main/topics.json" || true
+          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@main/tv_feed.json" || true
+          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@main/userScript.js" || true
