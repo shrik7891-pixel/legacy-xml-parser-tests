@@ -680,136 +680,6 @@
   },
   {
     "enabled": true,
-    "icon": "🔓",
-    "id": "lockpicking",
-    "keywords": [
-      "lockpicking tutorial",
-      "lockpickinglawyer best",
-      "physical security penetration testing",
-      "safe cracking techniques"
-    ],
-    "name": "Lockpicking & Security",
-    "position": 43
-  },
-  {
-    "enabled": true,
-    "icon": "⚒️",
-    "id": "blacksmithing",
-    "keywords": [
-      "forging a sword from rusty metal",
-      "blacksmithing for beginners",
-      "damascus steel knife making",
-      "anvil restoration"
-    ],
-    "name": "Blacksmithing & Forging",
-    "position": 44
-  },
-  {
-    "enabled": true,
-    "icon": "🏺",
-    "id": "glassblowing_pottery",
-    "keywords": [
-      "glassblowing vase tutorial",
-      "pottery wheel throwing",
-      "ceramic glazing techniques",
-      "making neon signs"
-    ],
-    "name": "Glassblowing & Ceramics",
-    "position": 45
-  },
-  {
-    "enabled": true,
-    "icon": "🖋️",
-    "id": "tattoo_art",
-    "keywords": [
-      "tattoo time lapse cover up",
-      "traditional japanese tattoo",
-      "first tattoo experience",
-      "tattoo artist interview"
-    ],
-    "name": "Tattoo Art & Piercings",
-    "position": 46
-  },
-  {
-    "enabled": true,
-    "icon": "🖌️",
-    "id": "miniature_painting",
-    "keywords": [
-      "painting warhammer miniatures",
-      "resin diorama ocean",
-      "model train scenery building",
-      "gundam gunpla custom build"
-    ],
-    "name": "Miniature Painting & Dioramas",
-    "position": 47
-  },
-  {
-    "enabled": true,
-    "icon": "⏱️",
-    "id": "speedrunning",
-    "keywords": [
-      "super mario 64 speedrun",
-      "elden ring speedrun world record",
-      "video game glitches explained",
-      "games done quick highlights"
-    ],
-    "name": "Speedrunning & Glitches",
-    "position": 48
-  },
-  {
-    "enabled": true,
-    "icon": "📺",
-    "id": "retro_commercials",
-    "keywords": [
-      "90s commercials compilation",
-      "vintage advertising history",
-      "80s tv bumpers",
-      "retro infomercials"
-    ],
-    "name": "Retro Advertising & Media",
-    "position": 49
-  },
-  {
-    "enabled": true,
-    "icon": "🕵️",
-    "id": "crime_interrogations",
-    "keywords": [
-      "police interrogation analysis",
-      "bodycam footage breakdown",
-      "detective psychology",
-      "courtroom cross examination"
-    ],
-    "name": "True Crime Interrogations",
-    "position": 50
-  },
-  {
-    "enabled": true,
-    "icon": "🐠",
-    "id": "aquascaping",
-    "keywords": [
-      "planted aquarium setup",
-      "nano reef tank build",
-      "aquascape competition layout",
-      "betta fish tank makeover"
-    ],
-    "name": "Aquarium Aquascaping",
-    "position": 51
-  },
-  {
-    "enabled": true,
-    "icon": "🐜",
-    "id": "terrariums_ants",
-    "keywords": [
-      "bioactive terrarium build",
-      "ant farm colony feeding",
-      "closed terrarium ecosystem",
-      "tarantula enclosure setup"
-    ],
-    "name": "Terrariums & Ant Farms",
-    "position": 52
-  },
-  {
-    "enabled": true,
     "icon": "📌",
     "id": "grp_mqcb1b1krpqqxv8jti",
     "keywords": [
@@ -861,6 +731,136 @@
       "Kamla Nehru Zoo mp"
     ],
     "name": "Travel Plan June 2026",
+    "position": 43
+  },
+  {
+    "enabled": true,
+    "icon": "🔓",
+    "id": "lockpicking",
+    "keywords": [
+      "lockpicking tutorial",
+      "lockpickinglawyer best",
+      "physical security penetration testing",
+      "safe cracking techniques"
+    ],
+    "name": "Lockpicking & Security",
+    "position": 44
+  },
+  {
+    "enabled": true,
+    "icon": "⚒️",
+    "id": "blacksmithing",
+    "keywords": [
+      "forging a sword from rusty metal",
+      "blacksmithing for beginners",
+      "damascus steel knife making",
+      "anvil restoration"
+    ],
+    "name": "Blacksmithing & Forging",
+    "position": 45
+  },
+  {
+    "enabled": true,
+    "icon": "🏺",
+    "id": "glassblowing_pottery",
+    "keywords": [
+      "glassblowing vase tutorial",
+      "pottery wheel throwing",
+      "ceramic glazing techniques",
+      "making neon signs"
+    ],
+    "name": "Glassblowing & Ceramics",
+    "position": 46
+  },
+  {
+    "enabled": true,
+    "icon": "🖋️",
+    "id": "tattoo_art",
+    "keywords": [
+      "tattoo time lapse cover up",
+      "traditional japanese tattoo",
+      "first tattoo experience",
+      "tattoo artist interview"
+    ],
+    "name": "Tattoo Art & Piercings",
+    "position": 47
+  },
+  {
+    "enabled": true,
+    "icon": "🖌️",
+    "id": "miniature_painting",
+    "keywords": [
+      "painting warhammer miniatures",
+      "resin diorama ocean",
+      "model train scenery building",
+      "gundam gunpla custom build"
+    ],
+    "name": "Miniature Painting & Dioramas",
+    "position": 48
+  },
+  {
+    "enabled": true,
+    "icon": "⏱️",
+    "id": "speedrunning",
+    "keywords": [
+      "super mario 64 speedrun",
+      "elden ring speedrun world record",
+      "video game glitches explained",
+      "games done quick highlights"
+    ],
+    "name": "Speedrunning & Glitches",
+    "position": 49
+  },
+  {
+    "enabled": true,
+    "icon": "📺",
+    "id": "retro_commercials",
+    "keywords": [
+      "90s commercials compilation",
+      "vintage advertising history",
+      "80s tv bumpers",
+      "retro infomercials"
+    ],
+    "name": "Retro Advertising & Media",
+    "position": 50
+  },
+  {
+    "enabled": true,
+    "icon": "🕵️",
+    "id": "crime_interrogations",
+    "keywords": [
+      "police interrogation analysis",
+      "bodycam footage breakdown",
+      "detective psychology",
+      "courtroom cross examination"
+    ],
+    "name": "True Crime Interrogations",
+    "position": 51
+  },
+  {
+    "enabled": true,
+    "icon": "🐠",
+    "id": "aquascaping",
+    "keywords": [
+      "planted aquarium setup",
+      "nano reef tank build",
+      "aquascape competition layout",
+      "betta fish tank makeover"
+    ],
+    "name": "Aquarium Aquascaping",
+    "position": 52
+  },
+  {
+    "enabled": true,
+    "icon": "🐜",
+    "id": "terrariums_ants",
+    "keywords": [
+      "bioactive terrarium build",
+      "ant farm colony feeding",
+      "closed terrarium ecosystem",
+      "tarantula enclosure setup"
+    ],
+    "name": "Terrariums & Ant Farms",
     "position": 53
   },
   {
