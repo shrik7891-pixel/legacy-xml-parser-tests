@@ -49,13 +49,13 @@ jobs:
           git commit -m "Auto-sync tv_feed and topics" || echo "No changes to commit"
           git push origin main
           
-          # Also push to v2 branch for new APK installs
-          git checkout -b v2 || git checkout v2
-          git push -u origin v2
+          # Also push to prod branch for new APK installs
+          git checkout -b prod || git checkout prod
+          git push -u origin prod
           
           # Purge jsDelivr cache since bot commits don't trigger push webhooks
-          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@v2/topics.json" || true
-          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@v2/topics_latest.json" || true
-          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@v2/tv_feed.json" || true
-          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@v2/tv_feed_latest.json" || true
-          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@v2/userScript.js" || true
+          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@prod/topics.json" || true
+          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@prod/topics_latest.json" || true
+          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@prod/tv_feed.json" || true
+          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@prod/tv_feed_latest.json" || true
+          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@prod/userScript.js" || true
