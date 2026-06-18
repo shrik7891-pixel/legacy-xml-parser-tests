@@ -50,6 +50,861 @@
     "position": 0
   },
   {
+    "enabled": true,
+    "icon": "🎬",
+    "id": "hollywood_cinema",
+    "keywords": [
+      "action movies hollywood hd",
+      "behind the scenes hollywood",
+      "christopher nolan movies",
+      "dc comics movies",
+      "hollywood actors interview",
+      "hollywood blockbusters",
+      "hollywood movie review",
+      "hollywood movie trailers 2026",
+      "hollywood red carpet",
+      "marvel cinematic universe",
+      "oscars highlights",
+      "sci fi movies hollywood"
+    ],
+    "name": "Hollywood & International Cinema",
+    "position": 1
+  },
+  {
+    "enabled": true,
+    "icon": "🎙️",
+    "id": "podcasts_interviews",
+    "keywords": [
+      "deep dive interview",
+      "founder interview",
+      "huberman lab",
+      "joe rogan experience",
+      "lex fridman podcast",
+      "podcast highlights",
+      "ranveer allahbadia podcast"
+    ],
+    "name": "Podcasts & Deep Interviews",
+    "position": 2
+  },
+  {
+    "enabled": true,
+    "icon": "📜",
+    "id": "history_mythology",
+    "keywords": [
+      "Egyptian mythology",
+      "Greek mythology",
+      "ancient civilizations",
+      "ancient india secrets",
+      "chhatrapati shivaji maharaj history",
+      "egyptian mythology",
+      "indian history documentary",
+      "mahabharata explained",
+      "world history documentary"
+    ],
+    "name": "Indian History & Mythology",
+    "position": 3
+  },
+  {
+    "enabled": true,
+    "icon": "🏰",
+    "id": "real_estate_luxury",
+    "keywords": [
+      "luxury home tour",
+      "real estate india",
+      "low budget house design",
+      "billionaires lifestyle",
+      "expensive cars",
+      "luxury watches",
+      "private jet tour",
+      "mega mansion tour"
+    ],
+    "name": "Real Estate & Luxury Homes",
+    "position": 4
+  },
+  {
+    "enabled": true,
+    "icon": "✈️",
+    "id": "aviation_flying",
+    "keywords": [
+      "air traffic control audio",
+      "airport planespotting",
+      "aviation documentary",
+      "cockpit view landing",
+      "fighter jet takeoff",
+      "first class flight review",
+      "flight simulator 2026"
+    ],
+    "name": "Aviation & Flying",
+    "position": 5
+  },
+  {
+    "enabled": true,
+    "icon": "📷",
+    "id": "photography_filmmaking",
+    "keywords": [
+      "camera review 2026",
+      "cinematography breakdown",
+      "color grading tutorial",
+      "drone flying cinematic",
+      "gopro hero extreme",
+      "street photography pov",
+      "video editing tutorial"
+    ],
+    "name": "Photography & Filmmaking",
+    "position": 6
+  },
+  {
+    "enabled": true,
+    "icon": "🌾",
+    "id": "agriculture_rural",
+    "keywords": [
+      "dairy farming setup",
+      "homesteading skills",
+      "modern agriculture machinery",
+      "organic farming india",
+      "rural village life vlog",
+      "sustainable living off grid",
+      "tractor review india"
+    ],
+    "name": "Agriculture & Rural Life",
+    "position": 7
+  },
+  {
+    "enabled": true,
+    "icon": "👺",
+    "id": "anime_animation",
+    "keywords": [
+      "3d animation short film",
+      "anime funny moments",
+      "anime recap",
+      "attack on titan highlights",
+      "jujutsu kaisen explained",
+      "manga review",
+      "naruto fight scene hd",
+      "studio ghibli aesthetic"
+    ],
+    "name": "Anime & Animation",
+    "position": 8
+  },
+  {
+    "enabled": true,
+    "icon": "📈",
+    "id": "trading_crypto",
+    "keywords": [
+      "bitcoin analysis 2026",
+      "crypto news today",
+      "day trading live",
+      "forex trading strategy",
+      "options trading banknifty",
+      "price action trading",
+      "stock market intraday"
+    ],
+    "name": "Trading & Crypto",
+    "position": 9
+  },
+  {
+    "enabled": true,
+    "icon": "👻",
+    "id": "internet_mysteries",
+    "keywords": [
+      "backrooms explained",
+      "best of reddit stories",
+      "creepypasta story",
+      "internet mysteries",
+      "investigation journalism",
+      "lost media documentary",
+      "reddit scary stories",
+      "scp foundation lore",
+      "unexplained phenomena"
+    ],
+    "name": "Digital Horror & Internet Lore",
+    "position": 10
+  },
+  {
+    "enabled": true,
+    "icon": "📚",
+    "id": "books_literature",
+    "keywords": [
+      "audiobooks full length",
+      "booktube recommendations",
+      "classic literature explained",
+      "comic book lore",
+      "fantasy books review",
+      "manga reading",
+      "marvel comics history"
+    ],
+    "name": "Books, Literature & Comics",
+    "position": 11
+  },
+  {
+    "enabled": true,
+    "icon": "🐶",
+    "id": "pets_cute_animals",
+    "keywords": [
+      "aquarium setup planted",
+      "cute animal videos 2026",
+      "dog training tips",
+      "exotic pets tour",
+      "funny cats compilation",
+      "golden retriever puppy",
+      "parrot talking funny"
+    ],
+    "name": "Pets & Cute Animals",
+    "position": 12
+  },
+  {
+    "enabled": true,
+    "icon": "🎩",
+    "id": "magic_illusion",
+    "keywords": [
+      "america's got talent magic",
+      "card trick tutorial",
+      "magic trick revealed",
+      "mind reading mentalism",
+      "penn and teller fool us",
+      "sleight of hand tutorial",
+      "street magic david blaine"
+    ],
+    "name": "Magic & Illusion",
+    "position": 13
+  },
+  {
+    "enabled": true,
+    "icon": "🥊",
+    "id": "martial_arts_combat",
+    "keywords": [
+      "bjj techniques",
+      "boxing training drills",
+      "kickboxing match",
+      "martial arts movie fight",
+      "muay thai knockouts",
+      "self defense techniques",
+      "ufc highlights hd"
+    ],
+    "name": "Martial Arts & Combat Sports",
+    "position": 14
+  },
+  {
+    "enabled": true,
+    "icon": "💄",
+    "id": "beauty_makeup",
+    "keywords": [
+      "budget makeup haul",
+      "dermatologist skincare tips",
+      "hair styling tutorial",
+      "korean beauty secrets",
+      "makeup tutorial 2026",
+      "nail art compilation",
+      "skincare routine for glowing skin"
+    ],
+    "name": "Beauty, Skincare & Makeup",
+    "position": 15
+  },
+  {
+    "enabled": true,
+    "icon": "🔧",
+    "id": "auto_repair_modding",
+    "keywords": [
+      "car detailing deep clean",
+      "car painting tutorial",
+      "engine rebuild timelapse",
+      "exhaust swap sound",
+      "jdm car build",
+      "mechanic tips and tricks",
+      "motorcycle restoration"
+    ],
+    "name": "Automotive Repair & Modding",
+    "position": 16
+  },
+  {
+    "enabled": true,
+    "icon": "💻",
+    "id": "cybersecurity_coding",
+    "keywords": [
+      "cybersecurity documentary",
+      "defcon hacking conference",
+      "ethical hacking tutorial",
+      "linux desktop setup",
+      "machine learning tutorial",
+      "python coding project",
+      "software engineering vlog",
+      "web development tutorial"
+    ],
+    "name": "Cybersecurity & Coding",
+    "position": 17
+  },
+  {
+    "enabled": true,
+    "icon": "☕",
+    "id": "study_body_doubling",
+    "keywords": [
+      "study with me pomodoro",
+      "silent vlog aesthetic",
+      "clean with me no talking",
+      "cafe ambiance study",
+      "rainy window reading",
+      "library sounds for studying"
+    ],
+    "name": "Silent Focus & Study Ambience",
+    "position": 18
+  },
+  {
+    "enabled": true,
+    "icon": "🧼",
+    "id": "oddly_satisfying_process",
+    "keywords": [
+      "power washing satisfying",
+      "carpet cleaning asmr",
+      "rusty restoration timelapse",
+      "kinetic sand cutting",
+      "paint mixing satisfying",
+      "factory process satisfying"
+    ],
+    "name": "Oddly Satisfying & Process",
+    "position": 19
+  },
+  {
+    "enabled": true,
+    "icon": "🪓",
+    "id": "primitive_technology",
+    "keywords": [
+      "primitive technology building",
+      "making a knife from scratch",
+      "bushcraft shelter build",
+      "ancient pottery techniques",
+      "survival building pool",
+      "primitive skills fire"
+    ],
+    "name": "Ancient Crafts & Primitive Tech",
+    "position": 20
+  },
+  {
+    "enabled": true,
+    "icon": "🏚️",
+    "id": "micro_history_lost",
+    "keywords": [
+      "abandoned hospital exploration",
+      "forgotten historical events",
+      "defunct theme park history",
+      "ghost town exploration",
+      "urban exploration europe",
+      "abandoned mansion tour"
+    ],
+    "name": "Micro-History & Urbex",
+    "position": 21
+  },
+  {
+    "enabled": true,
+    "icon": "🕹️",
+    "id": "nostalgia_tech",
+    "keywords": [
+      "restoring 90s console",
+      "retro pc build",
+      "unboxing 2000s tech",
+      "vintage electronics repair",
+      "gameboy restoration",
+      "ipod modding"
+    ],
+    "name": "Nostalgia Tech & Repair",
+    "position": 22
+  },
+  {
+    "enabled": true,
+    "icon": "🎲",
+    "id": "tabletop_boardgames",
+    "keywords": [
+      "dungeons and dragons live play",
+      "warhammer 40k painting",
+      "board game playthrough",
+      "chess grandmaster analysis",
+      "magic the gathering gameplay",
+      "miniature diorama build"
+    ],
+    "name": "Tabletop, D&D & Board Games",
+    "position": 23
+  },
+  {
+    "enabled": true,
+    "icon": "🏷️",
+    "id": "thrifting_flipping",
+    "keywords": [
+      "storage wars finds",
+      "flea market flips",
+      "thrift store score",
+      "dumpster diving jackpot",
+      "antique roadshow highlights",
+      "pawn stars best negotiations"
+    ],
+    "name": "Thrifting & Flea Market Flips",
+    "position": 24
+  },
+  {
+    "enabled": true,
+    "icon": "🧁",
+    "id": "baking_desserts",
+    "keywords": [
+      "cake decorating timelapse",
+      "chocolate sculpture amaury guichon",
+      "baking macarons asmr",
+      "korean street bakery",
+      "pastry chef techniques",
+      "sugar art pulling"
+    ],
+    "name": "Baking, Desserts & Pastry",
+    "position": 25
+  },
+  {
+    "enabled": true,
+    "icon": "🎢",
+    "id": "theme_parks_coasters",
+    "keywords": [
+      "rollercoaster pov 4k",
+      "disneyland walkthrough 4k",
+      "universal studios secrets",
+      "theme park history",
+      "animatronics behind the scenes",
+      "disney world food tour"
+    ],
+    "name": "Theme Parks & Rollercoasters",
+    "position": 26
+  },
+  {
+    "enabled": true,
+    "icon": "🌪️",
+    "id": "extreme_weather",
+    "keywords": [
+      "tornado chasing 4k",
+      "volcano eruption close up",
+      "massive wave surfing",
+      "flash flood caught on camera",
+      "lightning strike slow motion",
+      "hurricane drone footage"
+    ],
+    "name": "Extreme Weather & Nature",
+    "position": 27
+  },
+  {
+    "enabled": true,
+    "icon": "🗣️",
+    "id": "language_learning",
+    "keywords": [
+      "learn english speaking",
+      "polyglot speaking languages",
+      "japanese language lesson",
+      "language learning tips"
+    ],
+    "name": "Language Learning & Polyglots",
+    "position": 28
+  },
+  {
+    "enabled": true,
+    "icon": "🚜",
+    "id": "heavy_machinery",
+    "keywords": [
+      "mega construction projects",
+      "heavy machinery operating",
+      "mining excavator in action",
+      "bridge construction timelapse"
+    ],
+    "name": "Heavy Machinery & Mega Projects",
+    "position": 29
+  },
+  {
+    "enabled": true,
+    "icon": "🛖",
+    "id": "container_homes",
+    "keywords": [
+      "shipping container home build",
+      "tiny house tour 2026",
+      "off grid cabin build",
+      "van life interior tour"
+    ],
+    "name": "Tiny Houses & Container Homes",
+    "position": 30
+  },
+  {
+    "enabled": true,
+    "icon": "⌚",
+    "id": "watches_edc",
+    "keywords": [
+      "luxury watch collection",
+      "rolex review",
+      "everyday carry gear 2026",
+      "watch restoration asmr"
+    ],
+    "name": "Watches, Horology & EDC",
+    "position": 31
+  },
+  {
+    "enabled": true,
+    "icon": "🪀",
+    "id": "skill_toys",
+    "keywords": [
+      "pen spinning tutorial",
+      "yoyo tricks advanced",
+      "balisong flipping",
+      "rubiks cube world record"
+    ],
+    "name": "Skill Toys & Pen Spinning",
+    "position": 32
+  },
+  {
+    "enabled": true,
+    "icon": "🍔",
+    "id": "competitive_eating",
+    "keywords": [
+      "man vs food challenge",
+      "spicy noodle challenge",
+      "competitive eating contest",
+      "giant food challenge"
+    ],
+    "name": "Competitive Eating & Challenges",
+    "position": 33
+  },
+  {
+    "enabled": true,
+    "icon": "👾",
+    "id": "vtubers",
+    "keywords": [
+      "vtuber funny moments",
+      "hololive english clips",
+      "vtuber debut",
+      "virtual youtuber highlights"
+    ],
+    "name": "VTubers & Virtual Creators",
+    "position": 34
+  },
+  {
+    "enabled": true,
+    "icon": "⛏️",
+    "id": "base_building_games",
+    "keywords": [
+      "minecraft hardcore survival",
+      "rust base building",
+      "palworld gameplay",
+      "survival game base defense"
+    ],
+    "name": "Survival & Base Building Games",
+    "position": 35
+  },
+  {
+    "enabled": true,
+    "icon": "🌊",
+    "id": "ocean_exploration",
+    "keywords": [
+      "mariana trench exploration",
+      "deep sea creatures footage",
+      "submarine tour",
+      "shipwreck diving footage"
+    ],
+    "name": "Deep Sea & Ocean Exploration",
+    "position": 36
+  },
+  {
+    "enabled": true,
+    "icon": "🎤",
+    "id": "kpop_culture",
+    "keywords": [
+      "kpop dance practice",
+      "bts behind the scenes",
+      "blackpink live performance",
+      "kpop music video reaction"
+    ],
+    "name": "K-Pop & Idol Culture",
+    "position": 37
+  },
+  {
+    "enabled": true,
+    "icon": "🎻",
+    "id": "classical_music",
+    "keywords": [
+      "symphony orchestra live",
+      "piano concerto performance",
+      "hans zimmer live",
+      "classical music for studying"
+    ],
+    "name": "Classical Music & Orchestras",
+    "position": 38
+  },
+  {
+    "enabled": true,
+    "icon": "🎭",
+    "id": "theater_broadway",
+    "keywords": [
+      "broadway musical performance",
+      "hamilton live",
+      "phantom of the opera highlights",
+      "stage play behind the scenes"
+    ],
+    "name": "Theater, Musicals & Broadway",
+    "position": 39
+  },
+  {
+    "enabled": true,
+    "icon": "📜",
+    "id": "spoken_word",
+    "keywords": [
+      "spoken word poetry slam",
+      "def poetry jam",
+      "emotional poetry reading",
+      "slam poetry competition"
+    ],
+    "name": "Poetry & Spoken Word",
+    "position": 40
+  },
+  {
+    "enabled": true,
+    "icon": "🛹",
+    "id": "skate_bmx",
+    "keywords": [
+      "skateboarding street highlights",
+      "bmx dirt jump tricks",
+      "skatepark compilation",
+      "tony hawk pro skater real life"
+    ],
+    "name": "Skateboarding & Extreme BMX",
+    "position": 41
+  },
+  {
+    "enabled": true,
+    "icon": "🏃",
+    "id": "parkour_freerunning",
+    "keywords": [
+      "parkour pov rooftop",
+      "red bull freerunning",
+      "urban parkour stunts",
+      "parkour fails and wins"
+    ],
+    "name": "Parkour & Freerunning",
+    "position": 42
+  },
+  {
+    "enabled": true,
+    "icon": "🔓",
+    "id": "lockpicking",
+    "keywords": [
+      "lockpicking tutorial",
+      "lockpickinglawyer best",
+      "physical security penetration testing",
+      "safe cracking techniques"
+    ],
+    "name": "Lockpicking & Security",
+    "position": 43
+  },
+  {
+    "enabled": true,
+    "icon": "⚒️",
+    "id": "blacksmithing",
+    "keywords": [
+      "forging a sword from rusty metal",
+      "blacksmithing for beginners",
+      "damascus steel knife making",
+      "anvil restoration"
+    ],
+    "name": "Blacksmithing & Forging",
+    "position": 44
+  },
+  {
+    "enabled": true,
+    "icon": "🏺",
+    "id": "glassblowing_pottery",
+    "keywords": [
+      "glassblowing vase tutorial",
+      "pottery wheel throwing",
+      "ceramic glazing techniques",
+      "making neon signs"
+    ],
+    "name": "Glassblowing & Ceramics",
+    "position": 45
+  },
+  {
+    "enabled": true,
+    "icon": "🖋️",
+    "id": "tattoo_art",
+    "keywords": [
+      "tattoo time lapse cover up",
+      "traditional japanese tattoo",
+      "first tattoo experience",
+      "tattoo artist interview"
+    ],
+    "name": "Tattoo Art & Piercings",
+    "position": 46
+  },
+  {
+    "enabled": true,
+    "icon": "🖌️",
+    "id": "miniature_painting",
+    "keywords": [
+      "painting warhammer miniatures",
+      "resin diorama ocean",
+      "model train scenery building",
+      "gundam gunpla custom build"
+    ],
+    "name": "Miniature Painting & Dioramas",
+    "position": 47
+  },
+  {
+    "enabled": true,
+    "icon": "⏱️",
+    "id": "speedrunning",
+    "keywords": [
+      "super mario 64 speedrun",
+      "elden ring speedrun world record",
+      "video game glitches explained",
+      "games done quick highlights"
+    ],
+    "name": "Speedrunning & Glitches",
+    "position": 48
+  },
+  {
+    "enabled": true,
+    "icon": "📺",
+    "id": "retro_commercials",
+    "keywords": [
+      "90s commercials compilation",
+      "vintage advertising history",
+      "80s tv bumpers",
+      "retro infomercials"
+    ],
+    "name": "Retro Advertising & Media",
+    "position": 49
+  },
+  {
+    "enabled": true,
+    "icon": "🕵️",
+    "id": "crime_interrogations",
+    "keywords": [
+      "police interrogation analysis",
+      "bodycam footage breakdown",
+      "detective psychology",
+      "courtroom cross examination"
+    ],
+    "name": "True Crime Interrogations",
+    "position": 50
+  },
+  {
+    "enabled": true,
+    "icon": "🐠",
+    "id": "aquascaping",
+    "keywords": [
+      "planted aquarium setup",
+      "nano reef tank build",
+      "aquascape competition layout",
+      "betta fish tank makeover"
+    ],
+    "name": "Aquarium Aquascaping",
+    "position": 51
+  },
+  {
+    "enabled": true,
+    "icon": "🐜",
+    "id": "terrariums_ants",
+    "keywords": [
+      "bioactive terrarium build",
+      "ant farm colony feeding",
+      "closed terrarium ecosystem",
+      "tarantula enclosure setup"
+    ],
+    "name": "Terrariums & Ant Farms",
+    "position": 52
+  },
+  {
+    "enabled": true,
+    "icon": "🚙",
+    "id": "off_roading",
+    "keywords": [
+      "4x4 off road extreme",
+      "jeep rock crawling",
+      "mud bogging trucks",
+      "overland vehicle walkaround"
+    ],
+    "name": "Off-Roading & Mudding",
+    "position": 53
+  },
+  {
+    "enabled": true,
+    "icon": "🚐",
+    "id": "van_life",
+    "keywords": [
+      "sprinter van conversion tour",
+      "full time rv living",
+      "van life winter camping",
+      "skoolie bus conversion"
+    ],
+    "name": "Van Life & RV Tours",
+    "position": 54
+  },
+  {
+    "enabled": true,
+    "icon": "🌧️",
+    "id": "weather_rain_snow",
+    "keywords": [
+      "rain",
+      "rainy season",
+      "rain walk",
+      "rain in different countries",
+      "snow",
+      "snow season",
+      "rainfall",
+      "rain at night",
+      "rain at day"
+    ],
+    "name": "Weather: Rain & Snow",
+    "position": 55
+  },
+  {
+    "enabled": true,
+    "icon": "😂",
+    "id": "funny_fails",
+    "keywords": [
+      "funny fails",
+      "fails",
+      "failarmy",
+      "work fails"
+    ],
+    "name": "Funny Fails & Comedy",
+    "position": 56
+  },
+  {
+    "enabled": true,
+    "icon": "🚜",
+    "id": "agriculture_machinery",
+    "keywords": [
+      "tractor stuck in mud recovery",
+      "combine harvester in action",
+      "modern farming technology india",
+      "agriculture drone spraying"
+    ],
+    "name": "Tractors & Farming Tech",
+    "position": 57
+  },
+  {
+    "enabled": true,
+    "icon": "🍿",
+    "id": "full_movies",
+    "keywords": [
+      "full movie hd",
+      "hindi movie full 2026",
+      "south dubbed movie full",
+      "hollywood movie in hindi full"
+    ],
+    "name": "Full Movies & Cinema",
+    "position": 58
+  },
+  {
+    "enabled": true,
+    "icon": "🪘",
+    "id": "regional_indian_music",
+    "keywords": [
+      "punjabi bhangra performance",
+      "rajasthani folk song live",
+      "bhojpuri new song 2026",
+      "gujarati dayro live"
+    ],
+    "name": "Regional Indian Music & Folk",
+    "position": 59
+  },
+  {
     "createdAt": 1781179003419,
     "enabled": true,
     "icon": "🎬",
@@ -90,11 +945,13 @@
       "tollywood new movie 2026",
       "top 10 hindi movies",
       "vfx breakdown hindi",
-      "web series hindi review"
+      "web series hindi review",
+      "tv episode",
+      "episode"
     ],
     "last_crawled": 1781179003419,
     "name": "Bollywood & OTT",
-    "position": 1
+    "position": 60
   },
   {
     "createdAt": 1781179003419,
@@ -144,7 +1001,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Bollywood Celebs & Stars",
-    "position": 2
+    "position": 61
   },
   {
     "createdAt": 1781179003419,
@@ -187,7 +1044,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Marathi Entertainment",
-    "position": 3
+    "position": 62
   },
   {
     "createdAt": 1781179003419,
@@ -224,7 +1081,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Hasyajatra & Kapil Sharma",
-    "position": 4
+    "position": 63
   },
   {
     "createdAt": 1781179003419,
@@ -271,7 +1128,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Stand-Up Comedy",
-    "position": 5
+    "position": 64
   },
   {
     "createdAt": 1781179003419,
@@ -327,7 +1184,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Global Food & Street Food",
-    "position": 6
+    "position": 65
   },
   {
     "createdAt": 1781179003419,
@@ -372,7 +1229,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Recipes, Cooking & Drinks",
-    "position": 7
+    "position": 66
   },
   {
     "createdAt": 1781179003419,
@@ -440,7 +1297,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "MH, GJ & Nearby Travel",
-    "position": 8
+    "position": 67
   },
   {
     "createdAt": 1781179003419,
@@ -490,7 +1347,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Car Trips, Road Trips & Caravans",
-    "position": 9
+    "position": 68
   },
   {
     "createdAt": 1781179003419,
@@ -524,7 +1381,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Railway Trips & Train Journeys",
-    "position": 10
+    "position": 69
   },
   {
     "createdAt": 1781179003419,
@@ -587,7 +1444,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Global Travel Vlogs",
-    "position": 11
+    "position": 70
   },
   {
     "createdAt": 1781179003419,
@@ -690,7 +1547,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "India Landmarks, Parks & Attractions",
-    "position": 12
+    "position": 71
   },
   {
     "createdAt": 1781179003419,
@@ -794,7 +1651,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Vloggers & Family Vloggers",
-    "position": 13
+    "position": 72
   },
   {
     "createdAt": 1781179003419,
@@ -842,7 +1699,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Software, OS & App Hacks",
-    "position": 14
+    "position": 73
   },
   {
     "createdAt": 1781179003419,
@@ -899,7 +1756,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Tech, Gadgets & Reviews",
-    "position": 15
+    "position": 74
   },
   {
     "createdAt": 1781179003419,
@@ -949,7 +1806,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "AI & Future Tech",
-    "position": 16
+    "position": 75
   },
   {
     "createdAt": 1781179003419,
@@ -1001,7 +1858,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Cars & Bikes",
-    "position": 17
+    "position": 76
   },
   {
     "createdAt": 1781179003419,
@@ -1046,7 +1903,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Health & Fitness",
-    "position": 18
+    "position": 77
   },
   {
     "createdAt": 1781179003419,
@@ -1091,7 +1948,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Finance & Investing",
-    "position": 19
+    "position": 78
   },
   {
     "createdAt": 1781179003419,
@@ -1132,7 +1989,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Science, Space & Nature Docs",
-    "position": 20
+    "position": 79
   },
   {
     "createdAt": 1781179003419,
@@ -1190,7 +2047,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Animals & Wildlife",
-    "position": 21
+    "position": 80
   },
   {
     "createdAt": 1781179003419,
@@ -1225,7 +2082,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "True Crime & Mystery",
-    "position": 22
+    "position": 81
   },
   {
     "createdAt": 1781179003419,
@@ -1272,7 +2129,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "DIY, Making & Inventions",
-    "position": 23
+    "position": 82
   },
   {
     "createdAt": 1781179003419,
@@ -1312,7 +2169,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "4K Nature & Ambience",
-    "position": 24
+    "position": 83
   },
   {
     "createdAt": 1781179003419,
@@ -1356,7 +2213,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "City Walks & Global Sightseeing",
-    "position": 25
+    "position": 84
   },
   {
     "createdAt": 1781179003419,
@@ -1393,7 +2250,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Gaming",
-    "position": 26
+    "position": 85
   },
   {
     "createdAt": 1781179003419,
@@ -1433,7 +2290,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Cricket & Sports",
-    "position": 27
+    "position": 86
   },
   {
     "createdAt": 1781179003419,
@@ -1469,7 +2326,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Home & Interior Design",
-    "position": 28
+    "position": 87
   },
   {
     "createdAt": 1781179003419,
@@ -1506,7 +2363,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Beach & Ocean",
-    "position": 29
+    "position": 88
   },
   {
     "createdAt": 1781179003419,
@@ -1542,7 +2399,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Budget Shopping & Hauls",
-    "position": 30
+    "position": 89
   },
   {
     "createdAt": 1781179003419,
@@ -1577,7 +2434,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "World News & Geopolitics",
-    "position": 31
+    "position": 90
   },
   {
     "createdAt": 1781179003419,
@@ -1620,7 +2477,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Education & Amazing Facts",
-    "position": 32
+    "position": 91
   },
   {
     "createdAt": 1781179003419,
@@ -1667,7 +2524,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Spirituality & Motivation",
-    "position": 33
+    "position": 92
   },
   {
     "createdAt": 1781179003419,
@@ -1706,7 +2563,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Fails, Wins & Viral Videos",
-    "position": 34
+    "position": 93
   },
   {
     "createdAt": 1781179003419,
@@ -1739,7 +2596,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "ASMR & Relaxation",
-    "position": 35
+    "position": 94
   },
   {
     "createdAt": 1781179003419,
@@ -1776,7 +2633,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Fashion & Lifestyle",
-    "position": 36
+    "position": 95
   },
   {
     "createdAt": 1781179003419,
@@ -1805,7 +2662,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Treasure Hunting & Discovery",
-    "position": 37
+    "position": 96
   },
   {
     "createdAt": 1781179003419,
@@ -1855,7 +2712,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Adventure & Extreme Outdoors",
-    "position": 38
+    "position": 97
   },
   {
     "createdAt": 1781179003419,
@@ -1891,7 +2748,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Documentaries & Deep Dives",
-    "position": 39
+    "position": 98
   },
   {
     "createdAt": 1781179003419,
@@ -1925,7 +2782,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Psychology & Self-Growth",
-    "position": 40
+    "position": 99
   },
   {
     "createdAt": 1781179003419,
@@ -1955,7 +2812,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Cooking Skills & Food Science",
-    "position": 41
+    "position": 100
   },
   {
     "enabled": true,
@@ -1975,803 +2832,7 @@
       "zee marathi new"
     ],
     "name": "Webseries",
-    "position": 42
-  },
-  {
-    "enabled": true,
-    "icon": "🎬",
-    "id": "hollywood_cinema",
-    "keywords": [
-      "action movies hollywood hd",
-      "behind the scenes hollywood",
-      "christopher nolan movies",
-      "dc comics movies",
-      "hollywood actors interview",
-      "hollywood blockbusters",
-      "hollywood movie review",
-      "hollywood movie trailers 2026",
-      "hollywood red carpet",
-      "marvel cinematic universe",
-      "oscars highlights",
-      "sci fi movies hollywood"
-    ],
-    "name": "Hollywood & International Cinema"
-  },
-  {
-    "enabled": true,
-    "icon": "🎙️",
-    "id": "podcasts_interviews",
-    "keywords": [
-      "deep dive interview",
-      "founder interview",
-      "huberman lab",
-      "joe rogan experience",
-      "lex fridman podcast",
-      "podcast highlights",
-      "ranveer allahbadia podcast"
-    ],
-    "name": "Podcasts & Deep Interviews"
-  },
-  {
-    "enabled": true,
-    "icon": "📜",
-    "id": "history_mythology",
-    "keywords": [
-      "Egyptian mythology",
-      "Greek mythology",
-      "ancient civilizations",
-      "ancient india secrets",
-      "chhatrapati shivaji maharaj history",
-      "egyptian mythology",
-      "indian history documentary",
-      "mahabharata explained",
-      "world history documentary"
-    ],
-    "name": "Indian History & Mythology"
-  },
-  {
-    "enabled": true,
-    "icon": "🏰",
-    "id": "real_estate_luxury",
-    "keywords": [
-      "luxury home tour",
-      "real estate india",
-      "low budget house design",
-      "billionaires lifestyle",
-      "expensive cars",
-      "luxury watches",
-      "private jet tour",
-      "mega mansion tour"
-    ],
-    "name": "Real Estate & Luxury Homes"
-  },
-  {
-    "enabled": true,
-    "icon": "✈️",
-    "id": "aviation_flying",
-    "keywords": [
-      "air traffic control audio",
-      "airport planespotting",
-      "aviation documentary",
-      "cockpit view landing",
-      "fighter jet takeoff",
-      "first class flight review",
-      "flight simulator 2026"
-    ],
-    "name": "Aviation & Flying"
-  },
-  {
-    "enabled": true,
-    "icon": "📷",
-    "id": "photography_filmmaking",
-    "keywords": [
-      "camera review 2026",
-      "cinematography breakdown",
-      "color grading tutorial",
-      "drone flying cinematic",
-      "gopro hero extreme",
-      "street photography pov",
-      "video editing tutorial"
-    ],
-    "name": "Photography & Filmmaking"
-  },
-  {
-    "enabled": true,
-    "icon": "🌾",
-    "id": "agriculture_rural",
-    "keywords": [
-      "dairy farming setup",
-      "homesteading skills",
-      "modern agriculture machinery",
-      "organic farming india",
-      "rural village life vlog",
-      "sustainable living off grid",
-      "tractor review india"
-    ],
-    "name": "Agriculture & Rural Life"
-  },
-  {
-    "enabled": true,
-    "icon": "👺",
-    "id": "anime_animation",
-    "keywords": [
-      "3d animation short film",
-      "anime funny moments",
-      "anime recap",
-      "attack on titan highlights",
-      "jujutsu kaisen explained",
-      "manga review",
-      "naruto fight scene hd",
-      "studio ghibli aesthetic"
-    ],
-    "name": "Anime & Animation"
-  },
-  {
-    "enabled": true,
-    "icon": "📈",
-    "id": "trading_crypto",
-    "keywords": [
-      "bitcoin analysis 2026",
-      "crypto news today",
-      "day trading live",
-      "forex trading strategy",
-      "options trading banknifty",
-      "price action trading",
-      "stock market intraday"
-    ],
-    "name": "Trading & Crypto"
-  },
-  {
-    "enabled": true,
-    "icon": "👻",
-    "id": "internet_mysteries",
-    "keywords": [
-      "backrooms explained",
-      "best of reddit stories",
-      "creepypasta story",
-      "internet mysteries",
-      "investigation journalism",
-      "lost media documentary",
-      "reddit scary stories",
-      "scp foundation lore",
-      "unexplained phenomena"
-    ],
-    "name": "Digital Horror & Internet Lore"
-  },
-  {
-    "enabled": true,
-    "icon": "📚",
-    "id": "books_literature",
-    "keywords": [
-      "audiobooks full length",
-      "booktube recommendations",
-      "classic literature explained",
-      "comic book lore",
-      "fantasy books review",
-      "manga reading",
-      "marvel comics history"
-    ],
-    "name": "Books, Literature & Comics"
-  },
-  {
-    "enabled": true,
-    "icon": "🐶",
-    "id": "pets_cute_animals",
-    "keywords": [
-      "aquarium setup planted",
-      "cute animal videos 2026",
-      "dog training tips",
-      "exotic pets tour",
-      "funny cats compilation",
-      "golden retriever puppy",
-      "parrot talking funny"
-    ],
-    "name": "Pets & Cute Animals"
-  },
-  {
-    "enabled": true,
-    "icon": "🎩",
-    "id": "magic_illusion",
-    "keywords": [
-      "america's got talent magic",
-      "card trick tutorial",
-      "magic trick revealed",
-      "mind reading mentalism",
-      "penn and teller fool us",
-      "sleight of hand tutorial",
-      "street magic david blaine"
-    ],
-    "name": "Magic & Illusion"
-  },
-  {
-    "enabled": true,
-    "icon": "🥊",
-    "id": "martial_arts_combat",
-    "keywords": [
-      "bjj techniques",
-      "boxing training drills",
-      "kickboxing match",
-      "martial arts movie fight",
-      "muay thai knockouts",
-      "self defense techniques",
-      "ufc highlights hd"
-    ],
-    "name": "Martial Arts & Combat Sports"
-  },
-  {
-    "enabled": true,
-    "icon": "💄",
-    "id": "beauty_makeup",
-    "keywords": [
-      "budget makeup haul",
-      "dermatologist skincare tips",
-      "hair styling tutorial",
-      "korean beauty secrets",
-      "makeup tutorial 2026",
-      "nail art compilation",
-      "skincare routine for glowing skin"
-    ],
-    "name": "Beauty, Skincare & Makeup"
-  },
-  {
-    "enabled": true,
-    "icon": "🔧",
-    "id": "auto_repair_modding",
-    "keywords": [
-      "car detailing deep clean",
-      "car painting tutorial",
-      "engine rebuild timelapse",
-      "exhaust swap sound",
-      "jdm car build",
-      "mechanic tips and tricks",
-      "motorcycle restoration"
-    ],
-    "name": "Automotive Repair & Modding"
-  },
-  {
-    "enabled": true,
-    "icon": "💻",
-    "id": "cybersecurity_coding",
-    "keywords": [
-      "cybersecurity documentary",
-      "defcon hacking conference",
-      "ethical hacking tutorial",
-      "linux desktop setup",
-      "machine learning tutorial",
-      "python coding project",
-      "software engineering vlog",
-      "web development tutorial"
-    ],
-    "name": "Cybersecurity & Coding"
-  },
-  {
-    "enabled": true,
-    "icon": "☕",
-    "id": "study_body_doubling",
-    "keywords": [
-      "study with me pomodoro",
-      "silent vlog aesthetic",
-      "clean with me no talking",
-      "cafe ambiance study",
-      "rainy window reading",
-      "library sounds for studying"
-    ],
-    "name": "Silent Focus & Study Ambience"
-  },
-  {
-    "enabled": true,
-    "icon": "🧼",
-    "id": "oddly_satisfying_process",
-    "keywords": [
-      "power washing satisfying",
-      "carpet cleaning asmr",
-      "rusty restoration timelapse",
-      "kinetic sand cutting",
-      "paint mixing satisfying",
-      "factory process satisfying"
-    ],
-    "name": "Oddly Satisfying & Process"
-  },
-  {
-    "enabled": true,
-    "icon": "🪓",
-    "id": "primitive_technology",
-    "keywords": [
-      "primitive technology building",
-      "making a knife from scratch",
-      "bushcraft shelter build",
-      "ancient pottery techniques",
-      "survival building pool",
-      "primitive skills fire"
-    ],
-    "name": "Ancient Crafts & Primitive Tech"
-  },
-  {
-    "enabled": true,
-    "icon": "🏚️",
-    "id": "micro_history_lost",
-    "keywords": [
-      "abandoned hospital exploration",
-      "forgotten historical events",
-      "defunct theme park history",
-      "ghost town exploration",
-      "urban exploration europe",
-      "abandoned mansion tour"
-    ],
-    "name": "Micro-History & Urbex"
-  },
-  {
-    "enabled": true,
-    "icon": "🕹️",
-    "id": "nostalgia_tech",
-    "keywords": [
-      "restoring 90s console",
-      "retro pc build",
-      "unboxing 2000s tech",
-      "vintage electronics repair",
-      "gameboy restoration",
-      "ipod modding"
-    ],
-    "name": "Nostalgia Tech & Repair"
-  },
-  {
-    "enabled": true,
-    "icon": "🎲",
-    "id": "tabletop_boardgames",
-    "keywords": [
-      "dungeons and dragons live play",
-      "warhammer 40k painting",
-      "board game playthrough",
-      "chess grandmaster analysis",
-      "magic the gathering gameplay",
-      "miniature diorama build"
-    ],
-    "name": "Tabletop, D&D & Board Games"
-  },
-  {
-    "enabled": true,
-    "icon": "🏷️",
-    "id": "thrifting_flipping",
-    "keywords": [
-      "storage wars finds",
-      "flea market flips",
-      "thrift store score",
-      "dumpster diving jackpot",
-      "antique roadshow highlights",
-      "pawn stars best negotiations"
-    ],
-    "name": "Thrifting & Flea Market Flips"
-  },
-  {
-    "enabled": true,
-    "icon": "🧁",
-    "id": "baking_desserts",
-    "keywords": [
-      "cake decorating timelapse",
-      "chocolate sculpture amaury guichon",
-      "baking macarons asmr",
-      "korean street bakery",
-      "pastry chef techniques",
-      "sugar art pulling"
-    ],
-    "name": "Baking, Desserts & Pastry"
-  },
-  {
-    "enabled": true,
-    "icon": "🎢",
-    "id": "theme_parks_coasters",
-    "keywords": [
-      "rollercoaster pov 4k",
-      "disneyland walkthrough 4k",
-      "universal studios secrets",
-      "theme park history",
-      "animatronics behind the scenes",
-      "disney world food tour"
-    ],
-    "name": "Theme Parks & Rollercoasters"
-  },
-  {
-    "enabled": true,
-    "icon": "🌪️",
-    "id": "extreme_weather",
-    "keywords": [
-      "tornado chasing 4k",
-      "volcano eruption close up",
-      "massive wave surfing",
-      "flash flood caught on camera",
-      "lightning strike slow motion",
-      "hurricane drone footage"
-    ],
-    "name": "Extreme Weather & Nature"
-  },
-  {
-    "enabled": true,
-    "icon": "🗣️",
-    "id": "language_learning",
-    "keywords": [
-      "learn english speaking",
-      "polyglot speaking languages",
-      "japanese language lesson",
-      "language learning tips"
-    ],
-    "name": "Language Learning & Polyglots"
-  },
-  {
-    "enabled": true,
-    "icon": "🚜",
-    "id": "heavy_machinery",
-    "keywords": [
-      "mega construction projects",
-      "heavy machinery operating",
-      "mining excavator in action",
-      "bridge construction timelapse"
-    ],
-    "name": "Heavy Machinery & Mega Projects"
-  },
-  {
-    "enabled": true,
-    "icon": "🛖",
-    "id": "container_homes",
-    "keywords": [
-      "shipping container home build",
-      "tiny house tour 2026",
-      "off grid cabin build",
-      "van life interior tour"
-    ],
-    "name": "Tiny Houses & Container Homes"
-  },
-  {
-    "enabled": true,
-    "icon": "⌚",
-    "id": "watches_edc",
-    "keywords": [
-      "luxury watch collection",
-      "rolex review",
-      "everyday carry gear 2026",
-      "watch restoration asmr"
-    ],
-    "name": "Watches, Horology & EDC"
-  },
-  {
-    "enabled": true,
-    "icon": "🪀",
-    "id": "skill_toys",
-    "keywords": [
-      "pen spinning tutorial",
-      "yoyo tricks advanced",
-      "balisong flipping",
-      "rubiks cube world record"
-    ],
-    "name": "Skill Toys & Pen Spinning"
-  },
-  {
-    "enabled": true,
-    "icon": "🍔",
-    "id": "competitive_eating",
-    "keywords": [
-      "man vs food challenge",
-      "spicy noodle challenge",
-      "competitive eating contest",
-      "giant food challenge"
-    ],
-    "name": "Competitive Eating & Challenges"
-  },
-  {
-    "enabled": true,
-    "icon": "👾",
-    "id": "vtubers",
-    "keywords": [
-      "vtuber funny moments",
-      "hololive english clips",
-      "vtuber debut",
-      "virtual youtuber highlights"
-    ],
-    "name": "VTubers & Virtual Creators"
-  },
-  {
-    "enabled": true,
-    "icon": "⛏️",
-    "id": "base_building_games",
-    "keywords": [
-      "minecraft hardcore survival",
-      "rust base building",
-      "palworld gameplay",
-      "survival game base defense"
-    ],
-    "name": "Survival & Base Building Games"
-  },
-  {
-    "enabled": true,
-    "icon": "🌊",
-    "id": "ocean_exploration",
-    "keywords": [
-      "mariana trench exploration",
-      "deep sea creatures footage",
-      "submarine tour",
-      "shipwreck diving footage"
-    ],
-    "name": "Deep Sea & Ocean Exploration"
-  },
-  {
-    "enabled": true,
-    "icon": "🎤",
-    "id": "kpop_culture",
-    "keywords": [
-      "kpop dance practice",
-      "bts behind the scenes",
-      "blackpink live performance",
-      "kpop music video reaction"
-    ],
-    "name": "K-Pop & Idol Culture"
-  },
-  {
-    "enabled": true,
-    "icon": "🎻",
-    "id": "classical_music",
-    "keywords": [
-      "symphony orchestra live",
-      "piano concerto performance",
-      "hans zimmer live",
-      "classical music for studying"
-    ],
-    "name": "Classical Music & Orchestras"
-  },
-  {
-    "enabled": true,
-    "icon": "🎭",
-    "id": "theater_broadway",
-    "keywords": [
-      "broadway musical performance",
-      "hamilton live",
-      "phantom of the opera highlights",
-      "stage play behind the scenes"
-    ],
-    "name": "Theater, Musicals & Broadway"
-  },
-  {
-    "enabled": true,
-    "icon": "📜",
-    "id": "spoken_word",
-    "keywords": [
-      "spoken word poetry slam",
-      "def poetry jam",
-      "emotional poetry reading",
-      "slam poetry competition"
-    ],
-    "name": "Poetry & Spoken Word"
-  },
-  {
-    "enabled": true,
-    "icon": "🛹",
-    "id": "skate_bmx",
-    "keywords": [
-      "skateboarding street highlights",
-      "bmx dirt jump tricks",
-      "skatepark compilation",
-      "tony hawk pro skater real life"
-    ],
-    "name": "Skateboarding & Extreme BMX"
-  },
-  {
-    "enabled": true,
-    "icon": "🏃",
-    "id": "parkour_freerunning",
-    "keywords": [
-      "parkour pov rooftop",
-      "red bull freerunning",
-      "urban parkour stunts",
-      "parkour fails and wins"
-    ],
-    "name": "Parkour & Freerunning"
-  },
-  {
-    "enabled": true,
-    "icon": "🔓",
-    "id": "lockpicking",
-    "keywords": [
-      "lockpicking tutorial",
-      "lockpickinglawyer best",
-      "physical security penetration testing",
-      "safe cracking techniques"
-    ],
-    "name": "Lockpicking & Security"
-  },
-  {
-    "enabled": true,
-    "icon": "⚒️",
-    "id": "blacksmithing",
-    "keywords": [
-      "forging a sword from rusty metal",
-      "blacksmithing for beginners",
-      "damascus steel knife making",
-      "anvil restoration"
-    ],
-    "name": "Blacksmithing & Forging"
-  },
-  {
-    "enabled": true,
-    "icon": "🏺",
-    "id": "glassblowing_pottery",
-    "keywords": [
-      "glassblowing vase tutorial",
-      "pottery wheel throwing",
-      "ceramic glazing techniques",
-      "making neon signs"
-    ],
-    "name": "Glassblowing & Ceramics"
-  },
-  {
-    "enabled": true,
-    "icon": "🖋️",
-    "id": "tattoo_art",
-    "keywords": [
-      "tattoo time lapse cover up",
-      "traditional japanese tattoo",
-      "first tattoo experience",
-      "tattoo artist interview"
-    ],
-    "name": "Tattoo Art & Piercings"
-  },
-  {
-    "enabled": true,
-    "icon": "🖌️",
-    "id": "miniature_painting",
-    "keywords": [
-      "painting warhammer miniatures",
-      "resin diorama ocean",
-      "model train scenery building",
-      "gundam gunpla custom build"
-    ],
-    "name": "Miniature Painting & Dioramas"
-  },
-  {
-    "enabled": true,
-    "icon": "⏱️",
-    "id": "speedrunning",
-    "keywords": [
-      "super mario 64 speedrun",
-      "elden ring speedrun world record",
-      "video game glitches explained",
-      "games done quick highlights"
-    ],
-    "name": "Speedrunning & Glitches"
-  },
-  {
-    "enabled": true,
-    "icon": "📺",
-    "id": "retro_commercials",
-    "keywords": [
-      "90s commercials compilation",
-      "vintage advertising history",
-      "80s tv bumpers",
-      "retro infomercials"
-    ],
-    "name": "Retro Advertising & Media"
-  },
-  {
-    "enabled": true,
-    "icon": "🕵️",
-    "id": "crime_interrogations",
-    "keywords": [
-      "police interrogation analysis",
-      "bodycam footage breakdown",
-      "detective psychology",
-      "courtroom cross examination"
-    ],
-    "name": "True Crime Interrogations"
-  },
-  {
-    "enabled": true,
-    "icon": "🐠",
-    "id": "aquascaping",
-    "keywords": [
-      "planted aquarium setup",
-      "nano reef tank build",
-      "aquascape competition layout",
-      "betta fish tank makeover"
-    ],
-    "name": "Aquarium Aquascaping"
-  },
-  {
-    "enabled": true,
-    "icon": "🐜",
-    "id": "terrariums_ants",
-    "keywords": [
-      "bioactive terrarium build",
-      "ant farm colony feeding",
-      "closed terrarium ecosystem",
-      "tarantula enclosure setup"
-    ],
-    "name": "Terrariums & Ant Farms"
-  },
-  {
-    "enabled": true,
-    "icon": "🚙",
-    "id": "off_roading",
-    "keywords": [
-      "4x4 off road extreme",
-      "jeep rock crawling",
-      "mud bogging trucks",
-      "overland vehicle walkaround"
-    ],
-    "name": "Off-Roading & Mudding"
-  },
-  {
-    "enabled": true,
-    "icon": "🚐",
-    "id": "van_life",
-    "keywords": [
-      "sprinter van conversion tour",
-      "full time rv living",
-      "van life winter camping",
-      "skoolie bus conversion"
-    ],
-    "name": "Van Life & RV Tours"
-  },
-  {
-    "enabled": true,
-    "icon": "🌧️",
-    "id": "weather_rain_snow",
-    "keywords": [
-      "rain",
-      "rainy season",
-      "rain walk",
-      "rain in different countries",
-      "snow",
-      "snow season",
-      "rainfall",
-      "rain at night",
-      "rain at day"
-    ],
-    "name": "Weather: Rain & Snow"
-  },
-  {
-    "enabled": true,
-    "icon": "😂",
-    "id": "funny_fails",
-    "keywords": [
-      "funny fails",
-      "fails",
-      "failarmy",
-      "work fails"
-    ],
-    "name": "Funny Fails & Comedy"
-  },
-  {
-    "enabled": true,
-    "icon": "🚜",
-    "id": "agriculture_machinery",
-    "keywords": [
-      "tractor stuck in mud recovery",
-      "combine harvester in action",
-      "modern farming technology india",
-      "agriculture drone spraying"
-    ],
-    "name": "Tractors & Farming Tech"
-  },
-  {
-    "enabled": true,
-    "icon": "🍿",
-    "id": "full_movies",
-    "keywords": [
-      "full movie hd",
-      "hindi movie full 2026",
-      "south dubbed movie full",
-      "hollywood movie in hindi full"
-    ],
-    "name": "Full Movies & Cinema"
-  },
-  {
-    "enabled": true,
-    "icon": "🪘",
-    "id": "regional_indian_music",
-    "keywords": [
-      "punjabi bhangra performance",
-      "rajasthani folk song live",
-      "bhojpuri new song 2026",
-      "gujarati dayro live"
-    ],
-    "name": "Regional Indian Music & Folk"
+    "position": 101
   },
   {
     "enabled": true,
@@ -2863,6 +2924,61 @@
   {
     "enabled": true,
     "icon": "📌",
+    "id": "grp_mqcb1b1krpqqxv8jti",
+    "keywords": [
+      "Museum of Illusions New Delhi",
+      "National Science Centre Delhi",
+      "Tulip Garden Srinagar",
+      "Hajan Valley Kashmir",
+      "Baisaran Valley Pahalgam",
+      "Hawa Mahal Jaipur",
+      "Van Vihar National Park Bhopal",
+      "Hall of Fame Leh",
+      "Shanti Stupa Leh",
+      "Nubra Valley Ladakh",
+      "Zojila Pass Zero Point",
+      "Golden Eagle Expedition Leh",
+      "Shree Nakoda Bhojnalaya Indore",
+      "Khajjiar Lake Dalhousie",
+      "Solang Valley Manali",
+      "Mall Road Manali",
+      "The Ridge Shimla",
+      "Khajjiar Mini Switzerland",
+      "Rohtang Pass Manali",
+      "Atal Tunnel Lahaul Valley",
+      "Sissu Waterfall Manali",
+      "Hidimba Devi Temple Manali",
+      "Kufri Shimla",
+      "Jakhu Temple Shimla",
+      "Kalatop Wildlife Sanctuary Dalhousie",
+      "Dainkund Peak Dalhousie",
+      "Lal Tibba Mussoorie",
+      "Rishikesh Laxman Jhula",
+      "Dal Lake Shikara Ride Srinagar",
+      "Gulmarg Gondola Ride",
+      "Betaab Valley Pahalgam",
+      "Aru Valley Pahalgam",
+      "Drizzling Land water park Ghaziabad",
+      "Rajaji Tiger Reserve safari",
+      "Gun Hill Mussoorie ropeway",
+      "Mussoorie travel vlog",
+      "Kempty Falls Mussoorie",
+      "Haridwar Ganga Aarti Har Ki Pauri",
+      "Rishikesh river rafting bungee",
+      "Dehradun tourist places",
+      "Landour Mussoorie hidden gems",
+      "Mall Road Mussoorie night",
+      "Dhanaulti eco park snow",
+      "Chakrata waterfalls trek",
+      "Leh Ladakh road trip guide",
+      "Kamla Nehru Zoo mp"
+    ],
+    "name": "Travel Plan June 2026",
+    "position": 104
+  },
+  {
+    "enabled": true,
+    "icon": "📌",
     "id": "grp_mqc1x2yu5m35ere4jbc",
     "keywords": [
       "Alabama stimulus",
@@ -2917,103 +3033,6 @@
       "Wyoming stimulus"
     ],
     "name": "State Stimulus V0",
-    "position": 104
-  },
-  {
-    "enabled": true,
-    "icon": "📌",
-    "id": "grp_mqcb1b1krpqqxv8jti",
-    "keywords": [
-      "Jawhar",
-      "toranmal",
-      "don hill station",
-      "Saputara Lake",
-      "Surat Textile Market",
-      "Sahara Darwaja Surat",
-      "Gopal Locho Surat",
-      "Jambuva Vadodara",
-      "Champaner-Pavagadh UNESCO",
-      "Akshardham Temple Gandhinagar",
-      "Adalaj Stepwell Gandhinagar",
-      "Sajjangarh Monsoon Palace Udaipur",
-      "Fateh Sagar Lake Udaipur",
-      "Shrinathji Temple Nathdwara",
-      "Ana Sagar Lake Ajmer",
-      "Patrika Gate Jaipur",
-      "Nahargarh Fort Sunset Jaipur",
-      "Johari Bazaar Jaipur",
-      "Bapu Bazaar Jaipur",
-      "Trans-Haryana Expressway NH152D",
-      "Narnaul Bypass",
-      "Rohtak Haryana",
-      "Baba Chicken Ludhiana",
-      "Pehalwan Di Hatti Jammu",
-      "Bahu Fort Jammu",
-      "Sidhra Bypass Jammu",
-      "Kud Patisa J&K",
-      "Patnitop Circular Road",
-      "Pampore Saffron Fields",
-      "Dal Lake Srinagar",
-      "Boulevard Road Srinagar",
-      "Shalimar Bagh Srinagar",
-      "Nishat Bagh Srinagar",
-      "Polo View Market Srinagar",
-      "Ahdoos Restaurant Srinagar",
-      "Mughal Darbar Srinagar",
-      "Gulmarg Gondola J&K",
-      "Tangmarg Gulmarg",
-      "Kungdoor Gulmarg",
-      "Apharwat Peak Gulmarg",
-      "Z-Morh Tunnel Kashmir",
-      "Sonamarg Meadows",
-      "Thajiwas Glacier Sonamarg",
-      "Lidder River Pahalgam",
-      "Betaab Valley Pahalgam",
-      "Aru Valley Pahalgam",
-      "Kiratpur-Manali Highway NH3",
-      "Kiratpur Sahib",
-      "Naggar Castle Kullu",
-      "Bhuttico Kullu Shawls",
-      "Solang Valley Manali",
-      "Mall Road Manali",
-      "Old Manali Beas River",
-      "Chopsticks Manali",
-      "Johnson's Cafe Manali",
-      "Atal Tunnel South Portal",
-      "Sissu Waterfall Lahaul",
-      "Sissu Village Lahaul",
-      "Tutikandi Shimla",
-      "Mall Road Shimla",
-      "Lakkar Bazaar Shimla",
-      "Kufri Shimla",
-      "Pinjore Gardens Haryana",
-      "Mansa Devi Temple Haridwar",
-      "Ganga VIP Ghat Haridwar",
-      "Har Ki Pauri Haridwar",
-      "Mohan Ji Puri Wale Haridwar",
-      "Lajpat Rai Market Delhi",
-      "Chandni Chowk Delhi",
-      "Mayapuri Phase II Scrap Market Delhi",
-      "DLF Promenade Vasant Kunj",
-      "Connaught Place Delhi",
-      "Dilli Haat INA Delhi",
-      "Lajpat Nagar Market Delhi",
-      "Gwalior Bypass",
-      "Biaora Bypass",
-      "Garadia Mahadev Temple Kota",
-      "Kishore Sagar Lake Kota",
-      "Seven Wonders Park Kota",
-      "Mahakal Lok Corridor Ujjain",
-      "Sarafa Night Food Market Indore",
-      "Chappan Dukan Indore",
-      "MT Cloth Market Indore",
-      "Dewas Bypass Indore",
-      "Sendhwa Ghats NH52",
-      "Dhule Bypass",
-      "Malegaon Bypass",
-      "Nashik Maharashtra"
-    ],
-    "name": "Travel Plan June 2026",
     "position": 105
   },
   {
@@ -3077,13 +3096,13 @@
     "position": 109
   },
   {
-    "id": "grp_mqgzn3w0ublcyb2f0iq",
+    "enabled": true,
     "icon": "📌",
-    "name": "TV Episode",
+    "id": "grp_mqgzn3w0ublcyb2f0iq",
     "keywords": [
       "Episode"
     ],
-    "position": 110,
-    "enabled": true
+    "name": "TV Episode",
+    "position": 110
   }
 ]
