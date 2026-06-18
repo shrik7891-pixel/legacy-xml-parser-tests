@@ -171,170 +171,6 @@
   },
   {
     "enabled": true,
-    "icon": "👺",
-    "id": "anime_animation",
-    "keywords": [
-      "3d animation short film",
-      "anime funny moments",
-      "anime recap",
-      "attack on titan highlights",
-      "jujutsu kaisen explained",
-      "manga review",
-      "naruto fight scene hd",
-      "studio ghibli aesthetic"
-    ],
-    "name": "Anime & Animation",
-    "position": 8
-  },
-  {
-    "enabled": true,
-    "icon": "📈",
-    "id": "trading_crypto",
-    "keywords": [
-      "bitcoin analysis 2026",
-      "crypto news today",
-      "day trading live",
-      "forex trading strategy",
-      "options trading banknifty",
-      "price action trading",
-      "stock market intraday"
-    ],
-    "name": "Trading & Crypto",
-    "position": 9
-  },
-  {
-    "enabled": true,
-    "icon": "👻",
-    "id": "internet_mysteries",
-    "keywords": [
-      "backrooms explained",
-      "best of reddit stories",
-      "creepypasta story",
-      "internet mysteries",
-      "investigation journalism",
-      "lost media documentary",
-      "reddit scary stories",
-      "scp foundation lore",
-      "unexplained phenomena"
-    ],
-    "name": "Digital Horror & Internet Lore",
-    "position": 10
-  },
-  {
-    "enabled": true,
-    "icon": "📚",
-    "id": "books_literature",
-    "keywords": [
-      "audiobooks full length",
-      "booktube recommendations",
-      "classic literature explained",
-      "comic book lore",
-      "fantasy books review",
-      "manga reading",
-      "marvel comics history"
-    ],
-    "name": "Books, Literature & Comics",
-    "position": 11
-  },
-  {
-    "enabled": true,
-    "icon": "🐶",
-    "id": "pets_cute_animals",
-    "keywords": [
-      "aquarium setup planted",
-      "cute animal videos 2026",
-      "dog training tips",
-      "exotic pets tour",
-      "funny cats compilation",
-      "golden retriever puppy",
-      "parrot talking funny"
-    ],
-    "name": "Pets & Cute Animals",
-    "position": 12
-  },
-  {
-    "enabled": true,
-    "icon": "🎩",
-    "id": "magic_illusion",
-    "keywords": [
-      "america's got talent magic",
-      "card trick tutorial",
-      "magic trick revealed",
-      "mind reading mentalism",
-      "penn and teller fool us",
-      "sleight of hand tutorial",
-      "street magic david blaine"
-    ],
-    "name": "Magic & Illusion",
-    "position": 13
-  },
-  {
-    "enabled": true,
-    "icon": "🥊",
-    "id": "martial_arts_combat",
-    "keywords": [
-      "bjj techniques",
-      "boxing training drills",
-      "kickboxing match",
-      "martial arts movie fight",
-      "muay thai knockouts",
-      "self defense techniques",
-      "ufc highlights hd"
-    ],
-    "name": "Martial Arts & Combat Sports",
-    "position": 14
-  },
-  {
-    "enabled": true,
-    "icon": "💄",
-    "id": "beauty_makeup",
-    "keywords": [
-      "budget makeup haul",
-      "dermatologist skincare tips",
-      "hair styling tutorial",
-      "korean beauty secrets",
-      "makeup tutorial 2026",
-      "nail art compilation",
-      "skincare routine for glowing skin"
-    ],
-    "name": "Beauty, Skincare & Makeup",
-    "position": 15
-  },
-  {
-    "enabled": true,
-    "icon": "🔧",
-    "id": "auto_repair_modding",
-    "keywords": [
-      "car detailing deep clean",
-      "car painting tutorial",
-      "engine rebuild timelapse",
-      "exhaust swap sound",
-      "jdm car build",
-      "mechanic tips and tricks",
-      "motorcycle restoration"
-    ],
-    "name": "Automotive Repair & Modding",
-    "position": 16
-  },
-  {
-    "enabled": true,
-    "icon": "💻",
-    "id": "cybersecurity_coding",
-    "keywords": [
-      "cybersecurity documentary",
-      "defcon hacking conference",
-      "ethical hacking tutorial",
-      "linux desktop setup",
-      "machine learning tutorial",
-      "python coding project",
-      "software engineering vlog",
-      "web development tutorial"
-    ],
-    "name": "Cybersecurity & Coding",
-    "position": 17
-  },
-  {
-    "enabled": true,
     "icon": "📌",
     "id": "grp_mqcb1b1krpqqxv8jti",
     "keywords": [
@@ -386,6 +222,170 @@
       "Kamla Nehru Zoo mp"
     ],
     "name": "Travel Plan June 2026",
+    "position": 8
+  },
+  {
+    "enabled": true,
+    "icon": "👺",
+    "id": "anime_animation",
+    "keywords": [
+      "3d animation short film",
+      "anime funny moments",
+      "anime recap",
+      "attack on titan highlights",
+      "jujutsu kaisen explained",
+      "manga review",
+      "naruto fight scene hd",
+      "studio ghibli aesthetic"
+    ],
+    "name": "Anime & Animation",
+    "position": 9
+  },
+  {
+    "enabled": true,
+    "icon": "📈",
+    "id": "trading_crypto",
+    "keywords": [
+      "bitcoin analysis 2026",
+      "crypto news today",
+      "day trading live",
+      "forex trading strategy",
+      "options trading banknifty",
+      "price action trading",
+      "stock market intraday"
+    ],
+    "name": "Trading & Crypto",
+    "position": 10
+  },
+  {
+    "enabled": true,
+    "icon": "👻",
+    "id": "internet_mysteries",
+    "keywords": [
+      "backrooms explained",
+      "best of reddit stories",
+      "creepypasta story",
+      "internet mysteries",
+      "investigation journalism",
+      "lost media documentary",
+      "reddit scary stories",
+      "scp foundation lore",
+      "unexplained phenomena"
+    ],
+    "name": "Digital Horror & Internet Lore",
+    "position": 11
+  },
+  {
+    "enabled": true,
+    "icon": "📚",
+    "id": "books_literature",
+    "keywords": [
+      "audiobooks full length",
+      "booktube recommendations",
+      "classic literature explained",
+      "comic book lore",
+      "fantasy books review",
+      "manga reading",
+      "marvel comics history"
+    ],
+    "name": "Books, Literature & Comics",
+    "position": 12
+  },
+  {
+    "enabled": true,
+    "icon": "🐶",
+    "id": "pets_cute_animals",
+    "keywords": [
+      "aquarium setup planted",
+      "cute animal videos 2026",
+      "dog training tips",
+      "exotic pets tour",
+      "funny cats compilation",
+      "golden retriever puppy",
+      "parrot talking funny"
+    ],
+    "name": "Pets & Cute Animals",
+    "position": 13
+  },
+  {
+    "enabled": true,
+    "icon": "🎩",
+    "id": "magic_illusion",
+    "keywords": [
+      "america's got talent magic",
+      "card trick tutorial",
+      "magic trick revealed",
+      "mind reading mentalism",
+      "penn and teller fool us",
+      "sleight of hand tutorial",
+      "street magic david blaine"
+    ],
+    "name": "Magic & Illusion",
+    "position": 14
+  },
+  {
+    "enabled": true,
+    "icon": "🥊",
+    "id": "martial_arts_combat",
+    "keywords": [
+      "bjj techniques",
+      "boxing training drills",
+      "kickboxing match",
+      "martial arts movie fight",
+      "muay thai knockouts",
+      "self defense techniques",
+      "ufc highlights hd"
+    ],
+    "name": "Martial Arts & Combat Sports",
+    "position": 15
+  },
+  {
+    "enabled": true,
+    "icon": "💄",
+    "id": "beauty_makeup",
+    "keywords": [
+      "budget makeup haul",
+      "dermatologist skincare tips",
+      "hair styling tutorial",
+      "korean beauty secrets",
+      "makeup tutorial 2026",
+      "nail art compilation",
+      "skincare routine for glowing skin"
+    ],
+    "name": "Beauty, Skincare & Makeup",
+    "position": 16
+  },
+  {
+    "enabled": true,
+    "icon": "🔧",
+    "id": "auto_repair_modding",
+    "keywords": [
+      "car detailing deep clean",
+      "car painting tutorial",
+      "engine rebuild timelapse",
+      "exhaust swap sound",
+      "jdm car build",
+      "mechanic tips and tricks",
+      "motorcycle restoration"
+    ],
+    "name": "Automotive Repair & Modding",
+    "position": 17
+  },
+  {
+    "enabled": true,
+    "icon": "💻",
+    "id": "cybersecurity_coding",
+    "keywords": [
+      "cybersecurity documentary",
+      "defcon hacking conference",
+      "ethical hacking tutorial",
+      "linux desktop setup",
+      "machine learning tutorial",
+      "python coding project",
+      "software engineering vlog",
+      "web development tutorial"
+    ],
+    "name": "Cybersecurity & Coding",
     "position": 18
   },
   {
