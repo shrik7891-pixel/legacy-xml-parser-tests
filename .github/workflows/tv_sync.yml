@@ -38,6 +38,7 @@ jobs:
           
           # Create latest aliases for foolproof jsDelivr cache busting
           cd ptv
+          git checkout -b v2 || git checkout v2
           cp topics.json topics_latest.json || true
           cp tv_feed.json tv_feed_latest.json || true
           
@@ -46,11 +47,11 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Auto-sync tv_feed and topics" || echo "No changes to commit"
-          git push
+          git push -u origin v2
           
           # Purge jsDelivr cache since bot commits don't trigger push webhooks
-          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@main/topics.json" || true
-          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@main/topics_latest.json" || true
-          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@main/tv_feed.json" || true
-          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@main/tv_feed_latest.json" || true
-          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@main/userScript.js" || true
+          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@v2/topics.json" || true
+          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@v2/topics_latest.json" || true
+          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@v2/tv_feed.json" || true
+          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@v2/tv_feed_latest.json" || true
+          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@v2/userScript.js" || true
