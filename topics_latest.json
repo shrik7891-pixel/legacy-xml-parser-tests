@@ -3674,5 +3674,17 @@
     ],
     "name": "Language Learning & Polyglots",
     "position": 111
+  },
+  {
+    "id": "grp_mqmoe01hoal9py1qmv",
+    "icon": "📌",
+    "name": "Water Purifier",
+    "keywords": [
+      "ro water",
+      "ro purifier",
+      "water ro parts"
+    ],
+    "position": 112,
+    "enabled": true
   }
 ]
