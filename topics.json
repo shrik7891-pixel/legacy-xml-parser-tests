@@ -3676,15 +3676,17 @@
     "position": 111
   },
   {
-    "id": "grp_mqmoe01hoal9py1qmv",
+    "enabled": true,
     "icon": "📌",
-    "name": "Water Purifier",
+    "id": "grp_mqmoe01hoal9py1qmv",
     "keywords": [
       "ro water",
       "ro purifier",
-      "water ro parts"
+      "water ro parts",
+      "ro membrane",
+      "ro prefilter"
     ],
-    "position": 112,
-    "enabled": true
+    "name": "Water Purifier",
+    "position": 112
   }
 ]
