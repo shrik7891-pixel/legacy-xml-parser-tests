@@ -50,8 +50,8 @@ jobs:
           git push origin main
           
           # Also push to prod branch for new APK installs
-          git checkout -b prod || git checkout prod
-          git push -u origin prod
+          git checkout -B prod
+          git push -u origin prod -f
           
           # Purge jsDelivr cache since bot commits don't trigger push webhooks
           curl -s -o /dev/null "https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@prod/topics.json" || true
