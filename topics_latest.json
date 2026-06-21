@@ -3747,14 +3747,15 @@
     "position": 112
   },
   {
-    "id": "grp_mqo3yhmkgtw2prb9kvb",
+    "enabled": true,
     "icon": "📌",
-    "name": "Bussiness",
+    "id": "grp_mqo3yhmkgtw2prb9kvb",
     "keywords": [
       "Business Idea",
-      "New Business Idea"
+      "New Business Idea",
+      "automatic Business"
     ],
-    "position": 113,
-    "enabled": true
+    "name": "Bussiness",
+    "position": 113
   }
 ]
