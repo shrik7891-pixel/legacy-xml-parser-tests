@@ -338,9 +338,12 @@ async function run() {
       const topicVids = groupedVideos[topic_id];
       // Pre-sort in the cloud so the TV receives a perfectly ordered payload
       const finalSorted = [...topicVids].sort((a, b) => {
-          const aVal = (a.current_vph || 0) > 0 ? a.current_vph : (a.vph || 0);
-          const bVal = (b.current_vph || 0) > 0 ? b.current_vph : (b.vph || 0);
-          return bVal - aVal;
+          const valA = parseFloat(a.current_vph) || 0;
+          const valB = parseFloat(b.current_vph) || 0;
+          if (valA === valB) {
+              return (parseFloat(b.performance) || 0) - (parseFloat(a.performance) || 0);
+          }
+          return valB - valA;
       });
       
       tvFeed[topic_id] = finalSorted.map(v => [
