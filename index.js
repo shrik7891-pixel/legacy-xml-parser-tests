@@ -336,22 +336,8 @@ async function run() {
 
   for (const topic_id in groupedVideos) {
       const topicVids = groupedVideos[topic_id];
-      const selectedVids = new Set();
-      
-      // Top 200 by current_vph
-      const byCurrentVph = [...topicVids].sort((a, b) => (b.current_vph || 0) - (a.current_vph || 0));
-      for (let i = 0; i < Math.min(200, byCurrentVph.length); i++) selectedVids.add(byCurrentVph[i]);
-      
-      // Top 200 by vph
-      const byVph = [...topicVids].sort((a, b) => (b.vph || 0) - (a.vph || 0));
-      for (let i = 0; i < Math.min(200, byVph.length); i++) selectedVids.add(byVph[i]);
-
-      // Fill the rest up to 500 with top by performance
-      const byPerf = [...topicVids].sort((a, b) => (b.performance || 0) - (a.performance || 0));
-      for (let i = 0; selectedVids.size < 500 && i < byPerf.length; i++) selectedVids.add(byPerf[i]);
-      
       // Pre-sort in the cloud so the TV receives a perfectly ordered payload
-      const finalSorted = Array.from(selectedVids).sort((a, b) => {
+      const finalSorted = [...topicVids].sort((a, b) => {
           const aVal = (a.current_vph || 0) > 0 ? a.current_vph : (a.vph || 0);
           const bVal = (b.current_vph || 0) > 0 ? b.current_vph : (b.vph || 0);
           return bVal - aVal;
