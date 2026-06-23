@@ -1269,22 +1269,6 @@
   },
   {
     "enabled": true,
-    "icon": "☕",
-    "id": "study_body_doubling",
-    "keywords": [
-      "study with me pomodoro",
-      "silent vlog aesthetic",
-      "clean with me no talking",
-      "cafe ambiance study",
-      "rainy window reading",
-      "library sounds for studying"
-    ],
-    "last_crawled": 1782227132050,
-    "name": "Silent Focus & Study Ambience",
-    "position": 26
-  },
-  {
-    "enabled": true,
     "icon": "🧼",
     "id": "oddly_satisfying_process",
     "keywords": [
@@ -1297,7 +1281,7 @@
     ],
     "last_crawled": 1782227185902,
     "name": "Oddly Satisfying & Process",
-    "position": 27
+    "position": 26
   },
   {
     "enabled": true,
@@ -1313,7 +1297,7 @@
     ],
     "last_crawled": 1782227246237,
     "name": "Ancient Crafts & Primitive Tech",
-    "position": 28
+    "position": 27
   },
   {
     "enabled": true,
@@ -1329,7 +1313,7 @@
     ],
     "last_crawled": 1782227294835,
     "name": "Micro-History & Urbex",
-    "position": 29
+    "position": 28
   },
   {
     "enabled": true,
@@ -1345,7 +1329,7 @@
     ],
     "last_crawled": 1782227353565,
     "name": "Nostalgia Tech & Repair",
-    "position": 30
+    "position": 29
   },
   {
     "enabled": true,
@@ -1361,7 +1345,7 @@
     ],
     "last_crawled": 1782227406537,
     "name": "Tabletop, D&D & Board Games",
-    "position": 31
+    "position": 30
   },
   {
     "enabled": true,
@@ -1377,7 +1361,7 @@
     ],
     "last_crawled": 1782227425327,
     "name": "Baking, Desserts & Pastry",
-    "position": 32
+    "position": 31
   },
   {
     "enabled": true,
@@ -1391,7 +1375,7 @@
     ],
     "last_crawled": 1782227487075,
     "name": "Heavy Machinery & Mega Projects",
-    "position": 33
+    "position": 32
   },
   {
     "enabled": true,
@@ -1405,7 +1389,7 @@
     ],
     "last_crawled": 1782227548938,
     "name": "Tiny Houses & Container Homes",
-    "position": 34
+    "position": 33
   },
   {
     "enabled": true,
@@ -1419,7 +1403,7 @@
     ],
     "last_crawled": 1782227604635,
     "name": "Watches, Horology & EDC",
-    "position": 35
+    "position": 34
   },
   {
     "enabled": true,
@@ -1433,7 +1417,7 @@
     ],
     "last_crawled": 1782227636485,
     "name": "Skill Toys & Pen Spinning",
-    "position": 36
+    "position": 35
   },
   {
     "enabled": true,
@@ -1447,7 +1431,7 @@
     ],
     "last_crawled": 1782227695111,
     "name": "Competitive Eating & Challenges",
-    "position": 37
+    "position": 36
   },
   {
     "enabled": true,
@@ -1461,7 +1445,7 @@
     ],
     "last_crawled": 1782227735819,
     "name": "VTubers & Virtual Creators",
-    "position": 38
+    "position": 37
   },
   {
     "enabled": true,
@@ -1475,7 +1459,7 @@
     ],
     "last_crawled": 1782227797320,
     "name": "Survival & Base Building Games",
-    "position": 39
+    "position": 38
   },
   {
     "enabled": true,
@@ -1489,7 +1473,7 @@
     ],
     "last_crawled": 1782227843438,
     "name": "Deep Sea & Ocean Exploration",
-    "position": 40
+    "position": 39
   },
   {
     "enabled": true,
@@ -1503,7 +1487,7 @@
     ],
     "last_crawled": 1782227887963,
     "name": "Classical Music & Orchestras",
-    "position": 41
+    "position": 40
   },
   {
     "enabled": true,
@@ -1517,7 +1501,7 @@
     ],
     "last_crawled": 1782227927172,
     "name": "Theater, Musicals & Broadway",
-    "position": 42
+    "position": 41
   },
   {
     "enabled": true,
@@ -1531,7 +1515,7 @@
     ],
     "last_crawled": 1782227965866,
     "name": "Poetry & Spoken Word",
-    "position": 43
+    "position": 42
   },
   {
     "enabled": true,
@@ -1545,7 +1529,7 @@
     ],
     "last_crawled": 1782228000957,
     "name": "Skateboarding & Extreme BMX",
-    "position": 44
+    "position": 43
   },
   {
     "enabled": true,
@@ -1559,7 +1543,7 @@
     ],
     "last_crawled": 1782228025471,
     "name": "Parkour & Freerunning",
-    "position": 45
+    "position": 44
   },
   {
     "enabled": true,
@@ -1573,7 +1557,7 @@
     ],
     "last_crawled": 1782228052121,
     "name": "Lockpicking & Security",
-    "position": 46
+    "position": 45
   },
   {
     "enabled": true,
@@ -1587,7 +1571,7 @@
     ],
     "last_crawled": 1782228089075,
     "name": "Blacksmithing & Forging",
-    "position": 47
+    "position": 46
   },
   {
     "enabled": true,
@@ -1601,7 +1585,7 @@
     ],
     "last_crawled": 1782228116344,
     "name": "Glassblowing & Ceramics",
-    "position": 48
+    "position": 47
   },
   {
     "enabled": true,
@@ -1615,7 +1599,7 @@
     ],
     "last_crawled": 1782228146002,
     "name": "Tattoo Art & Piercings",
-    "position": 49
+    "position": 48
   },
   {
     "enabled": true,
@@ -1629,7 +1613,7 @@
     ],
     "last_crawled": 1782228176599,
     "name": "Miniature Painting & Dioramas",
-    "position": 50
+    "position": 49
   },
   {
     "enabled": true,
@@ -1643,7 +1627,7 @@
     ],
     "last_crawled": 1782228215083,
     "name": "Speedrunning & Glitches",
-    "position": 51
+    "position": 50
   },
   {
     "enabled": true,
@@ -1657,7 +1641,7 @@
     ],
     "last_crawled": 1782228266636,
     "name": "Retro Advertising & Media",
-    "position": 52
+    "position": 51
   },
   {
     "enabled": true,
@@ -1671,7 +1655,7 @@
     ],
     "last_crawled": 1782228297326,
     "name": "Aquarium Aquascaping",
-    "position": 53
+    "position": 52
   },
   {
     "enabled": true,
@@ -1685,7 +1669,7 @@
     ],
     "last_crawled": 1782228322931,
     "name": "Terrariums & Ant Farms",
-    "position": 54
+    "position": 53
   },
   {
     "enabled": true,
@@ -1699,7 +1683,7 @@
     ],
     "last_crawled": 1782228376241,
     "name": "Van Life & RV Tours",
-    "position": 55
+    "position": 54
   },
   {
     "enabled": true,
@@ -1718,7 +1702,7 @@
     ],
     "last_crawled": 1782228443879,
     "name": "Weather: Rain & Snow",
-    "position": 56
+    "position": 55
   },
   {
     "enabled": true,
@@ -1732,7 +1716,7 @@
     ],
     "last_crawled": 1782228462031,
     "name": "Funny Fails & Comedy",
-    "position": 57
+    "position": 56
   },
   {
     "enabled": true,
@@ -1745,7 +1729,7 @@
       "agriculture drone spraying"
     ],
     "name": "Tractors & Farming Tech",
-    "position": 58
+    "position": 57
   },
   {
     "enabled": true,
@@ -1758,7 +1742,7 @@
       "hollywood movie in hindi full"
     ],
     "name": "Full Movies & Cinema",
-    "position": 59
+    "position": 58
   },
   {
     "enabled": true,
@@ -1771,7 +1755,7 @@
       "gujarati dayro live"
     ],
     "name": "Regional Indian Music & Folk",
-    "position": 60
+    "position": 59
   },
   {
     "createdAt": 1781179003419,
@@ -1820,7 +1804,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Bollywood & OTT",
-    "position": 61
+    "position": 60
   },
   {
     "createdAt": 1781179003419,
@@ -1870,7 +1854,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Bollywood Celebs & Stars",
-    "position": 62
+    "position": 61
   },
   {
     "createdAt": 1781179003419,
@@ -1926,7 +1910,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Global Food & Street Food",
-    "position": 63
+    "position": 62
   },
   {
     "createdAt": 1781179003419,
@@ -1971,7 +1955,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Recipes, Cooking & Drinks",
-    "position": 64
+    "position": 63
   },
   {
     "createdAt": 1781179003419,
@@ -2039,7 +2023,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "MH, GJ & Nearby Travel",
-    "position": 65
+    "position": 64
   },
   {
     "createdAt": 1781179003419,
@@ -2073,7 +2057,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Railway Trips & Train Journeys",
-    "position": 66
+    "position": 65
   },
   {
     "createdAt": 1781179003419,
@@ -2176,7 +2160,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "India Landmarks, Parks & Attractions",
-    "position": 67
+    "position": 66
   },
   {
     "createdAt": 1781179003419,
@@ -2280,7 +2264,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Vloggers & Family Vloggers",
-    "position": 68
+    "position": 67
   },
   {
     "createdAt": 1781179003419,
@@ -2328,7 +2312,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Software, OS & App Hacks",
-    "position": 69
+    "position": 68
   },
   {
     "createdAt": 1781179003419,
@@ -2385,7 +2369,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Tech, Gadgets & Reviews",
-    "position": 70
+    "position": 69
   },
   {
     "createdAt": 1781179003419,
@@ -2435,7 +2419,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "AI & Future Tech",
-    "position": 71
+    "position": 70
   },
   {
     "createdAt": 1781179003419,
@@ -2487,7 +2471,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Cars & Bikes",
-    "position": 72
+    "position": 71
   },
   {
     "createdAt": 1781179003419,
@@ -2532,7 +2516,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Health & Fitness",
-    "position": 73
+    "position": 72
   },
   {
     "createdAt": 1781179003419,
@@ -2577,7 +2561,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Finance & Investing",
-    "position": 74
+    "position": 73
   },
   {
     "createdAt": 1781179003419,
@@ -2618,7 +2602,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Science, Space & Nature Docs",
-    "position": 75
+    "position": 74
   },
   {
     "createdAt": 1781179003419,
@@ -2676,7 +2660,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Animals & Wildlife",
-    "position": 76
+    "position": 75
   },
   {
     "createdAt": 1781179003419,
@@ -2711,7 +2695,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "True Crime & Mystery",
-    "position": 77
+    "position": 76
   },
   {
     "createdAt": 1781179003419,
@@ -2758,7 +2742,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "DIY, Making & Inventions",
-    "position": 78
+    "position": 77
   },
   {
     "createdAt": 1781179003419,
@@ -2798,7 +2782,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "4K Nature & Ambience",
-    "position": 79
+    "position": 78
   },
   {
     "createdAt": 1781179003419,
@@ -2842,7 +2826,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "City Walks & Global Sightseeing",
-    "position": 80
+    "position": 79
   },
   {
     "createdAt": 1781179003419,
@@ -2879,7 +2863,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Gaming",
-    "position": 81
+    "position": 80
   },
   {
     "createdAt": 1781179003419,
@@ -2919,7 +2903,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Cricket & Sports",
-    "position": 82
+    "position": 81
   },
   {
     "createdAt": 1781179003419,
@@ -2955,7 +2939,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Home & Interior Design",
-    "position": 83
+    "position": 82
   },
   {
     "createdAt": 1781179003419,
@@ -2991,7 +2975,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Budget Shopping & Hauls",
-    "position": 84
+    "position": 83
   },
   {
     "createdAt": 1781179003419,
@@ -3026,7 +3010,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "World News & Geopolitics",
-    "position": 85
+    "position": 84
   },
   {
     "createdAt": 1781179003419,
@@ -3069,7 +3053,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Education & Amazing Facts",
-    "position": 86
+    "position": 85
   },
   {
     "createdAt": 1781179003419,
@@ -3116,7 +3100,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Spirituality & Motivation",
-    "position": 87
+    "position": 86
   },
   {
     "createdAt": 1781179003419,
@@ -3149,7 +3133,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "ASMR & Relaxation",
-    "position": 88
+    "position": 87
   },
   {
     "createdAt": 1781179003419,
@@ -3186,7 +3170,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Fashion & Lifestyle",
-    "position": 89
+    "position": 88
   },
   {
     "createdAt": 1781179003419,
@@ -3215,7 +3199,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Treasure Hunting & Discovery",
-    "position": 90
+    "position": 89
   },
   {
     "createdAt": 1781179003419,
@@ -3265,7 +3249,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Adventure & Extreme Outdoors",
-    "position": 91
+    "position": 90
   },
   {
     "enabled": true,
@@ -3278,7 +3262,7 @@
       "kpop music video reaction"
     ],
     "name": "K-Pop & Idol Culture",
-    "position": 92
+    "position": 91
   },
   {
     "createdAt": 1781179003419,
@@ -3314,7 +3298,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Documentaries & Deep Dives",
-    "position": 93
+    "position": 92
   },
   {
     "createdAt": 1781179003419,
@@ -3348,7 +3332,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Psychology & Self-Growth",
-    "position": 94
+    "position": 93
   },
   {
     "createdAt": 1781179003419,
@@ -3378,7 +3362,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Cooking Skills & Food Science",
-    "position": 95
+    "position": 94
   },
   {
     "enabled": true,
@@ -3398,7 +3382,7 @@
       "zee marathi new"
     ],
     "name": "Webseries",
-    "position": 96
+    "position": 95
   },
   {
     "enabled": true,
@@ -3411,7 +3395,7 @@
       "audio plugin"
     ],
     "name": "Audio Production",
-    "position": 97
+    "position": 96
   },
   {
     "enabled": true,
@@ -3485,7 +3469,7 @@
       "age pension increase"
     ],
     "name": "Stimulus All V0",
-    "position": 98
+    "position": 97
   },
   {
     "enabled": true,
@@ -3544,7 +3528,7 @@
       "Wyoming stimulus"
     ],
     "name": "State Stimulus V0",
-    "position": 99
+    "position": 98
   },
   {
     "enabled": true,
@@ -3557,7 +3541,7 @@
       "bride dance"
     ],
     "name": "Dance",
-    "position": 100
+    "position": 99
   },
   {
     "enabled": true,
@@ -3568,7 +3552,7 @@
       "hindi cover song"
     ],
     "name": "Cover Songs",
-    "position": 101
+    "position": 100
   },
   {
     "enabled": true,
@@ -3589,7 +3573,7 @@
       "gut"
     ],
     "name": "Medical",
-    "position": 102
+    "position": 101
   },
   {
     "enabled": true,
@@ -3599,7 +3583,7 @@
       "Episode"
     ],
     "name": "TV Episode",
-    "position": 103
+    "position": 102
   },
   {
     "enabled": true,
@@ -3612,7 +3596,7 @@
       "courtroom cross examination"
     ],
     "name": "True Crime Interrogations",
-    "position": 104
+    "position": 103
   },
   {
     "enabled": false,
@@ -3629,7 +3613,7 @@
       "studio ghibli aesthetic"
     ],
     "name": "Anime & Animation",
-    "position": 105
+    "position": 104
   },
   {
     "enabled": false,
@@ -3642,7 +3626,7 @@
       "language learning tips"
     ],
     "name": "Language Learning & Polyglots",
-    "position": 106
+    "position": 105
   },
   {
     "enabled": true,
@@ -3659,7 +3643,7 @@
       "drinking water"
     ],
     "name": "Water Purifier",
-    "position": 107
+    "position": 106
   },
   {
     "enabled": true,
@@ -3671,7 +3655,7 @@
       "automatic Business"
     ],
     "name": "Bussiness",
-    "position": 108
+    "position": 107
   },
   {
     "enabled": true,
@@ -3685,7 +3669,7 @@
     ],
     "last_crawled": 1782226063477,
     "name": "Off-Roading & Mudding",
-    "position": 109
+    "position": 108
   },
   {
     "enabled": true,
@@ -3702,7 +3686,7 @@
     ],
     "last_crawled": 1782226821072,
     "name": "Books, Literature & Comics",
-    "position": 110
+    "position": 109
   },
   {
     "enabled": true,
@@ -3719,7 +3703,7 @@
     ],
     "last_crawled": 1782226853610,
     "name": "Trading & Crypto",
-    "position": 111
+    "position": 110
   },
   {
     "enabled": true,
@@ -3738,7 +3722,7 @@
     ],
     "last_crawled": 1782226530700,
     "name": "Indian History & Mythology",
-    "position": 112
+    "position": 111
   },
   {
     "enabled": true,
@@ -3756,6 +3740,22 @@
     ],
     "last_crawled": 1782227088174,
     "name": "Cybersecurity & Coding",
+    "position": 112
+  },
+  {
+    "enabled": true,
+    "icon": "☕",
+    "id": "study_body_doubling",
+    "keywords": [
+      "study with me pomodoro",
+      "silent vlog aesthetic",
+      "clean with me no talking",
+      "cafe ambiance study",
+      "rainy window reading",
+      "library sounds for studying"
+    ],
+    "last_crawled": 1782227132050,
+    "name": "Silent Focus & Study Ambience",
     "position": 113
   }
 ]
