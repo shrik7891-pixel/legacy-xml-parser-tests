@@ -2166,19 +2166,6 @@
     "position": 63
   },
   {
-    "enabled": true,
-    "icon": "🚜",
-    "id": "agriculture_machinery",
-    "keywords": [
-      "tractor stuck in mud recovery",
-      "combine harvester in action",
-      "modern farming technology india",
-      "agriculture drone spraying"
-    ],
-    "name": "Tractors & Farming Tech",
-    "position": 64
-  },
-  {
     "createdAt": 1781179003419,
     "enabled": true,
     "icon": "🍔",
@@ -3706,7 +3693,7 @@
   },
   {
     "createdAt": 1781179003419,
-    "enabled": true,
+    "enabled": false,
     "icon": "🏏",
     "id": "cricket_sports",
     "keywords": [
