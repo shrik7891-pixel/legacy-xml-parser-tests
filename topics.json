@@ -3194,19 +3194,6 @@
   {
     "enabled": true,
     "icon": "📌",
-    "id": "grp_mqbbtu057rgtqrc64f2",
-    "keywords": [
-      "music plugins",
-      "vocal plugin",
-      "music production",
-      "audio plugin"
-    ],
-    "name": "Audio Production",
-    "position": 85
-  },
-  {
-    "enabled": true,
-    "icon": "📌",
     "id": "grp_mqc1v8g56zarp3oju9v",
     "keywords": [
       "social security increase",
@@ -3276,7 +3263,7 @@
       "age pension increase"
     ],
     "name": "Stimulus All V0",
-    "position": 86
+    "position": 85
   },
   {
     "enabled": true,
@@ -3335,7 +3322,7 @@
       "Wyoming stimulus"
     ],
     "name": "State Stimulus V0",
-    "position": 87
+    "position": 86
   },
   {
     "enabled": true,
@@ -3348,6 +3335,19 @@
       "bride dance"
     ],
     "name": "Dance",
+    "position": 87
+  },
+  {
+    "enabled": true,
+    "icon": "📌",
+    "id": "grp_mqbbtu057rgtqrc64f2",
+    "keywords": [
+      "music plugins",
+      "vocal plugin",
+      "music production",
+      "audio plugin"
+    ],
+    "name": "Audio Production",
     "position": 88
   },
   {
