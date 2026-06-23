@@ -2962,42 +2962,6 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🏠",
-    "id": "home_interior",
-    "keywords": [
-      "affordable interior design india",
-      "apartment tour luxury",
-      "bathroom renovation",
-      "bathroom renovation india",
-      "bedroom makeover",
-      "before after renovation",
-      "garden makeover",
-      "garden makeover india",
-      "home decor budget india",
-      "ikea hacks 2026",
-      "interior design ideas 2026",
-      "japanese interior design",
-      "kitchen organization ideas",
-      "million dollar home tour",
-      "minimalist desk setup",
-      "minimalist home tour",
-      "modular kitchen design india",
-      "room makeover aesthetic",
-      "scandinavian interior",
-      "scandinavian interior design",
-      "small house design india",
-      "smart home setup",
-      "smart home setup tour",
-      "tiny house tour",
-      "vastu tips hindi"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "Home & Interior Design",
-    "position": 79
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
     "icon": "📚",
     "id": "education_facts",
     "keywords": [
@@ -3036,7 +3000,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Education & Amazing Facts",
-    "position": 80
+    "position": 79
   },
   {
     "createdAt": 1781179003419,
@@ -3073,7 +3037,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Fashion & Lifestyle",
-    "position": 81
+    "position": 80
   },
   {
     "createdAt": 1781179003419,
@@ -3102,7 +3066,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Treasure Hunting & Discovery",
-    "position": 82
+    "position": 81
   },
   {
     "createdAt": 1781179003419,
@@ -3152,7 +3116,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Adventure & Extreme Outdoors",
-    "position": 83
+    "position": 82
   },
   {
     "createdAt": 1781179003419,
@@ -3188,7 +3152,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Documentaries & Deep Dives",
-    "position": 84
+    "position": 83
   },
   {
     "createdAt": 1781179003419,
@@ -3222,7 +3186,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Psychology & Self-Growth",
-    "position": 85
+    "position": 84
   },
   {
     "enabled": true,
@@ -3235,7 +3199,7 @@
       "audio plugin"
     ],
     "name": "Audio Production",
-    "position": 86
+    "position": 85
   },
   {
     "enabled": true,
@@ -3309,7 +3273,7 @@
       "age pension increase"
     ],
     "name": "Stimulus All V0",
-    "position": 87
+    "position": 86
   },
   {
     "enabled": true,
@@ -3368,7 +3332,7 @@
       "Wyoming stimulus"
     ],
     "name": "State Stimulus V0",
-    "position": 88
+    "position": 87
   },
   {
     "enabled": true,
@@ -3381,7 +3345,7 @@
       "bride dance"
     ],
     "name": "Dance",
-    "position": 89
+    "position": 88
   },
   {
     "enabled": true,
@@ -3392,7 +3356,7 @@
       "hindi cover song"
     ],
     "name": "Cover Songs",
-    "position": 90
+    "position": 89
   },
   {
     "enabled": true,
@@ -3413,7 +3377,7 @@
       "gut"
     ],
     "name": "Medical",
-    "position": 91
+    "position": 90
   },
   {
     "enabled": true,
@@ -3423,7 +3387,7 @@
       "Episode"
     ],
     "name": "TV Episode",
-    "position": 92
+    "position": 91
   },
   {
     "enabled": true,
@@ -3436,7 +3400,7 @@
       "courtroom cross examination"
     ],
     "name": "True Crime Interrogations",
-    "position": 93
+    "position": 92
   },
   {
     "enabled": false,
@@ -3453,7 +3417,7 @@
       "studio ghibli aesthetic"
     ],
     "name": "Anime & Animation",
-    "position": 94
+    "position": 93
   },
   {
     "enabled": false,
@@ -3466,7 +3430,7 @@
       "language learning tips"
     ],
     "name": "Language Learning & Polyglots",
-    "position": 95
+    "position": 94
   },
   {
     "enabled": true,
@@ -3483,7 +3447,7 @@
       "drinking water"
     ],
     "name": "Water Purifier",
-    "position": 96
+    "position": 95
   },
   {
     "enabled": true,
@@ -3495,7 +3459,7 @@
       "automatic Business"
     ],
     "name": "Bussiness",
-    "position": 97
+    "position": 96
   },
   {
     "enabled": true,
@@ -3509,7 +3473,7 @@
     ],
     "last_crawled": 1782226063477,
     "name": "Off-Roading & Mudding",
-    "position": 98
+    "position": 97
   },
   {
     "enabled": true,
@@ -3526,7 +3490,7 @@
     ],
     "last_crawled": 1782226821072,
     "name": "Books, Literature & Comics",
-    "position": 99
+    "position": 98
   },
   {
     "enabled": true,
@@ -3543,7 +3507,7 @@
     ],
     "last_crawled": 1782226853610,
     "name": "Trading & Crypto",
-    "position": 100
+    "position": 99
   },
   {
     "enabled": true,
@@ -3562,7 +3526,7 @@
     ],
     "last_crawled": 1782226530700,
     "name": "Indian History & Mythology",
-    "position": 101
+    "position": 100
   },
   {
     "enabled": true,
@@ -3580,7 +3544,7 @@
     ],
     "last_crawled": 1782227088174,
     "name": "Cybersecurity & Coding",
-    "position": 102
+    "position": 101
   },
   {
     "enabled": true,
@@ -3596,7 +3560,7 @@
     ],
     "last_crawled": 1782227132050,
     "name": "Silent Focus & Study Ambience",
-    "position": 103
+    "position": 102
   },
   {
     "enabled": true,
@@ -3612,7 +3576,7 @@
     ],
     "last_crawled": 1782227294835,
     "name": "Micro-History & Urbex",
-    "position": 104
+    "position": 103
   },
   {
     "enabled": true,
@@ -3626,7 +3590,7 @@
     ],
     "last_crawled": 1782227965866,
     "name": "Poetry & Spoken Word",
-    "position": 105
+    "position": 104
   },
   {
     "enabled": true,
@@ -3640,7 +3604,7 @@
     ],
     "last_crawled": 1782228146002,
     "name": "Tattoo Art & Piercings",
-    "position": 106
+    "position": 105
   },
   {
     "enabled": true,
@@ -3654,7 +3618,7 @@
     ],
     "last_crawled": 1782228176599,
     "name": "Miniature Painting & Dioramas",
-    "position": 107
+    "position": 106
   },
   {
     "enabled": true,
@@ -3668,7 +3632,7 @@
     ],
     "last_crawled": 1782228297326,
     "name": "Aquarium Aquascaping",
-    "position": 108
+    "position": 107
   },
   {
     "enabled": true,
@@ -3682,7 +3646,7 @@
     ],
     "last_crawled": 1782228322931,
     "name": "Terrariums & Ant Farms",
-    "position": 109
+    "position": 108
   },
   {
     "enabled": true,
@@ -3696,7 +3660,7 @@
     ],
     "last_crawled": 1782228116344,
     "name": "Glassblowing & Ceramics",
-    "position": 110
+    "position": 109
   },
   {
     "enabled": true,
@@ -3710,7 +3674,7 @@
     ],
     "last_crawled": 1782228089075,
     "name": "Blacksmithing & Forging",
-    "position": 111
+    "position": 110
   },
   {
     "enabled": true,
@@ -3723,7 +3687,7 @@
       "kpop music video reaction"
     ],
     "name": "K-Pop & Idol Culture",
-    "position": 112
+    "position": 111
   },
   {
     "createdAt": 1781179003419,
@@ -3756,6 +3720,42 @@
     ],
     "last_crawled": 1781179003419,
     "name": "ASMR & Relaxation",
+    "position": 112
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🏠",
+    "id": "home_interior",
+    "keywords": [
+      "affordable interior design india",
+      "apartment tour luxury",
+      "bathroom renovation",
+      "bathroom renovation india",
+      "bedroom makeover",
+      "before after renovation",
+      "garden makeover",
+      "garden makeover india",
+      "home decor budget india",
+      "ikea hacks 2026",
+      "interior design ideas 2026",
+      "japanese interior design",
+      "kitchen organization ideas",
+      "million dollar home tour",
+      "minimalist desk setup",
+      "minimalist home tour",
+      "modular kitchen design india",
+      "room makeover aesthetic",
+      "scandinavian interior",
+      "scandinavian interior design",
+      "small house design india",
+      "smart home setup",
+      "smart home setup tour",
+      "tiny house tour",
+      "vastu tips hindi"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "Home & Interior Design",
     "position": 113
   }
 ]
