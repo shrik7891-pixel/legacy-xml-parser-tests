@@ -1,669 +1,5 @@
 [
   {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🧭",
-    "id": "adventure_outdoors",
-    "keywords": [
-      "adventure motorcycle trip",
-      "african safari vlog",
-      "amazon jungle expedition",
-      "antarctica expedition",
-      "antarctica expedition documentary",
-      "backpacking europe budget",
-      "base jumping",
-      "bouldering competition",
-      "bushcraft survival shelter",
-      "camping india",
-      "camping india jungle",
-      "cave exploration",
-      "cave exploration dark",
-      "cruise ship tour",
-      "deep sea diving",
-      "deep sea exploration",
-      "deep sea fishing",
-      "free solo climbing",
-      "iceland adventure vlog",
-      "new zealand adventure",
-      "norway fjords road trip",
-      "off grid living",
-      "off grid living documentary",
-      "overlanding africa",
-      "paragliding india",
-      "road trip india mountains",
-      "sailing around world",
-      "skydiving",
-      "skydiving GoPro",
-      "snowboarding extreme",
-      "solo camping rain",
-      "trekking himalayas",
-      "trekking himalayas vlog",
-      "van life adventure india",
-      "white water rafting",
-      "white water rafting gopro",
-      "white water rafting india",
-      "wilderness survival",
-      "wilderness survival tips"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "Adventure & Extreme Outdoors",
-    "position": 0
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🔍",
-    "id": "treasure_hunting",
-    "keywords": [
-      "abandoned mansion exploration",
-      "ancient artifact found",
-      "antique roadshow rare find",
-      "buried treasure found",
-      "dumpster diving finds",
-      "gem mining discovery",
-      "gold nugget found",
-      "magnet fishing finds",
-      "metal detecting jewelry",
-      "metal detector finds 2026",
-      "old coins found metal detecting",
-      "river treasure hunting",
-      "shipwreck treasure discovery",
-      "storage unit auction",
-      "storage unit auction finds",
-      "thrift store rare finds",
-      "thrift store score",
-      "treasure hunting underwater"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "Treasure Hunting & Discovery",
-    "position": 1
-  },
-  {
-    "enabled": true,
-    "icon": "📌",
-    "id": "grp_mqefudmf887b7i91i0w",
-    "keywords": [
-      "back pain",
-      "neck pain",
-      "neck tension",
-      "upper back pain",
-      "stomach gas",
-      "lower stomach",
-      "Lower abdominal gas",
-      "abdominal gas",
-      "clear skin",
-      "clear face",
-      "clear face skin",
-      "gut"
-    ],
-    "name": "Medical",
-    "position": 2
-  },
-  {
-    "enabled": true,
-    "icon": "📌",
-    "id": "grp_mqgzn3w0ublcyb2f0iq",
-    "keywords": [
-      "Episode"
-    ],
-    "name": "TV Episode",
-    "position": 3
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🌿",
-    "id": "nature_4k",
-    "keywords": [
-      "12k nature video",
-      "4k nature relaxation",
-      "8k ultra hd nature",
-      "ambient nature no music",
-      "aurora borealis 4k",
-      "autumn forest 4k",
-      "beautiful places earth 4k",
-      "cherry blossom 4k",
-      "cozy rain ambience",
-      "desert landscape 4k",
-      "dolby vision nature",
-      "dolby vision nature 4k",
-      "drone landscape 4k",
-      "drone nature footage",
-      "fireplace crackling 4k",
-      "forest sounds birds",
-      "hdr nature 4k",
-      "japanese garden 4k",
-      "mountain scenery 4k",
-      "northern lights 4k",
-      "ocean waves 4k",
-      "rain in forest 4k",
-      "relaxing nature sounds",
-      "river sounds sleep",
-      "snorkeling 4k",
-      "snowfall ambience 4k",
-      "thunderstorm ambience",
-      "underwater reef 4k",
-      "waterfall 4k"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "4K Nature & Ambience",
-    "position": 4
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🌏",
-    "id": "city_walk",
-    "keywords": [
-      "amsterdam walk 4k",
-      "ancient ruins tour 4k",
-      "bangkok walk 4k",
-      "barcelona walk 4k",
-      "christmas market walk europe",
-      "delhi walk 4k",
-      "dubai walk 4k",
-      "hong kong walk 4k",
-      "istanbul walk 4k",
-      "kyoto walk 4k",
-      "london snow walk",
-      "london walk 4k",
-      "los angeles walk 4k",
-      "mumbai local train 4k",
-      "mumbai walk 4k",
-      "new york city walk 4k",
-      "new york rain walk",
-      "night city walk hdr",
-      "night market walk asia",
-      "old town walk europe",
-      "osaka night walk 4k",
-      "paris walk 4k",
-      "prague walk 4k",
-      "rain walk 4k",
-      "rome walk 4k",
-      "seoul street food walk",
-      "seoul walk 4k",
-      "shanghai walk 4k",
-      "singapore walk 4k",
-      "tokyo night walk 4k",
-      "tokyo walk 4k",
-      "varanasi walk 4k",
-      "virtual tour museum"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "City Walks & Global Sightseeing",
-    "position": 5
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "💸",
-    "id": "deals_budget",
-    "keywords": [
-      "aliexpress best products india",
-      "aliexpress gadgets",
-      "amazon finds 2026",
-      "amazon finds india 2026",
-      "amazon haul india 2026",
-      "best budget products india 2026",
-      "best earphones under 1000 india",
-      "best under 1000 rupees",
-      "best under 500 rupees products",
-      "best value for money products 2026",
-      "budget trip abroad india",
-      "cheap products worth buying india",
-      "cheap travel hacks india",
-      "cheapest places to visit india",
-      "dmart deals haul india",
-      "flipkart best deals",
-      "ikea must haves",
-      "meesho haul india",
-      "sarojini nagar haul",
-      "secondhand finds india",
-      "thrift shopping india",
-      "thrift shopping vintage",
-      "travel for cheap india 2026",
-      "unboxing cheap gadgets india",
-      "wholesale market india vlog"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "Budget Shopping & Hauls",
-    "position": 6
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🌍",
-    "id": "world_news",
-    "keywords": [
-      "Al Jazeera documentary",
-      "BBC Hindi news",
-      "DW documentary",
-      "India Pakistan geopolitics",
-      "climate change documentary",
-      "current affairs hindi",
-      "economic crisis 2026",
-      "economics explained",
-      "geopolitics explained",
-      "geopolitics explained hindi",
-      "global economy documentary",
-      "immigration documentary",
-      "india china news",
-      "india china news 2026",
-      "india news hindi",
-      "investigation journalism india",
-      "map men",
-      "military documentary",
-      "military technology overview",
-      "nato news 2026",
-      "us politics 2026",
-      "vice documentary",
-      "war documentary",
-      "world news today"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "World News & Geopolitics",
-    "position": 7
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "✨",
-    "id": "spirituality_motivation",
-    "keywords": [
-      "BK shivani",
-      "Bhagavad Gita explained hindi",
-      "Chanakya niti hindi",
-      "TED talk motivation",
-      "acharya prashant latest",
-      "acharya prashant latest 2026",
-      "bk shivani",
-      "bk shivani morning",
-      "discipline motivation",
-      "guided sleep meditation",
-      "marcus aurelius",
-      "marcus aurelius philosophy",
-      "marcus aurelius stoicism",
-      "meditation guided",
-      "mindfulness meditation",
-      "mindfulness meditation hindi",
-      "monk mindset",
-      "morning motivation",
-      "morning motivation hindi",
-      "motivation hindi",
-      "motivation hindi 2026",
-      "naval ravikant wisdom",
-      "osho hindi",
-      "osho hindi lectures",
-      "philosophy explained easy",
-      "positive thinking hindi",
-      "sadhguru latest",
-      "sadhguru latest 2026",
-      "sadhguru latest english",
-      "sandeep maheshwari",
-      "self improvement documentary",
-      "sleep meditation guided",
-      "stoicism explained",
-      "stoicism explained hindi",
-      "stoicism quotes",
-      "success story hindi"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "Spirituality & Motivation",
-    "position": 8
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🧑🍳",
-    "id": "food_science",
-    "keywords": [
-      "Gordon Ramsay cooking tips",
-      "Indian spice guide",
-      "cheese making at home",
-      "chefs technique explained",
-      "culinary school tips",
-      "fermentation at home",
-      "fermentation process time lapse",
-      "food myths busted science",
-      "food preservation techniques",
-      "food science explained",
-      "how butter is made",
-      "how to cook perfect rice",
-      "knife sharpening whetstone",
-      "knife skills chef",
-      "molecular gastronomy",
-      "perfect steak reverse sear",
-      "pro chef reacts street food",
-      "sourdough bread making",
-      "why food tastes good science"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "Cooking Skills & Food Science",
-    "position": 9
-  },
-  {
-    "enabled": true,
-    "icon": "📌",
-    "id": "grp_mq9j3ffw1hh6mp86j06",
-    "keywords": [
-      "amazon prime new release",
-      "anime funny moments",
-      "filtercopy",
-      "korean drama hindi",
-      "korean drama hindi dub",
-      "netflix webseries review",
-      "sit",
-      "sitcom funny compilation",
-      "sony marathi",
-      "tollywood new movie",
-      "zee marathi new"
-    ],
-    "name": "Webseries",
-    "position": 10
-  },
-  {
-    "enabled": true,
-    "icon": "🌧️",
-    "id": "weather_rain_snow",
-    "keywords": [
-      "rain",
-      "rainy season",
-      "rain walk",
-      "rain in different countries",
-      "snow",
-      "snow season",
-      "rainfall",
-      "rain at night",
-      "rain at day"
-    ],
-    "last_crawled": 1782228443879,
-    "name": "Weather: Rain & Snow",
-    "position": 11
-  },
-  {
-    "enabled": true,
-    "icon": "🍿",
-    "id": "full_movies",
-    "keywords": [
-      "full movie hd",
-      "hindi movie full 2026",
-      "south dubbed movie full",
-      "hollywood movie in hindi full"
-    ],
-    "name": "Full Movies & Cinema",
-    "position": 12
-  },
-  {
-    "enabled": true,
-    "icon": "🪘",
-    "id": "regional_indian_music",
-    "keywords": [
-      "punjabi bhangra performance",
-      "rajasthani folk song live",
-      "bhojpuri new song 2026",
-      "gujarati dayro live"
-    ],
-    "name": "Regional Indian Music & Folk",
-    "position": 13
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🎬",
-    "id": "bollywood_cinema",
-    "keywords": [
-      "B4U Movies hindi",
-      "Dharma Productions trailer",
-      "Eros Now new release",
-      "T-Series films trailer",
-      "Ultra Movie Parlour channel",
-      "YRF Films channel",
-      "Zee Studios new movie",
-      "amazon prime india",
-      "anime hindi dubbed",
-      "bollywood explained hindi",
-      "bollywood hidden gems",
-      "bollywood trailer 2026",
-      "box office collection analysis",
-      "directors roundtable",
-      "documentary film 2026",
-      "film explained hindi",
-      "film making breakdown",
-      "hindi dubbed hollywood movies channel",
-      "hindi dubbed south movie channel",
-      "hollywood movie explained hindi",
-      "horror movie explained hindi",
-      "imdb top rated movie review",
-      "korean drama hindi dubbed",
-      "marathi movie 2026 full",
-      "marathi natak 2026",
-      "movie review hindi",
-      "netflix india new",
-      "new hindi movie 2026",
-      "oscar winning movie review",
-      "ott releases this week",
-      "south indian movie hindi dubbed",
-      "thriller movie explained hindi",
-      "tollywood new movie 2026",
-      "top 10 hindi movies",
-      "vfx breakdown hindi",
-      "web series hindi review",
-      "tv episode",
-      "episode"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "Bollywood & OTT",
-    "position": 14
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "⭐",
-    "id": "celeb_entertainment",
-    "keywords": [
-      "Akshay Kumar",
-      "Alia Bhatt",
-      "Anushka Sharma",
-      "Deepika Padukone",
-      "Disha Patani",
-      "Janhvi Kapoor",
-      "Kartik Aaryan",
-      "Katrina Kaif",
-      "Kiara Advani interview",
-      "Kriti Sanon",
-      "Mrunal Thakur",
-      "Nora Fatehi dance",
-      "Pooja Hegde",
-      "Priya Bapat",
-      "Ranveer Singh",
-      "Rashmika Mandanna 2026",
-      "Rinku Rajguru",
-      "Sai Tamhankar",
-      "Salman Khan",
-      "Samantha Ruth Prabhu",
-      "Sara Ali Khan",
-      "Shahrukh Khan",
-      "Shraddha Kapoor",
-      "Spruha Joshi marathi",
-      "Tamanna Bhatia",
-      "Vaidehi Parashurami",
-      "Varun Dhawan",
-      "actor morning routine",
-      "bollywood celebrity interview",
-      "bollywood lifestyle vlog",
-      "celeb workout routine",
-      "celebrity home tour",
-      "celebrity house tour",
-      "celebrity podcast hindi",
-      "daily dose of internet",
-      "film actor behind the scenes",
-      "paparazzi funny moments",
-      "prank video india",
-      "red carpet interviews"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "Bollywood Celebs & Stars",
-    "position": 15
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🚂",
-    "id": "railway_trips",
-    "keywords": [
-      " वंदे भारत express tour",
-      "Chenab Bridge train Kashmir",
-      "Darjeeling toy train",
-      "Deccan Queen train journey",
-      "India's most scenic train routes",
-      "Indian Railways documentary",
-      "Indian Railways food vlog",
-      "Indian railway journey vlog",
-      "Kalka Shimla Toy Train",
-      "Matheran toy train",
-      "Neral Matheran train",
-      "Nilgiri Mountain Railway Ooty",
-      "Rajdhani Express journey vlog",
-      "Vistadome Train Vizag",
-      "Vistadome train India",
-      "first class train food",
-      "indian railways 4k",
-      "konkan railway monsoon",
-      "luxury train India Palace on Wheels",
-      "overnight train india vlog",
-      "train travel india budget",
-      "train trip India vlog",
-      "vistadome train journey"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "Railway Trips & Train Journeys",
-    "position": 16
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🗺️",
-    "id": "india_travel_mh_gj",
-    "keywords": [
-      "Bhedaghat Marble Rocks",
-      "Dholavira Road to Heaven",
-      "Dhuandhar Falls vlog",
-      "Dwarka temple vlog",
-      "Gir National Park Asiatic Lion Safari",
-      "Gujarat food vlog",
-      "Imagicaa Theme Park Lonavala",
-      "Mahakal Lok Corridor Ujjain",
-      "Maharashtra hidden places",
-      "Maharashtra hill station",
-      "Rann of Kutch vlog",
-      "Saputara hill station Gujarat",
-      "Shanku Water Park Mehsana",
-      "Somnath temple vlog",
-      "Statue of Unity Kevadia",
-      "Surat food vlog",
-      "Vadodara travel",
-      "ahmedabad food vlog",
-      "alibaug beach vlog",
-      "amravati vlog",
-      "aurangabad ajanta ellora",
-      "aurangabad travel",
-      "bhandardara",
-      "bhandardara vlog",
-      "gujarat rann of kutch 4k",
-      "gujarat travel vlog",
-      "india travel vlog",
-      "kargil",
-      "kokan road trip",
-      "kolhapur food vlog",
-      "kolhapur travel",
-      "konkan beach hidden",
-      "konkan coast vlog",
-      "lonavala vlog",
-      "mahabaleshwar fog 4k",
-      "mahabaleshwar vlog",
-      "maharashtra travel vlog",
-      "marathi vlog",
-      "nagpur travel vlog",
-      "nagpur vlog",
-      "nashik travel 2026",
-      "nashik travel vlog",
-      "pandavleni caves nashik",
-      "pune food vlog",
-      "pune travel vlog",
-      "raigad fort vlog",
-      "sahyadri",
-      "sahyadri monsoon trek",
-      "sahyadri trek",
-      "satara travel",
-      "satara travel vlog",
-      "shirdi vlog",
-      "tamini ghat",
-      "tamini ghat drive",
-      "taminighat",
-      "tarkarli beach vlog",
-      "trambakeshwar temple nashik"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "MH, GJ & Nearby Travel",
-    "position": 17
-  },
-  {
-    "enabled": true,
-    "icon": "📌",
-    "id": "grp_mqcb1b1krpqqxv8jti",
-    "keywords": [
-      "Museum of Illusions New Delhi",
-      "National Science Centre Delhi",
-      "Tulip Garden Srinagar",
-      "Hajan Valley Kashmir",
-      "Baisaran Valley Pahalgam",
-      "Hawa Mahal Jaipur",
-      "Van Vihar National Park Bhopal",
-      "Hall of Fame Leh",
-      "Shanti Stupa Leh",
-      "Nubra Valley Ladakh",
-      "Zojila Pass Zero Point",
-      "Golden Eagle Expedition Leh",
-      "Shree Nakoda Bhojnalaya Indore",
-      "Khajjiar Lake Dalhousie",
-      "Solang Valley Manali",
-      "Mall Road Manali",
-      "The Ridge Shimla",
-      "Khajjiar Mini Switzerland",
-      "Rohtang Pass Manali",
-      "Atal Tunnel Lahaul Valley",
-      "Sissu Waterfall Manali",
-      "Hidimba Devi Temple Manali",
-      "Kufri Shimla",
-      "Jakhu Temple Shimla",
-      "Kalatop Wildlife Sanctuary Dalhousie",
-      "Dainkund Peak Dalhousie",
-      "Lal Tibba Mussoorie",
-      "Rishikesh Laxman Jhula",
-      "Dal Lake Shikara Ride Srinagar",
-      "Gulmarg Gondola Ride",
-      "Betaab Valley Pahalgam",
-      "Aru Valley Pahalgam",
-      "Drizzling Land water park Ghaziabad",
-      "Rajaji Tiger Reserve safari",
-      "Gun Hill Mussoorie ropeway",
-      "Mussoorie travel vlog",
-      "Kempty Falls Mussoorie",
-      "Haridwar Ganga Aarti Har Ki Pauri",
-      "Rishikesh river rafting bungee",
-      "Dehradun tourist places",
-      "Landour Mussoorie hidden gems",
-      "Mall Road Mussoorie night",
-      "Dhanaulti eco park snow",
-      "Chakrata waterfalls trek",
-      "Leh Ladakh road trip guide",
-      "Kamla Nehru Zoo mp"
-    ],
-    "last_crawled": 1782225785764,
-    "name": "Travel Plan Delhi 2026",
-    "position": 18
-  },
-  {
     "enabled": true,
     "icon": "📌",
     "id": "grp_mqm9tw71pr1vcz0h5mq",
@@ -1231,6 +567,670 @@
     ],
     "last_crawled": 1782225825415,
     "name": "Rajasthan Trip",
+    "position": 0
+  },
+  {
+    "enabled": true,
+    "icon": "📌",
+    "id": "grp_mqcb1b1krpqqxv8jti",
+    "keywords": [
+      "Museum of Illusions New Delhi",
+      "National Science Centre Delhi",
+      "Tulip Garden Srinagar",
+      "Hajan Valley Kashmir",
+      "Baisaran Valley Pahalgam",
+      "Hawa Mahal Jaipur",
+      "Van Vihar National Park Bhopal",
+      "Hall of Fame Leh",
+      "Shanti Stupa Leh",
+      "Nubra Valley Ladakh",
+      "Zojila Pass Zero Point",
+      "Golden Eagle Expedition Leh",
+      "Shree Nakoda Bhojnalaya Indore",
+      "Khajjiar Lake Dalhousie",
+      "Solang Valley Manali",
+      "Mall Road Manali",
+      "The Ridge Shimla",
+      "Khajjiar Mini Switzerland",
+      "Rohtang Pass Manali",
+      "Atal Tunnel Lahaul Valley",
+      "Sissu Waterfall Manali",
+      "Hidimba Devi Temple Manali",
+      "Kufri Shimla",
+      "Jakhu Temple Shimla",
+      "Kalatop Wildlife Sanctuary Dalhousie",
+      "Dainkund Peak Dalhousie",
+      "Lal Tibba Mussoorie",
+      "Rishikesh Laxman Jhula",
+      "Dal Lake Shikara Ride Srinagar",
+      "Gulmarg Gondola Ride",
+      "Betaab Valley Pahalgam",
+      "Aru Valley Pahalgam",
+      "Drizzling Land water park Ghaziabad",
+      "Rajaji Tiger Reserve safari",
+      "Gun Hill Mussoorie ropeway",
+      "Mussoorie travel vlog",
+      "Kempty Falls Mussoorie",
+      "Haridwar Ganga Aarti Har Ki Pauri",
+      "Rishikesh river rafting bungee",
+      "Dehradun tourist places",
+      "Landour Mussoorie hidden gems",
+      "Mall Road Mussoorie night",
+      "Dhanaulti eco park snow",
+      "Chakrata waterfalls trek",
+      "Leh Ladakh road trip guide",
+      "Kamla Nehru Zoo mp"
+    ],
+    "last_crawled": 1782225785764,
+    "name": "Travel Plan Delhi 2026",
+    "position": 1
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🧭",
+    "id": "adventure_outdoors",
+    "keywords": [
+      "adventure motorcycle trip",
+      "african safari vlog",
+      "amazon jungle expedition",
+      "antarctica expedition",
+      "antarctica expedition documentary",
+      "backpacking europe budget",
+      "base jumping",
+      "bouldering competition",
+      "bushcraft survival shelter",
+      "camping india",
+      "camping india jungle",
+      "cave exploration",
+      "cave exploration dark",
+      "cruise ship tour",
+      "deep sea diving",
+      "deep sea exploration",
+      "deep sea fishing",
+      "free solo climbing",
+      "iceland adventure vlog",
+      "new zealand adventure",
+      "norway fjords road trip",
+      "off grid living",
+      "off grid living documentary",
+      "overlanding africa",
+      "paragliding india",
+      "road trip india mountains",
+      "sailing around world",
+      "skydiving",
+      "skydiving GoPro",
+      "snowboarding extreme",
+      "solo camping rain",
+      "trekking himalayas",
+      "trekking himalayas vlog",
+      "van life adventure india",
+      "white water rafting",
+      "white water rafting gopro",
+      "white water rafting india",
+      "wilderness survival",
+      "wilderness survival tips"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "Adventure & Extreme Outdoors",
+    "position": 2
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🔍",
+    "id": "treasure_hunting",
+    "keywords": [
+      "abandoned mansion exploration",
+      "ancient artifact found",
+      "antique roadshow rare find",
+      "buried treasure found",
+      "dumpster diving finds",
+      "gem mining discovery",
+      "gold nugget found",
+      "magnet fishing finds",
+      "metal detecting jewelry",
+      "metal detector finds 2026",
+      "old coins found metal detecting",
+      "river treasure hunting",
+      "shipwreck treasure discovery",
+      "storage unit auction",
+      "storage unit auction finds",
+      "thrift store rare finds",
+      "thrift store score",
+      "treasure hunting underwater"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "Treasure Hunting & Discovery",
+    "position": 3
+  },
+  {
+    "enabled": true,
+    "icon": "📌",
+    "id": "grp_mqefudmf887b7i91i0w",
+    "keywords": [
+      "back pain",
+      "neck pain",
+      "neck tension",
+      "upper back pain",
+      "stomach gas",
+      "lower stomach",
+      "Lower abdominal gas",
+      "abdominal gas",
+      "clear skin",
+      "clear face",
+      "clear face skin",
+      "gut"
+    ],
+    "name": "Medical",
+    "position": 4
+  },
+  {
+    "enabled": true,
+    "icon": "📌",
+    "id": "grp_mqgzn3w0ublcyb2f0iq",
+    "keywords": [
+      "Episode"
+    ],
+    "name": "TV Episode",
+    "position": 5
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🌿",
+    "id": "nature_4k",
+    "keywords": [
+      "12k nature video",
+      "4k nature relaxation",
+      "8k ultra hd nature",
+      "ambient nature no music",
+      "aurora borealis 4k",
+      "autumn forest 4k",
+      "beautiful places earth 4k",
+      "cherry blossom 4k",
+      "cozy rain ambience",
+      "desert landscape 4k",
+      "dolby vision nature",
+      "dolby vision nature 4k",
+      "drone landscape 4k",
+      "drone nature footage",
+      "fireplace crackling 4k",
+      "forest sounds birds",
+      "hdr nature 4k",
+      "japanese garden 4k",
+      "mountain scenery 4k",
+      "northern lights 4k",
+      "ocean waves 4k",
+      "rain in forest 4k",
+      "relaxing nature sounds",
+      "river sounds sleep",
+      "snorkeling 4k",
+      "snowfall ambience 4k",
+      "thunderstorm ambience",
+      "underwater reef 4k",
+      "waterfall 4k"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "4K Nature & Ambience",
+    "position": 6
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🌏",
+    "id": "city_walk",
+    "keywords": [
+      "amsterdam walk 4k",
+      "ancient ruins tour 4k",
+      "bangkok walk 4k",
+      "barcelona walk 4k",
+      "christmas market walk europe",
+      "delhi walk 4k",
+      "dubai walk 4k",
+      "hong kong walk 4k",
+      "istanbul walk 4k",
+      "kyoto walk 4k",
+      "london snow walk",
+      "london walk 4k",
+      "los angeles walk 4k",
+      "mumbai local train 4k",
+      "mumbai walk 4k",
+      "new york city walk 4k",
+      "new york rain walk",
+      "night city walk hdr",
+      "night market walk asia",
+      "old town walk europe",
+      "osaka night walk 4k",
+      "paris walk 4k",
+      "prague walk 4k",
+      "rain walk 4k",
+      "rome walk 4k",
+      "seoul street food walk",
+      "seoul walk 4k",
+      "shanghai walk 4k",
+      "singapore walk 4k",
+      "tokyo night walk 4k",
+      "tokyo walk 4k",
+      "varanasi walk 4k",
+      "virtual tour museum"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "City Walks & Global Sightseeing",
+    "position": 7
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "💸",
+    "id": "deals_budget",
+    "keywords": [
+      "aliexpress best products india",
+      "aliexpress gadgets",
+      "amazon finds 2026",
+      "amazon finds india 2026",
+      "amazon haul india 2026",
+      "best budget products india 2026",
+      "best earphones under 1000 india",
+      "best under 1000 rupees",
+      "best under 500 rupees products",
+      "best value for money products 2026",
+      "budget trip abroad india",
+      "cheap products worth buying india",
+      "cheap travel hacks india",
+      "cheapest places to visit india",
+      "dmart deals haul india",
+      "flipkart best deals",
+      "ikea must haves",
+      "meesho haul india",
+      "sarojini nagar haul",
+      "secondhand finds india",
+      "thrift shopping india",
+      "thrift shopping vintage",
+      "travel for cheap india 2026",
+      "unboxing cheap gadgets india",
+      "wholesale market india vlog"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "Budget Shopping & Hauls",
+    "position": 8
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🌍",
+    "id": "world_news",
+    "keywords": [
+      "Al Jazeera documentary",
+      "BBC Hindi news",
+      "DW documentary",
+      "India Pakistan geopolitics",
+      "climate change documentary",
+      "current affairs hindi",
+      "economic crisis 2026",
+      "economics explained",
+      "geopolitics explained",
+      "geopolitics explained hindi",
+      "global economy documentary",
+      "immigration documentary",
+      "india china news",
+      "india china news 2026",
+      "india news hindi",
+      "investigation journalism india",
+      "map men",
+      "military documentary",
+      "military technology overview",
+      "nato news 2026",
+      "us politics 2026",
+      "vice documentary",
+      "war documentary",
+      "world news today"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "World News & Geopolitics",
+    "position": 9
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "✨",
+    "id": "spirituality_motivation",
+    "keywords": [
+      "BK shivani",
+      "Bhagavad Gita explained hindi",
+      "Chanakya niti hindi",
+      "TED talk motivation",
+      "acharya prashant latest",
+      "acharya prashant latest 2026",
+      "bk shivani",
+      "bk shivani morning",
+      "discipline motivation",
+      "guided sleep meditation",
+      "marcus aurelius",
+      "marcus aurelius philosophy",
+      "marcus aurelius stoicism",
+      "meditation guided",
+      "mindfulness meditation",
+      "mindfulness meditation hindi",
+      "monk mindset",
+      "morning motivation",
+      "morning motivation hindi",
+      "motivation hindi",
+      "motivation hindi 2026",
+      "naval ravikant wisdom",
+      "osho hindi",
+      "osho hindi lectures",
+      "philosophy explained easy",
+      "positive thinking hindi",
+      "sadhguru latest",
+      "sadhguru latest 2026",
+      "sadhguru latest english",
+      "sandeep maheshwari",
+      "self improvement documentary",
+      "sleep meditation guided",
+      "stoicism explained",
+      "stoicism explained hindi",
+      "stoicism quotes",
+      "success story hindi"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "Spirituality & Motivation",
+    "position": 10
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🧑🍳",
+    "id": "food_science",
+    "keywords": [
+      "Gordon Ramsay cooking tips",
+      "Indian spice guide",
+      "cheese making at home",
+      "chefs technique explained",
+      "culinary school tips",
+      "fermentation at home",
+      "fermentation process time lapse",
+      "food myths busted science",
+      "food preservation techniques",
+      "food science explained",
+      "how butter is made",
+      "how to cook perfect rice",
+      "knife sharpening whetstone",
+      "knife skills chef",
+      "molecular gastronomy",
+      "perfect steak reverse sear",
+      "pro chef reacts street food",
+      "sourdough bread making",
+      "why food tastes good science"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "Cooking Skills & Food Science",
+    "position": 11
+  },
+  {
+    "enabled": true,
+    "icon": "📌",
+    "id": "grp_mq9j3ffw1hh6mp86j06",
+    "keywords": [
+      "amazon prime new release",
+      "anime funny moments",
+      "filtercopy",
+      "korean drama hindi",
+      "korean drama hindi dub",
+      "netflix webseries review",
+      "sit",
+      "sitcom funny compilation",
+      "sony marathi",
+      "tollywood new movie",
+      "zee marathi new"
+    ],
+    "name": "Webseries",
+    "position": 12
+  },
+  {
+    "enabled": true,
+    "icon": "🌧️",
+    "id": "weather_rain_snow",
+    "keywords": [
+      "rain",
+      "rainy season",
+      "rain walk",
+      "rain in different countries",
+      "snow",
+      "snow season",
+      "rainfall",
+      "rain at night",
+      "rain at day"
+    ],
+    "last_crawled": 1782228443879,
+    "name": "Weather: Rain & Snow",
+    "position": 13
+  },
+  {
+    "enabled": true,
+    "icon": "🍿",
+    "id": "full_movies",
+    "keywords": [
+      "full movie hd",
+      "hindi movie full 2026",
+      "south dubbed movie full",
+      "hollywood movie in hindi full"
+    ],
+    "name": "Full Movies & Cinema",
+    "position": 14
+  },
+  {
+    "enabled": true,
+    "icon": "🪘",
+    "id": "regional_indian_music",
+    "keywords": [
+      "punjabi bhangra performance",
+      "rajasthani folk song live",
+      "bhojpuri new song 2026",
+      "gujarati dayro live"
+    ],
+    "name": "Regional Indian Music & Folk",
+    "position": 15
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🎬",
+    "id": "bollywood_cinema",
+    "keywords": [
+      "B4U Movies hindi",
+      "Dharma Productions trailer",
+      "Eros Now new release",
+      "T-Series films trailer",
+      "Ultra Movie Parlour channel",
+      "YRF Films channel",
+      "Zee Studios new movie",
+      "amazon prime india",
+      "anime hindi dubbed",
+      "bollywood explained hindi",
+      "bollywood hidden gems",
+      "bollywood trailer 2026",
+      "box office collection analysis",
+      "directors roundtable",
+      "documentary film 2026",
+      "film explained hindi",
+      "film making breakdown",
+      "hindi dubbed hollywood movies channel",
+      "hindi dubbed south movie channel",
+      "hollywood movie explained hindi",
+      "horror movie explained hindi",
+      "imdb top rated movie review",
+      "korean drama hindi dubbed",
+      "marathi movie 2026 full",
+      "marathi natak 2026",
+      "movie review hindi",
+      "netflix india new",
+      "new hindi movie 2026",
+      "oscar winning movie review",
+      "ott releases this week",
+      "south indian movie hindi dubbed",
+      "thriller movie explained hindi",
+      "tollywood new movie 2026",
+      "top 10 hindi movies",
+      "vfx breakdown hindi",
+      "web series hindi review",
+      "tv episode",
+      "episode"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "Bollywood & OTT",
+    "position": 16
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "⭐",
+    "id": "celeb_entertainment",
+    "keywords": [
+      "Akshay Kumar",
+      "Alia Bhatt",
+      "Anushka Sharma",
+      "Deepika Padukone",
+      "Disha Patani",
+      "Janhvi Kapoor",
+      "Kartik Aaryan",
+      "Katrina Kaif",
+      "Kiara Advani interview",
+      "Kriti Sanon",
+      "Mrunal Thakur",
+      "Nora Fatehi dance",
+      "Pooja Hegde",
+      "Priya Bapat",
+      "Ranveer Singh",
+      "Rashmika Mandanna 2026",
+      "Rinku Rajguru",
+      "Sai Tamhankar",
+      "Salman Khan",
+      "Samantha Ruth Prabhu",
+      "Sara Ali Khan",
+      "Shahrukh Khan",
+      "Shraddha Kapoor",
+      "Spruha Joshi marathi",
+      "Tamanna Bhatia",
+      "Vaidehi Parashurami",
+      "Varun Dhawan",
+      "actor morning routine",
+      "bollywood celebrity interview",
+      "bollywood lifestyle vlog",
+      "celeb workout routine",
+      "celebrity home tour",
+      "celebrity house tour",
+      "celebrity podcast hindi",
+      "daily dose of internet",
+      "film actor behind the scenes",
+      "paparazzi funny moments",
+      "prank video india",
+      "red carpet interviews"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "Bollywood Celebs & Stars",
+    "position": 17
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🚂",
+    "id": "railway_trips",
+    "keywords": [
+      " वंदे भारत express tour",
+      "Chenab Bridge train Kashmir",
+      "Darjeeling toy train",
+      "Deccan Queen train journey",
+      "India's most scenic train routes",
+      "Indian Railways documentary",
+      "Indian Railways food vlog",
+      "Indian railway journey vlog",
+      "Kalka Shimla Toy Train",
+      "Matheran toy train",
+      "Neral Matheran train",
+      "Nilgiri Mountain Railway Ooty",
+      "Rajdhani Express journey vlog",
+      "Vistadome Train Vizag",
+      "Vistadome train India",
+      "first class train food",
+      "indian railways 4k",
+      "konkan railway monsoon",
+      "luxury train India Palace on Wheels",
+      "overnight train india vlog",
+      "train travel india budget",
+      "train trip India vlog",
+      "vistadome train journey"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "Railway Trips & Train Journeys",
+    "position": 18
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🗺️",
+    "id": "india_travel_mh_gj",
+    "keywords": [
+      "Bhedaghat Marble Rocks",
+      "Dholavira Road to Heaven",
+      "Dhuandhar Falls vlog",
+      "Dwarka temple vlog",
+      "Gir National Park Asiatic Lion Safari",
+      "Gujarat food vlog",
+      "Imagicaa Theme Park Lonavala",
+      "Mahakal Lok Corridor Ujjain",
+      "Maharashtra hidden places",
+      "Maharashtra hill station",
+      "Rann of Kutch vlog",
+      "Saputara hill station Gujarat",
+      "Shanku Water Park Mehsana",
+      "Somnath temple vlog",
+      "Statue of Unity Kevadia",
+      "Surat food vlog",
+      "Vadodara travel",
+      "ahmedabad food vlog",
+      "alibaug beach vlog",
+      "amravati vlog",
+      "aurangabad ajanta ellora",
+      "aurangabad travel",
+      "bhandardara",
+      "bhandardara vlog",
+      "gujarat rann of kutch 4k",
+      "gujarat travel vlog",
+      "india travel vlog",
+      "kargil",
+      "kokan road trip",
+      "kolhapur food vlog",
+      "kolhapur travel",
+      "konkan beach hidden",
+      "konkan coast vlog",
+      "lonavala vlog",
+      "mahabaleshwar fog 4k",
+      "mahabaleshwar vlog",
+      "maharashtra travel vlog",
+      "marathi vlog",
+      "nagpur travel vlog",
+      "nagpur vlog",
+      "nashik travel 2026",
+      "nashik travel vlog",
+      "pandavleni caves nashik",
+      "pune food vlog",
+      "pune travel vlog",
+      "raigad fort vlog",
+      "sahyadri",
+      "sahyadri monsoon trek",
+      "sahyadri trek",
+      "satara travel",
+      "satara travel vlog",
+      "shirdi vlog",
+      "tamini ghat",
+      "tamini ghat drive",
+      "taminighat",
+      "tarkarli beach vlog",
+      "trambakeshwar temple nashik"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "MH, GJ & Nearby Travel",
     "position": 19
   },
   {
@@ -2219,7 +2219,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Global Food & Street Food",
-    "position": 65
+    "position": 64
   },
   {
     "createdAt": 1781179003419,
@@ -2264,7 +2264,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Recipes, Cooking & Drinks",
-    "position": 66
+    "position": 65
   },
   {
     "createdAt": 1781179003419,
@@ -2367,7 +2367,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "India Landmarks, Parks & Attractions",
-    "position": 67
+    "position": 66
   },
   {
     "createdAt": 1781179003419,
@@ -2471,7 +2471,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Vloggers & Family Vloggers",
-    "position": 68
+    "position": 67
   },
   {
     "createdAt": 1781179003419,
@@ -2519,7 +2519,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Software, OS & App Hacks",
-    "position": 69
+    "position": 68
   },
   {
     "createdAt": 1781179003419,
@@ -2576,7 +2576,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Tech, Gadgets & Reviews",
-    "position": 70
+    "position": 69
   },
   {
     "createdAt": 1781179003419,
@@ -2626,7 +2626,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "AI & Future Tech",
-    "position": 71
+    "position": 70
   },
   {
     "createdAt": 1781179003419,
@@ -2678,7 +2678,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Cars & Bikes",
-    "position": 72
+    "position": 71
   },
   {
     "createdAt": 1781179003419,
@@ -2723,7 +2723,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Health & Fitness",
-    "position": 73
+    "position": 72
   },
   {
     "createdAt": 1781179003419,
@@ -2768,7 +2768,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Finance & Investing",
-    "position": 74
+    "position": 73
   },
   {
     "createdAt": 1781179003419,
@@ -2809,7 +2809,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Science, Space & Nature Docs",
-    "position": 75
+    "position": 74
   },
   {
     "createdAt": 1781179003419,
@@ -2867,7 +2867,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Animals & Wildlife",
-    "position": 76
+    "position": 75
   },
   {
     "createdAt": 1781179003419,
@@ -2902,7 +2902,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "True Crime & Mystery",
-    "position": 77
+    "position": 76
   },
   {
     "createdAt": 1781179003419,
@@ -2949,7 +2949,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "DIY, Making & Inventions",
-    "position": 78
+    "position": 77
   },
   {
     "createdAt": 1781179003419,
@@ -2986,7 +2986,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Gaming",
-    "position": 79
+    "position": 78
   },
   {
     "createdAt": 1781179003419,
@@ -3029,7 +3029,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Education & Amazing Facts",
-    "position": 80
+    "position": 79
   },
   {
     "createdAt": 1781179003419,
@@ -3066,7 +3066,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Fashion & Lifestyle",
-    "position": 81
+    "position": 80
   },
   {
     "createdAt": 1781179003419,
@@ -3102,7 +3102,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Documentaries & Deep Dives",
-    "position": 82
+    "position": 81
   },
   {
     "createdAt": 1781179003419,
@@ -3136,7 +3136,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Psychology & Self-Growth",
-    "position": 83
+    "position": 82
   },
   {
     "enabled": true,
@@ -3210,7 +3210,7 @@
       "age pension increase"
     ],
     "name": "Stimulus All V0",
-    "position": 84
+    "position": 83
   },
   {
     "enabled": true,
@@ -3269,7 +3269,7 @@
       "Wyoming stimulus"
     ],
     "name": "State Stimulus V0",
-    "position": 85
+    "position": 84
   },
   {
     "enabled": true,
@@ -3282,7 +3282,7 @@
       "bride dance"
     ],
     "name": "Dance",
-    "position": 86
+    "position": 85
   },
   {
     "enabled": true,
@@ -3295,7 +3295,7 @@
       "audio plugin"
     ],
     "name": "Audio Production",
-    "position": 87
+    "position": 86
   },
   {
     "enabled": true,
@@ -3306,7 +3306,7 @@
       "hindi cover song"
     ],
     "name": "Cover Songs",
-    "position": 88
+    "position": 87
   },
   {
     "enabled": true,
@@ -3319,7 +3319,7 @@
       "courtroom cross examination"
     ],
     "name": "True Crime Interrogations",
-    "position": 89
+    "position": 88
   },
   {
     "enabled": false,
@@ -3336,7 +3336,7 @@
       "studio ghibli aesthetic"
     ],
     "name": "Anime & Animation",
-    "position": 90
+    "position": 89
   },
   {
     "enabled": false,
@@ -3349,7 +3349,7 @@
       "language learning tips"
     ],
     "name": "Language Learning & Polyglots",
-    "position": 91
+    "position": 90
   },
   {
     "enabled": true,
@@ -3366,7 +3366,7 @@
       "drinking water"
     ],
     "name": "Water Purifier",
-    "position": 92
+    "position": 91
   },
   {
     "enabled": true,
@@ -3378,7 +3378,7 @@
       "automatic Business"
     ],
     "name": "Bussiness",
-    "position": 93
+    "position": 92
   },
   {
     "enabled": true,
@@ -3392,7 +3392,7 @@
     ],
     "last_crawled": 1782226063477,
     "name": "Off-Roading & Mudding",
-    "position": 94
+    "position": 93
   },
   {
     "enabled": true,
@@ -3409,7 +3409,7 @@
     ],
     "last_crawled": 1782226821072,
     "name": "Books, Literature & Comics",
-    "position": 95
+    "position": 94
   },
   {
     "enabled": true,
@@ -3426,7 +3426,7 @@
     ],
     "last_crawled": 1782226853610,
     "name": "Trading & Crypto",
-    "position": 96
+    "position": 95
   },
   {
     "enabled": true,
@@ -3445,7 +3445,7 @@
     ],
     "last_crawled": 1782226530700,
     "name": "Indian History & Mythology",
-    "position": 97
+    "position": 96
   },
   {
     "enabled": true,
@@ -3463,7 +3463,7 @@
     ],
     "last_crawled": 1782227088174,
     "name": "Cybersecurity & Coding",
-    "position": 98
+    "position": 97
   },
   {
     "enabled": true,
@@ -3479,7 +3479,7 @@
     ],
     "last_crawled": 1782227132050,
     "name": "Silent Focus & Study Ambience",
-    "position": 99
+    "position": 98
   },
   {
     "enabled": true,
@@ -3495,7 +3495,7 @@
     ],
     "last_crawled": 1782227294835,
     "name": "Micro-History & Urbex",
-    "position": 100
+    "position": 99
   },
   {
     "enabled": true,
@@ -3509,7 +3509,7 @@
     ],
     "last_crawled": 1782227965866,
     "name": "Poetry & Spoken Word",
-    "position": 101
+    "position": 100
   },
   {
     "enabled": true,
@@ -3523,7 +3523,7 @@
     ],
     "last_crawled": 1782228146002,
     "name": "Tattoo Art & Piercings",
-    "position": 102
+    "position": 101
   },
   {
     "enabled": true,
@@ -3537,7 +3537,7 @@
     ],
     "last_crawled": 1782228176599,
     "name": "Miniature Painting & Dioramas",
-    "position": 103
+    "position": 102
   },
   {
     "enabled": true,
@@ -3551,7 +3551,7 @@
     ],
     "last_crawled": 1782228297326,
     "name": "Aquarium Aquascaping",
-    "position": 104
+    "position": 103
   },
   {
     "enabled": true,
@@ -3565,7 +3565,7 @@
     ],
     "last_crawled": 1782228322931,
     "name": "Terrariums & Ant Farms",
-    "position": 105
+    "position": 104
   },
   {
     "enabled": true,
@@ -3579,7 +3579,7 @@
     ],
     "last_crawled": 1782228116344,
     "name": "Glassblowing & Ceramics",
-    "position": 106
+    "position": 105
   },
   {
     "enabled": true,
@@ -3593,7 +3593,7 @@
     ],
     "last_crawled": 1782228089075,
     "name": "Blacksmithing & Forging",
-    "position": 107
+    "position": 106
   },
   {
     "enabled": true,
@@ -3606,7 +3606,7 @@
       "kpop music video reaction"
     ],
     "name": "K-Pop & Idol Culture",
-    "position": 108
+    "position": 107
   },
   {
     "createdAt": 1781179003419,
@@ -3639,7 +3639,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "ASMR & Relaxation",
-    "position": 109
+    "position": 108
   },
   {
     "createdAt": 1781179003419,
@@ -3675,7 +3675,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Home & Interior Design",
-    "position": 110
+    "position": 109
   },
   {
     "enabled": true,
@@ -3689,7 +3689,7 @@
     ],
     "last_crawled": 1782228266636,
     "name": "Retro Advertising & Media",
-    "position": 111
+    "position": 110
   },
   {
     "createdAt": 1781179003419,
@@ -3729,6 +3729,6 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Cricket & Sports",
-    "position": 112
+    "position": 111
   }
 ]
