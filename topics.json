@@ -1489,20 +1489,6 @@
   },
   {
     "enabled": true,
-    "icon": "📜",
-    "id": "spoken_word",
-    "keywords": [
-      "spoken word poetry slam",
-      "def poetry jam",
-      "emotional poetry reading",
-      "slam poetry competition"
-    ],
-    "last_crawled": 1782227965866,
-    "name": "Poetry & Spoken Word",
-    "position": 41
-  },
-  {
-    "enabled": true,
     "icon": "🛹",
     "id": "skate_bmx",
     "keywords": [
@@ -1513,7 +1499,7 @@
     ],
     "last_crawled": 1782228000957,
     "name": "Skateboarding & Extreme BMX",
-    "position": 42
+    "position": 41
   },
   {
     "enabled": true,
@@ -1527,7 +1513,7 @@
     ],
     "last_crawled": 1782228025471,
     "name": "Parkour & Freerunning",
-    "position": 43
+    "position": 42
   },
   {
     "enabled": true,
@@ -1541,7 +1527,7 @@
     ],
     "last_crawled": 1782228052121,
     "name": "Lockpicking & Security",
-    "position": 44
+    "position": 43
   },
   {
     "enabled": true,
@@ -1555,7 +1541,7 @@
     ],
     "last_crawled": 1782228089075,
     "name": "Blacksmithing & Forging",
-    "position": 45
+    "position": 44
   },
   {
     "enabled": true,
@@ -1569,7 +1555,7 @@
     ],
     "last_crawled": 1782228116344,
     "name": "Glassblowing & Ceramics",
-    "position": 46
+    "position": 45
   },
   {
     "enabled": true,
@@ -1583,7 +1569,7 @@
     ],
     "last_crawled": 1782228146002,
     "name": "Tattoo Art & Piercings",
-    "position": 47
+    "position": 46
   },
   {
     "enabled": true,
@@ -1597,7 +1583,7 @@
     ],
     "last_crawled": 1782228176599,
     "name": "Miniature Painting & Dioramas",
-    "position": 48
+    "position": 47
   },
   {
     "enabled": true,
@@ -1611,7 +1597,7 @@
     ],
     "last_crawled": 1782228215083,
     "name": "Speedrunning & Glitches",
-    "position": 49
+    "position": 48
   },
   {
     "enabled": true,
@@ -1625,7 +1611,7 @@
     ],
     "last_crawled": 1782228266636,
     "name": "Retro Advertising & Media",
-    "position": 50
+    "position": 49
   },
   {
     "enabled": true,
@@ -1639,7 +1625,7 @@
     ],
     "last_crawled": 1782228297326,
     "name": "Aquarium Aquascaping",
-    "position": 51
+    "position": 50
   },
   {
     "enabled": true,
@@ -1653,7 +1639,7 @@
     ],
     "last_crawled": 1782228322931,
     "name": "Terrariums & Ant Farms",
-    "position": 52
+    "position": 51
   },
   {
     "enabled": true,
@@ -1667,7 +1653,7 @@
     ],
     "last_crawled": 1782228376241,
     "name": "Van Life & RV Tours",
-    "position": 53
+    "position": 52
   },
   {
     "enabled": true,
@@ -1686,7 +1672,7 @@
     ],
     "last_crawled": 1782228443879,
     "name": "Weather: Rain & Snow",
-    "position": 54
+    "position": 53
   },
   {
     "enabled": true,
@@ -1700,7 +1686,7 @@
     ],
     "last_crawled": 1782228462031,
     "name": "Funny Fails & Comedy",
-    "position": 55
+    "position": 54
   },
   {
     "enabled": true,
@@ -1713,7 +1699,7 @@
       "agriculture drone spraying"
     ],
     "name": "Tractors & Farming Tech",
-    "position": 56
+    "position": 55
   },
   {
     "enabled": true,
@@ -1726,7 +1712,7 @@
       "hollywood movie in hindi full"
     ],
     "name": "Full Movies & Cinema",
-    "position": 57
+    "position": 56
   },
   {
     "enabled": true,
@@ -1739,7 +1725,7 @@
       "gujarati dayro live"
     ],
     "name": "Regional Indian Music & Folk",
-    "position": 58
+    "position": 57
   },
   {
     "createdAt": 1781179003419,
@@ -1788,7 +1774,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Bollywood & OTT",
-    "position": 59
+    "position": 58
   },
   {
     "createdAt": 1781179003419,
@@ -1838,7 +1824,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Bollywood Celebs & Stars",
-    "position": 60
+    "position": 59
   },
   {
     "createdAt": 1781179003419,
@@ -1894,7 +1880,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Global Food & Street Food",
-    "position": 61
+    "position": 60
   },
   {
     "createdAt": 1781179003419,
@@ -1939,7 +1925,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Recipes, Cooking & Drinks",
-    "position": 62
+    "position": 61
   },
   {
     "createdAt": 1781179003419,
@@ -2007,7 +1993,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "MH, GJ & Nearby Travel",
-    "position": 63
+    "position": 62
   },
   {
     "createdAt": 1781179003419,
@@ -2041,7 +2027,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Railway Trips & Train Journeys",
-    "position": 64
+    "position": 63
   },
   {
     "createdAt": 1781179003419,
@@ -2144,7 +2130,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "India Landmarks, Parks & Attractions",
-    "position": 65
+    "position": 64
   },
   {
     "createdAt": 1781179003419,
@@ -2248,7 +2234,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Vloggers & Family Vloggers",
-    "position": 66
+    "position": 65
   },
   {
     "createdAt": 1781179003419,
@@ -2296,7 +2282,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Software, OS & App Hacks",
-    "position": 67
+    "position": 66
   },
   {
     "createdAt": 1781179003419,
@@ -2353,7 +2339,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Tech, Gadgets & Reviews",
-    "position": 68
+    "position": 67
   },
   {
     "createdAt": 1781179003419,
@@ -2403,7 +2389,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "AI & Future Tech",
-    "position": 69
+    "position": 68
   },
   {
     "createdAt": 1781179003419,
@@ -2455,7 +2441,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Cars & Bikes",
-    "position": 70
+    "position": 69
   },
   {
     "createdAt": 1781179003419,
@@ -2500,7 +2486,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Health & Fitness",
-    "position": 71
+    "position": 70
   },
   {
     "createdAt": 1781179003419,
@@ -2545,7 +2531,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Finance & Investing",
-    "position": 72
+    "position": 71
   },
   {
     "createdAt": 1781179003419,
@@ -2586,7 +2572,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Science, Space & Nature Docs",
-    "position": 73
+    "position": 72
   },
   {
     "createdAt": 1781179003419,
@@ -2644,7 +2630,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Animals & Wildlife",
-    "position": 74
+    "position": 73
   },
   {
     "createdAt": 1781179003419,
@@ -2679,7 +2665,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "True Crime & Mystery",
-    "position": 75
+    "position": 74
   },
   {
     "createdAt": 1781179003419,
@@ -2726,7 +2712,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "DIY, Making & Inventions",
-    "position": 76
+    "position": 75
   },
   {
     "createdAt": 1781179003419,
@@ -2766,7 +2752,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "4K Nature & Ambience",
-    "position": 77
+    "position": 76
   },
   {
     "createdAt": 1781179003419,
@@ -2810,7 +2796,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "City Walks & Global Sightseeing",
-    "position": 78
+    "position": 77
   },
   {
     "createdAt": 1781179003419,
@@ -2847,7 +2833,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Gaming",
-    "position": 79
+    "position": 78
   },
   {
     "createdAt": 1781179003419,
@@ -2887,7 +2873,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Cricket & Sports",
-    "position": 80
+    "position": 79
   },
   {
     "createdAt": 1781179003419,
@@ -2923,7 +2909,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Home & Interior Design",
-    "position": 81
+    "position": 80
   },
   {
     "createdAt": 1781179003419,
@@ -2959,7 +2945,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Budget Shopping & Hauls",
-    "position": 82
+    "position": 81
   },
   {
     "createdAt": 1781179003419,
@@ -2994,7 +2980,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "World News & Geopolitics",
-    "position": 83
+    "position": 82
   },
   {
     "createdAt": 1781179003419,
@@ -3037,7 +3023,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Education & Amazing Facts",
-    "position": 84
+    "position": 83
   },
   {
     "createdAt": 1781179003419,
@@ -3084,7 +3070,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Spirituality & Motivation",
-    "position": 85
+    "position": 84
   },
   {
     "createdAt": 1781179003419,
@@ -3117,7 +3103,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "ASMR & Relaxation",
-    "position": 86
+    "position": 85
   },
   {
     "createdAt": 1781179003419,
@@ -3154,7 +3140,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Fashion & Lifestyle",
-    "position": 87
+    "position": 86
   },
   {
     "createdAt": 1781179003419,
@@ -3183,7 +3169,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Treasure Hunting & Discovery",
-    "position": 88
+    "position": 87
   },
   {
     "createdAt": 1781179003419,
@@ -3233,7 +3219,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Adventure & Extreme Outdoors",
-    "position": 89
+    "position": 88
   },
   {
     "enabled": true,
@@ -3246,7 +3232,7 @@
       "kpop music video reaction"
     ],
     "name": "K-Pop & Idol Culture",
-    "position": 90
+    "position": 89
   },
   {
     "createdAt": 1781179003419,
@@ -3282,7 +3268,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Documentaries & Deep Dives",
-    "position": 91
+    "position": 90
   },
   {
     "createdAt": 1781179003419,
@@ -3316,7 +3302,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Psychology & Self-Growth",
-    "position": 92
+    "position": 91
   },
   {
     "createdAt": 1781179003419,
@@ -3346,7 +3332,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Cooking Skills & Food Science",
-    "position": 93
+    "position": 92
   },
   {
     "enabled": true,
@@ -3366,7 +3352,7 @@
       "zee marathi new"
     ],
     "name": "Webseries",
-    "position": 94
+    "position": 93
   },
   {
     "enabled": true,
@@ -3379,7 +3365,7 @@
       "audio plugin"
     ],
     "name": "Audio Production",
-    "position": 95
+    "position": 94
   },
   {
     "enabled": true,
@@ -3453,7 +3439,7 @@
       "age pension increase"
     ],
     "name": "Stimulus All V0",
-    "position": 96
+    "position": 95
   },
   {
     "enabled": true,
@@ -3512,7 +3498,7 @@
       "Wyoming stimulus"
     ],
     "name": "State Stimulus V0",
-    "position": 97
+    "position": 96
   },
   {
     "enabled": true,
@@ -3525,7 +3511,7 @@
       "bride dance"
     ],
     "name": "Dance",
-    "position": 98
+    "position": 97
   },
   {
     "enabled": true,
@@ -3536,7 +3522,7 @@
       "hindi cover song"
     ],
     "name": "Cover Songs",
-    "position": 99
+    "position": 98
   },
   {
     "enabled": true,
@@ -3557,7 +3543,7 @@
       "gut"
     ],
     "name": "Medical",
-    "position": 100
+    "position": 99
   },
   {
     "enabled": true,
@@ -3567,7 +3553,7 @@
       "Episode"
     ],
     "name": "TV Episode",
-    "position": 101
+    "position": 100
   },
   {
     "enabled": true,
@@ -3580,7 +3566,7 @@
       "courtroom cross examination"
     ],
     "name": "True Crime Interrogations",
-    "position": 102
+    "position": 101
   },
   {
     "enabled": false,
@@ -3597,7 +3583,7 @@
       "studio ghibli aesthetic"
     ],
     "name": "Anime & Animation",
-    "position": 103
+    "position": 102
   },
   {
     "enabled": false,
@@ -3610,7 +3596,7 @@
       "language learning tips"
     ],
     "name": "Language Learning & Polyglots",
-    "position": 104
+    "position": 103
   },
   {
     "enabled": true,
@@ -3627,7 +3613,7 @@
       "drinking water"
     ],
     "name": "Water Purifier",
-    "position": 105
+    "position": 104
   },
   {
     "enabled": true,
@@ -3639,7 +3625,7 @@
       "automatic Business"
     ],
     "name": "Bussiness",
-    "position": 106
+    "position": 105
   },
   {
     "enabled": true,
@@ -3653,7 +3639,7 @@
     ],
     "last_crawled": 1782226063477,
     "name": "Off-Roading & Mudding",
-    "position": 107
+    "position": 106
   },
   {
     "enabled": true,
@@ -3670,7 +3656,7 @@
     ],
     "last_crawled": 1782226821072,
     "name": "Books, Literature & Comics",
-    "position": 108
+    "position": 107
   },
   {
     "enabled": true,
@@ -3687,7 +3673,7 @@
     ],
     "last_crawled": 1782226853610,
     "name": "Trading & Crypto",
-    "position": 109
+    "position": 108
   },
   {
     "enabled": true,
@@ -3706,7 +3692,7 @@
     ],
     "last_crawled": 1782226530700,
     "name": "Indian History & Mythology",
-    "position": 110
+    "position": 109
   },
   {
     "enabled": true,
@@ -3724,7 +3710,7 @@
     ],
     "last_crawled": 1782227088174,
     "name": "Cybersecurity & Coding",
-    "position": 111
+    "position": 110
   },
   {
     "enabled": true,
@@ -3740,7 +3726,7 @@
     ],
     "last_crawled": 1782227132050,
     "name": "Silent Focus & Study Ambience",
-    "position": 112
+    "position": 111
   },
   {
     "enabled": true,
@@ -3756,6 +3742,20 @@
     ],
     "last_crawled": 1782227294835,
     "name": "Micro-History & Urbex",
+    "position": 112
+  },
+  {
+    "enabled": true,
+    "icon": "📜",
+    "id": "spoken_word",
+    "keywords": [
+      "spoken word poetry slam",
+      "def poetry jam",
+      "emotional poetry reading",
+      "slam poetry competition"
+    ],
+    "last_crawled": 1782227965866,
+    "name": "Poetry & Spoken Word",
     "position": 113
   }
 ]
