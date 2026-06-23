@@ -1873,22 +1873,6 @@
   },
   {
     "enabled": true,
-    "icon": "🕹️",
-    "id": "nostalgia_tech",
-    "keywords": [
-      "restoring 90s console",
-      "retro pc build",
-      "unboxing 2000s tech",
-      "vintage electronics repair",
-      "gameboy restoration",
-      "ipod modding"
-    ],
-    "last_crawled": 1782227353565,
-    "name": "Nostalgia Tech & Repair",
-    "position": 44
-  },
-  {
-    "enabled": true,
     "icon": "🎲",
     "id": "tabletop_boardgames",
     "keywords": [
