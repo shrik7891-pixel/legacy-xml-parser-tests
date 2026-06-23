@@ -2311,20 +2311,6 @@
   },
   {
     "enabled": true,
-    "icon": "🎭",
-    "id": "theater_broadway",
-    "keywords": [
-      "broadway musical performance",
-      "hamilton live",
-      "phantom of the opera highlights",
-      "stage play behind the scenes"
-    ],
-    "last_crawled": 1782227927172,
-    "name": "Theater, Musicals & Broadway",
-    "position": 57
-  },
-  {
-    "enabled": true,
     "icon": "🛹",
     "id": "skate_bmx",
     "keywords": [
@@ -2335,7 +2321,7 @@
     ],
     "last_crawled": 1782228000957,
     "name": "Skateboarding & Extreme BMX",
-    "position": 58
+    "position": 57
   },
   {
     "enabled": true,
@@ -2349,7 +2335,7 @@
     ],
     "last_crawled": 1782228052121,
     "name": "Lockpicking & Security",
-    "position": 59
+    "position": 58
   },
   {
     "enabled": true,
@@ -2363,7 +2349,7 @@
     ],
     "last_crawled": 1782228376241,
     "name": "Van Life & RV Tours",
-    "position": 60
+    "position": 59
   },
   {
     "createdAt": 1781179003419,
@@ -2411,7 +2397,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Software, OS & App Hacks",
-    "position": 61
+    "position": 60
   },
   {
     "createdAt": 1781179003419,
@@ -2468,7 +2454,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Tech, Gadgets & Reviews",
-    "position": 62
+    "position": 61
   },
   {
     "createdAt": 1781179003419,
@@ -2518,7 +2504,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "AI & Future Tech",
-    "position": 63
+    "position": 62
   },
   {
     "createdAt": 1781179003419,
@@ -2570,7 +2556,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Cars & Bikes",
-    "position": 64
+    "position": 63
   },
   {
     "createdAt": 1781179003419,
@@ -2615,7 +2601,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Health & Fitness",
-    "position": 65
+    "position": 64
   },
   {
     "createdAt": 1781179003419,
@@ -2660,7 +2646,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Finance & Investing",
-    "position": 66
+    "position": 65
   },
   {
     "createdAt": 1781179003419,
@@ -2696,7 +2682,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Documentaries & Deep Dives",
-    "position": 67
+    "position": 66
   },
   {
     "createdAt": 1781179003419,
@@ -2737,7 +2723,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Science, Space & Nature Docs",
-    "position": 68
+    "position": 67
   },
   {
     "createdAt": 1781179003419,
@@ -2795,7 +2781,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Animals & Wildlife",
-    "position": 69
+    "position": 68
   },
   {
     "createdAt": 1781179003419,
@@ -2830,7 +2816,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "True Crime & Mystery",
-    "position": 70
+    "position": 69
   },
   {
     "createdAt": 1781179003419,
@@ -2877,7 +2863,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "DIY, Making & Inventions",
-    "position": 71
+    "position": 70
   },
   {
     "createdAt": 1781179003419,
@@ -2914,7 +2900,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Gaming",
-    "position": 72
+    "position": 71
   },
   {
     "createdAt": 1781179003419,
@@ -2957,7 +2943,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Education & Amazing Facts",
-    "position": 73
+    "position": 72
   },
   {
     "createdAt": 1781179003419,
@@ -2994,7 +2980,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Fashion & Lifestyle",
-    "position": 74
+    "position": 73
   },
   {
     "createdAt": 1781179003419,
@@ -3028,7 +3014,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Psychology & Self-Growth",
-    "position": 75
+    "position": 74
   },
   {
     "enabled": true,
@@ -3102,7 +3088,7 @@
       "age pension increase"
     ],
     "name": "Stimulus All V0",
-    "position": 76
+    "position": 75
   },
   {
     "enabled": true,
@@ -3161,7 +3147,7 @@
       "Wyoming stimulus"
     ],
     "name": "State Stimulus V0",
-    "position": 77
+    "position": 76
   },
   {
     "enabled": true,
@@ -3174,7 +3160,7 @@
       "bride dance"
     ],
     "name": "Dance",
-    "position": 78
+    "position": 77
   },
   {
     "enabled": true,
@@ -3187,7 +3173,7 @@
       "audio plugin"
     ],
     "name": "Audio Production",
-    "position": 79
+    "position": 78
   },
   {
     "enabled": true,
@@ -3198,7 +3184,7 @@
       "hindi cover song"
     ],
     "name": "Cover Songs",
-    "position": 80
+    "position": 79
   },
   {
     "enabled": true,
@@ -3211,7 +3197,7 @@
       "courtroom cross examination"
     ],
     "name": "True Crime Interrogations",
-    "position": 81
+    "position": 80
   },
   {
     "enabled": false,
@@ -3228,7 +3214,7 @@
       "studio ghibli aesthetic"
     ],
     "name": "Anime & Animation",
-    "position": 82
+    "position": 81
   },
   {
     "enabled": false,
@@ -3241,7 +3227,7 @@
       "language learning tips"
     ],
     "name": "Language Learning & Polyglots",
-    "position": 83
+    "position": 82
   },
   {
     "enabled": true,
@@ -3258,7 +3244,7 @@
       "drinking water"
     ],
     "name": "Water Purifier",
-    "position": 84
+    "position": 83
   },
   {
     "enabled": true,
@@ -3270,7 +3256,7 @@
       "automatic Business"
     ],
     "name": "Bussiness",
-    "position": 85
+    "position": 84
   },
   {
     "enabled": true,
@@ -3284,7 +3270,7 @@
     ],
     "last_crawled": 1782226063477,
     "name": "Off-Roading & Mudding",
-    "position": 86
+    "position": 85
   },
   {
     "enabled": true,
@@ -3301,7 +3287,7 @@
     ],
     "last_crawled": 1782226821072,
     "name": "Books, Literature & Comics",
-    "position": 87
+    "position": 86
   },
   {
     "enabled": true,
@@ -3318,7 +3304,7 @@
     ],
     "last_crawled": 1782226853610,
     "name": "Trading & Crypto",
-    "position": 88
+    "position": 87
   },
   {
     "enabled": true,
@@ -3337,7 +3323,7 @@
     ],
     "last_crawled": 1782226530700,
     "name": "Indian History & Mythology",
-    "position": 89
+    "position": 88
   },
   {
     "enabled": true,
@@ -3355,7 +3341,7 @@
     ],
     "last_crawled": 1782227088174,
     "name": "Cybersecurity & Coding",
-    "position": 90
+    "position": 89
   },
   {
     "enabled": true,
@@ -3371,7 +3357,7 @@
     ],
     "last_crawled": 1782227132050,
     "name": "Silent Focus & Study Ambience",
-    "position": 91
+    "position": 90
   },
   {
     "enabled": true,
@@ -3387,7 +3373,7 @@
     ],
     "last_crawled": 1782227294835,
     "name": "Micro-History & Urbex",
-    "position": 92
+    "position": 91
   },
   {
     "enabled": true,
@@ -3401,7 +3387,7 @@
     ],
     "last_crawled": 1782227965866,
     "name": "Poetry & Spoken Word",
-    "position": 93
+    "position": 92
   },
   {
     "enabled": true,
@@ -3415,7 +3401,7 @@
     ],
     "last_crawled": 1782228146002,
     "name": "Tattoo Art & Piercings",
-    "position": 94
+    "position": 93
   },
   {
     "enabled": true,
@@ -3429,7 +3415,7 @@
     ],
     "last_crawled": 1782228176599,
     "name": "Miniature Painting & Dioramas",
-    "position": 95
+    "position": 94
   },
   {
     "enabled": true,
@@ -3443,7 +3429,7 @@
     ],
     "last_crawled": 1782228297326,
     "name": "Aquarium Aquascaping",
-    "position": 96
+    "position": 95
   },
   {
     "enabled": true,
@@ -3457,7 +3443,7 @@
     ],
     "last_crawled": 1782228322931,
     "name": "Terrariums & Ant Farms",
-    "position": 97
+    "position": 96
   },
   {
     "enabled": true,
@@ -3471,7 +3457,7 @@
     ],
     "last_crawled": 1782228116344,
     "name": "Glassblowing & Ceramics",
-    "position": 98
+    "position": 97
   },
   {
     "enabled": true,
@@ -3485,7 +3471,7 @@
     ],
     "last_crawled": 1782228089075,
     "name": "Blacksmithing & Forging",
-    "position": 99
+    "position": 98
   },
   {
     "enabled": true,
@@ -3498,7 +3484,7 @@
       "kpop music video reaction"
     ],
     "name": "K-Pop & Idol Culture",
-    "position": 100
+    "position": 99
   },
   {
     "createdAt": 1781179003419,
@@ -3531,7 +3517,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "ASMR & Relaxation",
-    "position": 101
+    "position": 100
   },
   {
     "createdAt": 1781179003419,
@@ -3567,7 +3553,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Home & Interior Design",
-    "position": 102
+    "position": 101
   },
   {
     "enabled": true,
@@ -3581,7 +3567,7 @@
     ],
     "last_crawled": 1782228266636,
     "name": "Retro Advertising & Media",
-    "position": 103
+    "position": 102
   },
   {
     "createdAt": 1781179003419,
@@ -3621,7 +3607,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Cricket & Sports",
-    "position": 104
+    "position": 103
   },
   {
     "enabled": true,
@@ -3638,7 +3624,7 @@
     ],
     "last_crawled": 1782226451041,
     "name": "Podcasts & Deep Interviews",
-    "position": 105
+    "position": 104
   },
   {
     "enabled": true,
@@ -3657,6 +3643,20 @@
     ],
     "last_crawled": 1782226766159,
     "name": "Digital Horror & Internet Lore",
+    "position": 105
+  },
+  {
+    "enabled": true,
+    "icon": "🎭",
+    "id": "theater_broadway",
+    "keywords": [
+      "broadway musical performance",
+      "hamilton live",
+      "phantom of the opera highlights",
+      "stage play behind the scenes"
+    ],
+    "last_crawled": 1782227927172,
+    "name": "Theater, Musicals & Broadway",
     "position": 106
   }
 ]
