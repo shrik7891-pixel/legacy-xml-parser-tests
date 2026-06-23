@@ -1905,20 +1905,6 @@
   },
   {
     "enabled": true,
-    "icon": "🚜",
-    "id": "heavy_machinery",
-    "keywords": [
-      "mega construction projects",
-      "heavy machinery operating",
-      "mining excavator in action",
-      "bridge construction timelapse"
-    ],
-    "last_crawled": 1782227487075,
-    "name": "Heavy Machinery & Mega Projects",
-    "position": 47
-  },
-  {
-    "enabled": true,
     "icon": "🛖",
     "id": "container_homes",
     "keywords": [
