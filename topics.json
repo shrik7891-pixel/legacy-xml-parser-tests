@@ -2029,20 +2029,6 @@
   },
   {
     "enabled": true,
-    "icon": "⏱️",
-    "id": "speedrunning",
-    "keywords": [
-      "super mario 64 speedrun",
-      "elden ring speedrun world record",
-      "video game glitches explained",
-      "games done quick highlights"
-    ],
-    "last_crawled": 1782228215083,
-    "name": "Speedrunning & Glitches",
-    "position": 58
-  },
-  {
-    "enabled": true,
     "icon": "🚐",
     "id": "van_life",
     "keywords": [
