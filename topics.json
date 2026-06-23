@@ -1919,20 +1919,6 @@
   },
   {
     "enabled": true,
-    "icon": "⌚",
-    "id": "watches_edc",
-    "keywords": [
-      "luxury watch collection",
-      "rolex review",
-      "everyday carry gear 2026",
-      "watch restoration asmr"
-    ],
-    "last_crawled": 1782227604635,
-    "name": "Watches, Horology & EDC",
-    "position": 49
-  },
-  {
-    "enabled": true,
     "icon": "🪀",
     "id": "skill_toys",
     "keywords": [
