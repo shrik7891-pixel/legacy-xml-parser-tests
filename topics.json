@@ -2017,20 +2017,6 @@
   },
   {
     "enabled": true,
-    "icon": "🏃",
-    "id": "parkour_freerunning",
-    "keywords": [
-      "parkour pov rooftop",
-      "red bull freerunning",
-      "urban parkour stunts",
-      "parkour fails and wins"
-    ],
-    "last_crawled": 1782228025471,
-    "name": "Parkour & Freerunning",
-    "position": 58
-  },
-  {
-    "enabled": true,
     "icon": "🔓",
     "id": "lockpicking",
     "keywords": [
