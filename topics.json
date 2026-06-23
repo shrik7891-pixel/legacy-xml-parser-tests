@@ -1905,20 +1905,6 @@
   },
   {
     "enabled": true,
-    "icon": "🛖",
-    "id": "container_homes",
-    "keywords": [
-      "shipping container home build",
-      "tiny house tour 2026",
-      "off grid cabin build",
-      "van life interior tour"
-    ],
-    "last_crawled": 1782227548938,
-    "name": "Tiny Houses & Container Homes",
-    "position": 48
-  },
-  {
-    "enabled": true,
     "icon": "🪀",
     "id": "skill_toys",
     "keywords": [
