@@ -1873,22 +1873,6 @@
   },
   {
     "enabled": true,
-    "icon": "🕹️",
-    "id": "nostalgia_tech",
-    "keywords": [
-      "restoring 90s console",
-      "retro pc build",
-      "unboxing 2000s tech",
-      "vintage electronics repair",
-      "gameboy restoration",
-      "ipod modding"
-    ],
-    "last_crawled": 1782227353565,
-    "name": "Nostalgia Tech & Repair",
-    "position": 44
-  },
-  {
-    "enabled": true,
     "icon": "🎲",
     "id": "tabletop_boardgames",
     "keywords": [
@@ -1918,48 +1902,6 @@
     "last_crawled": 1782227425327,
     "name": "Baking, Desserts & Pastry",
     "position": 46
-  },
-  {
-    "enabled": true,
-    "icon": "🚜",
-    "id": "heavy_machinery",
-    "keywords": [
-      "mega construction projects",
-      "heavy machinery operating",
-      "mining excavator in action",
-      "bridge construction timelapse"
-    ],
-    "last_crawled": 1782227487075,
-    "name": "Heavy Machinery & Mega Projects",
-    "position": 47
-  },
-  {
-    "enabled": true,
-    "icon": "🛖",
-    "id": "container_homes",
-    "keywords": [
-      "shipping container home build",
-      "tiny house tour 2026",
-      "off grid cabin build",
-      "van life interior tour"
-    ],
-    "last_crawled": 1782227548938,
-    "name": "Tiny Houses & Container Homes",
-    "position": 48
-  },
-  {
-    "enabled": true,
-    "icon": "⌚",
-    "id": "watches_edc",
-    "keywords": [
-      "luxury watch collection",
-      "rolex review",
-      "everyday carry gear 2026",
-      "watch restoration asmr"
-    ],
-    "last_crawled": 1782227604635,
-    "name": "Watches, Horology & EDC",
-    "position": 49
   },
   {
     "enabled": true,
@@ -2072,20 +2014,6 @@
     "last_crawled": 1782228000957,
     "name": "Skateboarding & Extreme BMX",
     "position": 57
-  },
-  {
-    "enabled": true,
-    "icon": "🏃",
-    "id": "parkour_freerunning",
-    "keywords": [
-      "parkour pov rooftop",
-      "red bull freerunning",
-      "urban parkour stunts",
-      "parkour fails and wins"
-    ],
-    "last_crawled": 1782228025471,
-    "name": "Parkour & Freerunning",
-    "position": 58
   },
   {
     "enabled": true,
