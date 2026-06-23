@@ -1,6 +1,252 @@
 [
   {
     "enabled": true,
+    "icon": "🌧️",
+    "id": "weather_rain_snow",
+    "keywords": [
+      "rain",
+      "rainy season",
+      "rain walk",
+      "rain in different countries",
+      "snow",
+      "snow season",
+      "rainfall",
+      "rain at night",
+      "rain at day"
+    ],
+    "last_crawled": 1782228443879,
+    "name": "Weather: Rain & Snow",
+    "position": 0
+  },
+  {
+    "enabled": true,
+    "icon": "🍿",
+    "id": "full_movies",
+    "keywords": [
+      "full movie hd",
+      "hindi movie full 2026",
+      "south dubbed movie full",
+      "hollywood movie in hindi full"
+    ],
+    "name": "Full Movies & Cinema",
+    "position": 1
+  },
+  {
+    "enabled": true,
+    "icon": "🪘",
+    "id": "regional_indian_music",
+    "keywords": [
+      "punjabi bhangra performance",
+      "rajasthani folk song live",
+      "bhojpuri new song 2026",
+      "gujarati dayro live"
+    ],
+    "name": "Regional Indian Music & Folk",
+    "position": 2
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🎬",
+    "id": "bollywood_cinema",
+    "keywords": [
+      "B4U Movies hindi",
+      "Dharma Productions trailer",
+      "Eros Now new release",
+      "T-Series films trailer",
+      "Ultra Movie Parlour channel",
+      "YRF Films channel",
+      "Zee Studios new movie",
+      "amazon prime india",
+      "anime hindi dubbed",
+      "bollywood explained hindi",
+      "bollywood hidden gems",
+      "bollywood trailer 2026",
+      "box office collection analysis",
+      "directors roundtable",
+      "documentary film 2026",
+      "film explained hindi",
+      "film making breakdown",
+      "hindi dubbed hollywood movies channel",
+      "hindi dubbed south movie channel",
+      "hollywood movie explained hindi",
+      "horror movie explained hindi",
+      "imdb top rated movie review",
+      "korean drama hindi dubbed",
+      "marathi movie 2026 full",
+      "marathi natak 2026",
+      "movie review hindi",
+      "netflix india new",
+      "new hindi movie 2026",
+      "oscar winning movie review",
+      "ott releases this week",
+      "south indian movie hindi dubbed",
+      "thriller movie explained hindi",
+      "tollywood new movie 2026",
+      "top 10 hindi movies",
+      "vfx breakdown hindi",
+      "web series hindi review",
+      "tv episode",
+      "episode"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "Bollywood & OTT",
+    "position": 3
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "⭐",
+    "id": "celeb_entertainment",
+    "keywords": [
+      "Akshay Kumar",
+      "Alia Bhatt",
+      "Anushka Sharma",
+      "Deepika Padukone",
+      "Disha Patani",
+      "Janhvi Kapoor",
+      "Kartik Aaryan",
+      "Katrina Kaif",
+      "Kiara Advani interview",
+      "Kriti Sanon",
+      "Mrunal Thakur",
+      "Nora Fatehi dance",
+      "Pooja Hegde",
+      "Priya Bapat",
+      "Ranveer Singh",
+      "Rashmika Mandanna 2026",
+      "Rinku Rajguru",
+      "Sai Tamhankar",
+      "Salman Khan",
+      "Samantha Ruth Prabhu",
+      "Sara Ali Khan",
+      "Shahrukh Khan",
+      "Shraddha Kapoor",
+      "Spruha Joshi marathi",
+      "Tamanna Bhatia",
+      "Vaidehi Parashurami",
+      "Varun Dhawan",
+      "actor morning routine",
+      "bollywood celebrity interview",
+      "bollywood lifestyle vlog",
+      "celeb workout routine",
+      "celebrity home tour",
+      "celebrity house tour",
+      "celebrity podcast hindi",
+      "daily dose of internet",
+      "film actor behind the scenes",
+      "paparazzi funny moments",
+      "prank video india",
+      "red carpet interviews"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "Bollywood Celebs & Stars",
+    "position": 4
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🚂",
+    "id": "railway_trips",
+    "keywords": [
+      " वंदे भारत express tour",
+      "Chenab Bridge train Kashmir",
+      "Darjeeling toy train",
+      "Deccan Queen train journey",
+      "India's most scenic train routes",
+      "Indian Railways documentary",
+      "Indian Railways food vlog",
+      "Indian railway journey vlog",
+      "Kalka Shimla Toy Train",
+      "Matheran toy train",
+      "Neral Matheran train",
+      "Nilgiri Mountain Railway Ooty",
+      "Rajdhani Express journey vlog",
+      "Vistadome Train Vizag",
+      "Vistadome train India",
+      "first class train food",
+      "indian railways 4k",
+      "konkan railway monsoon",
+      "luxury train India Palace on Wheels",
+      "overnight train india vlog",
+      "train travel india budget",
+      "train trip India vlog",
+      "vistadome train journey"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "Railway Trips & Train Journeys",
+    "position": 5
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🗺️",
+    "id": "india_travel_mh_gj",
+    "keywords": [
+      "Bhedaghat Marble Rocks",
+      "Dholavira Road to Heaven",
+      "Dhuandhar Falls vlog",
+      "Dwarka temple vlog",
+      "Gir National Park Asiatic Lion Safari",
+      "Gujarat food vlog",
+      "Imagicaa Theme Park Lonavala",
+      "Mahakal Lok Corridor Ujjain",
+      "Maharashtra hidden places",
+      "Maharashtra hill station",
+      "Rann of Kutch vlog",
+      "Saputara hill station Gujarat",
+      "Shanku Water Park Mehsana",
+      "Somnath temple vlog",
+      "Statue of Unity Kevadia",
+      "Surat food vlog",
+      "Vadodara travel",
+      "ahmedabad food vlog",
+      "alibaug beach vlog",
+      "amravati vlog",
+      "aurangabad ajanta ellora",
+      "aurangabad travel",
+      "bhandardara",
+      "bhandardara vlog",
+      "gujarat rann of kutch 4k",
+      "gujarat travel vlog",
+      "india travel vlog",
+      "kargil",
+      "kokan road trip",
+      "kolhapur food vlog",
+      "kolhapur travel",
+      "konkan beach hidden",
+      "konkan coast vlog",
+      "lonavala vlog",
+      "mahabaleshwar fog 4k",
+      "mahabaleshwar vlog",
+      "maharashtra travel vlog",
+      "marathi vlog",
+      "nagpur travel vlog",
+      "nagpur vlog",
+      "nashik travel 2026",
+      "nashik travel vlog",
+      "pandavleni caves nashik",
+      "pune food vlog",
+      "pune travel vlog",
+      "raigad fort vlog",
+      "sahyadri",
+      "sahyadri monsoon trek",
+      "sahyadri trek",
+      "satara travel",
+      "satara travel vlog",
+      "shirdi vlog",
+      "tamini ghat",
+      "tamini ghat drive",
+      "taminighat",
+      "tarkarli beach vlog",
+      "trambakeshwar temple nashik"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "MH, GJ & Nearby Travel",
+    "position": 6
+  },
+  {
+    "enabled": true,
     "icon": "📌",
     "id": "grp_mqcb1b1krpqqxv8jti",
     "keywords": [
@@ -53,7 +299,7 @@
     ],
     "last_crawled": 1782225785764,
     "name": "Travel Plan Delhi 2026",
-    "position": 0
+    "position": 7
   },
   {
     "enabled": true,
@@ -623,7 +869,7 @@
     ],
     "last_crawled": 1782225825415,
     "name": "Rajasthan Trip",
-    "position": 1
+    "position": 8
   },
   {
     "createdAt": 1781179003419,
@@ -660,7 +906,7 @@
     ],
     "last_crawled": 1782225844612,
     "name": "Hasyajatra & Kapil Sharma",
-    "position": 2
+    "position": 9
   },
   {
     "createdAt": 1781179003419,
@@ -703,7 +949,7 @@
     ],
     "last_crawled": 1782225873583,
     "name": "Marathi Entertainment",
-    "position": 3
+    "position": 10
   },
   {
     "createdAt": 1781179003419,
@@ -742,7 +988,7 @@
     ],
     "last_crawled": 1782226270240,
     "name": "Fails, Wins & Viral Videos",
-    "position": 4
+    "position": 11
   },
   {
     "enabled": true,
@@ -759,7 +1005,7 @@
     ],
     "last_crawled": 1782225913029,
     "name": "Pets & Cute Animals",
-    "position": 5
+    "position": 12
   },
   {
     "createdAt": 1781179003419,
@@ -809,7 +1055,7 @@
     ],
     "last_crawled": 1782225958281,
     "name": "Music & Songs",
-    "position": 6
+    "position": 13
   },
   {
     "enabled": true,
@@ -831,7 +1077,7 @@
     ],
     "last_crawled": 1782226003940,
     "name": "Hollywood & International Cinema",
-    "position": 7
+    "position": 14
   },
   {
     "enabled": true,
@@ -847,7 +1093,7 @@
     ],
     "last_crawled": 1782226106923,
     "name": "Extreme Weather & Nature",
-    "position": 8
+    "position": 15
   },
   {
     "enabled": true,
@@ -863,7 +1109,7 @@
     ],
     "last_crawled": 1782226151997,
     "name": "Thrifting & Flea Market Flips",
-    "position": 9
+    "position": 16
   },
   {
     "enabled": true,
@@ -879,7 +1125,7 @@
     ],
     "last_crawled": 1782226192668,
     "name": "Theme Parks & Rollercoasters",
-    "position": 10
+    "position": 17
   },
   {
     "enabled": true,
@@ -895,7 +1141,7 @@
     ],
     "last_crawled": 1782226229109,
     "name": "Car",
-    "position": 11
+    "position": 18
   },
   {
     "createdAt": 1781179003419,
@@ -932,7 +1178,7 @@
     ],
     "last_crawled": 1782226300054,
     "name": "Beach & Ocean",
-    "position": 12
+    "position": 19
   },
   {
     "createdAt": 1781179003419,
@@ -979,7 +1225,7 @@
     ],
     "last_crawled": 1782226339854,
     "name": "Stand-Up Comedy",
-    "position": 13
+    "position": 20
   },
   {
     "createdAt": 1781179003419,
@@ -1042,7 +1288,7 @@
     ],
     "last_crawled": 1782226405230,
     "name": "Global Travel Vlogs",
-    "position": 14
+    "position": 21
   },
   {
     "enabled": true,
@@ -1059,7 +1305,7 @@
     ],
     "last_crawled": 1782226451041,
     "name": "Podcasts & Deep Interviews",
-    "position": 15
+    "position": 22
   },
   {
     "createdAt": 1781179003419,
@@ -1109,7 +1355,7 @@
     ],
     "last_crawled": 1782226482203,
     "name": "Car Trips, Road Trips & Caravans",
-    "position": 16
+    "position": 23
   },
   {
     "enabled": true,
@@ -1127,7 +1373,7 @@
     ],
     "last_crawled": 1782226572737,
     "name": "Real Estate & Luxury Homes",
-    "position": 17
+    "position": 24
   },
   {
     "enabled": true,
@@ -1144,7 +1390,7 @@
     ],
     "last_crawled": 1782226605137,
     "name": "Aviation & Flying",
-    "position": 18
+    "position": 25
   },
   {
     "enabled": true,
@@ -1161,7 +1407,7 @@
     ],
     "last_crawled": 1782226674532,
     "name": "Photography & Filmmaking",
-    "position": 19
+    "position": 26
   },
   {
     "enabled": true,
@@ -1178,7 +1424,7 @@
     ],
     "last_crawled": 1782226720330,
     "name": "Agriculture & Rural Life",
-    "position": 20
+    "position": 27
   },
   {
     "enabled": true,
@@ -1197,7 +1443,7 @@
     ],
     "last_crawled": 1782226766159,
     "name": "Digital Horror & Internet Lore",
-    "position": 21
+    "position": 28
   },
   {
     "enabled": true,
@@ -1214,7 +1460,7 @@
     ],
     "last_crawled": 1782226889740,
     "name": "Magic & Illusion",
-    "position": 22
+    "position": 29
   },
   {
     "enabled": true,
@@ -1231,7 +1477,7 @@
     ],
     "last_crawled": 1782226932981,
     "name": "Martial Arts & Combat Sports",
-    "position": 23
+    "position": 30
   },
   {
     "enabled": true,
@@ -1248,7 +1494,7 @@
     ],
     "last_crawled": 1782226993475,
     "name": "Beauty, Skincare & Makeup",
-    "position": 24
+    "position": 31
   },
   {
     "enabled": true,
@@ -1265,7 +1511,7 @@
     ],
     "last_crawled": 1782227044490,
     "name": "Automotive Repair & Modding",
-    "position": 25
+    "position": 32
   },
   {
     "enabled": true,
@@ -1281,7 +1527,7 @@
     ],
     "last_crawled": 1782227185902,
     "name": "Oddly Satisfying & Process",
-    "position": 26
+    "position": 33
   },
   {
     "enabled": true,
@@ -1297,7 +1543,7 @@
     ],
     "last_crawled": 1782227246237,
     "name": "Ancient Crafts & Primitive Tech",
-    "position": 27
+    "position": 34
   },
   {
     "enabled": true,
@@ -1313,7 +1559,7 @@
     ],
     "last_crawled": 1782227353565,
     "name": "Nostalgia Tech & Repair",
-    "position": 28
+    "position": 35
   },
   {
     "enabled": true,
@@ -1329,7 +1575,7 @@
     ],
     "last_crawled": 1782227406537,
     "name": "Tabletop, D&D & Board Games",
-    "position": 29
+    "position": 36
   },
   {
     "enabled": true,
@@ -1345,7 +1591,7 @@
     ],
     "last_crawled": 1782227425327,
     "name": "Baking, Desserts & Pastry",
-    "position": 30
+    "position": 37
   },
   {
     "enabled": true,
@@ -1359,7 +1605,7 @@
     ],
     "last_crawled": 1782227487075,
     "name": "Heavy Machinery & Mega Projects",
-    "position": 31
+    "position": 38
   },
   {
     "enabled": true,
@@ -1373,7 +1619,7 @@
     ],
     "last_crawled": 1782227548938,
     "name": "Tiny Houses & Container Homes",
-    "position": 32
+    "position": 39
   },
   {
     "enabled": true,
@@ -1387,7 +1633,7 @@
     ],
     "last_crawled": 1782227604635,
     "name": "Watches, Horology & EDC",
-    "position": 33
+    "position": 40
   },
   {
     "enabled": true,
@@ -1401,7 +1647,7 @@
     ],
     "last_crawled": 1782227636485,
     "name": "Skill Toys & Pen Spinning",
-    "position": 34
+    "position": 41
   },
   {
     "enabled": true,
@@ -1415,7 +1661,7 @@
     ],
     "last_crawled": 1782227695111,
     "name": "Competitive Eating & Challenges",
-    "position": 35
+    "position": 42
   },
   {
     "enabled": true,
@@ -1429,7 +1675,7 @@
     ],
     "last_crawled": 1782227735819,
     "name": "VTubers & Virtual Creators",
-    "position": 36
+    "position": 43
   },
   {
     "enabled": true,
@@ -1443,7 +1689,7 @@
     ],
     "last_crawled": 1782227797320,
     "name": "Survival & Base Building Games",
-    "position": 37
+    "position": 44
   },
   {
     "enabled": true,
@@ -1457,7 +1703,7 @@
     ],
     "last_crawled": 1782227843438,
     "name": "Deep Sea & Ocean Exploration",
-    "position": 38
+    "position": 45
   },
   {
     "enabled": true,
@@ -1471,7 +1717,7 @@
     ],
     "last_crawled": 1782227887963,
     "name": "Classical Music & Orchestras",
-    "position": 39
+    "position": 46
   },
   {
     "enabled": true,
@@ -1485,7 +1731,7 @@
     ],
     "last_crawled": 1782227927172,
     "name": "Theater, Musicals & Broadway",
-    "position": 40
+    "position": 47
   },
   {
     "enabled": true,
@@ -1499,7 +1745,7 @@
     ],
     "last_crawled": 1782228000957,
     "name": "Skateboarding & Extreme BMX",
-    "position": 41
+    "position": 48
   },
   {
     "enabled": true,
@@ -1513,7 +1759,7 @@
     ],
     "last_crawled": 1782228025471,
     "name": "Parkour & Freerunning",
-    "position": 42
+    "position": 49
   },
   {
     "enabled": true,
@@ -1527,35 +1773,7 @@
     ],
     "last_crawled": 1782228052121,
     "name": "Lockpicking & Security",
-    "position": 43
-  },
-  {
-    "enabled": true,
-    "icon": "⚒️",
-    "id": "blacksmithing",
-    "keywords": [
-      "forging a sword from rusty metal",
-      "blacksmithing for beginners",
-      "damascus steel knife making",
-      "anvil restoration"
-    ],
-    "last_crawled": 1782228089075,
-    "name": "Blacksmithing & Forging",
-    "position": 44
-  },
-  {
-    "enabled": true,
-    "icon": "🏺",
-    "id": "glassblowing_pottery",
-    "keywords": [
-      "glassblowing vase tutorial",
-      "pottery wheel throwing",
-      "ceramic glazing techniques",
-      "making neon signs"
-    ],
-    "last_crawled": 1782228116344,
-    "name": "Glassblowing & Ceramics",
-    "position": 45
+    "position": 50
   },
   {
     "enabled": true,
@@ -1569,7 +1787,7 @@
     ],
     "last_crawled": 1782228215083,
     "name": "Speedrunning & Glitches",
-    "position": 46
+    "position": 51
   },
   {
     "enabled": true,
@@ -1583,35 +1801,7 @@
     ],
     "last_crawled": 1782228266636,
     "name": "Retro Advertising & Media",
-    "position": 47
-  },
-  {
-    "enabled": true,
-    "icon": "🐠",
-    "id": "aquascaping",
-    "keywords": [
-      "planted aquarium setup",
-      "nano reef tank build",
-      "aquascape competition layout",
-      "betta fish tank makeover"
-    ],
-    "last_crawled": 1782228297326,
-    "name": "Aquarium Aquascaping",
-    "position": 48
-  },
-  {
-    "enabled": true,
-    "icon": "🐜",
-    "id": "terrariums_ants",
-    "keywords": [
-      "bioactive terrarium build",
-      "ant farm colony feeding",
-      "closed terrarium ecosystem",
-      "tarantula enclosure setup"
-    ],
-    "last_crawled": 1782228322931,
-    "name": "Terrariums & Ant Farms",
-    "position": 49
+    "position": 52
   },
   {
     "enabled": true,
@@ -1625,26 +1815,7 @@
     ],
     "last_crawled": 1782228376241,
     "name": "Van Life & RV Tours",
-    "position": 50
-  },
-  {
-    "enabled": true,
-    "icon": "🌧️",
-    "id": "weather_rain_snow",
-    "keywords": [
-      "rain",
-      "rainy season",
-      "rain walk",
-      "rain in different countries",
-      "snow",
-      "snow season",
-      "rainfall",
-      "rain at night",
-      "rain at day"
-    ],
-    "last_crawled": 1782228443879,
-    "name": "Weather: Rain & Snow",
-    "position": 51
+    "position": 53
   },
   {
     "enabled": true,
@@ -1658,7 +1829,7 @@
     ],
     "last_crawled": 1782228462031,
     "name": "Funny Fails & Comedy",
-    "position": 52
+    "position": 54
   },
   {
     "enabled": true,
@@ -1671,132 +1842,7 @@
       "agriculture drone spraying"
     ],
     "name": "Tractors & Farming Tech",
-    "position": 53
-  },
-  {
-    "enabled": true,
-    "icon": "🍿",
-    "id": "full_movies",
-    "keywords": [
-      "full movie hd",
-      "hindi movie full 2026",
-      "south dubbed movie full",
-      "hollywood movie in hindi full"
-    ],
-    "name": "Full Movies & Cinema",
-    "position": 54
-  },
-  {
-    "enabled": true,
-    "icon": "🪘",
-    "id": "regional_indian_music",
-    "keywords": [
-      "punjabi bhangra performance",
-      "rajasthani folk song live",
-      "bhojpuri new song 2026",
-      "gujarati dayro live"
-    ],
-    "name": "Regional Indian Music & Folk",
     "position": 55
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🎬",
-    "id": "bollywood_cinema",
-    "keywords": [
-      "B4U Movies hindi",
-      "Dharma Productions trailer",
-      "Eros Now new release",
-      "T-Series films trailer",
-      "Ultra Movie Parlour channel",
-      "YRF Films channel",
-      "Zee Studios new movie",
-      "amazon prime india",
-      "anime hindi dubbed",
-      "bollywood explained hindi",
-      "bollywood hidden gems",
-      "bollywood trailer 2026",
-      "box office collection analysis",
-      "directors roundtable",
-      "documentary film 2026",
-      "film explained hindi",
-      "film making breakdown",
-      "hindi dubbed hollywood movies channel",
-      "hindi dubbed south movie channel",
-      "hollywood movie explained hindi",
-      "horror movie explained hindi",
-      "imdb top rated movie review",
-      "korean drama hindi dubbed",
-      "marathi movie 2026 full",
-      "marathi natak 2026",
-      "movie review hindi",
-      "netflix india new",
-      "new hindi movie 2026",
-      "oscar winning movie review",
-      "ott releases this week",
-      "south indian movie hindi dubbed",
-      "thriller movie explained hindi",
-      "tollywood new movie 2026",
-      "top 10 hindi movies",
-      "vfx breakdown hindi",
-      "web series hindi review",
-      "tv episode",
-      "episode"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "Bollywood & OTT",
-    "position": 56
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "⭐",
-    "id": "celeb_entertainment",
-    "keywords": [
-      "Akshay Kumar",
-      "Alia Bhatt",
-      "Anushka Sharma",
-      "Deepika Padukone",
-      "Disha Patani",
-      "Janhvi Kapoor",
-      "Kartik Aaryan",
-      "Katrina Kaif",
-      "Kiara Advani interview",
-      "Kriti Sanon",
-      "Mrunal Thakur",
-      "Nora Fatehi dance",
-      "Pooja Hegde",
-      "Priya Bapat",
-      "Ranveer Singh",
-      "Rashmika Mandanna 2026",
-      "Rinku Rajguru",
-      "Sai Tamhankar",
-      "Salman Khan",
-      "Samantha Ruth Prabhu",
-      "Sara Ali Khan",
-      "Shahrukh Khan",
-      "Shraddha Kapoor",
-      "Spruha Joshi marathi",
-      "Tamanna Bhatia",
-      "Vaidehi Parashurami",
-      "Varun Dhawan",
-      "actor morning routine",
-      "bollywood celebrity interview",
-      "bollywood lifestyle vlog",
-      "celeb workout routine",
-      "celebrity home tour",
-      "celebrity house tour",
-      "celebrity podcast hindi",
-      "daily dose of internet",
-      "film actor behind the scenes",
-      "paparazzi funny moments",
-      "prank video india",
-      "red carpet interviews"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "Bollywood Celebs & Stars",
-    "position": 57
   },
   {
     "createdAt": 1781179003419,
@@ -1852,7 +1898,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Global Food & Street Food",
-    "position": 58
+    "position": 56
   },
   {
     "createdAt": 1781179003419,
@@ -1897,109 +1943,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Recipes, Cooking & Drinks",
-    "position": 59
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🗺️",
-    "id": "india_travel_mh_gj",
-    "keywords": [
-      "Bhedaghat Marble Rocks",
-      "Dholavira Road to Heaven",
-      "Dhuandhar Falls vlog",
-      "Dwarka temple vlog",
-      "Gir National Park Asiatic Lion Safari",
-      "Gujarat food vlog",
-      "Imagicaa Theme Park Lonavala",
-      "Mahakal Lok Corridor Ujjain",
-      "Maharashtra hidden places",
-      "Maharashtra hill station",
-      "Rann of Kutch vlog",
-      "Saputara hill station Gujarat",
-      "Shanku Water Park Mehsana",
-      "Somnath temple vlog",
-      "Statue of Unity Kevadia",
-      "Surat food vlog",
-      "Vadodara travel",
-      "ahmedabad food vlog",
-      "alibaug beach vlog",
-      "amravati vlog",
-      "aurangabad ajanta ellora",
-      "aurangabad travel",
-      "bhandardara",
-      "bhandardara vlog",
-      "gujarat rann of kutch 4k",
-      "gujarat travel vlog",
-      "india travel vlog",
-      "kargil",
-      "kokan road trip",
-      "kolhapur food vlog",
-      "kolhapur travel",
-      "konkan beach hidden",
-      "konkan coast vlog",
-      "lonavala vlog",
-      "mahabaleshwar fog 4k",
-      "mahabaleshwar vlog",
-      "maharashtra travel vlog",
-      "marathi vlog",
-      "nagpur travel vlog",
-      "nagpur vlog",
-      "nashik travel 2026",
-      "nashik travel vlog",
-      "pandavleni caves nashik",
-      "pune food vlog",
-      "pune travel vlog",
-      "raigad fort vlog",
-      "sahyadri",
-      "sahyadri monsoon trek",
-      "sahyadri trek",
-      "satara travel",
-      "satara travel vlog",
-      "shirdi vlog",
-      "tamini ghat",
-      "tamini ghat drive",
-      "taminighat",
-      "tarkarli beach vlog",
-      "trambakeshwar temple nashik"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "MH, GJ & Nearby Travel",
-    "position": 60
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🚂",
-    "id": "railway_trips",
-    "keywords": [
-      " वंदे भारत express tour",
-      "Chenab Bridge train Kashmir",
-      "Darjeeling toy train",
-      "Deccan Queen train journey",
-      "India's most scenic train routes",
-      "Indian Railways documentary",
-      "Indian Railways food vlog",
-      "Indian railway journey vlog",
-      "Kalka Shimla Toy Train",
-      "Matheran toy train",
-      "Neral Matheran train",
-      "Nilgiri Mountain Railway Ooty",
-      "Rajdhani Express journey vlog",
-      "Vistadome Train Vizag",
-      "Vistadome train India",
-      "first class train food",
-      "indian railways 4k",
-      "konkan railway monsoon",
-      "luxury train India Palace on Wheels",
-      "overnight train india vlog",
-      "train travel india budget",
-      "train trip India vlog",
-      "vistadome train journey"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "Railway Trips & Train Journeys",
-    "position": 61
+    "position": 57
   },
   {
     "createdAt": 1781179003419,
@@ -2102,7 +2046,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "India Landmarks, Parks & Attractions",
-    "position": 62
+    "position": 58
   },
   {
     "createdAt": 1781179003419,
@@ -2206,7 +2150,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Vloggers & Family Vloggers",
-    "position": 63
+    "position": 59
   },
   {
     "createdAt": 1781179003419,
@@ -2254,7 +2198,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Software, OS & App Hacks",
-    "position": 64
+    "position": 60
   },
   {
     "createdAt": 1781179003419,
@@ -2311,7 +2255,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Tech, Gadgets & Reviews",
-    "position": 65
+    "position": 61
   },
   {
     "createdAt": 1781179003419,
@@ -2361,7 +2305,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "AI & Future Tech",
-    "position": 66
+    "position": 62
   },
   {
     "createdAt": 1781179003419,
@@ -2413,7 +2357,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Cars & Bikes",
-    "position": 67
+    "position": 63
   },
   {
     "createdAt": 1781179003419,
@@ -2458,7 +2402,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Health & Fitness",
-    "position": 68
+    "position": 64
   },
   {
     "createdAt": 1781179003419,
@@ -2503,7 +2447,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Finance & Investing",
-    "position": 69
+    "position": 65
   },
   {
     "createdAt": 1781179003419,
@@ -2544,7 +2488,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Science, Space & Nature Docs",
-    "position": 70
+    "position": 66
   },
   {
     "createdAt": 1781179003419,
@@ -2602,7 +2546,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Animals & Wildlife",
-    "position": 71
+    "position": 67
   },
   {
     "createdAt": 1781179003419,
@@ -2637,7 +2581,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "True Crime & Mystery",
-    "position": 72
+    "position": 68
   },
   {
     "createdAt": 1781179003419,
@@ -2684,7 +2628,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "DIY, Making & Inventions",
-    "position": 73
+    "position": 69
   },
   {
     "createdAt": 1781179003419,
@@ -2724,7 +2668,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "4K Nature & Ambience",
-    "position": 74
+    "position": 70
   },
   {
     "createdAt": 1781179003419,
@@ -2768,7 +2712,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "City Walks & Global Sightseeing",
-    "position": 75
+    "position": 71
   },
   {
     "createdAt": 1781179003419,
@@ -2805,7 +2749,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Gaming",
-    "position": 76
+    "position": 72
   },
   {
     "createdAt": 1781179003419,
@@ -2845,7 +2789,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Cricket & Sports",
-    "position": 77
+    "position": 73
   },
   {
     "createdAt": 1781179003419,
@@ -2881,7 +2825,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Home & Interior Design",
-    "position": 78
+    "position": 74
   },
   {
     "createdAt": 1781179003419,
@@ -2917,7 +2861,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Budget Shopping & Hauls",
-    "position": 79
+    "position": 75
   },
   {
     "createdAt": 1781179003419,
@@ -2952,7 +2896,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "World News & Geopolitics",
-    "position": 80
+    "position": 76
   },
   {
     "createdAt": 1781179003419,
@@ -2995,7 +2939,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Education & Amazing Facts",
-    "position": 81
+    "position": 77
   },
   {
     "createdAt": 1781179003419,
@@ -3042,7 +2986,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Spirituality & Motivation",
-    "position": 82
+    "position": 78
   },
   {
     "createdAt": 1781179003419,
@@ -3075,7 +3019,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "ASMR & Relaxation",
-    "position": 83
+    "position": 79
   },
   {
     "createdAt": 1781179003419,
@@ -3112,7 +3056,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Fashion & Lifestyle",
-    "position": 84
+    "position": 80
   },
   {
     "createdAt": 1781179003419,
@@ -3141,7 +3085,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Treasure Hunting & Discovery",
-    "position": 85
+    "position": 81
   },
   {
     "createdAt": 1781179003419,
@@ -3191,20 +3135,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Adventure & Extreme Outdoors",
-    "position": 86
-  },
-  {
-    "enabled": true,
-    "icon": "🎤",
-    "id": "kpop_culture",
-    "keywords": [
-      "kpop dance practice",
-      "bts behind the scenes",
-      "blackpink live performance",
-      "kpop music video reaction"
-    ],
-    "name": "K-Pop & Idol Culture",
-    "position": 87
+    "position": 82
   },
   {
     "createdAt": 1781179003419,
@@ -3240,7 +3171,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Documentaries & Deep Dives",
-    "position": 88
+    "position": 83
   },
   {
     "createdAt": 1781179003419,
@@ -3274,7 +3205,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Psychology & Self-Growth",
-    "position": 89
+    "position": 84
   },
   {
     "createdAt": 1781179003419,
@@ -3304,7 +3235,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Cooking Skills & Food Science",
-    "position": 90
+    "position": 85
   },
   {
     "enabled": true,
@@ -3324,7 +3255,7 @@
       "zee marathi new"
     ],
     "name": "Webseries",
-    "position": 91
+    "position": 86
   },
   {
     "enabled": true,
@@ -3337,7 +3268,7 @@
       "audio plugin"
     ],
     "name": "Audio Production",
-    "position": 92
+    "position": 87
   },
   {
     "enabled": true,
@@ -3411,7 +3342,7 @@
       "age pension increase"
     ],
     "name": "Stimulus All V0",
-    "position": 93
+    "position": 88
   },
   {
     "enabled": true,
@@ -3470,7 +3401,7 @@
       "Wyoming stimulus"
     ],
     "name": "State Stimulus V0",
-    "position": 94
+    "position": 89
   },
   {
     "enabled": true,
@@ -3483,7 +3414,7 @@
       "bride dance"
     ],
     "name": "Dance",
-    "position": 95
+    "position": 90
   },
   {
     "enabled": true,
@@ -3494,7 +3425,7 @@
       "hindi cover song"
     ],
     "name": "Cover Songs",
-    "position": 96
+    "position": 91
   },
   {
     "enabled": true,
@@ -3515,7 +3446,7 @@
       "gut"
     ],
     "name": "Medical",
-    "position": 97
+    "position": 92
   },
   {
     "enabled": true,
@@ -3525,7 +3456,7 @@
       "Episode"
     ],
     "name": "TV Episode",
-    "position": 98
+    "position": 93
   },
   {
     "enabled": true,
@@ -3538,7 +3469,7 @@
       "courtroom cross examination"
     ],
     "name": "True Crime Interrogations",
-    "position": 99
+    "position": 94
   },
   {
     "enabled": false,
@@ -3555,7 +3486,7 @@
       "studio ghibli aesthetic"
     ],
     "name": "Anime & Animation",
-    "position": 100
+    "position": 95
   },
   {
     "enabled": false,
@@ -3568,7 +3499,7 @@
       "language learning tips"
     ],
     "name": "Language Learning & Polyglots",
-    "position": 101
+    "position": 96
   },
   {
     "enabled": true,
@@ -3585,7 +3516,7 @@
       "drinking water"
     ],
     "name": "Water Purifier",
-    "position": 102
+    "position": 97
   },
   {
     "enabled": true,
@@ -3597,7 +3528,7 @@
       "automatic Business"
     ],
     "name": "Bussiness",
-    "position": 103
+    "position": 98
   },
   {
     "enabled": true,
@@ -3611,7 +3542,7 @@
     ],
     "last_crawled": 1782226063477,
     "name": "Off-Roading & Mudding",
-    "position": 104
+    "position": 99
   },
   {
     "enabled": true,
@@ -3628,7 +3559,7 @@
     ],
     "last_crawled": 1782226821072,
     "name": "Books, Literature & Comics",
-    "position": 105
+    "position": 100
   },
   {
     "enabled": true,
@@ -3645,7 +3576,7 @@
     ],
     "last_crawled": 1782226853610,
     "name": "Trading & Crypto",
-    "position": 106
+    "position": 101
   },
   {
     "enabled": true,
@@ -3664,7 +3595,7 @@
     ],
     "last_crawled": 1782226530700,
     "name": "Indian History & Mythology",
-    "position": 107
+    "position": 102
   },
   {
     "enabled": true,
@@ -3682,7 +3613,7 @@
     ],
     "last_crawled": 1782227088174,
     "name": "Cybersecurity & Coding",
-    "position": 108
+    "position": 103
   },
   {
     "enabled": true,
@@ -3698,7 +3629,7 @@
     ],
     "last_crawled": 1782227132050,
     "name": "Silent Focus & Study Ambience",
-    "position": 109
+    "position": 104
   },
   {
     "enabled": true,
@@ -3714,7 +3645,7 @@
     ],
     "last_crawled": 1782227294835,
     "name": "Micro-History & Urbex",
-    "position": 110
+    "position": 105
   },
   {
     "enabled": true,
@@ -3728,7 +3659,7 @@
     ],
     "last_crawled": 1782227965866,
     "name": "Poetry & Spoken Word",
-    "position": 111
+    "position": 106
   },
   {
     "enabled": true,
@@ -3742,7 +3673,7 @@
     ],
     "last_crawled": 1782228146002,
     "name": "Tattoo Art & Piercings",
-    "position": 112
+    "position": 107
   },
   {
     "enabled": true,
@@ -3756,6 +3687,75 @@
     ],
     "last_crawled": 1782228176599,
     "name": "Miniature Painting & Dioramas",
+    "position": 108
+  },
+  {
+    "enabled": true,
+    "icon": "🐠",
+    "id": "aquascaping",
+    "keywords": [
+      "planted aquarium setup",
+      "nano reef tank build",
+      "aquascape competition layout",
+      "betta fish tank makeover"
+    ],
+    "last_crawled": 1782228297326,
+    "name": "Aquarium Aquascaping",
+    "position": 109
+  },
+  {
+    "enabled": true,
+    "icon": "🐜",
+    "id": "terrariums_ants",
+    "keywords": [
+      "bioactive terrarium build",
+      "ant farm colony feeding",
+      "closed terrarium ecosystem",
+      "tarantula enclosure setup"
+    ],
+    "last_crawled": 1782228322931,
+    "name": "Terrariums & Ant Farms",
+    "position": 110
+  },
+  {
+    "enabled": true,
+    "icon": "🏺",
+    "id": "glassblowing_pottery",
+    "keywords": [
+      "glassblowing vase tutorial",
+      "pottery wheel throwing",
+      "ceramic glazing techniques",
+      "making neon signs"
+    ],
+    "last_crawled": 1782228116344,
+    "name": "Glassblowing & Ceramics",
+    "position": 111
+  },
+  {
+    "enabled": true,
+    "icon": "⚒️",
+    "id": "blacksmithing",
+    "keywords": [
+      "forging a sword from rusty metal",
+      "blacksmithing for beginners",
+      "damascus steel knife making",
+      "anvil restoration"
+    ],
+    "last_crawled": 1782228089075,
+    "name": "Blacksmithing & Forging",
+    "position": 112
+  },
+  {
+    "enabled": true,
+    "icon": "🎤",
+    "id": "kpop_culture",
+    "keywords": [
+      "kpop dance practice",
+      "bts behind the scenes",
+      "blackpink live performance",
+      "kpop music video reaction"
+    ],
+    "name": "K-Pop & Idol Culture",
     "position": 113
   }
 ]
