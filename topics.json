@@ -2665,6 +2665,42 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
+    "icon": "🎞️",
+    "id": "documentaries",
+    "keywords": [
+      "BBC documentary hindi",
+      "DW documentary india",
+      "Indian army documentary",
+      "Netflix documentary 2026",
+      "Vice documentary india",
+      "abandoned places history",
+      "business documentary hindi",
+      "cult documentary",
+      "culture documentary india",
+      "deep sea exploration documentary",
+      "empire documentary",
+      "food documentary india",
+      "historical documentary hindi",
+      "hospital documentary india",
+      "investigative journalism india",
+      "police documentary india",
+      "poverty documentary india",
+      "prison documentary India",
+      "rural india documentary",
+      "scam documentary",
+      "scam investigation",
+      "social issue documentary india",
+      "startup documentary india",
+      "tribal life documentary india",
+      "undercover journalism india"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "Documentaries & Deep Dives",
+    "position": 67
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
     "icon": "🔬",
     "id": "space_science",
     "keywords": [
@@ -2701,7 +2737,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Science, Space & Nature Docs",
-    "position": 67
+    "position": 68
   },
   {
     "createdAt": 1781179003419,
@@ -2759,7 +2795,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Animals & Wildlife",
-    "position": 68
+    "position": 69
   },
   {
     "createdAt": 1781179003419,
@@ -2794,7 +2830,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "True Crime & Mystery",
-    "position": 69
+    "position": 70
   },
   {
     "createdAt": 1781179003419,
@@ -2841,7 +2877,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "DIY, Making & Inventions",
-    "position": 70
+    "position": 71
   },
   {
     "createdAt": 1781179003419,
@@ -2878,7 +2914,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Gaming",
-    "position": 71
+    "position": 72
   },
   {
     "createdAt": 1781179003419,
@@ -2921,7 +2957,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Education & Amazing Facts",
-    "position": 72
+    "position": 73
   },
   {
     "createdAt": 1781179003419,
@@ -2958,42 +2994,6 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Fashion & Lifestyle",
-    "position": 73
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🎞️",
-    "id": "documentaries",
-    "keywords": [
-      "BBC documentary hindi",
-      "DW documentary india",
-      "Indian army documentary",
-      "Netflix documentary 2026",
-      "Vice documentary india",
-      "abandoned places history",
-      "business documentary hindi",
-      "cult documentary",
-      "culture documentary india",
-      "deep sea exploration documentary",
-      "empire documentary",
-      "food documentary india",
-      "historical documentary hindi",
-      "hospital documentary india",
-      "investigative journalism india",
-      "police documentary india",
-      "poverty documentary india",
-      "prison documentary India",
-      "rural india documentary",
-      "scam documentary",
-      "scam investigation",
-      "social issue documentary india",
-      "startup documentary india",
-      "tribal life documentary india",
-      "undercover journalism india"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "Documentaries & Deep Dives",
     "position": 74
   },
   {
