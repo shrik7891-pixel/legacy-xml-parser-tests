@@ -1,5 +1,73 @@
 [
   {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🗺️",
+    "id": "india_travel_mh_gj",
+    "keywords": [
+      "Bhedaghat Marble Rocks",
+      "Dholavira Road to Heaven",
+      "Dhuandhar Falls vlog",
+      "Dwarka temple vlog",
+      "Gir National Park Asiatic Lion Safari",
+      "Gujarat food vlog",
+      "Imagicaa Theme Park Lonavala",
+      "Mahakal Lok Corridor Ujjain",
+      "Maharashtra hidden places",
+      "Maharashtra hill station",
+      "Rann of Kutch vlog",
+      "Saputara hill station Gujarat",
+      "Shanku Water Park Mehsana",
+      "Somnath temple vlog",
+      "Statue of Unity Kevadia",
+      "Surat food vlog",
+      "Vadodara travel",
+      "ahmedabad food vlog",
+      "alibaug beach vlog",
+      "amravati vlog",
+      "aurangabad ajanta ellora",
+      "aurangabad travel",
+      "bhandardara",
+      "bhandardara vlog",
+      "gujarat rann of kutch 4k",
+      "gujarat travel vlog",
+      "india travel vlog",
+      "kargil",
+      "kokan road trip",
+      "kolhapur food vlog",
+      "kolhapur travel",
+      "konkan beach hidden",
+      "konkan coast vlog",
+      "lonavala vlog",
+      "mahabaleshwar fog 4k",
+      "mahabaleshwar vlog",
+      "maharashtra travel vlog",
+      "marathi vlog",
+      "nagpur travel vlog",
+      "nagpur vlog",
+      "nashik travel 2026",
+      "nashik travel vlog",
+      "pandavleni caves nashik",
+      "pune food vlog",
+      "pune travel vlog",
+      "raigad fort vlog",
+      "sahyadri",
+      "sahyadri monsoon trek",
+      "sahyadri trek",
+      "satara travel",
+      "satara travel vlog",
+      "shirdi vlog",
+      "tamini ghat",
+      "tamini ghat drive",
+      "taminighat",
+      "tarkarli beach vlog",
+      "trambakeshwar temple nashik"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "MH, GJ & Nearby Travel",
+    "position": 0
+  },
+  {
     "enabled": true,
     "icon": "📌",
     "id": "grp_mqcb1b1krpqqxv8jti",
@@ -53,7 +121,7 @@
     ],
     "last_crawled": 1782225785764,
     "name": "Travel Plan Delhi 2026",
-    "position": 0
+    "position": 1
   },
   {
     "enabled": true,
@@ -623,7 +691,7 @@
     ],
     "last_crawled": 1782225825415,
     "name": "Rajasthan Trip",
-    "position": 1
+    "position": 2
   },
   {
     "createdAt": 1781179003419,
@@ -660,7 +728,7 @@
     ],
     "last_crawled": 1782225844612,
     "name": "Hasyajatra & Kapil Sharma",
-    "position": 2
+    "position": 3
   },
   {
     "createdAt": 1781179003419,
@@ -703,7 +771,7 @@
     ],
     "last_crawled": 1782225873583,
     "name": "Marathi Entertainment",
-    "position": 3
+    "position": 4
   },
   {
     "createdAt": 1781179003419,
@@ -742,7 +810,7 @@
     ],
     "last_crawled": 1782226270240,
     "name": "Fails, Wins & Viral Videos",
-    "position": 4
+    "position": 5
   },
   {
     "enabled": true,
@@ -759,7 +827,7 @@
     ],
     "last_crawled": 1782225913029,
     "name": "Pets & Cute Animals",
-    "position": 5
+    "position": 6
   },
   {
     "createdAt": 1781179003419,
@@ -809,7 +877,7 @@
     ],
     "last_crawled": 1782225958281,
     "name": "Music & Songs",
-    "position": 6
+    "position": 7
   },
   {
     "enabled": true,
@@ -831,7 +899,7 @@
     ],
     "last_crawled": 1782226003940,
     "name": "Hollywood & International Cinema",
-    "position": 7
+    "position": 8
   },
   {
     "enabled": true,
@@ -847,7 +915,7 @@
     ],
     "last_crawled": 1782226106923,
     "name": "Extreme Weather & Nature",
-    "position": 8
+    "position": 9
   },
   {
     "enabled": true,
@@ -863,7 +931,7 @@
     ],
     "last_crawled": 1782226151997,
     "name": "Thrifting & Flea Market Flips",
-    "position": 9
+    "position": 10
   },
   {
     "enabled": true,
@@ -879,7 +947,7 @@
     ],
     "last_crawled": 1782226192668,
     "name": "Theme Parks & Rollercoasters",
-    "position": 10
+    "position": 11
   },
   {
     "enabled": true,
@@ -895,7 +963,7 @@
     ],
     "last_crawled": 1782226229109,
     "name": "Car",
-    "position": 11
+    "position": 12
   },
   {
     "createdAt": 1781179003419,
@@ -932,7 +1000,7 @@
     ],
     "last_crawled": 1782226300054,
     "name": "Beach & Ocean",
-    "position": 12
+    "position": 13
   },
   {
     "createdAt": 1781179003419,
@@ -979,7 +1047,7 @@
     ],
     "last_crawled": 1782226339854,
     "name": "Stand-Up Comedy",
-    "position": 13
+    "position": 14
   },
   {
     "createdAt": 1781179003419,
@@ -1042,7 +1110,7 @@
     ],
     "last_crawled": 1782226405230,
     "name": "Global Travel Vlogs",
-    "position": 14
+    "position": 15
   },
   {
     "enabled": true,
@@ -1059,7 +1127,7 @@
     ],
     "last_crawled": 1782226451041,
     "name": "Podcasts & Deep Interviews",
-    "position": 15
+    "position": 16
   },
   {
     "createdAt": 1781179003419,
@@ -1109,7 +1177,7 @@
     ],
     "last_crawled": 1782226482203,
     "name": "Car Trips, Road Trips & Caravans",
-    "position": 16
+    "position": 17
   },
   {
     "enabled": true,
@@ -1127,7 +1195,7 @@
     ],
     "last_crawled": 1782226572737,
     "name": "Real Estate & Luxury Homes",
-    "position": 17
+    "position": 18
   },
   {
     "enabled": true,
@@ -1144,7 +1212,7 @@
     ],
     "last_crawled": 1782226605137,
     "name": "Aviation & Flying",
-    "position": 18
+    "position": 19
   },
   {
     "enabled": true,
@@ -1161,7 +1229,7 @@
     ],
     "last_crawled": 1782226674532,
     "name": "Photography & Filmmaking",
-    "position": 19
+    "position": 20
   },
   {
     "enabled": true,
@@ -1178,7 +1246,7 @@
     ],
     "last_crawled": 1782226720330,
     "name": "Agriculture & Rural Life",
-    "position": 20
+    "position": 21
   },
   {
     "enabled": true,
@@ -1197,7 +1265,7 @@
     ],
     "last_crawled": 1782226766159,
     "name": "Digital Horror & Internet Lore",
-    "position": 21
+    "position": 22
   },
   {
     "enabled": true,
@@ -1214,7 +1282,7 @@
     ],
     "last_crawled": 1782226889740,
     "name": "Magic & Illusion",
-    "position": 22
+    "position": 23
   },
   {
     "enabled": true,
@@ -1231,7 +1299,7 @@
     ],
     "last_crawled": 1782226932981,
     "name": "Martial Arts & Combat Sports",
-    "position": 23
+    "position": 24
   },
   {
     "enabled": true,
@@ -1248,7 +1316,7 @@
     ],
     "last_crawled": 1782226993475,
     "name": "Beauty, Skincare & Makeup",
-    "position": 24
+    "position": 25
   },
   {
     "enabled": true,
@@ -1265,7 +1333,7 @@
     ],
     "last_crawled": 1782227044490,
     "name": "Automotive Repair & Modding",
-    "position": 25
+    "position": 26
   },
   {
     "enabled": true,
@@ -1281,7 +1349,7 @@
     ],
     "last_crawled": 1782227185902,
     "name": "Oddly Satisfying & Process",
-    "position": 26
+    "position": 27
   },
   {
     "enabled": true,
@@ -1297,7 +1365,7 @@
     ],
     "last_crawled": 1782227246237,
     "name": "Ancient Crafts & Primitive Tech",
-    "position": 27
+    "position": 28
   },
   {
     "enabled": true,
@@ -1313,7 +1381,7 @@
     ],
     "last_crawled": 1782227353565,
     "name": "Nostalgia Tech & Repair",
-    "position": 28
+    "position": 29
   },
   {
     "enabled": true,
@@ -1329,7 +1397,7 @@
     ],
     "last_crawled": 1782227406537,
     "name": "Tabletop, D&D & Board Games",
-    "position": 29
+    "position": 30
   },
   {
     "enabled": true,
@@ -1345,7 +1413,7 @@
     ],
     "last_crawled": 1782227425327,
     "name": "Baking, Desserts & Pastry",
-    "position": 30
+    "position": 31
   },
   {
     "enabled": true,
@@ -1359,7 +1427,7 @@
     ],
     "last_crawled": 1782227487075,
     "name": "Heavy Machinery & Mega Projects",
-    "position": 31
+    "position": 32
   },
   {
     "enabled": true,
@@ -1373,7 +1441,7 @@
     ],
     "last_crawled": 1782227548938,
     "name": "Tiny Houses & Container Homes",
-    "position": 32
+    "position": 33
   },
   {
     "enabled": true,
@@ -1387,7 +1455,7 @@
     ],
     "last_crawled": 1782227604635,
     "name": "Watches, Horology & EDC",
-    "position": 33
+    "position": 34
   },
   {
     "enabled": true,
@@ -1401,7 +1469,7 @@
     ],
     "last_crawled": 1782227636485,
     "name": "Skill Toys & Pen Spinning",
-    "position": 34
+    "position": 35
   },
   {
     "enabled": true,
@@ -1415,7 +1483,7 @@
     ],
     "last_crawled": 1782227695111,
     "name": "Competitive Eating & Challenges",
-    "position": 35
+    "position": 36
   },
   {
     "enabled": true,
@@ -1429,7 +1497,7 @@
     ],
     "last_crawled": 1782227735819,
     "name": "VTubers & Virtual Creators",
-    "position": 36
+    "position": 37
   },
   {
     "enabled": true,
@@ -1443,7 +1511,7 @@
     ],
     "last_crawled": 1782227797320,
     "name": "Survival & Base Building Games",
-    "position": 37
+    "position": 38
   },
   {
     "enabled": true,
@@ -1457,7 +1525,7 @@
     ],
     "last_crawled": 1782227843438,
     "name": "Deep Sea & Ocean Exploration",
-    "position": 38
+    "position": 39
   },
   {
     "enabled": true,
@@ -1471,7 +1539,7 @@
     ],
     "last_crawled": 1782227887963,
     "name": "Classical Music & Orchestras",
-    "position": 39
+    "position": 40
   },
   {
     "enabled": true,
@@ -1485,7 +1553,7 @@
     ],
     "last_crawled": 1782227927172,
     "name": "Theater, Musicals & Broadway",
-    "position": 40
+    "position": 41
   },
   {
     "enabled": true,
@@ -1499,7 +1567,7 @@
     ],
     "last_crawled": 1782228000957,
     "name": "Skateboarding & Extreme BMX",
-    "position": 41
+    "position": 42
   },
   {
     "enabled": true,
@@ -1513,7 +1581,7 @@
     ],
     "last_crawled": 1782228025471,
     "name": "Parkour & Freerunning",
-    "position": 42
+    "position": 43
   },
   {
     "enabled": true,
@@ -1527,7 +1595,7 @@
     ],
     "last_crawled": 1782228052121,
     "name": "Lockpicking & Security",
-    "position": 43
+    "position": 44
   },
   {
     "enabled": true,
@@ -1541,7 +1609,7 @@
     ],
     "last_crawled": 1782228089075,
     "name": "Blacksmithing & Forging",
-    "position": 44
+    "position": 45
   },
   {
     "enabled": true,
@@ -1555,7 +1623,7 @@
     ],
     "last_crawled": 1782228116344,
     "name": "Glassblowing & Ceramics",
-    "position": 45
+    "position": 46
   },
   {
     "enabled": true,
@@ -1569,7 +1637,7 @@
     ],
     "last_crawled": 1782228215083,
     "name": "Speedrunning & Glitches",
-    "position": 46
+    "position": 47
   },
   {
     "enabled": true,
@@ -1583,7 +1651,7 @@
     ],
     "last_crawled": 1782228266636,
     "name": "Retro Advertising & Media",
-    "position": 47
+    "position": 48
   },
   {
     "enabled": true,
@@ -1597,7 +1665,7 @@
     ],
     "last_crawled": 1782228376241,
     "name": "Van Life & RV Tours",
-    "position": 48
+    "position": 49
   },
   {
     "enabled": true,
@@ -1616,7 +1684,7 @@
     ],
     "last_crawled": 1782228443879,
     "name": "Weather: Rain & Snow",
-    "position": 49
+    "position": 50
   },
   {
     "enabled": true,
@@ -1630,7 +1698,7 @@
     ],
     "last_crawled": 1782228462031,
     "name": "Funny Fails & Comedy",
-    "position": 50
+    "position": 51
   },
   {
     "enabled": true,
@@ -1643,7 +1711,7 @@
       "agriculture drone spraying"
     ],
     "name": "Tractors & Farming Tech",
-    "position": 51
+    "position": 52
   },
   {
     "enabled": true,
@@ -1656,7 +1724,7 @@
       "hollywood movie in hindi full"
     ],
     "name": "Full Movies & Cinema",
-    "position": 52
+    "position": 53
   },
   {
     "enabled": true,
@@ -1669,7 +1737,7 @@
       "gujarati dayro live"
     ],
     "name": "Regional Indian Music & Folk",
-    "position": 53
+    "position": 54
   },
   {
     "createdAt": 1781179003419,
@@ -1718,7 +1786,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Bollywood & OTT",
-    "position": 54
+    "position": 55
   },
   {
     "createdAt": 1781179003419,
@@ -1768,7 +1836,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Bollywood Celebs & Stars",
-    "position": 55
+    "position": 56
   },
   {
     "createdAt": 1781179003419,
@@ -1824,7 +1892,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Global Food & Street Food",
-    "position": 56
+    "position": 57
   },
   {
     "createdAt": 1781179003419,
@@ -1869,74 +1937,6 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Recipes, Cooking & Drinks",
-    "position": 57
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🗺️",
-    "id": "india_travel_mh_gj",
-    "keywords": [
-      "Bhedaghat Marble Rocks",
-      "Dholavira Road to Heaven",
-      "Dhuandhar Falls vlog",
-      "Dwarka temple vlog",
-      "Gir National Park Asiatic Lion Safari",
-      "Gujarat food vlog",
-      "Imagicaa Theme Park Lonavala",
-      "Mahakal Lok Corridor Ujjain",
-      "Maharashtra hidden places",
-      "Maharashtra hill station",
-      "Rann of Kutch vlog",
-      "Saputara hill station Gujarat",
-      "Shanku Water Park Mehsana",
-      "Somnath temple vlog",
-      "Statue of Unity Kevadia",
-      "Surat food vlog",
-      "Vadodara travel",
-      "ahmedabad food vlog",
-      "alibaug beach vlog",
-      "amravati vlog",
-      "aurangabad ajanta ellora",
-      "aurangabad travel",
-      "bhandardara",
-      "bhandardara vlog",
-      "gujarat rann of kutch 4k",
-      "gujarat travel vlog",
-      "india travel vlog",
-      "kargil",
-      "kokan road trip",
-      "kolhapur food vlog",
-      "kolhapur travel",
-      "konkan beach hidden",
-      "konkan coast vlog",
-      "lonavala vlog",
-      "mahabaleshwar fog 4k",
-      "mahabaleshwar vlog",
-      "maharashtra travel vlog",
-      "marathi vlog",
-      "nagpur travel vlog",
-      "nagpur vlog",
-      "nashik travel 2026",
-      "nashik travel vlog",
-      "pandavleni caves nashik",
-      "pune food vlog",
-      "pune travel vlog",
-      "raigad fort vlog",
-      "sahyadri",
-      "sahyadri monsoon trek",
-      "sahyadri trek",
-      "satara travel",
-      "satara travel vlog",
-      "shirdi vlog",
-      "tamini ghat",
-      "tamini ghat drive",
-      "taminighat",
-      "tarkarli beach vlog",
-      "trambakeshwar temple nashik"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "MH, GJ & Nearby Travel",
     "position": 58
   },
   {
