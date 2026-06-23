@@ -51,7 +51,7 @@
       "Leh Ladakh road trip guide",
       "Kamla Nehru Zoo mp"
     ],
-    "last_crawled": 1782052414098,
+    "last_crawled": 1782225785764,
     "name": "Travel Plan Delhi 2026",
     "position": 0
   },
@@ -621,7 +621,7 @@
       "Chotu Motu Joshi Bikaner",
       "National Research Centre on Camel Bikaner"
     ],
-    "last_crawled": 1782054413209,
+    "last_crawled": 1782225825415,
     "name": "Rajasthan Trip",
     "position": 1
   },
@@ -658,7 +658,7 @@
       "sameer chaughule mimicry",
       "प्रियदर्शिनी"
     ],
-    "last_crawled": 1782054437300,
+    "last_crawled": 1782225844612,
     "name": "Hasyajatra & Kapil Sharma",
     "position": 2
   },
@@ -701,9 +701,48 @@
       "zee chitra gaurav",
       "zee marathi serial 2026"
     ],
-    "last_crawled": 1782054464589,
+    "last_crawled": 1782225873583,
     "name": "Marathi Entertainment",
     "position": 3
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🔥",
+    "id": "epic_fails_wins",
+    "keywords": [
+      "best moments caught on camera",
+      "close call moments",
+      "close call moments caught camera",
+      "dark humor compilation",
+      "dashcam close calls",
+      "epic win compilation",
+      "extreme stunts gone wrong",
+      "fail compilation 2026",
+      "failarmy",
+      "failarmy best",
+      "funny animal compilation 2026",
+      "funny video compilation 2026",
+      "instant karma compilation",
+      "instant karma fails",
+      "lucky people compilation",
+      "meme compilation 2026",
+      "oddly satisfying",
+      "people are awesome 2026",
+      "perfectly cut screams",
+      "reaction video funny",
+      "satisfying video compilation",
+      "try not to laugh",
+      "try not to laugh hard",
+      "unbelievable moments",
+      "unbelievable moments 2026",
+      "unexpected moments compilation",
+      "viral video 2026",
+      "viral video india 2026"
+    ],
+    "last_crawled": 1782226270240,
+    "name": "Fails, Wins & Viral Videos",
+    "position": 4
   },
   {
     "enabled": true,
@@ -718,9 +757,9 @@
       "golden retriever puppy",
       "parrot talking funny"
     ],
-    "last_crawled": 1782054515121,
+    "last_crawled": 1782225913029,
     "name": "Pets & Cute Animals",
-    "position": 4
+    "position": 5
   },
   {
     "createdAt": 1781179003419,
@@ -768,9 +807,9 @@
       "unplugged hindi cover",
       "vocal coach reaction"
     ],
-    "last_crawled": 1782054558326,
+    "last_crawled": 1782225958281,
     "name": "Music & Songs",
-    "position": 5
+    "position": 6
   },
   {
     "enabled": true,
@@ -790,9 +829,9 @@
       "oscars highlights",
       "sci fi movies hollywood"
     ],
-    "last_crawled": 1782054606402,
+    "last_crawled": 1782226003940,
     "name": "Hollywood & International Cinema",
-    "position": 6
+    "position": 7
   },
   {
     "enabled": true,
@@ -804,9 +843,9 @@
       "mud bogging trucks",
       "overland vehicle walkaround"
     ],
-    "last_crawled": 1782054673068,
+    "last_crawled": 1782226063477,
     "name": "Off-Roading & Mudding",
-    "position": 7
+    "position": 8
   },
   {
     "enabled": true,
@@ -820,9 +859,9 @@
       "lightning strike slow motion",
       "hurricane drone footage"
     ],
-    "last_crawled": 1782054739486,
+    "last_crawled": 1782226106923,
     "name": "Extreme Weather & Nature",
-    "position": 8
+    "position": 9
   },
   {
     "enabled": true,
@@ -836,9 +875,9 @@
       "antique roadshow highlights",
       "pawn stars best negotiations"
     ],
-    "last_crawled": 1782054797189,
+    "last_crawled": 1782226151997,
     "name": "Thrifting & Flea Market Flips",
-    "position": 9
+    "position": 10
   },
   {
     "enabled": true,
@@ -852,9 +891,9 @@
       "animatronics behind the scenes",
       "disney world food tour"
     ],
-    "last_crawled": 1782054845501,
+    "last_crawled": 1782226192668,
     "name": "Theme Parks & Rollercoasters",
-    "position": 10
+    "position": 11
   },
   {
     "enabled": true,
@@ -868,47 +907,8 @@
       "car accesories",
       "triber modification"
     ],
-    "last_crawled": 1782054901622,
+    "last_crawled": 1782226229109,
     "name": "Car",
-    "position": 11
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🔥",
-    "id": "epic_fails_wins",
-    "keywords": [
-      "best moments caught on camera",
-      "close call moments",
-      "close call moments caught camera",
-      "dark humor compilation",
-      "dashcam close calls",
-      "epic win compilation",
-      "extreme stunts gone wrong",
-      "fail compilation 2026",
-      "failarmy",
-      "failarmy best",
-      "funny animal compilation 2026",
-      "funny video compilation 2026",
-      "instant karma compilation",
-      "instant karma fails",
-      "lucky people compilation",
-      "meme compilation 2026",
-      "oddly satisfying",
-      "people are awesome 2026",
-      "perfectly cut screams",
-      "reaction video funny",
-      "satisfying video compilation",
-      "try not to laugh",
-      "try not to laugh hard",
-      "unbelievable moments",
-      "unbelievable moments 2026",
-      "unexpected moments compilation",
-      "viral video 2026",
-      "viral video india 2026"
-    ],
-    "last_crawled": 1782054950107,
-    "name": "Fails, Wins & Viral Videos",
     "position": 12
   },
   {
@@ -944,7 +944,7 @@
       "tropical island drone 4k",
       "whale watching 4k"
     ],
-    "last_crawled": 1782054981974,
+    "last_crawled": 1782226300054,
     "name": "Beach & Ocean",
     "position": 13
   },
@@ -991,7 +991,7 @@
       "stand up comedy marathi",
       "try not to laugh hindi"
     ],
-    "last_crawled": 1782055016191,
+    "last_crawled": 1782226339854,
     "name": "Stand-Up Comedy",
     "position": 14
   },
@@ -1054,7 +1054,7 @@
       "vietnam travel vlog",
       "visa on arrival countries india"
     ],
-    "last_crawled": 1782055083213,
+    "last_crawled": 1782226405230,
     "name": "Global Travel Vlogs",
     "position": 15
   },
@@ -1071,7 +1071,7 @@
       "podcast highlights",
       "ranveer allahbadia podcast"
     ],
-    "last_crawled": 1782055137606,
+    "last_crawled": 1782226451041,
     "name": "Podcasts & Deep Interviews",
     "position": 16
   },
@@ -1121,7 +1121,7 @@
       "solo road trip india",
       "spiti valley road trip"
     ],
-    "last_crawled": 1782055162750,
+    "last_crawled": 1782226482203,
     "name": "Car Trips, Road Trips & Caravans",
     "position": 17
   },
@@ -1140,7 +1140,7 @@
       "mahabharata explained",
       "world history documentary"
     ],
-    "last_crawled": 1782055213249,
+    "last_crawled": 1782226530700,
     "name": "Indian History & Mythology",
     "position": 18
   },
@@ -1158,7 +1158,7 @@
       "private jet tour",
       "mega mansion tour"
     ],
-    "last_crawled": 1782055261840,
+    "last_crawled": 1782226572737,
     "name": "Real Estate & Luxury Homes",
     "position": 19
   },
@@ -1175,7 +1175,7 @@
       "first class flight review",
       "flight simulator 2026"
     ],
-    "last_crawled": 1782055290100,
+    "last_crawled": 1782226605137,
     "name": "Aviation & Flying",
     "position": 20
   },
@@ -1192,7 +1192,7 @@
       "street photography pov",
       "video editing tutorial"
     ],
-    "last_crawled": 1782055353100,
+    "last_crawled": 1782226674532,
     "name": "Photography & Filmmaking",
     "position": 21
   },
@@ -1209,7 +1209,7 @@
       "sustainable living off grid",
       "tractor review india"
     ],
-    "last_crawled": 1782055403704,
+    "last_crawled": 1782226720330,
     "name": "Agriculture & Rural Life",
     "position": 22
   },
@@ -1228,7 +1228,7 @@
       "scp foundation lore",
       "unexplained phenomena"
     ],
-    "last_crawled": 1782055453987,
+    "last_crawled": 1782226766159,
     "name": "Digital Horror & Internet Lore",
     "position": 23
   },
@@ -1245,7 +1245,7 @@
       "manga reading",
       "marvel comics history"
     ],
-    "last_crawled": 1782055506270,
+    "last_crawled": 1782226821072,
     "name": "Books, Literature & Comics",
     "position": 24
   },
@@ -1262,7 +1262,7 @@
       "price action trading",
       "stock market intraday"
     ],
-    "last_crawled": 1782055539475,
+    "last_crawled": 1782226853610,
     "name": "Trading & Crypto",
     "position": 25
   },
@@ -1279,7 +1279,7 @@
       "sleight of hand tutorial",
       "street magic david blaine"
     ],
-    "last_crawled": 1782055581553,
+    "last_crawled": 1782226889740,
     "name": "Magic & Illusion",
     "position": 26
   },
@@ -1296,7 +1296,7 @@
       "self defense techniques",
       "ufc highlights hd"
     ],
-    "last_crawled": 1782055626433,
+    "last_crawled": 1782226932981,
     "name": "Martial Arts & Combat Sports",
     "position": 27
   },
@@ -1313,7 +1313,7 @@
       "nail art compilation",
       "skincare routine for glowing skin"
     ],
-    "last_crawled": 1782055682683,
+    "last_crawled": 1782226993475,
     "name": "Beauty, Skincare & Makeup",
     "position": 28
   },
@@ -1330,7 +1330,7 @@
       "mechanic tips and tricks",
       "motorcycle restoration"
     ],
-    "last_crawled": 1782055742680,
+    "last_crawled": 1782227044490,
     "name": "Automotive Repair & Modding",
     "position": 29
   },
@@ -1348,7 +1348,7 @@
       "software engineering vlog",
       "web development tutorial"
     ],
-    "last_crawled": 1782055787587,
+    "last_crawled": 1782227088174,
     "name": "Cybersecurity & Coding",
     "position": 30
   },
@@ -1364,7 +1364,7 @@
       "rainy window reading",
       "library sounds for studying"
     ],
-    "last_crawled": 1782055839969,
+    "last_crawled": 1782227132050,
     "name": "Silent Focus & Study Ambience",
     "position": 31
   },
@@ -1380,7 +1380,7 @@
       "paint mixing satisfying",
       "factory process satisfying"
     ],
-    "last_crawled": 1782055901980,
+    "last_crawled": 1782227185902,
     "name": "Oddly Satisfying & Process",
     "position": 32
   },
@@ -1396,7 +1396,7 @@
       "survival building pool",
       "primitive skills fire"
     ],
-    "last_crawled": 1782055969228,
+    "last_crawled": 1782227246237,
     "name": "Ancient Crafts & Primitive Tech",
     "position": 33
   },
@@ -1412,7 +1412,7 @@
       "urban exploration europe",
       "abandoned mansion tour"
     ],
-    "last_crawled": 1782056034104,
+    "last_crawled": 1782227294835,
     "name": "Micro-History & Urbex",
     "position": 34
   },
@@ -1428,7 +1428,7 @@
       "gameboy restoration",
       "ipod modding"
     ],
-    "last_crawled": 1782056097773,
+    "last_crawled": 1782227353565,
     "name": "Nostalgia Tech & Repair",
     "position": 35
   },
@@ -1444,7 +1444,7 @@
       "magic the gathering gameplay",
       "miniature diorama build"
     ],
-    "last_crawled": 1782056145876,
+    "last_crawled": 1782227406537,
     "name": "Tabletop, D&D & Board Games",
     "position": 36
   },
@@ -1460,7 +1460,7 @@
       "pastry chef techniques",
       "sugar art pulling"
     ],
-    "last_crawled": 1782056168689,
+    "last_crawled": 1782227425327,
     "name": "Baking, Desserts & Pastry",
     "position": 37
   },
@@ -1474,7 +1474,7 @@
       "mining excavator in action",
       "bridge construction timelapse"
     ],
-    "last_crawled": 1782056233512,
+    "last_crawled": 1782227487075,
     "name": "Heavy Machinery & Mega Projects",
     "position": 38
   },
@@ -1488,7 +1488,7 @@
       "off grid cabin build",
       "van life interior tour"
     ],
-    "last_crawled": 1782056296713,
+    "last_crawled": 1782227548938,
     "name": "Tiny Houses & Container Homes",
     "position": 39
   },
@@ -1502,7 +1502,7 @@
       "everyday carry gear 2026",
       "watch restoration asmr"
     ],
-    "last_crawled": 1782056373479,
+    "last_crawled": 1782227604635,
     "name": "Watches, Horology & EDC",
     "position": 40
   },
@@ -1516,7 +1516,7 @@
       "balisong flipping",
       "rubiks cube world record"
     ],
-    "last_crawled": 1782056413988,
+    "last_crawled": 1782227636485,
     "name": "Skill Toys & Pen Spinning",
     "position": 41
   },
@@ -1530,7 +1530,7 @@
       "competitive eating contest",
       "giant food challenge"
     ],
-    "last_crawled": 1782056472114,
+    "last_crawled": 1782227695111,
     "name": "Competitive Eating & Challenges",
     "position": 42
   },
@@ -1544,7 +1544,7 @@
       "vtuber debut",
       "virtual youtuber highlights"
     ],
-    "last_crawled": 1782056520781,
+    "last_crawled": 1782227735819,
     "name": "VTubers & Virtual Creators",
     "position": 43
   },
@@ -1558,7 +1558,7 @@
       "palworld gameplay",
       "survival game base defense"
     ],
-    "last_crawled": 1782056585772,
+    "last_crawled": 1782227797320,
     "name": "Survival & Base Building Games",
     "position": 44
   },
@@ -1572,7 +1572,7 @@
       "submarine tour",
       "shipwreck diving footage"
     ],
-    "last_crawled": 1782056650677,
+    "last_crawled": 1782227843438,
     "name": "Deep Sea & Ocean Exploration",
     "position": 45
   },
@@ -1586,7 +1586,7 @@
       "hans zimmer live",
       "classical music for studying"
     ],
-    "last_crawled": 1782056715159,
+    "last_crawled": 1782227887963,
     "name": "Classical Music & Orchestras",
     "position": 46
   },
@@ -1600,7 +1600,7 @@
       "phantom of the opera highlights",
       "stage play behind the scenes"
     ],
-    "last_crawled": 1782056755609,
+    "last_crawled": 1782227927172,
     "name": "Theater, Musicals & Broadway",
     "position": 47
   },
@@ -1614,7 +1614,7 @@
       "emotional poetry reading",
       "slam poetry competition"
     ],
-    "last_crawled": 1782056808567,
+    "last_crawled": 1782227965866,
     "name": "Poetry & Spoken Word",
     "position": 48
   },
@@ -1628,7 +1628,7 @@
       "skatepark compilation",
       "tony hawk pro skater real life"
     ],
-    "last_crawled": 1782056858339,
+    "last_crawled": 1782228000957,
     "name": "Skateboarding & Extreme BMX",
     "position": 49
   },
@@ -1642,7 +1642,7 @@
       "urban parkour stunts",
       "parkour fails and wins"
     ],
-    "last_crawled": 1782056901134,
+    "last_crawled": 1782228025471,
     "name": "Parkour & Freerunning",
     "position": 50
   },
@@ -1656,7 +1656,7 @@
       "physical security penetration testing",
       "safe cracking techniques"
     ],
-    "last_crawled": 1782056934769,
+    "last_crawled": 1782228052121,
     "name": "Lockpicking & Security",
     "position": 51
   },
@@ -1670,7 +1670,7 @@
       "damascus steel knife making",
       "anvil restoration"
     ],
-    "last_crawled": 1782056986772,
+    "last_crawled": 1782228089075,
     "name": "Blacksmithing & Forging",
     "position": 52
   },
@@ -1684,7 +1684,7 @@
       "ceramic glazing techniques",
       "making neon signs"
     ],
-    "last_crawled": 1782057025838,
+    "last_crawled": 1782228116344,
     "name": "Glassblowing & Ceramics",
     "position": 53
   },
@@ -1698,7 +1698,7 @@
       "first tattoo experience",
       "tattoo artist interview"
     ],
-    "last_crawled": 1782057080874,
+    "last_crawled": 1782228146002,
     "name": "Tattoo Art & Piercings",
     "position": 54
   },
@@ -1712,7 +1712,7 @@
       "model train scenery building",
       "gundam gunpla custom build"
     ],
-    "last_crawled": 1782057117019,
+    "last_crawled": 1782228176599,
     "name": "Miniature Painting & Dioramas",
     "position": 55
   },
@@ -1726,7 +1726,7 @@
       "video game glitches explained",
       "games done quick highlights"
     ],
-    "last_crawled": 1782057166588,
+    "last_crawled": 1782228215083,
     "name": "Speedrunning & Glitches",
     "position": 56
   },
@@ -1740,7 +1740,7 @@
       "80s tv bumpers",
       "retro infomercials"
     ],
-    "last_crawled": 1782057222916,
+    "last_crawled": 1782228266636,
     "name": "Retro Advertising & Media",
     "position": 57
   },
@@ -1754,7 +1754,7 @@
       "aquascape competition layout",
       "betta fish tank makeover"
     ],
-    "last_crawled": 1782057256523,
+    "last_crawled": 1782228297326,
     "name": "Aquarium Aquascaping",
     "position": 58
   },
@@ -1768,7 +1768,7 @@
       "closed terrarium ecosystem",
       "tarantula enclosure setup"
     ],
-    "last_crawled": 1782057297567,
+    "last_crawled": 1782228322931,
     "name": "Terrariums & Ant Farms",
     "position": 59
   },
@@ -1782,7 +1782,7 @@
       "van life winter camping",
       "skoolie bus conversion"
     ],
-    "last_crawled": 1782057366243,
+    "last_crawled": 1782228376241,
     "name": "Van Life & RV Tours",
     "position": 60
   },
@@ -1801,7 +1801,7 @@
       "rain at night",
       "rain at day"
     ],
-    "last_crawled": 1782057417283,
+    "last_crawled": 1782228443879,
     "name": "Weather: Rain & Snow",
     "position": 61
   },
@@ -1815,7 +1815,7 @@
       "failarmy",
       "work fails"
     ],
-    "last_crawled": 1782057441315,
+    "last_crawled": 1782228462031,
     "name": "Funny Fails & Comedy",
     "position": 62
   },
