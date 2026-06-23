@@ -1,5 +1,257 @@
 [
   {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🌿",
+    "id": "nature_4k",
+    "keywords": [
+      "12k nature video",
+      "4k nature relaxation",
+      "8k ultra hd nature",
+      "ambient nature no music",
+      "aurora borealis 4k",
+      "autumn forest 4k",
+      "beautiful places earth 4k",
+      "cherry blossom 4k",
+      "cozy rain ambience",
+      "desert landscape 4k",
+      "dolby vision nature",
+      "dolby vision nature 4k",
+      "drone landscape 4k",
+      "drone nature footage",
+      "fireplace crackling 4k",
+      "forest sounds birds",
+      "hdr nature 4k",
+      "japanese garden 4k",
+      "mountain scenery 4k",
+      "northern lights 4k",
+      "ocean waves 4k",
+      "rain in forest 4k",
+      "relaxing nature sounds",
+      "river sounds sleep",
+      "snorkeling 4k",
+      "snowfall ambience 4k",
+      "thunderstorm ambience",
+      "underwater reef 4k",
+      "waterfall 4k"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "4K Nature & Ambience",
+    "position": 0
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🌏",
+    "id": "city_walk",
+    "keywords": [
+      "amsterdam walk 4k",
+      "ancient ruins tour 4k",
+      "bangkok walk 4k",
+      "barcelona walk 4k",
+      "christmas market walk europe",
+      "delhi walk 4k",
+      "dubai walk 4k",
+      "hong kong walk 4k",
+      "istanbul walk 4k",
+      "kyoto walk 4k",
+      "london snow walk",
+      "london walk 4k",
+      "los angeles walk 4k",
+      "mumbai local train 4k",
+      "mumbai walk 4k",
+      "new york city walk 4k",
+      "new york rain walk",
+      "night city walk hdr",
+      "night market walk asia",
+      "old town walk europe",
+      "osaka night walk 4k",
+      "paris walk 4k",
+      "prague walk 4k",
+      "rain walk 4k",
+      "rome walk 4k",
+      "seoul street food walk",
+      "seoul walk 4k",
+      "shanghai walk 4k",
+      "singapore walk 4k",
+      "tokyo night walk 4k",
+      "tokyo walk 4k",
+      "varanasi walk 4k",
+      "virtual tour museum"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "City Walks & Global Sightseeing",
+    "position": 1
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "💸",
+    "id": "deals_budget",
+    "keywords": [
+      "aliexpress best products india",
+      "aliexpress gadgets",
+      "amazon finds 2026",
+      "amazon finds india 2026",
+      "amazon haul india 2026",
+      "best budget products india 2026",
+      "best earphones under 1000 india",
+      "best under 1000 rupees",
+      "best under 500 rupees products",
+      "best value for money products 2026",
+      "budget trip abroad india",
+      "cheap products worth buying india",
+      "cheap travel hacks india",
+      "cheapest places to visit india",
+      "dmart deals haul india",
+      "flipkart best deals",
+      "ikea must haves",
+      "meesho haul india",
+      "sarojini nagar haul",
+      "secondhand finds india",
+      "thrift shopping india",
+      "thrift shopping vintage",
+      "travel for cheap india 2026",
+      "unboxing cheap gadgets india",
+      "wholesale market india vlog"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "Budget Shopping & Hauls",
+    "position": 2
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🌍",
+    "id": "world_news",
+    "keywords": [
+      "Al Jazeera documentary",
+      "BBC Hindi news",
+      "DW documentary",
+      "India Pakistan geopolitics",
+      "climate change documentary",
+      "current affairs hindi",
+      "economic crisis 2026",
+      "economics explained",
+      "geopolitics explained",
+      "geopolitics explained hindi",
+      "global economy documentary",
+      "immigration documentary",
+      "india china news",
+      "india china news 2026",
+      "india news hindi",
+      "investigation journalism india",
+      "map men",
+      "military documentary",
+      "military technology overview",
+      "nato news 2026",
+      "us politics 2026",
+      "vice documentary",
+      "war documentary",
+      "world news today"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "World News & Geopolitics",
+    "position": 3
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "✨",
+    "id": "spirituality_motivation",
+    "keywords": [
+      "BK shivani",
+      "Bhagavad Gita explained hindi",
+      "Chanakya niti hindi",
+      "TED talk motivation",
+      "acharya prashant latest",
+      "acharya prashant latest 2026",
+      "bk shivani",
+      "bk shivani morning",
+      "discipline motivation",
+      "guided sleep meditation",
+      "marcus aurelius",
+      "marcus aurelius philosophy",
+      "marcus aurelius stoicism",
+      "meditation guided",
+      "mindfulness meditation",
+      "mindfulness meditation hindi",
+      "monk mindset",
+      "morning motivation",
+      "morning motivation hindi",
+      "motivation hindi",
+      "motivation hindi 2026",
+      "naval ravikant wisdom",
+      "osho hindi",
+      "osho hindi lectures",
+      "philosophy explained easy",
+      "positive thinking hindi",
+      "sadhguru latest",
+      "sadhguru latest 2026",
+      "sadhguru latest english",
+      "sandeep maheshwari",
+      "self improvement documentary",
+      "sleep meditation guided",
+      "stoicism explained",
+      "stoicism explained hindi",
+      "stoicism quotes",
+      "success story hindi"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "Spirituality & Motivation",
+    "position": 4
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🧑🍳",
+    "id": "food_science",
+    "keywords": [
+      "Gordon Ramsay cooking tips",
+      "Indian spice guide",
+      "cheese making at home",
+      "chefs technique explained",
+      "culinary school tips",
+      "fermentation at home",
+      "fermentation process time lapse",
+      "food myths busted science",
+      "food preservation techniques",
+      "food science explained",
+      "how butter is made",
+      "how to cook perfect rice",
+      "knife sharpening whetstone",
+      "knife skills chef",
+      "molecular gastronomy",
+      "perfect steak reverse sear",
+      "pro chef reacts street food",
+      "sourdough bread making",
+      "why food tastes good science"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "Cooking Skills & Food Science",
+    "position": 5
+  },
+  {
+    "enabled": true,
+    "icon": "📌",
+    "id": "grp_mq9j3ffw1hh6mp86j06",
+    "keywords": [
+      "amazon prime new release",
+      "anime funny moments",
+      "filtercopy",
+      "korean drama hindi",
+      "korean drama hindi dub",
+      "netflix webseries review",
+      "sit",
+      "sitcom funny compilation",
+      "sony marathi",
+      "tollywood new movie",
+      "zee marathi new"
+    ],
+    "name": "Webseries",
+    "position": 6
+  },
+  {
     "enabled": true,
     "icon": "🌧️",
     "id": "weather_rain_snow",
@@ -16,7 +268,7 @@
     ],
     "last_crawled": 1782228443879,
     "name": "Weather: Rain & Snow",
-    "position": 0
+    "position": 7
   },
   {
     "enabled": true,
@@ -29,7 +281,7 @@
       "hollywood movie in hindi full"
     ],
     "name": "Full Movies & Cinema",
-    "position": 1
+    "position": 8
   },
   {
     "enabled": true,
@@ -42,7 +294,7 @@
       "gujarati dayro live"
     ],
     "name": "Regional Indian Music & Folk",
-    "position": 2
+    "position": 9
   },
   {
     "createdAt": 1781179003419,
@@ -91,7 +343,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Bollywood & OTT",
-    "position": 3
+    "position": 10
   },
   {
     "createdAt": 1781179003419,
@@ -141,7 +393,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Bollywood Celebs & Stars",
-    "position": 4
+    "position": 11
   },
   {
     "createdAt": 1781179003419,
@@ -175,7 +427,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Railway Trips & Train Journeys",
-    "position": 5
+    "position": 12
   },
   {
     "createdAt": 1781179003419,
@@ -243,7 +495,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "MH, GJ & Nearby Travel",
-    "position": 6
+    "position": 13
   },
   {
     "enabled": true,
@@ -299,7 +551,7 @@
     ],
     "last_crawled": 1782225785764,
     "name": "Travel Plan Delhi 2026",
-    "position": 7
+    "position": 14
   },
   {
     "enabled": true,
@@ -869,7 +1121,7 @@
     ],
     "last_crawled": 1782225825415,
     "name": "Rajasthan Trip",
-    "position": 8
+    "position": 15
   },
   {
     "createdAt": 1781179003419,
@@ -906,7 +1158,7 @@
     ],
     "last_crawled": 1782225844612,
     "name": "Hasyajatra & Kapil Sharma",
-    "position": 9
+    "position": 16
   },
   {
     "createdAt": 1781179003419,
@@ -949,7 +1201,7 @@
     ],
     "last_crawled": 1782225873583,
     "name": "Marathi Entertainment",
-    "position": 10
+    "position": 17
   },
   {
     "createdAt": 1781179003419,
@@ -988,7 +1240,7 @@
     ],
     "last_crawled": 1782226270240,
     "name": "Fails, Wins & Viral Videos",
-    "position": 11
+    "position": 18
   },
   {
     "enabled": true,
@@ -1005,7 +1257,7 @@
     ],
     "last_crawled": 1782225913029,
     "name": "Pets & Cute Animals",
-    "position": 12
+    "position": 19
   },
   {
     "createdAt": 1781179003419,
@@ -1055,7 +1307,7 @@
     ],
     "last_crawled": 1782225958281,
     "name": "Music & Songs",
-    "position": 13
+    "position": 20
   },
   {
     "enabled": true,
@@ -1077,7 +1329,7 @@
     ],
     "last_crawled": 1782226003940,
     "name": "Hollywood & International Cinema",
-    "position": 14
+    "position": 21
   },
   {
     "enabled": true,
@@ -1093,7 +1345,7 @@
     ],
     "last_crawled": 1782226106923,
     "name": "Extreme Weather & Nature",
-    "position": 15
+    "position": 22
   },
   {
     "enabled": true,
@@ -1109,7 +1361,7 @@
     ],
     "last_crawled": 1782226151997,
     "name": "Thrifting & Flea Market Flips",
-    "position": 16
+    "position": 23
   },
   {
     "enabled": true,
@@ -1125,7 +1377,7 @@
     ],
     "last_crawled": 1782226192668,
     "name": "Theme Parks & Rollercoasters",
-    "position": 17
+    "position": 24
   },
   {
     "enabled": true,
@@ -1141,7 +1393,7 @@
     ],
     "last_crawled": 1782226229109,
     "name": "Car",
-    "position": 18
+    "position": 25
   },
   {
     "createdAt": 1781179003419,
@@ -1178,7 +1430,7 @@
     ],
     "last_crawled": 1782226300054,
     "name": "Beach & Ocean",
-    "position": 19
+    "position": 26
   },
   {
     "createdAt": 1781179003419,
@@ -1225,7 +1477,7 @@
     ],
     "last_crawled": 1782226339854,
     "name": "Stand-Up Comedy",
-    "position": 20
+    "position": 27
   },
   {
     "createdAt": 1781179003419,
@@ -1288,7 +1540,7 @@
     ],
     "last_crawled": 1782226405230,
     "name": "Global Travel Vlogs",
-    "position": 21
+    "position": 28
   },
   {
     "enabled": true,
@@ -1305,7 +1557,7 @@
     ],
     "last_crawled": 1782226451041,
     "name": "Podcasts & Deep Interviews",
-    "position": 22
+    "position": 29
   },
   {
     "createdAt": 1781179003419,
@@ -1355,7 +1607,7 @@
     ],
     "last_crawled": 1782226482203,
     "name": "Car Trips, Road Trips & Caravans",
-    "position": 23
+    "position": 30
   },
   {
     "enabled": true,
@@ -1373,7 +1625,7 @@
     ],
     "last_crawled": 1782226572737,
     "name": "Real Estate & Luxury Homes",
-    "position": 24
+    "position": 31
   },
   {
     "enabled": true,
@@ -1390,7 +1642,7 @@
     ],
     "last_crawled": 1782226605137,
     "name": "Aviation & Flying",
-    "position": 25
+    "position": 32
   },
   {
     "enabled": true,
@@ -1407,7 +1659,7 @@
     ],
     "last_crawled": 1782226674532,
     "name": "Photography & Filmmaking",
-    "position": 26
+    "position": 33
   },
   {
     "enabled": true,
@@ -1424,7 +1676,7 @@
     ],
     "last_crawled": 1782226720330,
     "name": "Agriculture & Rural Life",
-    "position": 27
+    "position": 34
   },
   {
     "enabled": true,
@@ -1443,7 +1695,7 @@
     ],
     "last_crawled": 1782226766159,
     "name": "Digital Horror & Internet Lore",
-    "position": 28
+    "position": 35
   },
   {
     "enabled": true,
@@ -1460,7 +1712,7 @@
     ],
     "last_crawled": 1782226889740,
     "name": "Magic & Illusion",
-    "position": 29
+    "position": 36
   },
   {
     "enabled": true,
@@ -1477,7 +1729,7 @@
     ],
     "last_crawled": 1782226932981,
     "name": "Martial Arts & Combat Sports",
-    "position": 30
+    "position": 37
   },
   {
     "enabled": true,
@@ -1494,7 +1746,7 @@
     ],
     "last_crawled": 1782226993475,
     "name": "Beauty, Skincare & Makeup",
-    "position": 31
+    "position": 38
   },
   {
     "enabled": true,
@@ -1511,7 +1763,7 @@
     ],
     "last_crawled": 1782227044490,
     "name": "Automotive Repair & Modding",
-    "position": 32
+    "position": 39
   },
   {
     "enabled": true,
@@ -1527,7 +1779,7 @@
     ],
     "last_crawled": 1782227185902,
     "name": "Oddly Satisfying & Process",
-    "position": 33
+    "position": 40
   },
   {
     "enabled": true,
@@ -1543,7 +1795,7 @@
     ],
     "last_crawled": 1782227246237,
     "name": "Ancient Crafts & Primitive Tech",
-    "position": 34
+    "position": 41
   },
   {
     "enabled": true,
@@ -1559,7 +1811,7 @@
     ],
     "last_crawled": 1782227353565,
     "name": "Nostalgia Tech & Repair",
-    "position": 35
+    "position": 42
   },
   {
     "enabled": true,
@@ -1575,7 +1827,7 @@
     ],
     "last_crawled": 1782227406537,
     "name": "Tabletop, D&D & Board Games",
-    "position": 36
+    "position": 43
   },
   {
     "enabled": true,
@@ -1591,7 +1843,7 @@
     ],
     "last_crawled": 1782227425327,
     "name": "Baking, Desserts & Pastry",
-    "position": 37
+    "position": 44
   },
   {
     "enabled": true,
@@ -1605,7 +1857,7 @@
     ],
     "last_crawled": 1782227487075,
     "name": "Heavy Machinery & Mega Projects",
-    "position": 38
+    "position": 45
   },
   {
     "enabled": true,
@@ -1619,7 +1871,7 @@
     ],
     "last_crawled": 1782227548938,
     "name": "Tiny Houses & Container Homes",
-    "position": 39
+    "position": 46
   },
   {
     "enabled": true,
@@ -1633,7 +1885,7 @@
     ],
     "last_crawled": 1782227604635,
     "name": "Watches, Horology & EDC",
-    "position": 40
+    "position": 47
   },
   {
     "enabled": true,
@@ -1647,7 +1899,7 @@
     ],
     "last_crawled": 1782227636485,
     "name": "Skill Toys & Pen Spinning",
-    "position": 41
+    "position": 48
   },
   {
     "enabled": true,
@@ -1661,7 +1913,7 @@
     ],
     "last_crawled": 1782227695111,
     "name": "Competitive Eating & Challenges",
-    "position": 42
+    "position": 49
   },
   {
     "enabled": true,
@@ -1675,7 +1927,7 @@
     ],
     "last_crawled": 1782227735819,
     "name": "VTubers & Virtual Creators",
-    "position": 43
+    "position": 50
   },
   {
     "enabled": true,
@@ -1689,7 +1941,7 @@
     ],
     "last_crawled": 1782227797320,
     "name": "Survival & Base Building Games",
-    "position": 44
+    "position": 51
   },
   {
     "enabled": true,
@@ -1703,7 +1955,7 @@
     ],
     "last_crawled": 1782227843438,
     "name": "Deep Sea & Ocean Exploration",
-    "position": 45
+    "position": 52
   },
   {
     "enabled": true,
@@ -1717,7 +1969,7 @@
     ],
     "last_crawled": 1782227887963,
     "name": "Classical Music & Orchestras",
-    "position": 46
+    "position": 53
   },
   {
     "enabled": true,
@@ -1731,7 +1983,7 @@
     ],
     "last_crawled": 1782227927172,
     "name": "Theater, Musicals & Broadway",
-    "position": 47
+    "position": 54
   },
   {
     "enabled": true,
@@ -1745,7 +1997,7 @@
     ],
     "last_crawled": 1782228000957,
     "name": "Skateboarding & Extreme BMX",
-    "position": 48
+    "position": 55
   },
   {
     "enabled": true,
@@ -1759,7 +2011,7 @@
     ],
     "last_crawled": 1782228025471,
     "name": "Parkour & Freerunning",
-    "position": 49
+    "position": 56
   },
   {
     "enabled": true,
@@ -1773,35 +2025,7 @@
     ],
     "last_crawled": 1782228052121,
     "name": "Lockpicking & Security",
-    "position": 50
-  },
-  {
-    "enabled": true,
-    "icon": "⏱️",
-    "id": "speedrunning",
-    "keywords": [
-      "super mario 64 speedrun",
-      "elden ring speedrun world record",
-      "video game glitches explained",
-      "games done quick highlights"
-    ],
-    "last_crawled": 1782228215083,
-    "name": "Speedrunning & Glitches",
-    "position": 51
-  },
-  {
-    "enabled": true,
-    "icon": "📺",
-    "id": "retro_commercials",
-    "keywords": [
-      "90s commercials compilation",
-      "vintage advertising history",
-      "80s tv bumpers",
-      "retro infomercials"
-    ],
-    "last_crawled": 1782228266636,
-    "name": "Retro Advertising & Media",
-    "position": 52
+    "position": 57
   },
   {
     "enabled": true,
@@ -1815,7 +2039,7 @@
     ],
     "last_crawled": 1782228376241,
     "name": "Van Life & RV Tours",
-    "position": 53
+    "position": 59
   },
   {
     "enabled": true,
@@ -1829,7 +2053,7 @@
     ],
     "last_crawled": 1782228462031,
     "name": "Funny Fails & Comedy",
-    "position": 54
+    "position": 60
   },
   {
     "enabled": true,
@@ -1842,7 +2066,7 @@
       "agriculture drone spraying"
     ],
     "name": "Tractors & Farming Tech",
-    "position": 55
+    "position": 61
   },
   {
     "createdAt": 1781179003419,
@@ -1898,7 +2122,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Global Food & Street Food",
-    "position": 56
+    "position": 62
   },
   {
     "createdAt": 1781179003419,
@@ -1943,7 +2167,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Recipes, Cooking & Drinks",
-    "position": 57
+    "position": 63
   },
   {
     "createdAt": 1781179003419,
@@ -2046,7 +2270,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "India Landmarks, Parks & Attractions",
-    "position": 58
+    "position": 64
   },
   {
     "createdAt": 1781179003419,
@@ -2150,7 +2374,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Vloggers & Family Vloggers",
-    "position": 59
+    "position": 65
   },
   {
     "createdAt": 1781179003419,
@@ -2198,7 +2422,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Software, OS & App Hacks",
-    "position": 60
+    "position": 66
   },
   {
     "createdAt": 1781179003419,
@@ -2255,7 +2479,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Tech, Gadgets & Reviews",
-    "position": 61
+    "position": 67
   },
   {
     "createdAt": 1781179003419,
@@ -2305,7 +2529,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "AI & Future Tech",
-    "position": 62
+    "position": 68
   },
   {
     "createdAt": 1781179003419,
@@ -2357,7 +2581,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Cars & Bikes",
-    "position": 63
+    "position": 69
   },
   {
     "createdAt": 1781179003419,
@@ -2402,7 +2626,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Health & Fitness",
-    "position": 64
+    "position": 70
   },
   {
     "createdAt": 1781179003419,
@@ -2447,7 +2671,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Finance & Investing",
-    "position": 65
+    "position": 71
   },
   {
     "createdAt": 1781179003419,
@@ -2488,7 +2712,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Science, Space & Nature Docs",
-    "position": 66
+    "position": 72
   },
   {
     "createdAt": 1781179003419,
@@ -2546,7 +2770,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Animals & Wildlife",
-    "position": 67
+    "position": 73
   },
   {
     "createdAt": 1781179003419,
@@ -2581,7 +2805,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "True Crime & Mystery",
-    "position": 68
+    "position": 74
   },
   {
     "createdAt": 1781179003419,
@@ -2628,91 +2852,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "DIY, Making & Inventions",
-    "position": 69
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🌿",
-    "id": "nature_4k",
-    "keywords": [
-      "12k nature video",
-      "4k nature relaxation",
-      "8k ultra hd nature",
-      "ambient nature no music",
-      "aurora borealis 4k",
-      "autumn forest 4k",
-      "beautiful places earth 4k",
-      "cherry blossom 4k",
-      "cozy rain ambience",
-      "desert landscape 4k",
-      "dolby vision nature",
-      "dolby vision nature 4k",
-      "drone landscape 4k",
-      "drone nature footage",
-      "fireplace crackling 4k",
-      "forest sounds birds",
-      "hdr nature 4k",
-      "japanese garden 4k",
-      "mountain scenery 4k",
-      "northern lights 4k",
-      "ocean waves 4k",
-      "rain in forest 4k",
-      "relaxing nature sounds",
-      "river sounds sleep",
-      "snorkeling 4k",
-      "snowfall ambience 4k",
-      "thunderstorm ambience",
-      "underwater reef 4k",
-      "waterfall 4k"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "4K Nature & Ambience",
-    "position": 70
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🌏",
-    "id": "city_walk",
-    "keywords": [
-      "amsterdam walk 4k",
-      "ancient ruins tour 4k",
-      "bangkok walk 4k",
-      "barcelona walk 4k",
-      "christmas market walk europe",
-      "delhi walk 4k",
-      "dubai walk 4k",
-      "hong kong walk 4k",
-      "istanbul walk 4k",
-      "kyoto walk 4k",
-      "london snow walk",
-      "london walk 4k",
-      "los angeles walk 4k",
-      "mumbai local train 4k",
-      "mumbai walk 4k",
-      "new york city walk 4k",
-      "new york rain walk",
-      "night city walk hdr",
-      "night market walk asia",
-      "old town walk europe",
-      "osaka night walk 4k",
-      "paris walk 4k",
-      "prague walk 4k",
-      "rain walk 4k",
-      "rome walk 4k",
-      "seoul street food walk",
-      "seoul walk 4k",
-      "shanghai walk 4k",
-      "singapore walk 4k",
-      "tokyo night walk 4k",
-      "tokyo walk 4k",
-      "varanasi walk 4k",
-      "virtual tour museum"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "City Walks & Global Sightseeing",
-    "position": 71
+    "position": 75
   },
   {
     "createdAt": 1781179003419,
@@ -2749,7 +2889,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Gaming",
-    "position": 72
+    "position": 76
   },
   {
     "createdAt": 1781179003419,
@@ -2789,114 +2929,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Cricket & Sports",
-    "position": 73
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🏠",
-    "id": "home_interior",
-    "keywords": [
-      "affordable interior design india",
-      "apartment tour luxury",
-      "bathroom renovation",
-      "bathroom renovation india",
-      "bedroom makeover",
-      "before after renovation",
-      "garden makeover",
-      "garden makeover india",
-      "home decor budget india",
-      "ikea hacks 2026",
-      "interior design ideas 2026",
-      "japanese interior design",
-      "kitchen organization ideas",
-      "million dollar home tour",
-      "minimalist desk setup",
-      "minimalist home tour",
-      "modular kitchen design india",
-      "room makeover aesthetic",
-      "scandinavian interior",
-      "scandinavian interior design",
-      "small house design india",
-      "smart home setup",
-      "smart home setup tour",
-      "tiny house tour",
-      "vastu tips hindi"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "Home & Interior Design",
-    "position": 74
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "💸",
-    "id": "deals_budget",
-    "keywords": [
-      "aliexpress best products india",
-      "aliexpress gadgets",
-      "amazon finds 2026",
-      "amazon finds india 2026",
-      "amazon haul india 2026",
-      "best budget products india 2026",
-      "best earphones under 1000 india",
-      "best under 1000 rupees",
-      "best under 500 rupees products",
-      "best value for money products 2026",
-      "budget trip abroad india",
-      "cheap products worth buying india",
-      "cheap travel hacks india",
-      "cheapest places to visit india",
-      "dmart deals haul india",
-      "flipkart best deals",
-      "ikea must haves",
-      "meesho haul india",
-      "sarojini nagar haul",
-      "secondhand finds india",
-      "thrift shopping india",
-      "thrift shopping vintage",
-      "travel for cheap india 2026",
-      "unboxing cheap gadgets india",
-      "wholesale market india vlog"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "Budget Shopping & Hauls",
-    "position": 75
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🌍",
-    "id": "world_news",
-    "keywords": [
-      "Al Jazeera documentary",
-      "BBC Hindi news",
-      "DW documentary",
-      "India Pakistan geopolitics",
-      "climate change documentary",
-      "current affairs hindi",
-      "economic crisis 2026",
-      "economics explained",
-      "geopolitics explained",
-      "geopolitics explained hindi",
-      "global economy documentary",
-      "immigration documentary",
-      "india china news",
-      "india china news 2026",
-      "india news hindi",
-      "investigation journalism india",
-      "map men",
-      "military documentary",
-      "military technology overview",
-      "nato news 2026",
-      "us politics 2026",
-      "vice documentary",
-      "war documentary",
-      "world news today"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "World News & Geopolitics",
-    "position": 76
+    "position": 77
   },
   {
     "createdAt": 1781179003419,
@@ -2939,87 +2972,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Education & Amazing Facts",
-    "position": 77
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "✨",
-    "id": "spirituality_motivation",
-    "keywords": [
-      "BK shivani",
-      "Bhagavad Gita explained hindi",
-      "Chanakya niti hindi",
-      "TED talk motivation",
-      "acharya prashant latest",
-      "acharya prashant latest 2026",
-      "bk shivani",
-      "bk shivani morning",
-      "discipline motivation",
-      "guided sleep meditation",
-      "marcus aurelius",
-      "marcus aurelius philosophy",
-      "marcus aurelius stoicism",
-      "meditation guided",
-      "mindfulness meditation",
-      "mindfulness meditation hindi",
-      "monk mindset",
-      "morning motivation",
-      "morning motivation hindi",
-      "motivation hindi",
-      "motivation hindi 2026",
-      "naval ravikant wisdom",
-      "osho hindi",
-      "osho hindi lectures",
-      "philosophy explained easy",
-      "positive thinking hindi",
-      "sadhguru latest",
-      "sadhguru latest 2026",
-      "sadhguru latest english",
-      "sandeep maheshwari",
-      "self improvement documentary",
-      "sleep meditation guided",
-      "stoicism explained",
-      "stoicism explained hindi",
-      "stoicism quotes",
-      "success story hindi"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "Spirituality & Motivation",
     "position": 78
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🎧",
-    "id": "asmr_relaxation",
-    "keywords": [
-      "asmr cooking sounds",
-      "asmr eating sounds",
-      "asmr keyboard typing",
-      "asmr no talking tapping",
-      "asmr sleep no talking",
-      "asmr tapping scratching",
-      "binaural beats focus",
-      "brown noise sleep",
-      "cabin ambience rain",
-      "coffee shop ambience",
-      "dark screen sleep sounds",
-      "fireplace asmr",
-      "fireplace crackling",
-      "library ambience",
-      "lofi music study 2026",
-      "rain sounds for sleep 10 hours",
-      "satisfying sand cutting",
-      "sleep meditation guided hindi",
-      "study with me pomodoro",
-      "train ambience sleep",
-      "white noise sleep",
-      "wood turning asmr"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "ASMR & Relaxation",
-    "position": 79
   },
   {
     "createdAt": 1781179003419,
@@ -3056,7 +3009,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Fashion & Lifestyle",
-    "position": 80
+    "position": 79
   },
   {
     "createdAt": 1781179003419,
@@ -3085,7 +3038,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Treasure Hunting & Discovery",
-    "position": 81
+    "position": 80
   },
   {
     "createdAt": 1781179003419,
@@ -3135,7 +3088,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Adventure & Extreme Outdoors",
-    "position": 82
+    "position": 81
   },
   {
     "createdAt": 1781179003419,
@@ -3171,7 +3124,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Documentaries & Deep Dives",
-    "position": 83
+    "position": 82
   },
   {
     "createdAt": 1781179003419,
@@ -3205,57 +3158,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Psychology & Self-Growth",
-    "position": 84
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
-    "icon": "🧑🍳",
-    "id": "food_science",
-    "keywords": [
-      "Gordon Ramsay cooking tips",
-      "Indian spice guide",
-      "cheese making at home",
-      "chefs technique explained",
-      "culinary school tips",
-      "fermentation at home",
-      "fermentation process time lapse",
-      "food myths busted science",
-      "food preservation techniques",
-      "food science explained",
-      "how butter is made",
-      "how to cook perfect rice",
-      "knife sharpening whetstone",
-      "knife skills chef",
-      "molecular gastronomy",
-      "perfect steak reverse sear",
-      "pro chef reacts street food",
-      "sourdough bread making",
-      "why food tastes good science"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "Cooking Skills & Food Science",
-    "position": 85
-  },
-  {
-    "enabled": true,
-    "icon": "📌",
-    "id": "grp_mq9j3ffw1hh6mp86j06",
-    "keywords": [
-      "amazon prime new release",
-      "anime funny moments",
-      "filtercopy",
-      "korean drama hindi",
-      "korean drama hindi dub",
-      "netflix webseries review",
-      "sit",
-      "sitcom funny compilation",
-      "sony marathi",
-      "tollywood new movie",
-      "zee marathi new"
-    ],
-    "name": "Webseries",
-    "position": 86
+    "position": 83
   },
   {
     "enabled": true,
@@ -3268,7 +3171,7 @@
       "audio plugin"
     ],
     "name": "Audio Production",
-    "position": 87
+    "position": 84
   },
   {
     "enabled": true,
@@ -3342,7 +3245,7 @@
       "age pension increase"
     ],
     "name": "Stimulus All V0",
-    "position": 88
+    "position": 85
   },
   {
     "enabled": true,
@@ -3401,7 +3304,7 @@
       "Wyoming stimulus"
     ],
     "name": "State Stimulus V0",
-    "position": 89
+    "position": 86
   },
   {
     "enabled": true,
@@ -3414,7 +3317,7 @@
       "bride dance"
     ],
     "name": "Dance",
-    "position": 90
+    "position": 87
   },
   {
     "enabled": true,
@@ -3425,7 +3328,7 @@
       "hindi cover song"
     ],
     "name": "Cover Songs",
-    "position": 91
+    "position": 88
   },
   {
     "enabled": true,
@@ -3446,7 +3349,7 @@
       "gut"
     ],
     "name": "Medical",
-    "position": 92
+    "position": 89
   },
   {
     "enabled": true,
@@ -3456,7 +3359,7 @@
       "Episode"
     ],
     "name": "TV Episode",
-    "position": 93
+    "position": 90
   },
   {
     "enabled": true,
@@ -3469,7 +3372,7 @@
       "courtroom cross examination"
     ],
     "name": "True Crime Interrogations",
-    "position": 94
+    "position": 91
   },
   {
     "enabled": false,
@@ -3486,7 +3389,7 @@
       "studio ghibli aesthetic"
     ],
     "name": "Anime & Animation",
-    "position": 95
+    "position": 92
   },
   {
     "enabled": false,
@@ -3499,7 +3402,7 @@
       "language learning tips"
     ],
     "name": "Language Learning & Polyglots",
-    "position": 96
+    "position": 93
   },
   {
     "enabled": true,
@@ -3516,7 +3419,7 @@
       "drinking water"
     ],
     "name": "Water Purifier",
-    "position": 97
+    "position": 94
   },
   {
     "enabled": true,
@@ -3528,7 +3431,7 @@
       "automatic Business"
     ],
     "name": "Bussiness",
-    "position": 98
+    "position": 95
   },
   {
     "enabled": true,
@@ -3542,7 +3445,7 @@
     ],
     "last_crawled": 1782226063477,
     "name": "Off-Roading & Mudding",
-    "position": 99
+    "position": 96
   },
   {
     "enabled": true,
@@ -3559,7 +3462,7 @@
     ],
     "last_crawled": 1782226821072,
     "name": "Books, Literature & Comics",
-    "position": 100
+    "position": 97
   },
   {
     "enabled": true,
@@ -3576,7 +3479,7 @@
     ],
     "last_crawled": 1782226853610,
     "name": "Trading & Crypto",
-    "position": 101
+    "position": 98
   },
   {
     "enabled": true,
@@ -3595,7 +3498,7 @@
     ],
     "last_crawled": 1782226530700,
     "name": "Indian History & Mythology",
-    "position": 102
+    "position": 99
   },
   {
     "enabled": true,
@@ -3613,7 +3516,7 @@
     ],
     "last_crawled": 1782227088174,
     "name": "Cybersecurity & Coding",
-    "position": 103
+    "position": 100
   },
   {
     "enabled": true,
@@ -3629,7 +3532,7 @@
     ],
     "last_crawled": 1782227132050,
     "name": "Silent Focus & Study Ambience",
-    "position": 104
+    "position": 101
   },
   {
     "enabled": true,
@@ -3645,7 +3548,7 @@
     ],
     "last_crawled": 1782227294835,
     "name": "Micro-History & Urbex",
-    "position": 105
+    "position": 102
   },
   {
     "enabled": true,
@@ -3659,7 +3562,7 @@
     ],
     "last_crawled": 1782227965866,
     "name": "Poetry & Spoken Word",
-    "position": 106
+    "position": 103
   },
   {
     "enabled": true,
@@ -3673,7 +3576,7 @@
     ],
     "last_crawled": 1782228146002,
     "name": "Tattoo Art & Piercings",
-    "position": 107
+    "position": 104
   },
   {
     "enabled": true,
@@ -3687,7 +3590,7 @@
     ],
     "last_crawled": 1782228176599,
     "name": "Miniature Painting & Dioramas",
-    "position": 108
+    "position": 105
   },
   {
     "enabled": true,
@@ -3701,7 +3604,7 @@
     ],
     "last_crawled": 1782228297326,
     "name": "Aquarium Aquascaping",
-    "position": 109
+    "position": 106
   },
   {
     "enabled": true,
@@ -3715,7 +3618,7 @@
     ],
     "last_crawled": 1782228322931,
     "name": "Terrariums & Ant Farms",
-    "position": 110
+    "position": 107
   },
   {
     "enabled": true,
@@ -3729,7 +3632,7 @@
     ],
     "last_crawled": 1782228116344,
     "name": "Glassblowing & Ceramics",
-    "position": 111
+    "position": 108
   },
   {
     "enabled": true,
@@ -3743,7 +3646,7 @@
     ],
     "last_crawled": 1782228089075,
     "name": "Blacksmithing & Forging",
-    "position": 112
+    "position": 109
   },
   {
     "enabled": true,
@@ -3756,6 +3659,89 @@
       "kpop music video reaction"
     ],
     "name": "K-Pop & Idol Culture",
+    "position": 110
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🎧",
+    "id": "asmr_relaxation",
+    "keywords": [
+      "asmr cooking sounds",
+      "asmr eating sounds",
+      "asmr keyboard typing",
+      "asmr no talking tapping",
+      "asmr sleep no talking",
+      "asmr tapping scratching",
+      "binaural beats focus",
+      "brown noise sleep",
+      "cabin ambience rain",
+      "coffee shop ambience",
+      "dark screen sleep sounds",
+      "fireplace asmr",
+      "fireplace crackling",
+      "library ambience",
+      "lofi music study 2026",
+      "rain sounds for sleep 10 hours",
+      "satisfying sand cutting",
+      "sleep meditation guided hindi",
+      "study with me pomodoro",
+      "train ambience sleep",
+      "white noise sleep",
+      "wood turning asmr"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "ASMR & Relaxation",
+    "position": 111
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🏠",
+    "id": "home_interior",
+    "keywords": [
+      "affordable interior design india",
+      "apartment tour luxury",
+      "bathroom renovation",
+      "bathroom renovation india",
+      "bedroom makeover",
+      "before after renovation",
+      "garden makeover",
+      "garden makeover india",
+      "home decor budget india",
+      "ikea hacks 2026",
+      "interior design ideas 2026",
+      "japanese interior design",
+      "kitchen organization ideas",
+      "million dollar home tour",
+      "minimalist desk setup",
+      "minimalist home tour",
+      "modular kitchen design india",
+      "room makeover aesthetic",
+      "scandinavian interior",
+      "scandinavian interior design",
+      "small house design india",
+      "smart home setup",
+      "smart home setup tour",
+      "tiny house tour",
+      "vastu tips hindi"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "Home & Interior Design",
+    "position": 112
+  },
+  {
+    "enabled": true,
+    "icon": "📺",
+    "id": "retro_commercials",
+    "keywords": [
+      "90s commercials compilation",
+      "vintage advertising history",
+      "80s tv bumpers",
+      "retro infomercials"
+    ],
+    "last_crawled": 1782228266636,
+    "name": "Retro Advertising & Media",
     "position": 113
   }
 ]
