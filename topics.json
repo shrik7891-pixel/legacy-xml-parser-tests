@@ -3004,46 +3004,6 @@
   {
     "createdAt": 1781179003419,
     "enabled": true,
-    "icon": "🏏",
-    "id": "cricket_sports",
-    "keywords": [
-      "F1 race highlights",
-      "F1 race highlights 2026",
-      "NBA highlights",
-      "Olympics 2026",
-      "UFC fight highlights",
-      "athlete documentary",
-      "boxing fight highlights",
-      "champions league highlights",
-      "cricket analysis hindi",
-      "cricket highlights hd",
-      "dhoni best moments",
-      "extreme sports red bull",
-      "f1 race highlights",
-      "football skills tutorial",
-      "india cricket highlights",
-      "india vs pakistan cricket",
-      "ipl 2026 highlights",
-      "kabaddi world cup",
-      "kho kho national 2026",
-      "olympic weightlifting slow mo",
-      "premier league highlights",
-      "pro kabaddi highlights",
-      "sports documentary",
-      "sports fails compilation",
-      "t20 world cup",
-      "t20 world cup 2026",
-      "tennis highlights",
-      "virat kohli",
-      "wrestling highlights wwe"
-    ],
-    "last_crawled": 1781179003419,
-    "name": "Cricket & Sports",
-    "position": 80
-  },
-  {
-    "createdAt": 1781179003419,
-    "enabled": true,
     "icon": "📚",
     "id": "education_facts",
     "keywords": [
@@ -3082,7 +3042,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Education & Amazing Facts",
-    "position": 81
+    "position": 80
   },
   {
     "createdAt": 1781179003419,
@@ -3119,7 +3079,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Fashion & Lifestyle",
-    "position": 82
+    "position": 81
   },
   {
     "createdAt": 1781179003419,
@@ -3155,7 +3115,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Documentaries & Deep Dives",
-    "position": 83
+    "position": 82
   },
   {
     "createdAt": 1781179003419,
@@ -3189,7 +3149,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Psychology & Self-Growth",
-    "position": 84
+    "position": 83
   },
   {
     "enabled": true,
@@ -3263,7 +3223,7 @@
       "age pension increase"
     ],
     "name": "Stimulus All V0",
-    "position": 85
+    "position": 84
   },
   {
     "enabled": true,
@@ -3322,7 +3282,7 @@
       "Wyoming stimulus"
     ],
     "name": "State Stimulus V0",
-    "position": 86
+    "position": 85
   },
   {
     "enabled": true,
@@ -3335,7 +3295,7 @@
       "bride dance"
     ],
     "name": "Dance",
-    "position": 87
+    "position": 86
   },
   {
     "enabled": true,
@@ -3348,7 +3308,7 @@
       "audio plugin"
     ],
     "name": "Audio Production",
-    "position": 88
+    "position": 87
   },
   {
     "enabled": true,
@@ -3359,7 +3319,7 @@
       "hindi cover song"
     ],
     "name": "Cover Songs",
-    "position": 89
+    "position": 88
   },
   {
     "enabled": true,
@@ -3372,7 +3332,7 @@
       "courtroom cross examination"
     ],
     "name": "True Crime Interrogations",
-    "position": 90
+    "position": 89
   },
   {
     "enabled": false,
@@ -3389,7 +3349,7 @@
       "studio ghibli aesthetic"
     ],
     "name": "Anime & Animation",
-    "position": 91
+    "position": 90
   },
   {
     "enabled": false,
@@ -3402,7 +3362,7 @@
       "language learning tips"
     ],
     "name": "Language Learning & Polyglots",
-    "position": 92
+    "position": 91
   },
   {
     "enabled": true,
@@ -3419,7 +3379,7 @@
       "drinking water"
     ],
     "name": "Water Purifier",
-    "position": 93
+    "position": 92
   },
   {
     "enabled": true,
@@ -3431,7 +3391,7 @@
       "automatic Business"
     ],
     "name": "Bussiness",
-    "position": 94
+    "position": 93
   },
   {
     "enabled": true,
@@ -3445,7 +3405,7 @@
     ],
     "last_crawled": 1782226063477,
     "name": "Off-Roading & Mudding",
-    "position": 95
+    "position": 94
   },
   {
     "enabled": true,
@@ -3462,7 +3422,7 @@
     ],
     "last_crawled": 1782226821072,
     "name": "Books, Literature & Comics",
-    "position": 96
+    "position": 95
   },
   {
     "enabled": true,
@@ -3479,7 +3439,7 @@
     ],
     "last_crawled": 1782226853610,
     "name": "Trading & Crypto",
-    "position": 97
+    "position": 96
   },
   {
     "enabled": true,
@@ -3498,7 +3458,7 @@
     ],
     "last_crawled": 1782226530700,
     "name": "Indian History & Mythology",
-    "position": 98
+    "position": 97
   },
   {
     "enabled": true,
@@ -3516,7 +3476,7 @@
     ],
     "last_crawled": 1782227088174,
     "name": "Cybersecurity & Coding",
-    "position": 99
+    "position": 98
   },
   {
     "enabled": true,
@@ -3532,7 +3492,7 @@
     ],
     "last_crawled": 1782227132050,
     "name": "Silent Focus & Study Ambience",
-    "position": 100
+    "position": 99
   },
   {
     "enabled": true,
@@ -3548,7 +3508,7 @@
     ],
     "last_crawled": 1782227294835,
     "name": "Micro-History & Urbex",
-    "position": 101
+    "position": 100
   },
   {
     "enabled": true,
@@ -3562,7 +3522,7 @@
     ],
     "last_crawled": 1782227965866,
     "name": "Poetry & Spoken Word",
-    "position": 102
+    "position": 101
   },
   {
     "enabled": true,
@@ -3576,7 +3536,7 @@
     ],
     "last_crawled": 1782228146002,
     "name": "Tattoo Art & Piercings",
-    "position": 103
+    "position": 102
   },
   {
     "enabled": true,
@@ -3590,7 +3550,7 @@
     ],
     "last_crawled": 1782228176599,
     "name": "Miniature Painting & Dioramas",
-    "position": 104
+    "position": 103
   },
   {
     "enabled": true,
@@ -3604,7 +3564,7 @@
     ],
     "last_crawled": 1782228297326,
     "name": "Aquarium Aquascaping",
-    "position": 105
+    "position": 104
   },
   {
     "enabled": true,
@@ -3618,7 +3578,7 @@
     ],
     "last_crawled": 1782228322931,
     "name": "Terrariums & Ant Farms",
-    "position": 106
+    "position": 105
   },
   {
     "enabled": true,
@@ -3632,7 +3592,7 @@
     ],
     "last_crawled": 1782228116344,
     "name": "Glassblowing & Ceramics",
-    "position": 107
+    "position": 106
   },
   {
     "enabled": true,
@@ -3646,7 +3606,7 @@
     ],
     "last_crawled": 1782228089075,
     "name": "Blacksmithing & Forging",
-    "position": 108
+    "position": 107
   },
   {
     "enabled": true,
@@ -3659,7 +3619,7 @@
       "kpop music video reaction"
     ],
     "name": "K-Pop & Idol Culture",
-    "position": 109
+    "position": 108
   },
   {
     "createdAt": 1781179003419,
@@ -3692,7 +3652,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "ASMR & Relaxation",
-    "position": 110
+    "position": 109
   },
   {
     "createdAt": 1781179003419,
@@ -3728,7 +3688,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Home & Interior Design",
-    "position": 111
+    "position": 110
   },
   {
     "enabled": true,
@@ -3742,6 +3702,46 @@
     ],
     "last_crawled": 1782228266636,
     "name": "Retro Advertising & Media",
+    "position": 111
+  },
+  {
+    "createdAt": 1781179003419,
+    "enabled": true,
+    "icon": "🏏",
+    "id": "cricket_sports",
+    "keywords": [
+      "F1 race highlights",
+      "F1 race highlights 2026",
+      "NBA highlights",
+      "Olympics 2026",
+      "UFC fight highlights",
+      "athlete documentary",
+      "boxing fight highlights",
+      "champions league highlights",
+      "cricket analysis hindi",
+      "cricket highlights hd",
+      "dhoni best moments",
+      "extreme sports red bull",
+      "f1 race highlights",
+      "football skills tutorial",
+      "india cricket highlights",
+      "india vs pakistan cricket",
+      "ipl 2026 highlights",
+      "kabaddi world cup",
+      "kho kho national 2026",
+      "olympic weightlifting slow mo",
+      "premier league highlights",
+      "pro kabaddi highlights",
+      "sports documentary",
+      "sports fails compilation",
+      "t20 world cup",
+      "t20 world cup 2026",
+      "tennis highlights",
+      "virat kohli",
+      "wrestling highlights wwe"
+    ],
+    "last_crawled": 1781179003419,
+    "name": "Cricket & Sports",
     "position": 112
   }
 ]
