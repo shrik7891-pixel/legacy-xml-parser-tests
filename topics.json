@@ -1127,25 +1127,6 @@
   },
   {
     "enabled": true,
-    "icon": "📜",
-    "id": "history_mythology",
-    "keywords": [
-      "Egyptian mythology",
-      "Greek mythology",
-      "ancient civilizations",
-      "ancient india secrets",
-      "chhatrapati shivaji maharaj history",
-      "egyptian mythology",
-      "indian history documentary",
-      "mahabharata explained",
-      "world history documentary"
-    ],
-    "last_crawled": 1782226530700,
-    "name": "Indian History & Mythology",
-    "position": 18
-  },
-  {
-    "enabled": true,
     "icon": "🏰",
     "id": "real_estate_luxury",
     "keywords": [
@@ -1160,7 +1141,7 @@
     ],
     "last_crawled": 1782226572737,
     "name": "Real Estate & Luxury Homes",
-    "position": 19
+    "position": 18
   },
   {
     "enabled": true,
@@ -1177,7 +1158,7 @@
     ],
     "last_crawled": 1782226605137,
     "name": "Aviation & Flying",
-    "position": 20
+    "position": 19
   },
   {
     "enabled": true,
@@ -1194,7 +1175,7 @@
     ],
     "last_crawled": 1782226674532,
     "name": "Photography & Filmmaking",
-    "position": 21
+    "position": 20
   },
   {
     "enabled": true,
@@ -1211,7 +1192,7 @@
     ],
     "last_crawled": 1782226720330,
     "name": "Agriculture & Rural Life",
-    "position": 22
+    "position": 21
   },
   {
     "enabled": true,
@@ -1230,7 +1211,7 @@
     ],
     "last_crawled": 1782226766159,
     "name": "Digital Horror & Internet Lore",
-    "position": 23
+    "position": 22
   },
   {
     "enabled": true,
@@ -1247,7 +1228,7 @@
     ],
     "last_crawled": 1782226821072,
     "name": "Books, Literature & Comics",
-    "position": 24
+    "position": 23
   },
   {
     "enabled": true,
@@ -1264,6 +1245,25 @@
     ],
     "last_crawled": 1782226853610,
     "name": "Trading & Crypto",
+    "position": 24
+  },
+  {
+    "enabled": true,
+    "icon": "📜",
+    "id": "history_mythology",
+    "keywords": [
+      "Egyptian mythology",
+      "Greek mythology",
+      "ancient civilizations",
+      "ancient india secrets",
+      "chhatrapati shivaji maharaj history",
+      "egyptian mythology",
+      "indian history documentary",
+      "mahabharata explained",
+      "world history documentary"
+    ],
+    "last_crawled": 1782226530700,
+    "name": "Indian History & Mythology",
     "position": 25
   },
   {
