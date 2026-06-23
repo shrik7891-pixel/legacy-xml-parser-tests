@@ -2043,20 +2043,6 @@
   },
   {
     "enabled": true,
-    "icon": "📺",
-    "id": "retro_commercials",
-    "keywords": [
-      "90s commercials compilation",
-      "vintage advertising history",
-      "80s tv bumpers",
-      "retro infomercials"
-    ],
-    "last_crawled": 1782228266636,
-    "name": "Retro Advertising & Media",
-    "position": 59
-  },
-  {
-    "enabled": true,
     "icon": "🚐",
     "id": "van_life",
     "keywords": [
@@ -2067,7 +2053,7 @@
     ],
     "last_crawled": 1782228376241,
     "name": "Van Life & RV Tours",
-    "position": 60
+    "position": 59
   },
   {
     "enabled": true,
@@ -2081,7 +2067,7 @@
     ],
     "last_crawled": 1782228462031,
     "name": "Funny Fails & Comedy",
-    "position": 61
+    "position": 60
   },
   {
     "enabled": true,
@@ -2094,7 +2080,7 @@
       "agriculture drone spraying"
     ],
     "name": "Tractors & Farming Tech",
-    "position": 62
+    "position": 61
   },
   {
     "createdAt": 1781179003419,
@@ -2150,7 +2136,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Global Food & Street Food",
-    "position": 63
+    "position": 62
   },
   {
     "createdAt": 1781179003419,
@@ -2195,7 +2181,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Recipes, Cooking & Drinks",
-    "position": 64
+    "position": 63
   },
   {
     "createdAt": 1781179003419,
@@ -2298,7 +2284,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "India Landmarks, Parks & Attractions",
-    "position": 65
+    "position": 64
   },
   {
     "createdAt": 1781179003419,
@@ -2402,7 +2388,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Vloggers & Family Vloggers",
-    "position": 66
+    "position": 65
   },
   {
     "createdAt": 1781179003419,
@@ -2450,7 +2436,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Software, OS & App Hacks",
-    "position": 67
+    "position": 66
   },
   {
     "createdAt": 1781179003419,
@@ -2507,7 +2493,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Tech, Gadgets & Reviews",
-    "position": 68
+    "position": 67
   },
   {
     "createdAt": 1781179003419,
@@ -2557,7 +2543,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "AI & Future Tech",
-    "position": 69
+    "position": 68
   },
   {
     "createdAt": 1781179003419,
@@ -2609,7 +2595,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Cars & Bikes",
-    "position": 70
+    "position": 69
   },
   {
     "createdAt": 1781179003419,
@@ -2654,7 +2640,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Health & Fitness",
-    "position": 71
+    "position": 70
   },
   {
     "createdAt": 1781179003419,
@@ -2699,7 +2685,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Finance & Investing",
-    "position": 72
+    "position": 71
   },
   {
     "createdAt": 1781179003419,
@@ -2740,7 +2726,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Science, Space & Nature Docs",
-    "position": 73
+    "position": 72
   },
   {
     "createdAt": 1781179003419,
@@ -2798,7 +2784,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Animals & Wildlife",
-    "position": 74
+    "position": 73
   },
   {
     "createdAt": 1781179003419,
@@ -2833,7 +2819,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "True Crime & Mystery",
-    "position": 75
+    "position": 74
   },
   {
     "createdAt": 1781179003419,
@@ -2880,7 +2866,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "DIY, Making & Inventions",
-    "position": 76
+    "position": 75
   },
   {
     "createdAt": 1781179003419,
@@ -2917,7 +2903,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Gaming",
-    "position": 77
+    "position": 76
   },
   {
     "createdAt": 1781179003419,
@@ -2957,7 +2943,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Cricket & Sports",
-    "position": 78
+    "position": 77
   },
   {
     "createdAt": 1781179003419,
@@ -3000,7 +2986,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Education & Amazing Facts",
-    "position": 79
+    "position": 78
   },
   {
     "createdAt": 1781179003419,
@@ -3037,7 +3023,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Fashion & Lifestyle",
-    "position": 80
+    "position": 79
   },
   {
     "createdAt": 1781179003419,
@@ -3066,7 +3052,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Treasure Hunting & Discovery",
-    "position": 81
+    "position": 80
   },
   {
     "createdAt": 1781179003419,
@@ -3116,7 +3102,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Adventure & Extreme Outdoors",
-    "position": 82
+    "position": 81
   },
   {
     "createdAt": 1781179003419,
@@ -3152,7 +3138,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Documentaries & Deep Dives",
-    "position": 83
+    "position": 82
   },
   {
     "createdAt": 1781179003419,
@@ -3186,7 +3172,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Psychology & Self-Growth",
-    "position": 84
+    "position": 83
   },
   {
     "enabled": true,
@@ -3199,7 +3185,7 @@
       "audio plugin"
     ],
     "name": "Audio Production",
-    "position": 85
+    "position": 84
   },
   {
     "enabled": true,
@@ -3273,7 +3259,7 @@
       "age pension increase"
     ],
     "name": "Stimulus All V0",
-    "position": 86
+    "position": 85
   },
   {
     "enabled": true,
@@ -3332,7 +3318,7 @@
       "Wyoming stimulus"
     ],
     "name": "State Stimulus V0",
-    "position": 87
+    "position": 86
   },
   {
     "enabled": true,
@@ -3345,7 +3331,7 @@
       "bride dance"
     ],
     "name": "Dance",
-    "position": 88
+    "position": 87
   },
   {
     "enabled": true,
@@ -3356,7 +3342,7 @@
       "hindi cover song"
     ],
     "name": "Cover Songs",
-    "position": 89
+    "position": 88
   },
   {
     "enabled": true,
@@ -3377,7 +3363,7 @@
       "gut"
     ],
     "name": "Medical",
-    "position": 90
+    "position": 89
   },
   {
     "enabled": true,
@@ -3387,7 +3373,7 @@
       "Episode"
     ],
     "name": "TV Episode",
-    "position": 91
+    "position": 90
   },
   {
     "enabled": true,
@@ -3400,7 +3386,7 @@
       "courtroom cross examination"
     ],
     "name": "True Crime Interrogations",
-    "position": 92
+    "position": 91
   },
   {
     "enabled": false,
@@ -3417,7 +3403,7 @@
       "studio ghibli aesthetic"
     ],
     "name": "Anime & Animation",
-    "position": 93
+    "position": 92
   },
   {
     "enabled": false,
@@ -3430,7 +3416,7 @@
       "language learning tips"
     ],
     "name": "Language Learning & Polyglots",
-    "position": 94
+    "position": 93
   },
   {
     "enabled": true,
@@ -3447,7 +3433,7 @@
       "drinking water"
     ],
     "name": "Water Purifier",
-    "position": 95
+    "position": 94
   },
   {
     "enabled": true,
@@ -3459,7 +3445,7 @@
       "automatic Business"
     ],
     "name": "Bussiness",
-    "position": 96
+    "position": 95
   },
   {
     "enabled": true,
@@ -3473,7 +3459,7 @@
     ],
     "last_crawled": 1782226063477,
     "name": "Off-Roading & Mudding",
-    "position": 97
+    "position": 96
   },
   {
     "enabled": true,
@@ -3490,7 +3476,7 @@
     ],
     "last_crawled": 1782226821072,
     "name": "Books, Literature & Comics",
-    "position": 98
+    "position": 97
   },
   {
     "enabled": true,
@@ -3507,7 +3493,7 @@
     ],
     "last_crawled": 1782226853610,
     "name": "Trading & Crypto",
-    "position": 99
+    "position": 98
   },
   {
     "enabled": true,
@@ -3526,7 +3512,7 @@
     ],
     "last_crawled": 1782226530700,
     "name": "Indian History & Mythology",
-    "position": 100
+    "position": 99
   },
   {
     "enabled": true,
@@ -3544,7 +3530,7 @@
     ],
     "last_crawled": 1782227088174,
     "name": "Cybersecurity & Coding",
-    "position": 101
+    "position": 100
   },
   {
     "enabled": true,
@@ -3560,7 +3546,7 @@
     ],
     "last_crawled": 1782227132050,
     "name": "Silent Focus & Study Ambience",
-    "position": 102
+    "position": 101
   },
   {
     "enabled": true,
@@ -3576,7 +3562,7 @@
     ],
     "last_crawled": 1782227294835,
     "name": "Micro-History & Urbex",
-    "position": 103
+    "position": 102
   },
   {
     "enabled": true,
@@ -3590,7 +3576,7 @@
     ],
     "last_crawled": 1782227965866,
     "name": "Poetry & Spoken Word",
-    "position": 104
+    "position": 103
   },
   {
     "enabled": true,
@@ -3604,7 +3590,7 @@
     ],
     "last_crawled": 1782228146002,
     "name": "Tattoo Art & Piercings",
-    "position": 105
+    "position": 104
   },
   {
     "enabled": true,
@@ -3618,7 +3604,7 @@
     ],
     "last_crawled": 1782228176599,
     "name": "Miniature Painting & Dioramas",
-    "position": 106
+    "position": 105
   },
   {
     "enabled": true,
@@ -3632,7 +3618,7 @@
     ],
     "last_crawled": 1782228297326,
     "name": "Aquarium Aquascaping",
-    "position": 107
+    "position": 106
   },
   {
     "enabled": true,
@@ -3646,7 +3632,7 @@
     ],
     "last_crawled": 1782228322931,
     "name": "Terrariums & Ant Farms",
-    "position": 108
+    "position": 107
   },
   {
     "enabled": true,
@@ -3660,7 +3646,7 @@
     ],
     "last_crawled": 1782228116344,
     "name": "Glassblowing & Ceramics",
-    "position": 109
+    "position": 108
   },
   {
     "enabled": true,
@@ -3674,7 +3660,7 @@
     ],
     "last_crawled": 1782228089075,
     "name": "Blacksmithing & Forging",
-    "position": 110
+    "position": 109
   },
   {
     "enabled": true,
@@ -3687,7 +3673,7 @@
       "kpop music video reaction"
     ],
     "name": "K-Pop & Idol Culture",
-    "position": 111
+    "position": 110
   },
   {
     "createdAt": 1781179003419,
@@ -3720,7 +3706,7 @@
     ],
     "last_crawled": 1781179003419,
     "name": "ASMR & Relaxation",
-    "position": 112
+    "position": 111
   },
   {
     "createdAt": 1781179003419,
@@ -3756,6 +3742,20 @@
     ],
     "last_crawled": 1781179003419,
     "name": "Home & Interior Design",
+    "position": 112
+  },
+  {
+    "enabled": true,
+    "icon": "📺",
+    "id": "retro_commercials",
+    "keywords": [
+      "90s commercials compilation",
+      "vintage advertising history",
+      "80s tv bumpers",
+      "retro infomercials"
+    ],
+    "last_crawled": 1782228266636,
+    "name": "Retro Advertising & Media",
     "position": 113
   }
 ]
