@@ -1256,7 +1256,7 @@
       "underwater reef 4k",
       "waterfall 4k"
     ],
-    "last_crawled": 1781179003419,
+    "last_crawled": 1782631377028,
     "name": "4K Nature & Ambience",
     "position": 14
   },
@@ -1300,7 +1300,7 @@
       "varanasi walk 4k",
       "virtual tour museum"
     ],
-    "last_crawled": 1781179003419,
+    "last_crawled": 1782631425942,
     "name": "City Walks & Global Sightseeing",
     "position": 15
   },
@@ -1336,7 +1336,7 @@
       "unboxing cheap gadgets india",
       "wholesale market india vlog"
     ],
-    "last_crawled": 1781179003419,
+    "last_crawled": 1782631474041,
     "name": "Budget Shopping & Hauls",
     "position": 16
   },
@@ -4093,9 +4093,9 @@
     "position": 109
   },
   {
-    "id": "grp_mqxgon4alov1j3647l",
+    "enabled": true,
     "icon": "📌",
-    "name": "Gadgets",
+    "id": "grp_mqxgon4alov1j3647l",
     "keywords": [
       "gadgets",
       "consumer electronics",
@@ -4180,7 +4180,66 @@
       "product launches",
       "technology news"
     ],
-    "position": 110,
+    "name": "Gadgets",
+    "position": 110
+  },
+  {
+    "id": "grp_mqxgsj22rcr2ft9leke",
+    "icon": "📌",
+    "name": "DIY V0",
+    "keywords": [
+      "hack",
+      "mod",
+      "modification",
+      "DIY",
+      "do it yourself",
+      "maker",
+      "build",
+      "rebuild",
+      "custom build",
+      "fabrication",
+      "retrofit",
+      "conversion",
+      "upgrade",
+      "restore",
+      "restoration",
+      "repair",
+      "maintenance",
+      "teardown",
+      "disassembly",
+      "reverse engineering",
+      "hardware hacking",
+      "tutorial",
+      "how to",
+      "how to make",
+      "guide",
+      "walkthrough",
+      "tips",
+      "tricks",
+      "experiment",
+      "testing",
+      "prototype",
+      "invention",
+      "project",
+      "electronics project",
+      "kit",
+      "addon",
+      "accessory",
+      "installation",
+      "assembly",
+      "unboxing",
+      "hands-on",
+      "first look",
+      "showcase",
+      "demo",
+      "review",
+      "comparison",
+      "benchmark",
+      "features",
+      "hidden features",
+      "troubleshooting"
+    ],
+    "position": 111,
     "enabled": true
   }
 ]
