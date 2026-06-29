@@ -4204,9 +4204,9 @@
     "position": 111
   },
   {
-    "id": "grp_mqzpqrivzhenun29ls",
+    "enabled": true,
     "icon": "📌",
-    "name": "Tata Winger",
+    "id": "grp_mqzpqrivzhenun29ls",
     "keywords": [
       "tata winger",
       "tata winger camper van",
@@ -4214,9 +4214,10 @@
       "tata winger 13+d",
       "tata winger high roof",
       "tata winger traveller",
-      "tata winger problem"
+      "tata winger problem",
+      "tata winger plus"
     ],
-    "position": 112,
-    "enabled": true
+    "name": "Tata Winger",
+    "position": 112
   }
 ]
