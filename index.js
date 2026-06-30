@@ -321,7 +321,8 @@ async function run() {
   }
 
   if (Object.keys(viralVideosMap).length > 0) {
-      videosByTopic['viral'] = Object.values(viralVideosMap);
+      if (!videosByTopic['viral']) videosByTopic['viral'] = [];
+      videosByTopic['viral'] = videosByTopic['viral'].concat(Object.values(viralVideosMap));
   }
 
   let finalVideos = [];
