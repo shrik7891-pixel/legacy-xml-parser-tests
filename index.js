@@ -327,11 +327,29 @@ async function run() {
   // 7. Generate lightweight TV feed
   const tvFeed = {};
   
-  // Group videos by topic
-  const groupedVideos = {};
+  // Group videos by topic and extract multi-group videos into 'viral'
+  const occurrences = {};
   for (const v of masterData.current_videos) {
-      if (!groupedVideos[v.topic_id]) groupedVideos[v.topic_id] = [];
-      groupedVideos[v.topic_id].push(v);
+      occurrences[v.id] = (occurrences[v.id] || 0) + 1;
+  }
+  
+  const groupedVideos = {};
+  const viralVideosMap = {};
+
+  for (const v of masterData.current_videos) {
+      if (occurrences[v.id] > 1) {
+          const existing = viralVideosMap[v.id];
+          if (!existing || (v.current_vph || 0) > (existing.current_vph || 0)) {
+              viralVideosMap[v.id] = v;
+          }
+      } else {
+          if (!groupedVideos[v.topic_id]) groupedVideos[v.topic_id] = [];
+          groupedVideos[v.topic_id].push(v);
+      }
+  }
+
+  if (Object.keys(viralVideosMap).length > 0) {
+      groupedVideos['viral'] = Object.values(viralVideosMap);
   }
 
   for (const topic_id in groupedVideos) {
