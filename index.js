@@ -298,10 +298,30 @@ async function run() {
       }
   }
 
-  const videosByTopic = {};
+  // Extract multi-group viral videos and group by topic
+  const occurrences = {};
   for (const v of dedupedVideos) {
-      if (!videosByTopic[v.topic_id]) videosByTopic[v.topic_id] = [];
-      videosByTopic[v.topic_id].push(v);
+      occurrences[v.id] = (occurrences[v.id] || 0) + 1;
+  }
+  
+  const videosByTopic = {};
+  const viralVideosMap = {};
+
+  for (const v of dedupedVideos) {
+      if (occurrences[v.id] > 1) {
+          const existing = viralVideosMap[v.id];
+          if (!existing || (v.current_vph || 0) > (existing.current_vph || 0)) {
+              v.topic_id = 'viral';
+              viralVideosMap[v.id] = v;
+          }
+      } else {
+          if (!videosByTopic[v.topic_id]) videosByTopic[v.topic_id] = [];
+          videosByTopic[v.topic_id].push(v);
+      }
+  }
+
+  if (Object.keys(viralVideosMap).length > 0) {
+      videosByTopic['viral'] = Object.values(viralVideosMap);
   }
 
   let finalVideos = [];
@@ -327,29 +347,11 @@ async function run() {
   // 7. Generate lightweight TV feed
   const tvFeed = {};
   
-  // Group videos by topic and extract multi-group videos into 'viral'
-  const occurrences = {};
-  for (const v of masterData.current_videos) {
-      occurrences[v.id] = (occurrences[v.id] || 0) + 1;
-  }
-  
+  // Group videos by topic (already deduplicated and properly tagged above)
   const groupedVideos = {};
-  const viralVideosMap = {};
-
   for (const v of masterData.current_videos) {
-      if (occurrences[v.id] > 1) {
-          const existing = viralVideosMap[v.id];
-          if (!existing || (v.current_vph || 0) > (existing.current_vph || 0)) {
-              viralVideosMap[v.id] = v;
-          }
-      } else {
-          if (!groupedVideos[v.topic_id]) groupedVideos[v.topic_id] = [];
-          groupedVideos[v.topic_id].push(v);
-      }
-  }
-
-  if (Object.keys(viralVideosMap).length > 0) {
-      groupedVideos['viral'] = Object.values(viralVideosMap);
+      if (!groupedVideos[v.topic_id]) groupedVideos[v.topic_id] = [];
+      groupedVideos[v.topic_id].push(v);
   }
 
   for (const topic_id in groupedVideos) {
